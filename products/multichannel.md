@@ -82,4 +82,3 @@ The Subnero underwater modems provide options for customization and extension at
 
 ## + Useful Links
 - [Underwater modem with a secondary data acquisition system](https://subnero.com/wnc/2017/12/12/Underwater-modem-with-multiple-hydrophones.html)
-
