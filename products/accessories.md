@@ -23,10 +23,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 	<h1 class='thin' style='text-align: center'>Optional Accessories and Upgrades</h1>
 	<div class='eyXpDN'>
 		<div class='cmXrEt'>
-<<<<<<< HEAD
 			<h1 class='thin' style='text-align: center'>Battery Packs</h1>
-=======
->>>>>>> 8dc699b... Update products/accessories.md
 			<ul class="gfXsQG">
 				<li class="fuqHMA">
 					<div class="hOXnHC">

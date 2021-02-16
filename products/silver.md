@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Silver Edition Modems
-banner : images/banner-silver.jpg
+banner : images/banner-wnc-m25mse3.jpg
 thumbnail : images/thumbnail-wnc-m25mss3.jpg
 excerpt: Subnero silver edition modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
