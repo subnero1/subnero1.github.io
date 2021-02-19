@@ -8,7 +8,7 @@ categories: modem
 section_id: products
 ---
 
-## Silver Edition Standalone Configuration Modem
+## Silver Edition Modem
 
 Subnero's silver edition underwater modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
@@ -81,7 +81,6 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Operating depth                        | 100 m*                                    |
 | Dimensions                             | ⌀ 127 ✕ 280 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
-
 \* Upgrades available. [Read more](./accessories.md).
 
 </div>
