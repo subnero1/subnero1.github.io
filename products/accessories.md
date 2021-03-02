@@ -49,7 +49,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Primary Battery Packs" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
@@ -64,7 +64,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Rechargeable Battery Packs" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
@@ -85,7 +85,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "GPS" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
 				          	<div class='content'>
@@ -100,9 +100,9 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Compass" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
 				            <h2>Clocks</h2>
 				          </div></a>
@@ -115,9 +115,9 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Depth Sensor" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
 				            <h2>External Interfaces</h2>
 				          </div></a>
@@ -136,7 +136,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Storage" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-steel.jpg" />
 				          	<div class='content'>
@@ -151,7 +151,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Clocks" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-delrin.jpg" />
 				          	<div class='content'>
@@ -172,7 +172,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Interfaces" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
 				          	<div class='content'>
@@ -187,7 +187,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Stainless Steel" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
@@ -202,7 +202,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Battery Packs" %}
+  						{% if page.title contains "Delrin" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-coprocessor.jpg" />
 				          	<div class='content'>
