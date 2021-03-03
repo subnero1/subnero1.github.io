@@ -102,7 +102,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
   						{% for page in product_pages %}
   						{% if page.title contains "Compass" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-sensors.jpg" />
 				          	<div class='content'>
 				            <h2>Clocks</h2>
 				          </div></a>
