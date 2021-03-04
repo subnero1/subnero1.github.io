@@ -49,7 +49,7 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Primary Battery Packs" %}
+  						{% if page.title contains "Rechargeable Battery Packs" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
@@ -60,11 +60,16 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 				        {% endfor %}
 					</div>
 				</li>
+			</ul>
+		</div>
+		<div class='cmXrEt'>
+			<h1 class='thin' style='text-align: center'>Electrical Upgrades</h1>
+			<ul class="gfXsQG">
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "Rechargeable Battery Packs" %}
+  						{% if page.title contains "Coprocessor" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
@@ -75,12 +80,6 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 				        {% endfor %}
 					</div>
 				</li>
-				<li class="fuqHMA"></li>
-			</ul>
-		</div>
-		<div class='cmXrEt'>
-			<h1 class='thin' style='text-align: center'>Electrical Components</h1>
-			<ul class="gfXsQG">
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
@@ -126,11 +125,10 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
 				        {% endfor %}
 					</div>
 				</li>
-				<li class="fuqHMA"></li>
 			</ul>
 		</div>
 		<div class='cmXrEt'>
-			<h1 class='thin' style='text-align: center'>Hull materials</h1>
+			<h1 class='thin' style='text-align: center'>Mechanical Upgrades</h1>
 			<ul class="gfXsQG">
 				<li class="fuqHMA">
 					<div class="hOXnHC">
@@ -153,21 +151,15 @@ excerpt: Optional upgrades and accessories for Subnero underwater modems.
   						{% for page in product_pages %}
   						{% if page.title contains "Clocks" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-delrin.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-hull.jpg" />
 				          	<div class='content'>
-				            <h2>Delrin</h2>
+				            <h2>Hull Options</h2>
 				          </div></a>
 				        </div>
 				        {% endif %}
 				        {% endfor %}
 					</div>
 				</li>
-				<li class="fuqHMA"></li>
-			</ul>
-		</div>
-		<div class='cmXrEt'>
-			<h1 class='thin' style='text-align: center'>Mechanical Components</h1>
-			<ul class="gfXsQG">
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","accessories" %}
