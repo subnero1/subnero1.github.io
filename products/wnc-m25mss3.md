@@ -45,7 +45,6 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 <label class='lbl-toggle' for='tech-specs'></label>
 <div class='collapsible-content' markdown="1">
 
-<pre>
 ### Communication
 
 | Feature                                | Details                                   |
