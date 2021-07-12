@@ -66,7 +66,8 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
           <tr>
             <td>Aluminum</td>
             <td>300 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a>
+              <br/><a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition Embedded Configuration</a></td>
           </tr>
           <tr>
             <td>Stainless Steel</td>
@@ -76,7 +77,8 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
           <tr>
             <td>Aluminum</td>
             <td>100 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mrs3">Research Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition Embedded Configuration</a>
+              <br/><a href="{{site.baseurl}}/products/wnc-m25mrs3">Research Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>
