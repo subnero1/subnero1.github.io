@@ -11,4 +11,4 @@ In its quest of expansion throughout Europe, Subnero has appointed [Vortice](htt
 
 As well as supporting existing customers in Portugal, Vortice will also support us to grow in new sectors for our wireless network communication solution as well as for the SWAN (Subnero Water Assessment Network).
 
-As with all our business partners, we are very excited to be partnering with Vortice and we look forward to work with the team.
+As with all our business partners, we are very excited to be partnering with Vortice and we look forward to working with the team.
