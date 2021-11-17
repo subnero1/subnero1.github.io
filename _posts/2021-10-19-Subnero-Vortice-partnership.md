@@ -1,8 +1,8 @@
 ---
 layout: post
-title: New business partner for Subnero in Republic of Korea
+title: New business partner for Subnero in Portugal
 banner : images/banner-pulse-standard.jpg
-date:  2021-07-08
+date:  2021-10-19
 categories: news wnc
 thumbnail: images/pulse-vortice.jpg
 ---
