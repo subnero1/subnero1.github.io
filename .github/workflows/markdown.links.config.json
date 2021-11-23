@@ -3,7 +3,8 @@
         { "pattern" : "^https?://www.smartseatech.com/en/index.aspx" }, 
         { "pattern" : "^https?://www.asianscientist.com.*" }, 
         { "pattern" : "^https?://www.oceans19mtsieeemarseille.org.*" },
-        { "pattern" : "^{{site.baseurl}}.*" }
+        { "pattern" : "^{{site.baseurl}}.*" },
+        { "pattern" : "^\/images"}
     ],
     "retryOn429": true,
     "retryCount": 5,
