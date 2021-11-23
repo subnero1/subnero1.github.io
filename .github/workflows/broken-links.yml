@@ -2,6 +2,7 @@ name: Broken link check
 on: 
   schedule:
     - cron:  '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   markdown-link-check:
