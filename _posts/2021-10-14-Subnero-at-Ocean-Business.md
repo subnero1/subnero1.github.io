@@ -7,11 +7,11 @@ categories: wnc news
 thumbnail: images/pulse-thumbnail-ocean-business-2021.jpg
 ---
 
-Subnero attended its first in-person exhibition during [Ocean Business](https://noc-events.co.uk/ocean-business-2021){:target="_blank"}, in Southampton, UK.
+Subnero attended its first in-person exhibition during [Ocean Business](https://noc-events.co.uk/ocean-business-2021){:target="_blank"}, in Southampton, UK, in the last 2 years.
 
-The event took place at the National Oceanography Centre from the 12th to the 14th of October 2021, after being postponed because of the pandemic. 
+The event took place at the National Oceanography Centre from the 12th to the 14th of October 2021, after being postponed from the 13th to 15th of April, because of the pandemic. 
 
-It was so nice for the team to talk about our technology in person.
+It was nice for the team to meet other conference attendees and talk about our technology in person.
 
 We loved being part of the event.
 
