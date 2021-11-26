@@ -15,6 +15,6 @@ It was so nice to meet for the team to talk about our technology in person.
 
 We loved being part of the event.
 
-We look forward to attending the next in person exhibition [Oceanology International 2022](https://www.oceanologyinternational.com/london/en-gb.html), in London, UK, in March 2022.
+We look forward to attending the next in person exhibition [Oceanology International 2022](https://www.oceanologyinternational.com/london/en-gb.html){:target="_blank"}, in London, UK, in March 2022.
 
 ![](/images/pulse-ocean-business-2021.jpg){: .center-image  }
