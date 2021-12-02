@@ -7,7 +7,7 @@ categories: news wnc
 thumbnail: images/pulse-vortice.jpg
 ---
 
-In its quest of expansion throughout Europe, Subnero has appointed [Vortice](https://vortice-lda.pt/){:target="_blank"} as its new business partner in Portugal.
+In our quest for expansion throughout Europe, Subnero has appointed [Vortice](https://vortice-lda.pt/){:target="_blank"} as its new business partner in Portugal.
 
 As well as supporting existing customers in Portugal, Vortice will also support us to grow in new sectors for our wireless network communication solution as well as for the SWAN (Subnero Water Assessment Network).
 
