@@ -11,7 +11,7 @@ thumbnail: images/pulse-thumbnail-blue1.jpg
 
 UnetStack and simulator v1.2 released!
 
-[UnetStack](https://unetstack.net/){:target="_blank"} and simulator v1.2, with numerous [enhancements and new features](https://www.unetstack.net/relnotes-v1.2.html){:target="_blank"}, is now available for [download](https://unetstack.net/#downloads){:target="_blank"}.
+[UnetStack](https://unetstack.net/){:target="_blank"} and simulator v1.2, with numerous enhancements and new features, is now available for [download](https://unetstack.net/#downloads){:target="_blank"}.
 
 ### Highlights
 

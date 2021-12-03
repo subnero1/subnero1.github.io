@@ -26,7 +26,7 @@ Highlights:
 - Declarative [finite state machine (FSM) framework](https://unetstack.net/handbook/unet-handbook_implementing_network_protocols.html#_simple_mac_with_handshake){:target="_blank"} to enable you to focus on protocol logic, rather than FSM programming.
 - [Tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html){:target="_blank"} to demonstrate the new frameworks, and to get you started on developing your own medium access control (MAC) agents.
 
-Check out [v1.3 release notes](https://www.unetstack.net/relnotes-v1.3.html){:target="_blank"} for a complete list of new features, changes and bug fixes.
+Check out v1.3 release notes for a complete list of new features, changes and bug fixes.
 
 ### Tutorial on Underwater Acoustic Networking at OCEANS ’16.
 
