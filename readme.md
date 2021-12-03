@@ -2,7 +2,7 @@
 
 > The future of underwater wireless
 
-![Build Status](https://github.com/subnero1/subnero1.github.io/blob/master/.github/workflows/purge-cache.yml)
+![Build Status](https://github.com/subnero1/subnero1.github.io/actions/workflows/purge-cache.yml/badge.svg)
 
 ## Install
 
