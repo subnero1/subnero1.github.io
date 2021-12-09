@@ -4,6 +4,7 @@
         { "pattern" : "^https?://www.asianscientist.com.*" }, 
         { "pattern" : "^https?://www.oceans19mtsieeemarseille.org.*" },
         { "pattern" : "^{{site.baseurl}}.*" },
+        { "pattern" : "^https://www.opengovasia.com/" },
         { "pattern" : "^\/images.*"}
     ],
     "retryOn429": true,
