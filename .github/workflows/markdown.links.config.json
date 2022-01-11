@@ -6,7 +6,7 @@
         { "pattern" : "^{{site.baseurl}}.*" },
         { "pattern" : "^https://www.opengovasia.com/" },
         { "pattern" : "^\/images.*"},
-        { "pattern" : "https://medium.com/@NUSEnterprise/"}
+        { "pattern" : "^https://medium.com/@NUSEnterprise/"}
     ],
     "retryOn429": true,
     "retryCount": 5,
