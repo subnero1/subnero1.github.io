@@ -17,7 +17,7 @@ jobs:
         use-verbose-mode: 'yes'
         config-file: '.github/workflows/markdown.links.config.json'
     - uses: slackapi/slack-github-action@v1.16.0
-      if: always()
+      if: failure()
       id: slack
       with:
         payload: '{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":"Website Broken Link Check Status : *${{steps.checker.outcome}}*. \n\n Details : https://github.com/${{github.repository}}/actions/runs/${{github.run_id}} "}}]}'
