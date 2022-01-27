@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  L5L series
-categories: product-type
+categories: product-type-lf
 tab-id: panel-two
 order: 1
 ---
