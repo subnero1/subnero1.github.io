@@ -2,7 +2,7 @@
 layout: default
 title: Primary Battery Packs
 banner : images/banner-battery.jpg
-thumbnail: images/accessories-batterypack02.jpg
+thumbnail: images/thumbnail-batterypack.png
 categories: accessories
 excerpt: Underwater battery packs for deployment of Subnero underwater acoustic modems.
 ---
@@ -22,14 +22,14 @@ excerpt: Underwater battery packs for deployment of Subnero underwater acoustic 
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-batterypack02.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-batterypack02.jpg'>
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='/images/accessories-batterypack02.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-batterypack03.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-batterypack04.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-batterypack01.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-batterypack02.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-batterypack03.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-batterypack04.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-batterypack01.jpg'></a></div>
               </div>
             </div>
         </div>
@@ -40,6 +40,7 @@ excerpt: Underwater battery packs for deployment of Subnero underwater acoustic 
             <li>Common battery type (Alkaline D-cells)</li>
             <li>On-site replaceable</li>
           </ul>
+          <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>
