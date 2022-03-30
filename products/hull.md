@@ -2,7 +2,7 @@
 layout: default
 title: Hulls
 banner : images/banner-mechanical.jpg
-thumbnail: images/thumbnail-hull.jpg
+thumbnail: images/thumbnail-hull.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic modems.
 ---
@@ -22,14 +22,14 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-hull01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-hull01.jpg'>
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='/images/accessories-hull01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-hull02.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-hull03.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-hull04.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull01.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull02.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull03.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull04.jpg'></a></div>
               </div>
             </div>
         </div>
@@ -40,6 +40,7 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
               <li>Supported depths: 100 m, 300 m, 2000 m</li>
               <li>Supported materials: Aluminum, Stainless Steel</li>
             </ul>
+            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>

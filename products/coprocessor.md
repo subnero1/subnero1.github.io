@@ -2,7 +2,7 @@
 layout: default
 title: Coprocessor
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-coprocessor.jpg
+thumbnail: images/thumbnail-coprocessor.png
 categories: accessories
 excerpt: Co-processor for Subnero underwater acoustic modems.
 ---
@@ -22,14 +22,14 @@ excerpt: Co-processor for Subnero underwater acoustic modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-coprocessor01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-coprocessor01.jpg'>
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='/images/accessories-coprocessor01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-coprocessor02.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-coprocessor03.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-coprocessor04.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor01.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor02.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor03.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor04.jpg'></a></div>
               </div>
             </div>
         </div>
@@ -41,6 +41,7 @@ excerpt: Co-processor for Subnero underwater acoustic modems.
               <li>Dual-Core nVIDIA Denver 2 64-Bit CPU</li>
               <li>8GB 128-bit LPDDR4 Memory</li>
             </ul>
+            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>

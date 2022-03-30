@@ -2,7 +2,7 @@
 layout: default
 title: Storage
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-storage.jpg
+thumbnail: images/thumbnail-storage.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic modems.
 ---
@@ -22,12 +22,12 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-storage01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-storage01.jpg'>
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='/images/accessories-storage01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-storage02.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-storage01.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-storage02.jpg'></a></div>
               </div>
             </div>
         </div>
@@ -38,6 +38,7 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
               <li>Support for up to 1 TB of additional storage</li>
               <li>Ideal data storage for long term deployments</li>
             </ul>
+            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>

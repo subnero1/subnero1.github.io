@@ -2,7 +2,7 @@
 layout: default
 title: Mechanical Accessories
 banner : images/banner-mechanical.jpg
-thumbnail: images/thumbnail-clamps.jpg
+thumbnail: images/thumbnail-mechanical.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic modems.
 ---
@@ -17,61 +17,67 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
   <div class='four spacing'></div>
 </div>
 
-<div class='full'>
+<div class='full bg-grey'>
   <div class='row'>
-      <ul class='gfXsQG'>
-        <li class='accessories'>
+      <div class='accessories'>
+        <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-mechanical01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-mechanical01.jpg'>
             </div>
             <div class='modGallery'>
-              <ul class='media modTeamMember gallery shortcode-list'>
-                <li class="member current-li"><a class='image-nav'><img src='/images/accessories-mechanical01.jpg'></a></li>
-                <li class="member"><a class='image-nav'><img src='/images/accessories-mechanical02.jpg'></a></li>
-                <li class="member"><a class='image-nav'><img src='/images/accessories-mechanical03.jpg'></a></li>
-                <li class="member"><a class='image-nav'><img src='/images/accessories-mechanical04.jpg'></a></li>
-              </ul>
+              <div class='media modTeamMember shortcode-list'>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-mechanical01.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-mechanical03.jpg'></a></div>
+              </div>
             </div>
-        </li>
-        <li class='accessories'>
-          <div class='hOXnHC'>
+        </div>
+        <div class='accessories-info'>
             <h1>Mechanical Accessories</h1>
+            <h3>Supporting mechanical accessories for Subnero underwater modems</h3>
             <ul>
               <li>Clamps for deployment</li>
-              <li>Bulkhead connectors</li>
-              <li>TODO: Update images</li>
+              <li>Right angled bulkhead connectors</li>
             </ul>
-          </div>
-        </li>
-      </ul>
-      <hr>
-      <div class='cGBxoB'>
-        <div class='media hOXnHC modBlogPost'>
-          <h2>Production Information</h2>
-          <a class='media-body links collapsible' id ='batProduct'>
-            <h2 class='right' id='batProduct-icon'>-</h2>
-          </a>
-        </div>
-        <div class='media modBlogPost collapsible-content' id = 'batProductdata'>
-          <p>Mechanical accessories for various deployment scenarios of Subnero underwater devices.</p>
+            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>
-      <div class='cGBxoB'>
-          <div class='media hOXnHC modBlogPost'>
-            <h2>Compatibility</h2>
-            <a class='media-body links collapsible' id ='batCompatibility'>
-            <h2 class='right' id='batCompatibility-icon'>-</h2>
-          </a>
-          </div>
-          <div class='media modBlogPost collapsible-content' id = 'batCompatibilitydata'>
-            <ul class="shortcode-list">
-              <li><a href="{{site.baseurl}}/products/wnc-m25mps3">WNC-M25MPS3 - Platinum Edition Standalone Configuration Modem</a></li>
-              <li><a href="{{site.baseurl}}/products/wnc-m25mss3">WNC-M25MSS3 - Silver Edition Standalone Configuration Modem</a></li>
+      <div class='wrap-collapsible'>
+        <h2>Product Information</h2>
+        <input id ='product' class='toggle' type='checkbox'>
+        <label class='lbl-toggle' for='product'></label>
+        <div class='collapsible-content'>
+          <p>Mechanical accessories for various deployment scenarios of Subnero underwater devices.</p>
+          <ul class="shortcode-list">
+              <li>- Clamps for securing your device during deployment.</li>
+              <li>- Right angled bulkhead connectors.</li>
             </ul>
-          </div>
+        </div>
+      </div>
+      <hr>
+      <div class='wrap-collapsible'>
+        <h2>Compatibility</h2>
+        <input id ='compatibility' class='toggle' type='checkbox'>
+        <label class='lbl-toggle' for='compatibility'></label>
+        <div class='collapsible-content'>
+          <table style="width:100%">
+          <tr>
+            <td>Item</td>
+            <td>Compatibility</td>
+          </tr>
+          <tr>
+            <td>Clamps</td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mps3">Platinum Edition Standalone Configuration</a>
+              <br/><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a>
+              <br/><a href="{{site.baseurl}}/products/wnc-m25mrs3">Research Edition Standalone Configuration</a></td>
+          </tr>
+          <tr>
+            <td>Right angled bulkhead connectors</td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a></td>
+          </tr>
+        </table>
+        </div>
       </div>
   </div>
 </div>
-{%- include collapse.html -%}
 {%- include display.html -%}

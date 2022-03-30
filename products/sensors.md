@@ -2,7 +2,7 @@
 layout: default
 title: Sensors
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-sensors.jpg
+thumbnail: images/thumbnail-sensors.png
 categories: accessories
 excerpt: Additional sensors for Subnero underwater acoustic modems.
 ---
@@ -22,14 +22,14 @@ excerpt: Additional sensors for Subnero underwater acoustic modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-sensors01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-sensors01.jpg'>
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='/images/accessories-sensors01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-sensors02.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-sensors03.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-sensors04.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors01.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors02.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors03.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors04.jpg'></a></div>
               </div>
             </div>
         </div>
@@ -41,6 +41,7 @@ excerpt: Additional sensors for Subnero underwater acoustic modems.
               <li>GPS</li>
               <li>Low-drift clock</li>
             </ul>
+            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>

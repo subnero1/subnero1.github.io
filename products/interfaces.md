@@ -2,7 +2,7 @@
 layout: default
 title: Interfaces
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-rs232.jpg
+thumbnail: images/thumbnail-rs232.png
 categories: accessories
 excerpt: Electrical interfaces for Subnero underwater acoustic modems
 ---
@@ -22,14 +22,14 @@ excerpt: Electrical interfaces for Subnero underwater acoustic modems
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='/images/accessories-interfaces01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-interfaces01.jpg'>
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='/images/accessories-interfaces01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-interfaces02.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-interfaces03.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='/images/accessories-interfaces04.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces01.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces02.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces03.jpg'></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces04.jpg'></a></div>
               </div>
             </div>
         </div>
@@ -40,6 +40,7 @@ excerpt: Electrical interfaces for Subnero underwater acoustic modems
               <li>RS232</li>
               <li>Support for up to 115200 bps</li>
             </ul>
+            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
       </div>
       <hr>

@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MSS3+xCh
 banner : images/banner-multichannel.jpg
-thumbnail : images/thumbnail-wnc-multichannel.jpg
+thumbnail : images/thumbnail-wnc-multichannel.png
 excerpt: Subnero's underwater acoustic modems with multiple channels for high-speed data acquisition.
 categories: wnc
 section_id: products
@@ -10,57 +10,47 @@ section_id: products
 
 ## Multi-channel Configuration Modem
 
-Subnero underwater modems provide options for customization and extension at many levels. For many applications, it is often a requirement to record synchronized signals from multiple hydrophones in addition to the regular communication channel. Subnero's multi-channel modems, with multiple receiving channels provide this capability thereby enabling a plethora of new applications.
+Subnero's multi-channel modems, provide the capability to record synchronized signals from multiple hydrophones, in addition to the regular communication channel thereby enabling a plethora of new applications.
 
-<div class="video-wrapper">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1OtxLh8z0zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="flex-video video">
+  <iframe src="https://www.youtube.com/embed/1OtxLh8z0zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Key Features
 
 - Integrated Subnero [silver edition](./wnc-m25mss3.md) modems.
 - Multiple synchronized receiving channels.
-- Storage and computing power for real-time data processing.
+- Ability to choose between 1 - 4 additional receiving channels.
 - Scheduled and trigger based recordings.
-- Access to raw signals (passband and baseband) from all receiving channels.
+- Access to raw signals from all receiving channels.
 - Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}). Examples are:
   - Rapid environmental assessment.
   - Diversity combining techniques to enhance communication performance.
   - Positioning applications (e.g. USBL).
-<!-- - Software upgarde option for [Unity](./unity.md) to enhance communication performance using spatial diversity techniques -->
-<!-- - Software upgarde option for enabling [USBL](./usbl.md) functionality -->
+<!-- - Software upgrade option for [Unity](./unity.md) to enhance communication performance using spatial diversity techniques -->
+<!-- - Software upgrade option for enabling [USBL](./usbl.md) functionality -->
 
-<h3><a href="mailto:sales@subnero.com">Contact US for a quote</a></h3>
+<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
 <div id="embedded"></div>
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-multichannel3.jpg"/>
-    <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">Acoustic Modem with Multi-Channel Recorder</h3>
-          <p>Combine a versatile aocutic modem with a powerful multi-channel acoustic recorder, ideal for long term deployments.</p>
-    </div>
-  </div>
-  <div class ='media product' style='background: #f5f5f5' >   
-    <div class='media-body product product-content' style='background: #f5f5f5'>
-    <h3 style="text-transform: none;">Enhanced Performance using Spatial Diversity</h3>
-          <p>Having multiple synchronized channels lets you exploit spatial diversity gain to improve communication range and link robustness.</p>
-    </div>
-    <img class = "ml-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-multichannel1.png"/> 
-  </div>
-  <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-multichannel2.jpg"/>
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">USBL Ready</h3>
-          <p>Develop and deploy your own positioning algorithms to unlock capabilities such as USBL.</p>
+    <h3 style="text-transform: none;" id="surface">Standalone Configuration with Multiple Receiving Channels</h3>
+          <p>A modem in the standalone configuration (SC) with multiple receiving channels, operates on external power source and combines a versatile acoustic modem with a multi-channel acoustic recorder, ideal for long term deployments.</p>
     </div>
   </div>
 </div>
 
 <div class='two spacing'></div>
 
-<h2 style="text-transform: none;" id="m_techspec">+ TECHNICAL SPECIFICATIONS</h2>
+<div class='wrap-collapsible'>
+<h2 style="text-transform: none;" id="m_techspec">TECHNICAL SPECIFICATIONS</h2>
+<input id ='tech-specs' class='toggle' type='checkbox'>
+<label class='lbl-toggle' for='tech-specs'></label>
+<div class='collapsible-content' markdown="1">
 
 ### Modem
 
@@ -82,6 +72,29 @@ Subnero underwater modems provide options for customization and extension at man
 | Power consumption                      | < 7 W (receive mode, nominal)<br>< 60 W (transmit mode, avg.)<br>< 80 W (transmit mode, max.)|
 | Dimensions                             | ⌀ 127 ✕ 324 mm                            |
 
-## + Useful Links
-- [Underwater modem with a secondary data acquisition system](https://subnero.com/wnc/2017/12/12/Underwater-modem-with-multiple-hydrophones.html)
+</div>
+</div>
+
+<div class='wrap-collapsible'>
+  <h2>Brochure</h2>
+  <input id ='compatibility' class='toggle' type='checkbox'>
+  <label class='lbl-toggle' for='compatibility'></label>
+  <div class='collapsible-content'>
+<div class="brochure-container">
+  <a href="{{site.baseurl}}/brochures/Subnero-Multi-Channel-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-Multi-Channel-Modems.pdf" target="_blank">Subnero M25M Multi-Channel Modems</a>
+</div>
+</div>
+</div>
+
+<div class='wrap-collapsible'>
+  <h2>Useful Links</h2>
+  <input id ='useful-links' class='toggle' type='checkbox'>
+  <label class='lbl-toggle' for='useful-links'></label>
+  <div class='collapsible-content'>
+    <div class="brochure-container">
+      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
+    </div>
+</div>
+</div>
 
