@@ -4240,6 +4240,10 @@ p.small-title {
     padding: 0 5em 5em 5em;
   }
 
+  .quick-link-icons{
+    font-size: 2.5rem;
+  }
+
 }
 
 /*
@@ -4338,6 +4342,10 @@ p.small-title {
 
   .about-text-section{
     padding: 0 5em 5em 5em;
+  }
+
+  .quick-link-icons{
+    font-size: 2.5rem;
   }
 
 }
@@ -4450,6 +4458,10 @@ p.small-title {
     padding: 0 5em 5em 5em;
   }
 
+  .quick-link-icons{
+    font-size: 2.1rem;
+  }
+
 }
 
 /*
@@ -4550,10 +4562,14 @@ p.small-title {
   .type-item{
     font-size:1.1rem;
     color:#222;
-}
+  }
 
   .about-text-section{
     padding: 0 5em 5em 5em;
+  }
+
+  .quick-link-icons{
+    font-size: 2.3rem;
   }
 
 }
@@ -4652,6 +4668,10 @@ p.small-title {
   
   .about-text-section{
     padding: 0 5em 5em 5em;
+  }
+
+  .quick-link-icons{
+    font-size: 2.3rem;
   }
 }
 
@@ -4797,6 +4817,10 @@ p.small-title {
 
   .about-text-section{
     padding: 0;
+  }
+
+  .quick-link-icons{
+    font-size: 1.8rem;
   }
 
 }
@@ -4947,6 +4971,10 @@ p.small-title {
   
   .button-outline{
     font-size:0.9rem !important;
+  }
+
+  .quick-link-icons{
+    font-size: 1.8rem;
   }
 
 }
@@ -5161,9 +5189,18 @@ hr {
   align-items: center;
 }
 
+.brochure-margin{
+  margin-right:1em;
+}
+
 .brochure-thumb{
   max-height: 100px;
   margin: 10px;
+}
+
+.brochure-thumb-small{
+  max-height: 60px;
+  margin: 10px 10px 10px 0;
 }
 
 .brochure-text{
@@ -5639,4 +5676,34 @@ ul{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
+}
+
+.quick-links-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.quick-links-card{
+  background-color: #fff;
+  padding:1em;
+  margin:2em 0;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.quick-links-card h3{
+  font-size: 1.8rem;
+  text-transform: none;
+  color:#555;
+  padding-top: 1em;
+}
+
+.quick-link-icons{
+  color:#E6782F;
+  padding: 0.5em 0.5em 0.5em 0.2em;
+}
+
+.quick-link-socials{
+  display: flex;
+  justify-content: space-around;
 }
