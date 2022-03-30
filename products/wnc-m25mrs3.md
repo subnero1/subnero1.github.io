@@ -98,4 +98,3 @@ Our research edition modems are designed to bridge the gap between developing ap
   <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank">Subnero M25M Underwater Modems Technical Specifications</a>
 </div>
 </div>
-</div>
