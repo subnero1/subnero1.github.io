@@ -4,28 +4,27 @@ title:  Contact Us
 banner: images/banner-contact.jpg
 ---
 <div class='contacts' >
-    <div class="col1">
-	<br>
-    <div class="vcard">
-	<p class="adr">
-	    <span class="street-address"> 1003 Bukit Merah Central
-	    <br>#04-05</span>
-	    <br>
-	    <span class="country-name">Singapore</span>
-	    <span class="postal-code">159836</span>
-	    <br>
-	</p>
-	<p class="adr">+65 9819 9552</p>
-	<p class="adr">info@subnero.com
-	</p>
-	</div>
+    <div class="large-6 col1">
+    	<br>
+        <div class="vcard">
+    	<p class="adr">
+    	    <span class="street-address"> 1003 Bukit Merah Central
+    	    <br>#04-05</span>
+    	    <br>
+    	    <span class="country-name">Singapore</span>
+    	    <span class="postal-code">159836</span>
+    	    <br>
+    	</p>
+    	<p class="adr">+65 9819 9552</p>
+    	<p class="adr">info@subnero.com
+    	</p>
+    	</div>
 
-<img src="{{site.baseurl}}/images/map.png">
-    <a href="https://www.google.com/maps/place/21+Heng+Mui+Keng+Terrace,Singapore" target="_blank">View Larger Map</a>
+        <img src="{{site.baseurl}}/images/map.png">
+        <a href="https://www.google.com/maps/place/21+Heng+Mui+Keng+Terrace,Singapore" target="_blank">View Larger Map</a>
+    </div>
 
-</div>
-
-<div class='col2'>
+<div class='large-6 col2'>
 <!-- This script is for hiding and showing the directions-->
 <div class='direct'>
 	<h2>Directions</h2>
@@ -36,7 +35,7 @@ banner: images/banner-contact.jpg
             <li>Walk towards Jln Tiong Rd and turn left to Jln Tiong Rd.</li>
             <li>Turn right onto Lengkok Bahru Rd and walk to bus stop in front of Blk 63b (Bus stop no. 10421).</li>
             <li>Take bus 139 towards Bukit Merah.</li>
-            <li>Alight at the 4th Bus Stop, Blk 161.</li>
+            <li>Alight at the 4th Bus Stop, Blk 161 (Bus stop no. 10651).</li>
             <li>Cross the road and walk to 1003 Bukit Merah Central.</li>
             <li>Subnero office is on level 4, unit-05.</li>
         </ul>
