@@ -8,11 +8,11 @@ banner: images/banner-contact.jpg
 	<br>
     <div class="vcard">
 	<p class="adr">
-	    <span class="street-address"> #01-01/02, The Hangar, I-Cube
-	    <br>21 Heng Mui Keng Terrace</span>
+	    <span class="street-address"> 1003 Bukit Merah Central
+	    <br>#04-05</span>
 	    <br>
 	    <span class="country-name">Singapore</span>
-	    <span class="postal-code">119613</span>
+	    <span class="postal-code">159836</span>
 	    <br>
 	</p>
 	<p class="adr">+65 9819 9552</p>
@@ -32,16 +32,13 @@ banner: images/banner-contact.jpg
 	<div id='toggleText'>
 		<h3>By Train</h3>	
 		<ul>
-            <li>Alight at Haw Par Villa station (CC25)</li>
-            <li>Cross Pasir Panjang Road to Bus Stop No. 16011</li>
-            <li>Take Buses 10, 30, 51, 143, 188 or 200 towards Clementi/Kent Ridge</li>
-            <li>Alight at the 5th Bus Stop, Heng Mui Keng Terrace, No. 16061 </li>
-            <li>Cross Pasir Panjang Road and turn right onto Heng Mui Keng Terrace</li>
-            <li>On Heng Mui Keng terrace turn right onto Business Link at the junction</li>
-            <li>Climb the staircase on the right (behind the bus stop) to I-Cube building</li>
-            <li>At Level 1 inside I-Cube Building, look for The Hangar by NUS Enterprise</li>
-            <li>Walk through the lobby area into the co-working space.</li>
-            <li>Subnero office is at OFC-112</li>
+            <li>Alight at Redhill station (EW18).</li>
+            <li>Walk towards Jln Tiong Rd and turn left to Jln Tiong Rd.</li>
+            <li>Turn right onto Lengkok Bahru Rd and walk to bus stop in front of Blk 63b (Bus stop no. 10421).</li>
+            <li>Take bus 139 towards Bukit Merah.</li>
+            <li>Alight at the 4th Bus Stop, Blk 161.</li>
+            <li>Cross the road and walk to 1003 Bukit Merah Central.</li>
+            <li>Subnero office is on level 4, unit-05.</li>
         </ul>
     </div>
 </div>
