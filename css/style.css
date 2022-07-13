@@ -5463,6 +5463,10 @@ input[type='checkbox']{
   background: #ffffff;
 }
 
+.bg-light-orange{
+  background: rgba(254 130 29 / 30%);
+}
+
 .video{
   margin-left: 8vw;
   margin-right: 8vw;
@@ -6015,6 +6019,14 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: block;
 }
 
+.accordion-content-center{
+  align-items: center;
+}
+
+.accordion-container p{
+  margin-bottom: 0;
+}
+
 /* End of Accordion */
 
 .row-item{
@@ -6038,4 +6050,47 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 
 .list-border{
   border-left: solid 2px #E6782F;
+}
+
+.unet-banner-heading{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.unet-banner-heading .banner-text{
+  font-size: 6rem;
+  color:#fff;
+}
+
+.unet-banner-heading .banner-sub-heading{
+  color:#fff;
+}
+
+.shadowed-icon{
+  color:#fe821d;
+  font-size: 2.5rem;
+  margin:1em;
+  text-shadow:0 4px 15px rgba(0 0 0 / 25%)
+}
+
+.image-text{
+  padding: 2em 0.7em 1em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #E6782F;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  box-shadow:0 4px 15px 0 rgb(0 0 0 / 10%);
+}
+
+.auto-height{
+  height: auto !important;
+}
+
+.logo-overlay{
+  position: absolute;
+  margin-left: 10em;
+  bottom: 20em;
 }
