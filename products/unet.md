@@ -1,87 +1,380 @@
 ---
-layout: page
+layout: default
 title: Underwater Network Technology
-banner : images/banner-unetsim.jpg
-thumbnail: images/boxart-unet.jpg
+banner : images/banner-unetstack3.jpg
+thumbnail: images/boxart-swan.jpg
+excerpt: Software to build underwater communication networks and for underwater navigation and positioning.
 categories: unet
 section_id: products
+logo: images/logo-unetstack.png
 ---
 
-Commonly cited challenges in underwater networks include low bandwidth, long propagation delay, half-duplex nature of the links, high packet loss, and time-variability. To deploy successful networks in the face of such challenges, it is important to use highly optimized protocols that are specially designed for use in such networks. Specifically, cross-layer information sharing, low-bandwidth design and accurate transmission/reception timing can be critical in these protocols. Traditional layered network stacks provide good separation of concern, but result in sub-optimum protocols. Cross-layer optimization initiatives address this shortcoming by allowing direct interaction between layers.
-
-## UnetStack : The Underwater Network Stack
-
-UnetStack is a flexible agent-based underwater network stack that allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed. The stack runs on an underwater modem or on a host computer connected to the modem, transforming the modem into a sophisticated network node. UnetStack can also serve as a gateway to private terrestrial or satellite networks, or to the Internet.
-
-![UnetStack]({{site.baseurl}}/images/unetstack3.png){: .center-image  }
-
-UnetStack consists of a collection of software agents that provide [well-defined services](https://unetstack.net/handbook/unet-handbook_services_and_capabilities.html){:target="_blank"}. This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed.
-
-UnetStack defines commonly needed agents with services, messages, capabilities and parameters. The stack is extensible, allowing agents to provide additional services that may be used by other agents for the development of optimized network protocols. Although the stack focuses on underwater networks, it allows wired and wireless radio links to be included as part of the network.
-
-UnetStack runs on all Subnero modems, but can be easily customized to run on modems from other manufacturers. For licensing information, please [contact us]({{ site.baseurl }}{% link contact/index.md %}).
-
-## UnetSim : The Underwater Network Simulator
-
-The UnetSim underwater network simulator enables a network engineer to simulate an underwater network on a single computer. It allows UnetStack agents and protocols to be simulated in realistic channel conditions, with minimum effort. The simulator was designed with two key goals:
-
-- To be easy to learn and use, and
-- To allow agent implementations to be shared between deployment environment and simulation environment (no porting required).
-
-Essentially, once a protocol is developed and tested in simulation, it is ready to be deployed and tested at sea in any UnetStack-compatible modem.
-
-The simulator is available free-of-charge for download from [www.unetstack.net](https://unetstack.net/downloads/){:target="_blank"}.
-
-## How does it work?
-
-A simple script written in a [domain-specific language](https://unetstack.net/handbook/unet-handbook_writing_simulation_scripts.html){:target="_blank"} (DSL) allows users to describe a simulation scenario in a natural way. This significantly reduces the barrier to entry for new users. A sample simulation DSL script is shown below:
-
-```java
-channel.soundSpeed = 1500.mps
-modem.dataRate     = [800.bps, 2400.bps]
-modem.frameLength  = [16.bytes, 64.bytes]
-modem.powerLevel   = [0.dB, 0.dB]
-
-simulate 1.hour, {
-  def buoy1 = node('Buoy-1', location: [0, 0, 0])
-  def buoy2 = node('Buoy-2', location: [1.km, 500.m, 0])
-  def auv1  = node('AUV-1', location: [0, 100.m, 0], mobility: true)
-  auv1.motionModel = [speed: 1.mps, turnRate: 1.dps]
-}
-```
-
-The simulator is highly customizable, with the ability to support user-defined modem behavioral models, physics-based channel models, various motion models, customized trace file formats, etc.
-
-Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html){:target="_blank"}.
-
-
-## Licensing
-​
-UnetStack comes in 4 editions,
-
-#### 1. Community Edition
-The **Community** edition is available for download on the [UnetStack website](https://unetstack.net/){:target="_blank"} and is free for non-commercial use. If you are developing and/or simulating underwater networks for educational or other non-commercial purposes, this edition is for you. This edition contains the [UnetStack simulator](https://unetstack.net/handbook/unet-handbook_part_vi_simulating_underwater_networks.html){:target="_blank"} as well as the [Unet audio](https://unetstack.net/handbook/unet-handbook_getting_started.html#_transmitting_and_recording_arbitrary_acoustic_waveforms){:target="_blank"}.
-
-> NOTE: **Community** edition is not meant to access a device that has UnetStack **OEM** (e.g. Subnero modems) pre-installed on it, for a commercial use-case, as the **Community** edition is only available for educational and other non-commercial purposes. You may, however, use any of the [open-source Gateway and UnetSocket libraries](https://github.com/org-arl/unet-contrib){:target="_blank"} to connect to a UnetStack **OEM** device.
-
-​
-#### 2. Commercial Edition
-The **Commercial** edition of UnetStack is similar to the **Community** edition except you may use it in commercial applications. If you want to run UnetStack in your commercial application, please [contact us](https://subnero.com/contact/) for more details about licensing the UnetStack **Commercial** edition.
-​
-#### 3. OEM Edition
-The **OEM** edition is the version of UnetStack installed in the Subnero modems. You can use the various [UnetStack APIs](https://unetstack.net/handbook/unet-handbook_part_iii_building_unet_applications.html){:target="_blank"} and [open source Gateway and UnetSocket libraries](https://github.com/org-arl/unet-contrib){:target="_blank"} from any other device or computer to access the modems, without needing a separate license. 
-
-
-In addition, if you are interested in getting UnetStack installed on your OEM device, you can [contact us](https://subnero.com/contact/).
-​
-#### 4. Commercial (Dev-tools) Edition
-The **Commercial (Dev-tools)** edition of UnetStack is similar to the **Commercial** edition but it is tagged to a specific OEM device (e.g. Subnero modem) that you own. You can use this edition of UnetStack to simulate and develop software for that OEM device, as well as to run UnetStack on your workstations to connect to and control the OEM device for development and testing of any applications involving the OEM device.
-
-Subnero modems may have an associated **Commercial (Dev-tools)** edition. [Contact us](https://subnero.com/contact/) for more information on the **Commercial (Dev-tools)** license.
-
-
-<h2>Brochures</h2>
-<div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack.png"></a>
-  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure.pdf" target="_blank" style="font-size: 1.2em;">UnetStack3</a>
+<div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class='large-12 columns'>
+    <h1 class='banner-sub-heading'></h1>
+    <div class='unet-banner-heading'>
+      <h1 class='banner-text'>
+        <img src='{{site.baseurl}}/{{page.logo}}'> UnetStack</h1>
+      <h2 class='banner-sub-heading'>Extend your communication networks underwater.</h2>
+    </div>
+  </div>
+</div>
+<div class='two spacing'></div>
+<div class='row row-width row-padding-bottom'>
+  <div class='row row-padding-bottom'>
+    <h2 class='section-heading'>Flexible and extensible agent-based software designed for ease of use</h2>
+  </div>
+  <div class='large-5 columns swan-flex-col'>
+    <p class='row-padding-bottom'>UnetStack is equipped with the best of features to build reliable and robust underwater networks for communication and navigation.</p>
+    <div>
+      <div class="section-sub-heading">
+        <i class="fa fa-check"></i>
+          <h3><span class='swan-highlight'>Easy</span> configuration of underwater communication networks.</h3>
+      </div>
+      <div class='spacing'></div>
+      <div class="section-sub-heading">
+        <i class="fa fa-check"></i>
+          <h3>Automated and <span class='swan-highlight'>optimized</span> network management.</h3>
+      </div>
+      <div class='spacing'></div>
+      <div class="section-sub-heading">
+        <i class="fa fa-check"></i>
+          <h3>Allows implementation of <span class='swan-highlight'>software-defined</span> signaling at the physical layer.</h3>
+      </div>
+    </div>
+    <div class='row row-padding-bottom'>
+    <div class='large-10 columns media'>
+      <div class='modem-type'>
+      <a href='https://unetstack.net/' target="_blank"><button class='button-outline'>Learn more</button></a>
+    </div>
+    <div class='modem-type'>
+      <a href='https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw' target="_blank"><button class='button-outline'>Watch videos</button></a>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class='large-7 columns'>
+    <img src='{{site.baseurl}}/images/Unetstack3-components.png'>
+  </div>
+</div>
+<!-- Researh areas -->
+<div class='bg-grey' style='position: relative;'>
+  <img src='{{site.baseurl}}/images/logo-grey-unetstack.png' class='logo-overlay'>
+  <div class='row'>
+    <h2 class='section-heading'>One-stop solution for underwater scientific research</h2>
+  </div>
+  <div class='container row row-width'>
+    <div class='large-3 columns swan-flex-col row-width'>
+      <div class='accordion-container accordion-content-center'>
+        <i class='fa fa-signal shadowed-icon'></i>
+        <p class='large-text centered-text'>Underwater acoustic communication</p>
+      </div>
+    </div>
+    <div class='large-3 columns swan-flex-col row-width'>
+      <div class='accordion-container accordion-content-center'>
+        <i class='fa fa-wifi shadowed-icon'></i>
+        <p class='large-text centered-text'>Underwater wireless networks</p>
+      </div>
+    </div>
+    <div class='large-3 columns swan-flex-col row-width'>
+      <div class='accordion-container accordion-content-center'>
+        <i class='fa fa-map-marker-alt shadowed-icon'></i>
+        <p class='large-text centered-text'>Underwater positioning</p>
+      </div>
+    </div>
+    <div class='large-3 columns swan-flex-col row-width'>
+      <div class='accordion-container accordion-content-center'>
+        <i class='fa fa-robot shadowed-icon'></i>
+        <p class='large-text centered-text'>In-water robotics</p>
+      </div>
+    </div>
+  </div>
+  <div class='row accordion-row row-padding-bottom'>
+    <div class='media'>
+      <div class='modem-type'>
+        <a href='https://blog.unetstack.net/' target="_blank"><button class='button-outline'>Learn more</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Applications -->
+<div>
+  <div class='row'>
+    <h2 class='section-heading'>Create richer experiences underwater</h2>
+  </div>
+  <div class='row row-width row-padding-bottom'>
+    <p class='centered-text'>Chat, share images, audios, videos, location, and much more, with UnetStack deployed in the OEM editions.</p>
+    <div class='accordion-row row-padding-bottom'>
+      <div class='large-4 columns accordion-container'>
+        <img alt="" src="{{site.baseurl}}/images/boxart-modem.jpg" />
+        <div class='image-text category-content'>
+          <h3>OEM modems</h3>
+        </div>
+      </div>
+      <div class='large-4 columns accordion-container'>
+        <img alt="" src="{{site.baseurl}}/images/boxart-localization.jpg" />
+        <div class='image-text category-content'>
+          <h3>OEM localization devices</h3>
+        </div>
+      </div>
+    </div>
+    <div class='accordion-row row-padding-bottom'>
+      <div class='large-4 columns accordion-container'>
+        <img alt="" src="{{site.baseurl}}/images/thumbnail-sensors.png" class='bg-light-orange'/>
+        <div class='image-text category-content'>
+          <h3>Underwater sensors</h3>
+        </div>
+      </div>
+      <div class='large-4 columns accordion-container'>
+        <img alt="" src="{{site.baseurl}}/images/boxart-Swanbot.jpg"/>
+        <div class='image-text category-content'>
+          <h3>In-water robotics</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='accordion-row'>
+  <div class='large-6 columns accordion-img'>
+    <img alt="" src="{{site.baseurl}}/images/large-boxart-unetsim.jpg"/>
+  </div>
+  <div class='large-1 column'></div>
+  <div class='large-5 columns'>
+    <div class='three spacing'></div>
+    <div class='swan-flex-col'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-graduation-cap shadowed-icon'></i>
+        <div class='swan-flex-col'>
+          <h3 class='large-text'>Learn</h3>
+          <p>Extensive documentation and videos made available to quickly get you on track.</p>
+        </div>
+      </div>
+    </div>
+    <div class='swan-flex-col'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-code shadowed-icon'></i>
+        <div class='swan-flex-col'>
+          <h3 class='large-text'>Build</h3>
+          <p>Develop algorithms and protocols for small and large underwater communication networks rapidly.</p>
+        </div>
+      </div>
+    </div>
+    <div class='swan-flex-col'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-play shadowed-icon'></i>
+        <div class='swan-flex-col'>
+          <h3 class='large-text'>Simulate</h3>
+          <p>Simulate and test your protocols with less effort using <span class='swan-highlight'>Unet Simulator</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='accordion-row'> 
+  <div class='large-6 columns'>
+    <div class='two spacing'></div>
+    <div class='swan-flex-col'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-anchor shadowed-icon'></i>
+        <div class='swan-flex-col'>
+          <h3 class='large-text'>Deploy</h3>
+          <p>See your algorithms in action by copying them to UnetStack enabled modems and deploying them in open ocean.</p>
+        </div>
+      </div>
+    </div>
+    <div class='swan-flex-col'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-chart-line shadowed-icon'></i>
+        <div class='swan-flex-col'>
+          <h3 class='large-text'>Enhance</h3>
+          <p>Enhanced performance of underwater communication and localization devices.</p>
+        </div>
+      </div>
+    </div>
+    <div class='swan-flex-col'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-tasks shadowed-icon'></i>
+        <div class='swan-flex-col'>
+          <h3 class='large-text'>Manage</h3>
+          <p>Management of multiple distributed or co-located communication and localization devices.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='large-6 columns accordion-img'>
+    <img alt="" src="{{site.baseurl}}/images/large-boxart-network.jpg"/>
+  </div>
+</div>
+<!-- Subscription models -->
+<div class='bg-grey'>
+  <div class='row row-padding-bottom'>
+    <h2 class='section-heading'>Choose the best option for you</h2>
+  </div>
+  <div class='row row-width row-padding-bottom'>
+    <div class='accordion-row row-padding-bottom'>
+      <div class='large-4 columns'>
+        <div class='accordion-container auto-height'>
+          <div class='category-content'>
+            <h3 class='large-text centered-text'>Research</h3>
+          </div>
+          <div class='bg-white accordion-container'>
+            <div class='spacing'></div>
+            <div class='accordion-container centered-text row-padding-bottom'>
+              <p>Developer bundle</p>
+              <p>(Community edition)</p>
+            </div>
+            <div class='accordion-container ml-3'>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Simulator & IDE</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Messaging fabric</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Network stack (Basic)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Communication algorithms (Basic)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Channel models (Basic)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Unet audio</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>*Free licensing</h3>
+              </div>
+              <div class='row accordion-row row-padding-bottom'>
+                <a href='https://blog.unetstack.net/' target="_blank">
+                  <button class='button-outline'>Download</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='large-4 columns'>
+        <div class='accordion-container auto-height'>
+          <div class='category-content'>
+            <h3 class='large-text centered-text'>Commercial</h3>
+          </div>
+          <div class='bg-white accordion-container'>
+            <div class='spacing'></div>
+            <div class='accordion-container centered-text row-padding-bottom'>
+              <p>Developer bundle</p>
+              <p>(Commercial edition)</p>
+            </div>
+            <div class='accordion-container ml-3'>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Simulator & IDE</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Messaging fabric</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Network stack (Basic & Premium)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Communication algorithms (Basic & Premium)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Channel models (Basic & Premium)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Unet audio</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Device profiles</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>One-time license</h3>
+              </div>
+              <div class='row accordion-row row-padding-bottom'>
+                <a href='https://blog.unetstack.net/' target="_blank">
+                  <button class='button-outline'>Contact us</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='large-4 columns'>
+        <div class='accordion-container auto-height'>
+          <div class='category-content'>
+            <h3 class='large-text centered-text'>OEM</h3>
+          </div>
+          <div class='bg-white accordion-container'>
+            <div class='spacing'></div>
+            <div class='accordion-container centered-text row-padding-bottom'>
+              <p>Platform bundle</p>
+              <p>(Commercial edition)</p>
+            </div>
+            <div class='accordion-container ml-3'>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Messaging fabric</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Network stack (Basic & Premium)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Communication algorithms (Basic & Premium)</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Hardware drivers</h3>
+              </div>
+              <div class="section-sub-heading">
+                <i class="fa fa-check"></i>
+                <h3>Volume licensing</h3>
+              </div>
+              <div class='row accordion-row row-padding-bottom'>
+                <a href='https://blog.unetstack.net/' target="_blank">
+                  <button class='button-outline'>Contact us</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='accordion-row'>
+      <h1> We are launching UnetStack4 soon!</h1>
+      <div class='row accordion-row row-padding-bottom'>
+        <div class='media'>
+          <input type="text" placeholder="Your email" style="width:35em">
+          <a href='https://www.youtube.com/watch?v=612MNtANjmQ&list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S' target="_blank" class='large-12 columns'>
+            <button class='button-outline'>Notify me</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Brochures -->
+<div class='row row-width row-padding-bottom'>
+  <div class='two spacing'></div>
+  <h2>Brochures</h2>
+  <div class="brochure-container">
+    <a href="{{site.baseurl}}/brochures/UnetStack-Brochure.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack.png"></a>
+    <a href="{{site.baseurl}}/brochures/UnetStack-Brochure.pdf" target="_blank" style="font-size: 1.2em;">UnetStack3</a>
+  </div>
 </div>

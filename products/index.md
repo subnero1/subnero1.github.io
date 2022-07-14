@@ -31,7 +31,6 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
                 <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
                   <button class='button-outline'>M25M series</button>
                 </a>
-                <!-- <p>Medium range modems</p>                 -->
               </div>
               <div class='modem-type'>
                 <a href='{{site.baseurl}}/brochures/WNC-whitepaper.pdf'>
@@ -42,7 +41,6 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
                 <a href='{{site.baseurl}}/products/modem.html'>
                   <button class='button-outline'>View all</button>
                 </a>
-                <!-- <p>All products</p>                 -->
               </div>
             </div>
           </div>
@@ -63,7 +61,10 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
           <h3>An agent-based software stack and simulator for underwater networks and protocols.</h3>
           <div class='media'>
             <div class='modem-type'>
-              <a href='{{site.baseurl}}/products/unet'><button class='button-outline'>View details</button></a>
+              <a href='{{site.baseurl}}/products/unet1'><button class='button-outline'>UnetStack</button></a>
+            </div>
+            <div class='modem-type'>
+              <a href='{{site.baseurl}}/products/ripple'><button class='button-outline'>Ripple</button></a>
             </div>
           </div>
         </div>

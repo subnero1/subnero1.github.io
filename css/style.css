@@ -6094,3 +6094,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin-left: 10em;
   bottom: 20em;
 }
+
+.icon-img{
+  width: 80px;
+  height: auto;
+}
+
+.centered-text-margin{
+  margin:2em;
+}
