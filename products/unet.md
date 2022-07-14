@@ -2,7 +2,7 @@
 layout: default
 title: Underwater Network Technology
 banner : images/banner-unetstack3.jpg
-thumbnail: images/boxart-swan.jpg
+thumbnail: images/boxart-unetstack3.png
 excerpt: Software to build underwater communication networks and for underwater navigation and positioning.
 categories: unet
 section_id: products
@@ -146,7 +146,7 @@ logo: images/logo-unetstack.png
         <i class='fa fa-graduation-cap shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Learn</h3>
-          <p>Extensive documentation and videos made available to quickly get you on track.</p>
+          <p class='large-12 columns'>Extensive documentation and videos made available to quickly get you on track.</p>
         </div>
       </div>
     </div>
@@ -155,7 +155,7 @@ logo: images/logo-unetstack.png
         <i class='fa fa-code shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Build</h3>
-          <p>Develop algorithms and protocols for small and large underwater communication networks rapidly.</p>
+          <p class='large-12 columns'>Develop algorithms and protocols for small and large underwater communication networks rapidly.</p>
         </div>
       </div>
     </div>
@@ -164,7 +164,7 @@ logo: images/logo-unetstack.png
         <i class='fa fa-play shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Simulate</h3>
-          <p>Simulate and test your protocols with less effort using <span class='swan-highlight'>Unet Simulator</span>.</p>
+          <p class='large-12 columns'>Simulate and test your protocols with less effort using <span class='swan-highlight'>Unet Simulator</span>.</p>
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ logo: images/logo-unetstack.png
         <i class='fa fa-anchor shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Deploy</h3>
-          <p>See your algorithms in action by copying them to UnetStack enabled modems and deploying them in open ocean.</p>
+          <p class='large-12 columns'>See your algorithms in action by copying them to UnetStack enabled modems and deploying them in open ocean.</p>
         </div>
       </div>
     </div>
@@ -187,7 +187,7 @@ logo: images/logo-unetstack.png
         <i class='fa fa-chart-line shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Enhance</h3>
-          <p>Enhanced performance of underwater communication and localization devices.</p>
+          <p class='large-12 columns'>Enhanced performance of underwater communication and localization devices.</p>
         </div>
       </div>
     </div>
@@ -196,7 +196,7 @@ logo: images/logo-unetstack.png
         <i class='fa fa-tasks shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Manage</h3>
-          <p>Management of multiple distributed or co-located communication and localization devices.</p>
+          <p class='large-12 columns'>Management of multiple distributed or co-located communication and localization devices.</p>
         </div>
       </div>
     </div>
