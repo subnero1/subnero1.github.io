@@ -6103,3 +6103,41 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .centered-text-margin{
   margin:2em;
 }
+
+.flex-col-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fixed-ht-rd-container{
+  display: flex;
+  flex-direction: column;
+  border-radius:10px;
+  height: 580px;
+}
+
+.subscription-info{
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+}
+
+.email-input{
+  width: 20em !important;
+  height: 3.5rem !important;
+  border-color:#777 !important;
+}
+
+.grey-announcement{
+  color:#777;
+  text-transform: none;
+  text-shadow:0 4px 15px rgb(0 0 0 / 20%);
+}
+
+.large-text-highlight{
+  color: #333;
+  text-transform: none;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
