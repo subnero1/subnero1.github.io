@@ -11,17 +11,15 @@ logo: images/logo-unetstack.png
 
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='large-12 columns'>
-    <h1 class='banner-sub-heading'></h1>
     <div class='unet-banner-heading'>
-      <h1 class='banner-text'>
-        <img src='{{site.baseurl}}/{{page.logo}}'> UnetStack</h1>
+      <h1 class='banner-text'><img src='{{site.baseurl}}/{{page.logo}}'> UnetStack</h1>
       <h2 class='banner-sub-heading'>Extend your communication networks underwater.</h2>
     </div>
   </div>
 </div>
 <div class='two spacing'></div>
 <div class='row row-width row-padding-bottom'>
-  <div class='row row-padding-bottom'>
+  <div class='row-padding-bottom'>
     <h2 class='section-heading'>Flexible and extensible agent-based software designed for ease of use</h2>
   </div>
   <div class='large-5 columns swan-flex-col'>
@@ -45,11 +43,11 @@ logo: images/logo-unetstack.png
     <div class='row row-padding-bottom'>
     <div class='large-10 columns media'>
       <div class='modem-type'>
-      <a href='https://unetstack.net/' target="_blank"><button class='button-outline'>Learn more</button></a>
-    </div>
-    <div class='modem-type'>
-      <a href='https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw' target="_blank"><button class='button-outline'>Watch videos</button></a>
-    </div>
+        <a href='https://unetstack.net/' target="_blank"><button class='button-outline'>Learn more</button></a>
+      </div>
+      <div class='modem-type'>
+        <a href='https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw' target="_blank"><button class='button-outline'>Watch videos</button></a>
+      </div>
     </div>
   </div>
   </div>
@@ -63,36 +61,30 @@ logo: images/logo-unetstack.png
   <div class='row'>
     <h2 class='section-heading'>One-stop solution for underwater scientific research</h2>
   </div>
-  <div class='container row row-width'>
+  <div class='spacing'></div>
+  <div class='container row row-width row-padding-bottom'>
     <div class='large-3 columns swan-flex-col row-width'>
-      <div class='accordion-container accordion-content-center'>
+      <div class='flex-col-container accordion-content-center'>
         <i class='fa fa-signal shadowed-icon'></i>
         <p class='large-text centered-text'>Underwater acoustic communication</p>
       </div>
     </div>
     <div class='large-3 columns swan-flex-col row-width'>
-      <div class='accordion-container accordion-content-center'>
+      <div class='flex-col-container accordion-content-center'>
         <i class='fa fa-wifi shadowed-icon'></i>
         <p class='large-text centered-text'>Underwater wireless networks</p>
       </div>
     </div>
     <div class='large-3 columns swan-flex-col row-width'>
-      <div class='accordion-container accordion-content-center'>
+      <div class='flex-col-container accordion-content-center'>
         <i class='fa fa-map-marker-alt shadowed-icon'></i>
         <p class='large-text centered-text'>Underwater positioning</p>
       </div>
     </div>
     <div class='large-3 columns swan-flex-col row-width'>
-      <div class='accordion-container accordion-content-center'>
+      <div class='flex-col-container accordion-content-center'>
         <i class='fa fa-robot shadowed-icon'></i>
         <p class='large-text centered-text'>In-water robotics</p>
-      </div>
-    </div>
-  </div>
-  <div class='row accordion-row row-padding-bottom'>
-    <div class='media'>
-      <div class='modem-type'>
-        <a href='https://blog.unetstack.net/' target="_blank"><button class='button-outline'>Learn more</button></a>
       </div>
     </div>
   </div>
@@ -102,33 +94,32 @@ logo: images/logo-unetstack.png
   <div class='large-6 columns accordion-img'>
     <img alt="" src="{{site.baseurl}}/images/large-boxart-unetsim.jpg"/>
   </div>
-  <div class='large-1 column'></div>
-  <div class='large-5 columns'>
+  <div class='large-6 columns'>
     <div class='three spacing'></div>
     <div class='swan-flex-col'>
-      <div class='section-sub-heading'>
+      <div class='section-sub-heading ml-3'>
         <i class='fa fa-graduation-cap shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Learn</h3>
-          <p class='large-12 columns'>Extensive documentation and videos made available to quickly get you on track.</p>
+          <p class='large-10 columns zero-padding'>Extensive documentation and videos made available to quickly get you on track.</p>
         </div>
       </div>
     </div>
     <div class='swan-flex-col'>
-      <div class='section-sub-heading'>
+      <div class='section-sub-heading ml-3'>
         <i class='fa fa-code shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Build</h3>
-          <p class='large-12 columns'>Develop algorithms and protocols for small and large underwater communication networks rapidly.</p>
+          <p class='large-10 columns zero-padding'>Develop algorithms and protocols for small and large underwater communication networks rapidly.</p>
         </div>
       </div>
     </div>
     <div class='swan-flex-col'>
-      <div class='section-sub-heading'>
-        <i class='fa fa-play shadowed-icon'></i>
-        <div class='swan-flex-col'>
-          <h3 class='large-text'>Simulate</h3>
-          <p class='large-12 columns'>Simulate and test your protocols with less effort using <span class='swan-highlight'>Unet Simulator</span>.</p>
+      <div class='section-sub-heading ml-3'>
+        <i class='fa fa-play shadowed-icon mr-3'></i>
+        <div class='swan-flex-col ml-3'>
+          <h3 class='large-text ml-3'>Simulate</h3>
+          <p class='large-10 columns zero-padding ml-3'>Simulate and test your protocols with less effort using Unet Simulator.</p>
         </div>
       </div>
     </div>
@@ -138,29 +129,29 @@ logo: images/logo-unetstack.png
   <div class='large-6 columns'>
     <div class='two spacing'></div>
     <div class='swan-flex-col'>
-      <div class='section-sub-heading'>
+      <div class='section-sub-heading ml-3'>
         <i class='fa fa-anchor shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Deploy</h3>
-          <p class='large-12 columns'>See your algorithms in action by copying them to UnetStack enabled modems and deploying them in open ocean.</p>
+          <p class='large-10 columns zero-padding'>See your algorithms in action by copying them to UnetStack enabled modems and deploying them in open ocean.</p>
         </div>
       </div>
     </div>
     <div class='swan-flex-col'>
-      <div class='section-sub-heading'>
+      <div class='section-sub-heading ml-3'>
         <i class='fa fa-chart-line shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Enhance</h3>
-          <p class='large-12 columns'>Enhanced performance of underwater communication and localization devices.</p>
+          <p class='large-10 columns zero-padding'>Enhanced performance of underwater communication and localization devices.</p>
         </div>
       </div>
     </div>
     <div class='swan-flex-col'>
-      <div class='section-sub-heading'>
+      <div class='section-sub-heading ml-3'>
         <i class='fa fa-tasks shadowed-icon'></i>
         <div class='swan-flex-col'>
           <h3 class='large-text'>Manage</h3>
-          <p class='large-12 columns'>Management of multiple distributed or co-located communication and localization devices.</p>
+          <p class='large-10 columns zero-padding'>Management of multiple distributed or co-located communication and localization devices.</p>
         </div>
       </div>
     </div>
@@ -256,7 +247,7 @@ logo: images/logo-unetstack.png
               </div>            
             </div>
             <div class='row accordion-row row-padding-bottom'>
-              <a href='https://blog.unetstack.net/' target="_blank">
+              <a href='https://unetstack.net/#downloads' target="_blank">
                 <button class='button-outline'>Download</button>
               </a>
             </div>
@@ -310,7 +301,7 @@ logo: images/logo-unetstack.png
               </div>
             </div>
             <div class='row accordion-row row-padding-bottom'>
-              <a href='https://blog.unetstack.net/' target="_blank">
+              <a href="mailto:sales@subnero.com" target="_blank">
                 <button class='button-outline'>Contact us</button>
               </a>
             </div>
@@ -352,7 +343,7 @@ logo: images/logo-unetstack.png
               </div>
             </div>
             <div class='row accordion-row row-padding-bottom'>
-              <a href='https://blog.unetstack.net/' target="_blank">
+              <a href="mailto:sales@subnero.com" target="_blank">
                 <button class='button-outline'>Contact us</button>
               </a>
             </div>

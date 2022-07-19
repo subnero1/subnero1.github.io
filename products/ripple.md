@@ -6,9 +6,9 @@ excerpt: One-stop software solution to manage all your in-robot communication in
 ---
 
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class='dark-overlay'></div>
   <div class='large-12 columns'>
-    <h1 class='banner-sub-heading'></h1>
-    <div class='unet-banner-heading'>
+    <div class='flex-col-container'>
       <h1 class='banner-text'>Ripple</h1>
       <h2 class='banner-sub-heading'>One-stop software solution to manage all your in-robot communication interfaces.</h2>
     </div>
@@ -19,7 +19,7 @@ excerpt: One-stop software solution to manage all your in-robot communication in
   <div class='row row-padding-bottom'>
     <h2 class='section-heading'>Smart and reliable communication with AUVs</h2>
   </div>
-  <div class='container row row-width row-padding-bottom'>
+  <div class='container row-width row-padding-bottom'>
     <div class='large-4 columns swan-flex-col row-width'>
       <img src='{{site.baseurl}}/images/icon-interface.png' class='large-2 columns accordion-img icon-img'>
       <div class='spacing'></div>
@@ -39,7 +39,7 @@ excerpt: One-stop software solution to manage all your in-robot communication in
       <p>Easily configurable policies to define link and data priority per packet to provide quality of service.</p>      
     </div>
   </div>
-  <div class='container row row-width row-padding-bottom'>
+  <div class='container row-width row-padding-bottom'>
     <div class='large-4 columns swan-flex-col row-width'>
       <img src='{{site.baseurl}}/images/icon-codec.png' class='large-2 columns accordion-img icon-img'>
       <div class='spacing'></div>
@@ -62,7 +62,9 @@ excerpt: One-stop software solution to manage all your in-robot communication in
 </div>
 <div class='accordion-row'>
   <div class='large-6 columns bg-grey'>
-    <h2 class='accordion-row banner-sub-heading centered-text-margin'>Compatible with acoustic and optical modems</h2>
+    <div class='spacing'></div>
+    <h1 class='accordion-row banner-sub-heading centered-text-margin'>Compatible with acoustic and optical modems</h1>
+    <div class='spacing'></div>
   </div>
   <div class='large-6 columns accordion-row'>
     <img alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse3.jpg" class='accordion-img'/>
@@ -73,10 +75,12 @@ excerpt: One-stop software solution to manage all your in-robot communication in
     <img alt="" src="{{site.baseurl}}/images/boxart-cube.jpg" class='accordion-img'/>
   </div>
   <div class='large-6 columns bg-grey'>
-    <h2 class='accordion-row banner-sub-heading centered-text-margin'>Improved performance with adaptive link tuning</h2>
+    <div class='spacing'></div>
+    <h1 class='accordion-row banner-sub-heading centered-text-margin'>Improved performance with adaptive link tuning</h1>
+    <div class='spacing'></div>
   </div>
 </div>
-<div class='accordion-row' style='background: url({{site.baseurl}}/images/banner-auv.png);height:30em;'>
+<div class='accordion-row bg-image' style='background: url({{site.baseurl}}/images/banner-auv.png);'>
   <h2 class='section-heading'>Get the best solution for your underwater AUVs, modems and sensors</h2>
 </div>
 <div class='accordion-row row-padding-bottom'>

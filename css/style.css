@@ -5962,7 +5962,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   align-items: flex-start;
 }
 
-.accordion-img{
+.accordion-img, .zero-padding{
   padding-left: 0;
   padding-right: 0;
 }
@@ -6058,12 +6058,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   flex-direction: column;
 }
 
-.unet-banner-heading .banner-text{
+.unet-banner-heading .banner-text, .flex-col-container .banner-text{
   font-size: 6rem;
   color:#fff;
 }
 
-.unet-banner-heading .banner-sub-heading{
+.unet-banner-heading .banner-sub-heading, .flex-col-container .banner-sub-heading{
   color:#fff;
 }
 
@@ -6140,4 +6140,20 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   text-transform: none;
   font-size: 3.5rem;
   font-weight: 900;
+}
+
+.dark-overlay{
+  background-image: linear-gradient(#000 0%, #000 60%, #000);
+  opacity: 0.5;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.bg-image{
+  height:30em;
+  background-size: cover !important;
 }
