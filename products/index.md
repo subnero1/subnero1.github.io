@@ -63,9 +63,6 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
             <div class='modem-type'>
               <a href='{{site.baseurl}}/products/unet'><button class='button-outline'>UnetStack</button></a>
             </div>
-            <div class='modem-type'>
-              <a href='{{site.baseurl}}/products/ripple'><button class='button-outline'>Ripple</button></a>
-            </div>
           </div>
         </div>
       </div>
