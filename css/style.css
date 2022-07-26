@@ -6015,6 +6015,14 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: block;
 }
 
+.accordion-content-center{
+  align-items: center;
+}
+
+.accordion-container p{
+  margin-bottom: 0;
+}
+
 /* End of Accordion */
 
 .row-item{
@@ -6038,4 +6046,110 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 
 .list-border{
   border-left: solid 2px #E6782F;
+}
+
+.unet-banner-heading{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.unet-banner-heading .banner-text, .flex-col-container .banner-text{
+  font-size: 6rem;
+  color:#fff;
+}
+
+.unet-banner-heading .banner-sub-heading, .flex-col-container .banner-sub-heading{
+  color:#fff;
+}
+
+.shadowed-icon{
+  color:#fe821d;
+  font-size: 2.5rem;
+  margin:1em;
+  text-shadow:0 4px 15px rgba(0 0 0 / 25%)
+}
+
+.image-text{
+  padding: 2em 0.7em 1em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #E6782F;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  box-shadow:0 4px 15px 0 rgb(0 0 0 / 10%);
+}
+
+.auto-height{
+  height: auto !important;
+}
+
+.logo-overlay{
+  position: absolute;
+  margin-left: 10em;
+  bottom: 20em;
+}
+
+.icon-img{
+  width: 80px;
+  height: auto;
+}
+
+.centered-text-margin{
+  margin:2em;
+}
+
+.flex-col-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fixed-ht-rd-container{
+  display: flex;
+  flex-direction: column;
+  border-radius:10px;
+  height: 580px;
+}
+
+.subscription-info{
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+}
+
+.email-input{
+  width: 20em !important;
+  height: 3.5rem !important;
+  border-color:#777 !important;
+}
+
+.grey-announcement{
+  color:#777;
+  text-transform: none;
+  text-shadow:0 4px 15px rgb(0 0 0 / 20%);
+}
+
+.large-text-highlight{
+  color: #333;
+  text-transform: none;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.dark-overlay{
+  background-image: linear-gradient(#000 0%, #000 60%, #000);
+  opacity: 0.5;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.bg-image{
+  height:30em;
+  background-size: cover !important;
 }
