@@ -14,6 +14,9 @@
   - name: Unetstack
     path: /products/unet
     section_id: unetstack
+  - name: Unetstack New
+    path: /products/unet-new
+    section_id: unetnew
 - name: Solutions
   path: solutions/
   section_id: solutions
