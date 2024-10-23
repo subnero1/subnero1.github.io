@@ -1096,7 +1096,7 @@ ul.info i:hover {
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background-color: #fff;
 }
-.top-bar-section ul.submenu li:nth-last-child(2) {
+.top-bar-section ul.submenu li:nth-last-child(1) {
   border-top: 1px solid #cccccc;
   padding-top: 9px;
   margin-top: 12px
@@ -6679,7 +6679,20 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 /* key features */
 .unet-components {
+  position: relative;
   background-color: #F8FDFF;
+}
+.unet-components .image-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.5;
+}
+.unet-components .sec-container {
+  position: relative;
 }
 .sec-components {
   display: grid;
