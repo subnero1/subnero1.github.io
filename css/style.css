@@ -6512,7 +6512,8 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   line-height: 1.8;
 }
 .unet.reveal-modal {
-  position: fixed !important;
+  position: fixed;
+  border-radius: 8px;
 }
 .unet-section {
   padding: 1.4rem .8rem ;
