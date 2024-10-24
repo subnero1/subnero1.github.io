@@ -1,44 +1,34 @@
 ---
 layout: default
 title: UnetStack - The Underwater Network Stack
+banner : images/banner-unet.jpg
+thumbnail: images/boxart-swis.jpg
 excerpt: Subnero Wireless Integrated Suite, ADCP Edition
 categories: unet
 section_id: products
 ---
+
 <div class="unet">
-  <section class="unet-hero">
-    <div class="hero-container" >
-      <div class="hero-text">
-        <h2>UnetStack</h2>
-        <p>The Underwater Network Stack</p>
+  <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+    <div class='swan-overlay'></div>
+    <div class='large-12 columns'>
+      <div class='banner-heading'>
+        <h1 class='banner-text'>UnetStack</h1>
+        <h2 class='banner-sub-heading'>The Underwater Network Stack</h2>
       </div>
-      <a href="#what-is" class="go-down">
-        <svg class="down-arrow">
-          <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#arrow-down"/>
-        </svg>
-      </a>
-      <img src="{{site.baseurl}}/images/unetstack/hero.webp" alt="UnetStack">
     </div>
-  </section>
-  
+  </div>
   <section id="what-is" class="unet-section whatis">
     <div class="sec-container">
       <div class="sec-head">
-        <img src="{{site.baseurl}}/images/unetstack/unet-stack-logo.png" alt="UnetStack" class="unetlogo">
+        <img src="{{site.baseurl}}/images/unet-stack-logo.png" alt="UnetStack" class="unetlogo">
         <h3 class="sec-title">What is UnetStack?</h3>
       </div>
-      <div class="sec-content text-2xl text-center">
+      <div class="sec-content intro-text text-center">
         UnetStack is a powerful and flexible <b>agent-based software framework</b> designed for <b>underwater communication</b> networks. It enables rapid design, simulation, testing, and deployment of software-defined underwater networks. Whether running on a <b>Subnero modem</b> or on a host computer connected to the modem, UnetStack transforms the modem into a sophisticated network node. Additionally, it can act as a <b>gateway to terrestrial, satellite, or Internet-connected networks.</b>
       </div>
     </div>
   </section>
-
-  <div class="sec-divider">
-    <svg>
-      <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#divider"/>
-    </svg>
-  </div>
-
   <section class="unet-section unet-editions">
     <div class="sec-container">
       <div class="sec-head">
@@ -47,33 +37,25 @@ section_id: products
       </div>
       <div class="sec-content sec-editions">
         <div class="card">
-          <svg class="editions-icon" width="50" height="50">
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#people"/>
-          </svg>
+          <i class="fa fa-users fa-3x" aria-hidden="true"></i>
           <h3>Community Edition</h3>
           <p class="details">Free for non-commercial use, ideal for education and research. Includes the UnetStack simulator and Unet audio.</p>
           <a class="download-link" href="https://unetstack.net/#downloads" target="_blank" >Download Now</a>
         </div>
         <div class="card">
-          <svg class="editions-icon" width="50" height="50">
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#settings"/>
-          </svg>
+          <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
           <h3>OEM Edition</h3>
           <p class="details">For powering your modem or commercially available modems. Supports seamless integration with external devices.</p>
           <a class="download-link" href="mailto:sales@subnero.com">Buy Now</a>
         </div>
         <div class="card">
-          <svg class="editions-icon" width="50" height="50">
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#business"/>
-          </svg>
+          <i class="fa fa-briefcase fa-3x" aria-hidden="true"></i>
           <h3>Commercial  Edition</h3>
           <p class="details">Designed for commercial applications with enhanced performance features. Premium agents are included for demanding deployments.</p>
           <a class="download-link" href="mailto:sales@subnero.com">Buy Now</a>
         </div>
         <div class="card">
-          <svg class="editions-icon" width="50" height="50">
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#dev-tools"/>
-          </svg>
+          <i class="fa fa-code fa-3x" aria-hidden="true"></i>
           <h3>Developer Tools</h3>
           <p class="details">Tools tailored for software development, simulation, and testing on workstations and OEM devices. Part of Commercial Edition.</p>
           <a class="download-link" href="mailto:sales@subnero.com">Buy Now</a>
@@ -81,13 +63,6 @@ section_id: products
       </div>
     </div>
   </section>
-
-  <!-- <div class="sec-divider filled">
-    <svg>
-      <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#divider-top"/>
-    </svg>
-  </div> -->
-
   <section class="unet-section unet-components" >
     <img src="{{site.baseurl}}/images/swis-WNC.jpg" alt="Unet" class="image-bg">
     <div class="sec-container">
@@ -134,13 +109,6 @@ section_id: products
       </div>
     </div>
   </section>
-
-  <!-- <div class="sec-divider filled">
-    <svg>
-      <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#divider-bottom"/>
-    </svg>
-  </div> -->
-  
   <section class="unet-section key-features">
     <div class="sec-container">
       <div class="sec-head">
@@ -164,13 +132,6 @@ section_id: products
       </div>
     </div>
   </section>
-
-  <div class="sec-divider">
-    <svg>
-      <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#divider"/>
-    </svg>
-  </div>
-  
   <section class="unet-section unet-capabilities">
     <div class="sec-container">
       <div class="sec-head">
@@ -180,53 +141,35 @@ section_id: products
       <div class="sec-content sec-capabilities">
         <div class="card">
           <div class="card-icon">
-            <svg>
-              <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#code"/>
-            </svg>
+          <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
           </div>
           <div>
-            <h4>Unet Sim</h3>
-            <p>Ideal for network layer developments, providing protocol-level simulation for large underwater networks.</p>
-          </div>
-          <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">
-            <svg>
-              <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#arrow-down"/>
-            </svg>
-          </a>
-        </div>
-        <div class="card">
-          <div class="card-icon">
-            <svg>
-              <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#cloudapp"/>
-            </svg>
-          </div>
-          <div>
-            <h4>VirtualAcousticOcean</h3>
-            <p>Integration with underwater channel models like Bellhop for physical layer simulations, ensuring realistic underwater acoustic propagation.</p>
+            <h4>Unet Sim</h4>
+            <p>Ideal for network layer developments, providing protocol-level simulation for large underwater networks. <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
           </div>
         </div>
         <div class="card">
           <div class="card-icon">
-            <svg>
-              <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#tools"/>
-            </svg>
+            <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+          </div>
+          <div>
+            <h4>VirtualAcousticOcean</h4>
+            <p>Integration with underwater channel models like Bellhop for physical layer simulations, ensuring realistic underwater acoustic propagation. <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <i class="fa fa-puzzle-piece fa-2x" aria-hidden="true"></i>
           </div>
           <div>
             <h4>Hardware-in-the-Loop Simulation</h4>
-            <p>Extend your networks using VirtualAcousticOcean for testing with actual hardware in the loop. UnetStack4 or above required.</p>
+            <p>Extend your networks using VirtualAcousticOcean for testing with actual hardware in the loop. UnetStack4 or above required. <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
           </div>
         </div>
       </div>
       <div class="capabilities-footer">This comprehensive simulation suite allows developers to refine algorithms in a virtual environment and seamlessly transition to deployment on UnetStack-compatible modems. </div>
     </div>
   </section>
-
-  <div class="sec-divider">
-    <svg>
-      <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#divider"/>
-    </svg>
-  </div>
-
   <section class="unet-section">
     <div class="sec-container">
       <div class="sec-head">
@@ -240,7 +183,6 @@ section_id: products
             <div id="panel1d" class="content active" role="tabpanel" aria-labelledby="panel1d-heading">
               <div class="segment-card">
                 <div class="content-text">
-                  <!-- <h4>Scientific Research</h4> -->
                   <ul>
                     <li>Underwater Acoustic Communications</li>
                     <li>Underwater Wireless Networks</li>
@@ -249,7 +191,7 @@ section_id: products
                   </ul>
                 </div>
                 <div class="content-image">
-                  <img src="{{site.baseurl}}/images/unetstack/image-02.jpg" alt="">
+                  <img src="{{site.baseurl}}/images/unetstack-02.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -259,7 +201,6 @@ section_id: products
             <div id="panel2d" class="content" role="tabpanel" aria-labelledby="panel2d-heading">
               <div class="segment-card">
                 <div class="content-text">
-                  <!-- <h4>Commercial</h4> -->
                   <ul>
                     <li>OEM Modems & Localization Devices</li>
                     <li>Underwater Sensors</li>
@@ -277,7 +218,6 @@ section_id: products
             <div id="panel3d" class="content" role="tabpanel" aria-labelledby="panel3d-heading">
               <div class="segment-card">
                 <div class="content-text">
-                  <!-- <h4>Defense</h4> -->
                   <ul>
                     <li>Channel modeling</li>
                     <li>Underwater Acoustic Communications</li>
@@ -285,7 +225,7 @@ section_id: products
                   </ul>
                 </div>
                 <div class="content-image">
-                  <img src="{{site.baseurl}}/images/unetstack/image-01.jpg" alt="">
+                  <img src="{{site.baseurl}}/images/unetstack-01.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -294,13 +234,6 @@ section_id: products
       </div>
     </div>
   </section>
-
-  <div class="sec-divider">
-    <svg >
-      <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#divider"/>
-    </svg>
-  </div>
-
   <section class="unet-section unet-links">
     <div class="sec-container">
       <div class="sec-head">
@@ -310,34 +243,27 @@ section_id: products
         <a href="#">
           <img src="{{site.baseurl}}/brochures/unetstack.png" alt="Technical whitepaper">
           <span>Technical whitepaper</span>
-          <svg >
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#open-link"/>
-          </svg>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
         <a href="#">
           <img src="{{site.baseurl}}/brochures/unetstack.png" alt="Relevant blogs/use cases">
           <span>Relevant blogs/use cases</span>
-          <svg >
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#open-link"/>
-          </svg>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
         <a href="#">
           <img src="{{site.baseurl}}/brochures/unetstack.png" alt="Links to VAO">
           <span>Links to VAO</span>
-          <svg >
-            <use xlink:href="{{site.baseurl}}/images/unetstack/icons.svg#open-link"/>
-          </svg>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
       </div>
     </div>
   </section>
 
 <!-- Modals -->
-<div id="unetsimModal" class="unet reveal-modal medium" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle">Unet Sim</h2>
-  <p class="lead">Ideal for network layer developments, providing protocol-level simulation for large underwater networks.</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam asperiores inventore obcaecati eligendi saepe repellendus, consequatur officia explicabo omnis itaque. Debitis delectus omnis alias repellendus neque corporis fugit inventore amet.</p>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-</div>
-
+  <div id="unetsimModal" class="unet reveal-modal medium" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <h2 id="modalTitle">Unet Sim</h2>
+    <p class="lead">Ideal for network layer developments, providing protocol-level simulation for large underwater networks.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam asperiores inventore obcaecati eligendi saepe repellendus, consequatur officia explicabo omnis itaque. Debitis delectus omnis alias repellendus neque corporis fugit inventore amet.</p>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 </div>
