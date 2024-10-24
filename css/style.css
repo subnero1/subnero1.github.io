@@ -6725,8 +6725,8 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   width: 100%;
   max-width: 820px;
   margin: 0 auto;
-  background-color: var(--blue);
-  padding: 2rem;
+  /* background-color: var(--blue); */
+  /* padding: 2rem; */
   border-radius: 16px;
 }
 .sec-capabilities .card {
@@ -6734,6 +6734,11 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: flex;
   gap: 2rem;
   padding: 2rem;
+  background-color: var(--blue);
+  border-radius: 10px;
+}
+.sec-capabilities .card:not(:last-child) {
+  margin-bottom: .8rem;
 }
 .sec-capabilities .card-icon {
   flex: none;
