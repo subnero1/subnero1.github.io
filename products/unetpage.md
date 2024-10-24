@@ -78,31 +78,52 @@ section_id: products
         </div>
         <div class="component-cards">
           <div class="card">
-            <div class="title">Simulator</div>
+            <div class="title">
+              <span>Simulator</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">Simulate network operations and optimize performance before deployment.</div>
           </div>
           <div class="card">
-            <div class="title">Messaging Fabric</div>
+            <div class="title">
+              <span>Messaging Fabric</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">Robust messaging framework for agent interactions.</div>
           </div>
           <div class="card">
-            <div class="title">Network Stack</div>
+            <div class="title">
+              <span>Network Stack</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">Provides layers of network communication for underwater devices.</div>
           </div>
           <div class="card">
-            <div class="title">Channel Models</div>
+            <div class="title">
+              <span>Channel Models</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">Integration with realistic underwater acoustic channel models like Bellhop, Kraken etc.</div>
           </div>
           <div class="card">
-            <div class="title">Unet Audio</div>
+            <div class="title">
+              <span>Unet Audio</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">Convert your own hardware to an acoustic modem with Unet audio. Supports macOS/x86, macOS/aarch64, Linux/x86 and Linux/armhf platforms.</div>
           </div>
           <div class="card">
-            <div class="title">Hardware Drivers</div>
+            <div class="title">
+              <span>Hardware Drivers</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">For appropriate hardware interfaces.</div>
           </div>
           <div class="card">
-            <div class="title">Communication Algorithms & Physical Layer</div>
+            <div class="title">
+              <span>Communication Algorithms & Physical Layer</span>
+              <a href="#" data-reveal-id="componentsModal" class="show-modal" title="More"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <div class="content">Advanced algorithms for data transmission and physical layer control.</div>
           </div>
         </div>
@@ -145,7 +166,8 @@ section_id: products
           </div>
           <div>
             <h4>Unet Sim</h4>
-            <p>Ideal for network layer developments, providing protocol-level simulation for large underwater networks. <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+            <p>Ideal for network layer developments, providing protocol-level simulation for large underwater networks.</p>
+            <p><a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
           </div>
         </div>
         <div class="card">
@@ -154,7 +176,8 @@ section_id: products
           </div>
           <div>
             <h4>VirtualAcousticOcean</h4>
-            <p>Integration with underwater channel models like Bellhop for physical layer simulations, ensuring realistic underwater acoustic propagation. <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+            <p>Integration with underwater channel models like Bellhop for physical layer simulations, ensuring realistic underwater acoustic propagation.</p>
+            <p><a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
           </div>
         </div>
         <div class="card">
@@ -163,7 +186,8 @@ section_id: products
           </div>
           <div>
             <h4>Hardware-in-the-Loop Simulation</h4>
-            <p>Extend your networks using VirtualAcousticOcean for testing with actual hardware in the loop. UnetStack4 or above required. <a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+            <p>Extend your networks using VirtualAcousticOcean for testing with actual hardware in the loop. UnetStack4 or above required.</p>
+            <p><a href="#" data-reveal-id="unetsimModal" class="show-modal" title="More">Learn more <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
           </div>
         </div>
       </div>
@@ -261,9 +285,59 @@ section_id: products
 
 <!-- Modals -->
   <div id="unetsimModal" class="unet reveal-modal medium" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-    <h2 id="modalTitle">Unet Sim</h2>
+    <h2 id="modalTitle" class="title">Unet Sim</h2>
     <p class="lead">Ideal for network layer developments, providing protocol-level simulation for large underwater networks.</p>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam asperiores inventore obcaecati eligendi saepe repellendus, consequatur officia explicabo omnis itaque. Debitis delectus omnis alias repellendus neque corporis fugit inventore amet.</p>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
   </div>
+
+  <div id="componentsModal" class="unet reveal-modal xlarge" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <ul class="tabs" data-tab role="tablist">
+      <li class="tab-title active" role="presentation"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1">Simulator</a></li>
+      <li class="tab-title" role="presentation"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">Network Stack</a></li>
+      <li class="tab-title" role="presentation"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-3">Unet Audio</a></li>
+    </ul>
+    <div class="tabs-content">
+      <section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
+        <div class="modal-tab-content">
+          <div class="col-left">
+            <h2>Simulator</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto cum porro natus corporis?</p>
+            <p>Neque architecto cum porro natus corporis reiciendis dignissimos voluptas autem, ut odit a totam adipisci necessitatibus, minima aspernatur modi est nemo esse?</p>
+            <a href="#" class="button small">More</a>
+          </div>
+          <div class="col-right">
+            <img src="{{site.baseurl}}/images/unetstack-02.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
+        <div class="modal-tab-content">
+          <div class="col-left">
+            <h2>Network Stack</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Neque architecto cum porro natus corporis reiciendis dignissimos voluptas autem, ut odit a totam adipisci necessitatibus, minima aspernatur modi est nemo esse?</p>
+             <a href="#" class="button small">More</a>
+          </div>
+          <div class="col-right">
+            <img src="{{site.baseurl}}/images/unetstack-01.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section role="tabpanel" aria-hidden="true" class="content" id="panel2-3">
+        <div class="modal-tab-content">
+          <div class="col-left">
+            <h2>Unet Audio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto cum porro natus corporis reiciendis dignissimos voluptas autem, ut odit a totam adipisci necessitatibus, minima aspernatur modi est nemo esse?</p>
+             <a href="#" class="button small">More</a>
+          </div>
+          <div class="col-right">
+            <img src="{{site.baseurl}}/images/swis-WNC.jpg" alt="">
+          </div>
+        </div>
+      </section>
+    </div>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
+
 </div>
