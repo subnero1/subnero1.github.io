@@ -78,7 +78,7 @@ We are seeking a talented and motivated Software Engineer to join our team in de
 - Strong software engineering skills with a focus on higher-level programming languages such as **Java**, **Groovy**, **Python**, or **Julia**.
 - Experience in designing, implementing, and maintaining complex software systems.
 - Solid understanding of modern development practices, including version control, testing frameworks, and continuous integration.
-- Familiarity with distribute software architecture for modular, extensible systems.
+- Familiarity with distributed software architecture for modular, extensible systems.
 
 **Preferred Qualifications:**
 - Experience with UnetStack or other frameworks for communication networks.
