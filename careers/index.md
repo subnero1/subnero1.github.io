@@ -48,7 +48,7 @@ The Marketing and Customer Engagement Specialist will play a role in supporting 
 
 **Role Overview:**
 
-We are seeking a talented and motivated Software Engineer to join our team in developing and optimizing underwater communication networks. This role focuses on maintaining and improving **UnetStack**, developing efficient communication protocols and integrating cutting-edge embedded hardware to create a compelling product. If you have a passion for modern software engineering and pushing the boundaries of technology, we want to hear from you!
+We are seeking a talented and motivated Software Engineer to join our team in developing and optimizing underwater communication networks. This role focuses on maintaining and improving [UnetStack](https://unetstack.net/), our open software framework for underwater networking for embedded platforms, developing efficient communication protocols and integrating cutting-edge embedded hardware to create a compelling product. If you have a passion for modern software engineering and pushing the boundaries of technology, we want to hear from you!
 
 **Key Responsibilities:**
 
@@ -100,7 +100,7 @@ Send your resume and a cover letter detailing your experience with relevant tech
 
 **Role Overview:**
 
-We are looking for a skilled **Systems Software Engineer** with expertise in embedded Linux to drive the development and optimization of our underwater communication systems. Your primary responsibilities will include maintaining and customizing **UnetStack** for embedded platforms, interfacing with new hardware, and developing robust drivers and communication protocols. If you enjoy working on low-level systems software, scripting, and enabling high-performance networking solutions in challenging environments, this is the role for you.
+We are looking for a skilled **Systems Software Engineer** with expertise in embedded Linux to drive the development and optimization of our underwater communication systems. Your primary responsibilities will include maintaining and customizing [UnetStack](https://unetstack.net/), our open software framework for underwater networking for embedded platforms, for embedded platforms, interfacing with new hardware, and developing robust drivers and communication protocols. If you enjoy working on low-level systems software, scripting, and enabling high-performance networking solutions in challenging environments, this is the role for you.
 
 **Key Responsibilities:**
 - **Embedded Linux Development & Integration:**
