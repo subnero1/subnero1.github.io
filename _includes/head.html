@@ -1,10 +1,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.section_id == 'products' %}Discover Subnero's advanced underwater acoustic smart modems for marine robotics, subsea sensors, and subsea networks. Explore product features, technical specifications, and application scenarios.{% elsif page.section_id == 'solutions' %}Explore Subnero's innovative solutions for marine robotics, underwater sensors and networks. Learn how our technology enables reliable subsea communication and data collection in challenging environments.{% elsif page.section_id == 'pulse' or page.section_id == 'blog' %}Read the latest news, articles, and updates from Subnero on underwater wireless technology, marine robotics, and industry trends. Stay informed with expert insights and company announcements.{% elsif page.section_id == 'about' %}Learn about Subnero, a leader in underwater wireless communication and marine technology. Meet our team, discover our mission, and see how we are shaping the future of ocean exploration and monitoring.{% elsif page.section_id == 'faq' %}Find answers to frequently asked questions about Subnero's products, solutions, and services. Get support and detailed information for customers and partners.{% elsif page.section_id == 'contact' %}Contact Subnero for product inquiries, support, or partnership opportunities. Our team is ready to assist you with your underwater communication and marine technology needs.{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}">
+  <meta name="keywords" content="underwater wireless, acoustic modem, acoustic smart modem, marine robotics, underwater sensors, Subnero, Singapore, in-water communication, underwater networking, ocean technology, smart modem, subsea modem">
   {% if site.categories != "" %}
   {% include tag.html %}
   {% endif %}
@@ -39,4 +40,45 @@
   {% if site.google_analytics %}
   {% include analytics.html %}
   {% endif %}
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.url }}/{{ site.default_image }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}/{{ site.default_image }}">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "{{ site.url }}",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "logo": "{{ site.url }}/images/subnero_logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/subnero/",
+      "https://twitter.com/subnero",
+      "https://facebook.com/subnero/",
+      "https://github.com/subnero1"
+    ]
+  }
+  </script>
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml" />
+  <link rel="robots" content="index, follow">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <meta name="author" content="Subnero">
+  <meta name="copyright" content="© Subnero Pte. Ltd. All rights reserved.">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+<meta http-equiv="Content-Language" content="en">
 </head>

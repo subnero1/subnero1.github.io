@@ -17,7 +17,7 @@ section_id: page
   <div class='row'>
     <div class='images'>
         {% for image in page.images %}
-        <div class='image'><img alt="" src="{{site.baseurl}}/{{image}}" /></div>
+        <div class='image'><img alt="{{ page.title }} image {{ forloop.index }}" src="{{site.baseurl}}/{{image}}" /></div>
         {% endfor %}
       </div>
       <div class='content'>
@@ -34,3 +34,12 @@ section_id: page
       </div>
   </div>
 </div>
+
+<!-- Social sharing buttons for blog posts and key pages -->
+{% if page.layout == "post" or page.layout == "default" or page.layout == "blog" %}
+<div class="social-share">
+  <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank" rel="noopener" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" rel="noopener" title="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
+</div>
+{% endif %}
