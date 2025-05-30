@@ -1,6 +1,6 @@
 # Site settings
 title: Subnero
-description: The future of underwater wireless.
+description: The future of underwater wireless. Subnero specializes in cutting-edge underwater communication solutions, offering reliable wireless subsea modems, smart networking software like UnetStack, and systems for oceanographic, defense, and industrial applications.
 url: "http://subnero1.github.io/"
 twitter_username: subnero
 github_username:  subnero1
@@ -16,3 +16,5 @@ highlighter: rouge
 
 # Google Analytics
 google_analytics: UA—130948711-1
+
+permalink: pretty
