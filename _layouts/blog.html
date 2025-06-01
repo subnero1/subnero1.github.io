@@ -52,4 +52,8 @@ layout: default
   </div>
 </div>
 
-<div class='image'><img alt="{{ page.title }} image {{ forloop.index }}" src="{{site.baseurl}}/{{image}}" /></div>
+{% if page.images %}
+  {% for image in page.images %}
+    <div class='image'><img alt="{{ page.title }} image {{ forloop.index }}" src="{{site.baseurl}}/{{image}}" /></div>
+  {% endfor %}
+{% endif %}
