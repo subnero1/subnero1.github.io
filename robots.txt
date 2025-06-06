@@ -1,4 +1,6 @@
-User-agent: *
-Disallow:
+---
+layout: none
+---
 
-Sitemap: https://subnero.com/sitemap.xml
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml
