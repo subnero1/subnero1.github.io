@@ -500,24 +500,24 @@ createApp( {
 
         //helper functions
         const datarate = (range, fc) => {
-            if(range < 1) return none;
+            if(range < 1) return null;
 
             if (fc == setupVars.MF) {
                 if(range < 11) return 5000;
                 if(range < 101) return 3000;
                 if(range < 1001) return 2000;
                 if(range < 2001) return 1000;
-                if(range >=2001) return none;
+                if(range >=2001) return null;
             }else if (fc == setupVars.HF) {
                 if(range < 11) return 25000;
                 if(range < 101) return 20000;
                 if(range < 501) return 5000;
-                if(range >= 501) return none;
+                if(range >= 501) return null;
             }
         }
 
         const txpower = (range, fc) =>  { 
-            if(range < 1) return none;
+            if(range < 1) return null;
 
             if (fc == setupVars.MF ) {
                 if(range < 101) {
