@@ -3,6 +3,7 @@ layout: default
 title:  Subnero Wireless Integrated Suite (SWIS)
 banner : images/hero-swis.jpg
 excerpt: A modular underwater operations platform that integrates communication, sensing, and automation for seamless subsea data collection.
+canonical: /products/swis-adcp/
 ---
 
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -86,7 +87,7 @@ excerpt: A modular underwater operations platform that integrates communication,
           <li>Seamless User Experience</li>
           <li>Cost Efficiency</li>
         </ul>
-        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/swis">Learn more about SWIS - ADCP Edition &#8594;</a></p>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/products/swis-adcp">Learn more about SWIS - ADCP Edition &#8594;</a></p>
       </div>
     </div>
   </div>

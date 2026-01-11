@@ -5,6 +5,7 @@ banner : images/banner-mechanical.jpg
 thumbnail: images/thumbnail-cables.png
 categories: accessories
 excerpt: Cables for Subnero underwater acoustic smart modems.
+canonical: /products/gen4x/cables/
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
