@@ -12,7 +12,19 @@
     "@type": "Brand",
     "name": "Subnero"
   },
-  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ site.url }}{{ site.baseurl }}/contact/",
+    "priceCurrency": "USD",
+    "price": "0",
+    "priceValidUntil": "{{ 'now' | date: '%Y' | plus: 1 }}-12-31",
+    "seller": {
+      "@type": "Organization",
+      "name": "Subnero"
+    }
+  }
 }
 </script>
 {% endif %}
