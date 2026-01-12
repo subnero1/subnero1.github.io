@@ -1,4 +1,4 @@
 ---
 layout: redirected
-redirect_to: /products/swis/
+redirect_to: /products/swis
 ---
