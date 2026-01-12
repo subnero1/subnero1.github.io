@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Subnero Wireless Networked Communications (WNC)
+title: Subnero WNC Series&#58; Smart Underwater Acoustic Modems
 banner : images/hero-wnc.jpg
 thumbnail: images/boxart-modem.png
+description: Explore the WNC series of software-defined smart modems. Offering long-range (10km+) and high-speed (33kbps) underwater connectivity for AUV, USV, and defense applications.
 excerpt: Subnero Wireless Networked Communications series of products comprising of software defined underwater acoustic smart modems
 categories: wnc
 section_id: products

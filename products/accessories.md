@@ -5,7 +5,7 @@ banner : images/banner-accessories.jpg
 thumbnail: images/thumbnail-accessories.png
 categories: product-type
 section_id: products
-excerpt: Optional upgrades and accessories for Subnero underwater modems.
+excerpt: Optional upgrades and accessories for Subnero's software-defined underwater smart modems.
 tab-id: panel-four
 order: 3
 ---

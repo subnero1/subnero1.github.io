@@ -12,7 +12,7 @@ section_id: products
     <div class="hero-text">
       <h4 class="g4x-tag">OEM Development Platform</h4>
       <h1><span class="text-gradient g-violet">U</span>net<span class="text-gradient g-violet">C</span>ube</h1>
-      <p>An embedded platform for building your own underwater modems and hybrid communication nodes.</p>
+      <p>An embedded platform for building your own underwater smart modems and hybrid communication nodes.</p>
       <div class="g4x-hero-btns ucube">
         {%- include formRequestQuote.html -%}
       </div>
