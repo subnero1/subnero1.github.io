@@ -36,7 +36,7 @@ canonical: /products/gen4x/co-processors/
         </div>
         <div class='accessories-info'>
             <h1>nVidia Jetson TX2</h1>
-            <h3>Additional processing module for Subnero underwater modems</h3>
+            <h3>Additional processing module for Subnero underwater smart modems</h3>
             <ul>
               <li>256-core nVIDIA Pascal™ GPU architecture with 256 nVIDIA CUDA cores</li>
               <li>Dual-Core nVIDIA Denver 2 64-Bit CPU</li>

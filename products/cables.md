@@ -36,7 +36,7 @@ canonical: /products/gen4x/cables/
         </div>
         <div class='accessories-info'>
             <h1>Underwater Cables</h1>
-            <h3>Additional cables for Subnero underwater modems</h3>
+            <h3>Additional cables for Subnero underwater smart modems</h3>
             <ul>
               <li>Multiple connectivity and power options</li>
             </ul>
