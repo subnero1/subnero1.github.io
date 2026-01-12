@@ -16,7 +16,6 @@ headerTag: Support
   </div>
 </section>
 
-<!-- key capabilities -->
 <section class="g4x-section support" style="background-color: #F8FAFC;">
   <div class="row large py2">
     <div class="feature-grid col4">
