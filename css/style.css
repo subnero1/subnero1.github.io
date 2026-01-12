@@ -2165,7 +2165,6 @@ p.small-title {
   margin: 0;
 }
 
-
 .pulse-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
@@ -2176,9 +2175,9 @@ p.small-title {
   display: flex;
   flex-direction: column;
   padding: 1.6rem;
-  background-color: #f8fdff;
+  background-color: #fff;
   border-radius: 8px;
-  border: 1px solid #ddeeff;
+  border: 1px solid #E2E8F0;
   transition: all 0.4s;
 }
 .pulse-card:hover {
@@ -5995,10 +5994,10 @@ a.usecase-card:hover {
   border-radius: 6px;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #E2E8F0;
 }
 .tech-link:hover {
-  box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .tech-link:hover h4 {
   color: #E6782F;
@@ -6612,6 +6611,11 @@ a.usecase-card:hover {
 .support .docs-card {
   flex-direction: column;
   background-color: #fff;
+  transition: all 0.4s;
+}
+.support .docs-card:hover {
+  border: 1px solid #E2E8F0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .support ul {
   list-style-type: none;
