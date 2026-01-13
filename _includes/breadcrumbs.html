@@ -13,7 +13,7 @@
       {% assign current_path = current_path | append: '/' | append: crumb %}
       {% if forloop.last %}
         <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <span itemprop="name">{{ page.title }}</span>
+          <span itemprop="name">{{ page.breadcrumb | default: page.title }}</span>
           <meta itemprop="position" content="{{ position }}" />
         </li>
       {% else %}

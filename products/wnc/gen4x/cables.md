@@ -1,7 +1,9 @@
 ---
 layout: default
+breadcrumb: Subsea Cables
 ---
 
+{% include breadcrumbs.html %}
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">

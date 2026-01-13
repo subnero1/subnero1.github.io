@@ -326,10 +326,14 @@ form input.error, form textarea.error {
   margin-bottom: 30px;
 }
 .breadcrumbs-row {
-  
+  max-width: 90rem;
+  margin: 0 auto;
 }
 .breadcrumbs-row .breadcrumbs {
-  
+  margin: 0;
+  padding: 1rem 0.6rem 0.6rem;
+  background-color: transparent;
+  border: none;
 }
 /*Pager */
 .pager {

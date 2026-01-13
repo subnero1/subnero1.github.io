@@ -2,7 +2,10 @@
 layout: default
 title: Gen4x Product Range
 banner: images/banner-products.jpg
+breadcrumb: Gen4x
 ---
+
+{% include breadcrumbs.html %}
 
 {% assign sorted_items = site.gen4x | sort: 'order' %}
 {% for item in sorted_items %}

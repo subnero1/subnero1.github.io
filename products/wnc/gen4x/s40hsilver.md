@@ -1,7 +1,9 @@
 ---
 layout: default
+breadcrumb: S40H Silver
 ---
 
+{% include breadcrumbs.html %}
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">

@@ -1,7 +1,9 @@
 ---
 layout: default
+breadcrumb: M25M Platinum
 ---
 
+{% include breadcrumbs.html %}
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">
