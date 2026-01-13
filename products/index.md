@@ -107,14 +107,14 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
             <p>A flexible, media-agnostic stack supporting acoustic, optical, and RF links under one unified framework.</p>
           </div>
         </a>
-        <a class="card-unet-eco usim" href="{{site.baseurl}}/products/unet.html">
+        <a class="card-unet-eco usim" href="{{site.baseurl}}/products/unetstack/">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
           </div>
           <h4>Simulation Tools</h4>
           <p>Design, simulate, test, and deploy with UnetSim, HIL simulation, and UnetCube for full lifecycle development.</p>
         </a>
-        <a class="card-unet-eco ucube" href="{{site.baseurl}}/products/unet.html">
+        <a class="card-unet-eco ucube" href="{{site.baseurl}}/products/unetstack/">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
           </div>

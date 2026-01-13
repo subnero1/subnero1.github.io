@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-hf.jpg
 
 <div class="post-main" markdown="1">
 
-*Singapore, March 11, 2024* – Subnero Pte. Ltd., a leading provider of underwater communication solutions headquartered in Singapore, proudly announces the launch of its latest innovation, the [S40H series](/products/wnc/gen4x/s40h){:target="_blank"} of high-speed acoustic smart modems, marking a significant advancement in wireless networked communication ([WNC](/products/wnc.html){:target="_blank"}) technology.
+*Singapore, March 11, 2024* – Subnero Pte. Ltd., a leading provider of underwater communication solutions headquartered in Singapore, proudly announces the launch of its latest innovation, the [S40H series](/products/wnc/gen4x/s40hsilver){:target="_blank"} of high-speed acoustic smart modems, marking a significant advancement in wireless networked communication ([WNC](/products/wnc/){:target="_blank"}) technology.
 
 ![Subnero S40H series high-speed acoustic smart modems]({{site.baseurl}}/images/pulse-hf-pr.jpg)
 *Subnero S40H series high-speed acoustic smart modems*
@@ -21,7 +21,7 @@ Designed to excel in challenging shallow water conditions, the S40H series intro
 - **Extended Range:** Providing connectivity of up to 1 km, this series offers a competitive range in challenging conditions to enable your short-range deployments.
 - **Versatile Applications:** Equipped with advanced underwater communication algorithms, the S40H series unlocks a myriad of possibilities, including high-speed data transfer for underwater IoT applications, underwater image transfer, and large sensor payload data transfer for marine robotics.
 - **Enhanced Capability:** The [multi-receiver variant](/products/wnc/gen4x/multi-receiver.html){:target="_blank"} of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
-- **Powered by UnetStack:** Leveraging [UnetStack](/products/unet.html){:target="_blank"}, a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
+- **Powered by UnetStack:** Leveraging [UnetStack](/products/unetstack/){:target="_blank"}, a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
 - **Class-Leading Performance:** Combining a software-defined open architecture design with edge computing capability and machine learning-based link tuning features, these modems set a new standard for performance in the subsea wireless industry.
 
 

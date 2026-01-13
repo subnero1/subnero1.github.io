@@ -153,7 +153,7 @@ layout: default
           <tbody>
             <tr>
               <td>Framework</td>
-              <td><a href="{{site.baseurl}}/products/unet.html">UnetStack</a></td>
+              <td><a href="{{site.baseurl}}/products/unetstack/">UnetStack</a></td>
             </tr>
             <tr>
               <td>User Interface</td>

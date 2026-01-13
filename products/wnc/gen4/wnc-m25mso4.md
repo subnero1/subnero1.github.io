@@ -107,7 +107,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/products/wnc.html" target="_blank">WNC Product Series</a>
+      <a href="{{site.baseurl}}/products/wnc/" target="_blank">WNC Product Series</a>
     </div>
   </div>
 </div>

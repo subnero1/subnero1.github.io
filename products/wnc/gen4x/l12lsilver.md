@@ -126,7 +126,7 @@ layout: default
         </div>
         <h3>Useful Links</h3>
         <div class="useful-links">
-          <a href="{{site.baseurl}}/products/wnc.html">WNC Product Series</a>
+          <a href="{{site.baseurl}}/products/wnc/">WNC Product Series</a>
         </div>
       </div>
       <div class="large-8 columns">

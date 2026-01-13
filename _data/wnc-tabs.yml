@@ -17,7 +17,7 @@
   id: wnc-tab-two
   input_id: underwater-sensors
   thumbnail: images/swis-WNC.jpg
-  introduction: Ease of use, integration ready and support for multiple sensors are some of the advantages of <a target="_blank" href='/products/swis-adcp' class='orange'>Subnero Wireless Integrated Suite (SWIS)</a>.
+  introduction: Ease of use, integration ready and support for multiple sensors are some of the advantages of <a target="_blank" href='/products/swis/swis-adcp' class='orange'>Subnero Wireless Integrated Suite (SWIS)</a>.
   sections:
     - name: Plug and Play
       icon: plug
