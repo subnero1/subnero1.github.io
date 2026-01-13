@@ -5,7 +5,7 @@ banner : images/banner-electrical.jpg
 thumbnail: images/thumbnail-storage.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic smart modems.
-canonical: /products/gen4x/storage/
+canonical: /products/wnc/gen4x/storage/
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -58,13 +58,13 @@ canonical: /products/gen4x/storage/
         <label class='lbl-toggle' for='compatibility'></label>
         <div class='collapsible-content'>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mse4">Silver Edition OEM Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mse4">Silver Edition OEM Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Receiver Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4+xch">Silver Edition Multi-Receiver Configuration Modem</a>
           </div>
         </div>
       </div>

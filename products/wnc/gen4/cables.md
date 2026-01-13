@@ -5,7 +5,7 @@ banner : images/banner-mechanical.jpg
 thumbnail: images/thumbnail-cables.png
 categories: accessories
 excerpt: Cables for Subnero underwater acoustic smart modems.
-canonical: /products/gen4x/cables/
+canonical: /products/wnc/gen4x/cables/
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -69,13 +69,13 @@ canonical: /products/gen4x/cables/
             <td>W-60T01-05<br>W-60T01-10<br>W-60T01-25<br>W-60T01-30</td>
             <td>Underwater cable, 5 m<br>Underwater cable, 10 m<br>Underwater cable, 25 m<br>Underwater cable, 30 m</td>
             <td>Power, Ethernet</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
           <tr>
             <td>W-64T03-05<br>W-64T03-10<br>W-64T03-15</td>
             <td>Underwater cable, 5 m<br>Underwater cable, 10 m<br>Underwater cable, 15 m</td>
             <td>Power, Ethernet, RS232</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>

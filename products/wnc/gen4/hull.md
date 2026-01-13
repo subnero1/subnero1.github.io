@@ -5,7 +5,7 @@ banner : images/banner-mechanical.jpg
 thumbnail: images/thumbnail-hull.png
 categories: accessories
 excerpt: Additional hull options for Subnero underwater acoustic smart modems.
-canonical: /products/gen4x/hull-options/
+canonical: /products/wnc/gen4x/hull-options/
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -68,17 +68,17 @@ canonical: /products/gen4x/hull-options/
           <tr>
             <td>Aluminum</td>
             <td>300 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a><br><a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Receiver Configuration Modem</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration</a><br><a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4+xch">Silver Edition Multi-Receiver Configuration Modem</a></td>
           </tr>
           <tr>
             <td>Stainless Steel</td>
             <td>2000 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
           <tr>
             <td>Titanium</td>
             <td>4000 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>

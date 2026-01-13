@@ -27,8 +27,8 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
-- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
-- Support for [multiple receiving channels]({{site.baseurl}}/products/wnc-s40hss4+xch.html) for a variety of applications.
+- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}).
+- Support for [multiple receiving channels]({{site.baseurl}}/products/wnc/gen4/wnc-s40hss4+xch.html) for a variety of applications.
 
 \* Depending on channel conditions and reliability requirements.
 
@@ -64,7 +64,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unet.md %})|
+| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %})|
 | User Interface                         | Interactive web UI                        |
 | Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 
@@ -86,7 +86,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 | Dimensions                             | ⌀ 127 ✕ 316 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 
-\* Upgrades available. [Learn More]({{site.baseurl}}/products/modem.html?&section=Accessories).
+\* Upgrades available. [Learn More]({{site.baseurl}}/products/wnc/gen4/modem.html?&section=Accessories).
 
 </div>
 </div>

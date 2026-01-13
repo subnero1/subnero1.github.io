@@ -69,7 +69,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <h5 class="g4x-tag">Product Series</h5>
     <h2 class="sec-head text-gradient g-orange">Wireless Networked Communications</h2>
     <p class="sec-subhead">Subnero’s Wireless Networked Communications (WNC) product series consists of acoustic smart modems and the UnetStack software ecosystem, supporting a wide range of subsea communication needs.</p>
-    <a href="{{site.baseurl}}/products/wnc.html" class="button g-orange-btn mt1 rounded-sm anim">Learn more about WNC &rarr;</a>
+    <a href="{{site.baseurl}}/products/wnc/" class="button g-orange-btn mt1 rounded-sm anim">Learn more about WNC &rarr;</a>
   </div>
 </section>
 
@@ -94,11 +94,11 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <div class="columns large-6">
       <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
       <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>
-      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet.html" target="_blank">Learn more about UnetStack &rarr;</a>
+      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unetstack" target="_blank">Learn more about UnetStack &rarr;</a>
     </div>
     <div class="columns large-6">
       <div class="feature-grid col2">
-        <a class="card-unet-eco uframe col-span2" href="{{site.baseurl}}/products/unet.html">
+        <a class="card-unet-eco uframe col-span2" href="{{site.baseurl}}/products/unetstack/">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
           </div>

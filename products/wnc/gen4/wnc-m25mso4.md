@@ -1,8 +1,8 @@
 ---
 layout: page
-title: WNC-L12LSO4
-banner : images/banner-silver-lf.jpg
-thumbnail : images/thumbnail-wnc-l12lso4.png
+title: WNC-M25MSO4
+banner : images/banner-silver-mf.jpg
+thumbnail : images/thumbnail-wnc-m25mso4.png
 excerpt: Subnero silver edition of underwater acoustic smart modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
@@ -10,25 +10,17 @@ section_id: products
 
 ## Silver Edition OEM Configuration Modem
 
-Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the L12L series of acoustic smart modems are designed for long-range subsea wireless communications in challenging environments. With features like an ultra-low power deep sleep state consuming less than 1 mW, precise localization and ranging, and arbitrary waveform transmission and recording capabilities, these modems are optimized for high-efficiency underwater operations.
-
-## Applications
-
-- Long-range operations in shallow waters
-- Communication and tracking of AUVs
-- Coastal area networks
-- Long term monitoring of subsea sensors and networks
+Subnero's silver edition underwater smart modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
 ## Key Features
 
-- More than 10 km communication range in tropical waters\*.
-- Up to 8 kbps data rate\*.
-- Support for NATO JANUS standard
+- Up to 15 kbps data rate\*.
+- Up to 5 km communication range (horizontal & vertical) in tropical waters.
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
-- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
+- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}).
 
 \* Depending on channel conditions and reliability requirements.
 
@@ -37,10 +29,10 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="Subnero L12L Series Modem OEM Configuration" src="{{site.baseurl}}/images/boxart-wnc-s40hso4.png"/>
+    <img class = "align-self-start mr-3" alt="Subnero WNC-M25MSO4 OEM Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mso4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
-        <p>The OEM configuration (OC) streamlines integration and enhances adaptability, rendering it an ideal choice for seamless integration into subsea platforms like AUVs, ROVs, and sensor systems. Furthermore, it offers a pressure hull option specifically designed for free-flooded platforms, ensuring comprehensive compatibility across diverse marine environments.</p>
+        <p>The OEM configuration (OC) is tailored to facilitate seamless integration and adaptability, making it a top pick for incorporation into larger platforms, such as AUVs, ROVs, and sensors. Additionally, for free flooded platforms, it comes equipped with a pressure hull option.</p>
     </div>
   </div>
 </div>
@@ -59,13 +51,14 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 | -------------------------------------- | ----------------------------------------- |
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | LDPC, BCH, Convolution code               |
-| Bandwidth                              | 7 kHz (9 - 16 kHz)                        |
+| JANUS support                          | Yes, subject to operating frequency band  |
+| Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
 ### Software
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unet.md %})|
+| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %})|
 | User Interface                         | Interactive web UI                        |
 | Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 
@@ -86,7 +79,7 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 | Dimensions                             | ⌀ 100 ✕ 132 mm                            |
 | Operating temperature                  | 0 to 70 °C (Electronics), 0 to 40 °C (Transducer)|
 
-\* Upgrades available. [Learn More]({{site.baseurl}}/products/modem.html?&section=Accessories).
+\* Upgrades available. [Learn More]({{site.baseurl}}/products/wnc/gen4/modem.html?&section=Accessories).
 
 
 </div>
@@ -98,8 +91,8 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem7.jpg" alt="Subnero L12L Underwater Modems"></a>
-      <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">Subnero L12L Underwater Modems</a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg" alt="Subnero M25M Underwater Modems"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
     </div>
     <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg" alt="Generation 4 WNC Product Series Brief"></a>

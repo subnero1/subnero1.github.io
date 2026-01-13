@@ -2,7 +2,7 @@
   id: wnc-tab-one
   input_id: marine-robotics
   thumbnail: images/wnc-mr02.jpg
-  introduction: Offload the complexities of managing multiple communication interfaces, data types (e.g. telemetry, C2, payload), and attributes in your underwater vehicle to <a target="_blank" href='/products/unet' class='orange'>UnetStack</a>.
+  introduction: Offload the complexities of managing multiple communication interfaces, data types (e.g. telemetry, C2, payload), and attributes in your underwater vehicle to <a target="_blank" href='/products/unetstack/' class='orange'>UnetStack</a>.
   sections:
     - name: Single interface
       icon: link

@@ -30,7 +30,7 @@ Subnero is proud to announce the release of the L12L series, a cutting-edge addi
 - Doppler resilience of ±4 knots or better
 - Support for both coherent and incoherent communication schemes
 - Arbitrary signal transmission and recording (passband, baseband)
-- User-defined communication schemes supported through [UnetStack]({{ site.baseurl }}{%link products/unet.md %})
+- User-defined communication schemes supported through [UnetStack]({{ site.baseurl }}/products/unetstack/)
 
 <sup>*</sup>_Actual performance depends on channel conditions and reliability requirements._
 

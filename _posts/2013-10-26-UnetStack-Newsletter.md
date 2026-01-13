@@ -26,7 +26,7 @@ The extensible underwater stack implementation (UnetStack) & related documentati
  
 ### UnetStack-conformant software-defined modem now available
 
-A modem implementation of UnetStack is now available to unleash the full abilities of the stack in field deployments. The [Subnero Underwater Modem](https://subnero.com/products/#smart-modems){:target="_blank"} (formerly known as the UNET-2 modem) is designed with flexibility and sensibility as basic design objectives, addressing commonly faced constraints with technologies available thus far. 
+A modem implementation of UnetStack is now available to unleash the full abilities of the stack in field deployments. The [Subnero Underwater Modem]({{ site.baseurl }}/products/#smart-modems){:target="_blank"} (formerly known as the UNET-2 modem) is designed with flexibility and sensibility as basic design objectives, addressing commonly faced constraints with technologies available thus far. 
  
 Sea trials and deployment experience have repeatedly proven outstanding performance, including in extremely challenging underwater acoustic conditions. The modem is provided by Subnero: for further information, visit [www.subnero.com](https://subnero.com){:target="_blank"}.
  

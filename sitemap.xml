@@ -37,7 +37,7 @@ layout: null
   
   <!-- Gen4x Pages -->
   {% for page in site.pages %}
-    {% if page.url contains '/products/gen4x/' and page.sitemap != false %}
+    {% if page.url contains '/products/wnc/gen4x/' and page.sitemap != false %}
       <url>
         <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
         <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
