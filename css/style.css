@@ -7514,6 +7514,12 @@ a.usecase-card:hover {
   border-top: none;
 }
 /* 404 page */
+.page-hero.page404 {
+  background-position: center top;
+}
+.page-hero.gen4x.page404::before {
+  background: linear-gradient(to right, rgb(44 93 128 / 86%), rgb(29 100 129 / 30%));
+}
 .page-hero.page404 .hero-text {
   max-width: 620px;
   margin: 0 auto;
