@@ -94,11 +94,11 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <div class="columns large-6">
       <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
       <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>
-      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unetstack" target="_blank">Learn more about UnetStack &rarr;</a>
+      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/wnc/unetstack" target="_blank">Learn more about UnetStack &rarr;</a>
     </div>
     <div class="columns large-6">
       <div class="feature-grid col2">
-        <a class="card-unet-eco uframe col-span2" href="{{site.baseurl}}/products/unetstack/">
+        <a class="card-unet-eco uframe col-span2" href="{{site.baseurl}}/products/wnc/unetstack/">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
           </div>
@@ -107,14 +107,14 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
             <p>A flexible, media-agnostic stack supporting acoustic, optical, and RF links under one unified framework.</p>
           </div>
         </a>
-        <a class="card-unet-eco usim" href="{{site.baseurl}}/products/unetstack/">
+        <a class="card-unet-eco usim" href="{{site.baseurl}}/products/wnc/unetstack/">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
           </div>
           <h4>Simulation Tools</h4>
           <p>Design, simulate, test, and deploy with UnetSim, HIL simulation, and UnetCube for full lifecycle development.</p>
         </a>
-        <a class="card-unet-eco ucube" href="{{site.baseurl}}/products/unetstack/">
+        <a class="card-unet-eco ucube" href="{{site.baseurl}}/products/wnc/unetstack/">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
           </div>

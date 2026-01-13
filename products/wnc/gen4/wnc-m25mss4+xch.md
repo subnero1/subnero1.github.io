@@ -18,7 +18,7 @@ Subnero's multi-receiver smart modems utilize advanced spatial diversity combini
 - 2x communication performance as compared to the [single channel]({{site.baseurl}}/products/wnc/gen4/wnc-m25mss4.html) equivalents.
 - Ability to choose between 1 - 4 additional receiving channels.
 - Access to raw signals from all receiving channels.
-- Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}). Examples are:
+- Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %}). Examples are:
   - Rapid environmental assessment.
   - Diversity combining techniques to enhance communication performance.
   - Positioning applications (e.g. USBL).

@@ -11,7 +11,7 @@ thumbnail: images/pulse-thumbnail-unet.jpg
 
 > A paper presented during the 5th International Conference on Computing, Communication and Security (ICCCS), on developing a residual energy model framework using UnetStack
 
-Authored by Dr. B. R. Chandavarkar, Akhilraj V. Gadagkar from National Institute of Technology Karnataka, India, the paper titled "__A Framework for Residual Energy Model in UnetStack Simulator for Underwater Sensor Networks_", looks at integrating residual energy model into [UnetStack]({{ site.baseurl }}/products/unetstack/){:target="_blank"} to provide a way for researchers to incorporate energy considerations while designing and simulating underwater protocols.
+Authored by Dr. B. R. Chandavarkar, Akhilraj V. Gadagkar from National Institute of Technology Karnataka, India, the paper titled "__A Framework for Residual Energy Model in UnetStack Simulator for Underwater Sensor Networks_", looks at integrating residual energy model into [UnetStack]({{ site.baseurl }}/products/wnc/unetstack/){:target="_blank"} to provide a way for researchers to incorporate energy considerations while designing and simulating underwater protocols.
 
 The paper starts by stating some of the challenges specific to Underwater Acoustic Sensor Networks (UASNs), one of which is limitation of deployment lifetime since these networks are primarily battery operated. This points to the importance of energy planning while designing protocols. Once such protocols are designed, simulating them is a key step in understanding the performance of such protocols. The authors then look at various simulation tools such as UnetStack, Aqua-Sim, DESERT & SUNSET and concludes that UnetStack is the most versatile among these.
 

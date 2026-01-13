@@ -113,7 +113,7 @@ section_id: products
             <li><span class="text-blue">&#9679;</span> System Integration</li>
           </ul> 
         </div>
-        <a class="button g-blue mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/products/unetstack/unetsim">Learn More <span>&rarr;</span></a>
+        <a class="button g-blue mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/products/wnc/unetstack/unetsim">Learn More <span>&rarr;</span></a>
       </div>
       <div class="unet-card hil text-acqua">
         <div class="card-svg">
@@ -135,7 +135,7 @@ section_id: products
             <li><span class="text-acqua">&#9679;</span> Physical Layer Development</li>
           </ul> 
         </div>
-        <a class="button g-acqua mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/products/unetstack/hilsim">Learn More <span>&rarr;</span></a>
+        <a class="button g-acqua mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/products/wnc/unetstack/hilsim">Learn More <span>&rarr;</span></a>
       </div>
         <div class="unet-card oem text-violet">
         <div class="card-svg">
@@ -157,7 +157,7 @@ section_id: products
               <li><span class="text-violet">&#9679;</span> Subsea Network Controller</li>
             </ul>
           </div>
-          <a class="button g-violet mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/products/unetstack/unetcube">Learn More <span>&rarr;</span></a>
+          <a class="button g-violet mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/products/wnc/unetstack/unetcube">Learn More <span>&rarr;</span></a>
         </div>
     </div>
   </div>

@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-unetstack4.jpg
 
 <div class="post-main" markdown="1">
 
-We are excited to announce the release of our latest whitepaper, "[Unlocking Underwater Connectivity: Exploring UnetStack Framework for Subsea Communications and Networking](https://subnero.com/brochures/unlocking-underwater-connectivity.pdf){:target="_blank"}." This comprehensive document delves into the innovative technologies and solutions offered by [UnetStack](/products/unetstack/){:target="_blank"}, our cutting-edge software framework designed to drive advancements in underwater communication and networking. From its inception to its various editions and licensing information, the whitepaper provides invaluable insights into how UnetStack is revolutionizing the way we understand and navigate the underwater world. Dive deeper into the world of underwater communication with UnetStack by downloading the whitepaper today!
+We are excited to announce the release of our latest whitepaper, "[Unlocking Underwater Connectivity: Exploring UnetStack Framework for Subsea Communications and Networking](https://subnero.com/brochures/unlocking-underwater-connectivity.pdf){:target="_blank"}." This comprehensive document delves into the innovative technologies and solutions offered by [UnetStack](/products/wnc/unetstack/){:target="_blank"}, our cutting-edge software framework designed to drive advancements in underwater communication and networking. From its inception to its various editions and licensing information, the whitepaper provides invaluable insights into how UnetStack is revolutionizing the way we understand and navigate the underwater world. Dive deeper into the world of underwater communication with UnetStack by downloading the whitepaper today!
 
 </div>
 

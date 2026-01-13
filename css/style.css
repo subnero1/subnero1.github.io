@@ -325,7 +325,12 @@ form input.error, form textarea.error {
   border: 1px solid #f00;
   margin-bottom: 30px;
 }
-
+.breadcrumbs-row {
+  
+}
+.breadcrumbs-row .breadcrumbs {
+  
+}
 /*Pager */
 .pager {
   width: 97%;

@@ -31,7 +31,7 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
 - 2x communication performance as compared to the [single channel]({{site.baseurl}}/products/wnc/gen4/wnc-s40hss4.html) equivalents.
 - Ability to choose between 1 - 3 additional receiving channels.
 - Access to raw signals from all receiving channels.
-- Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}).
+- Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %}).
 
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 

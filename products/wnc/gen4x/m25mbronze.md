@@ -170,7 +170,7 @@ layout: default
           <tbody>
             <tr>
               <td>Software framework</td>
-              <td><a href="{{site.baseurl}}/products/unetstack/">UnetStack</a></td>
+              <td><a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a></td>
             </tr>
             <tr>
               <td>Software interface</td>

@@ -28,7 +28,7 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
-- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}).
+- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %}).
 
 \* Depending on channel conditions and reliability requirements.
 
@@ -64,7 +64,7 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Framework                              | [UnetStack]({{ site.baseurl }}/products/unetstack/)|
+| Framework                              | [UnetStack]({{ site.baseurl }}/products/wnc/unetstack/)|
 | User Interface                         | Interactive web UI                        |
 | Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 

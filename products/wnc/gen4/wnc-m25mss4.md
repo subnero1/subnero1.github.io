@@ -20,7 +20,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
-- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}).
+- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %}).
 - Support for [multiple receiving channels]({{site.baseurl}}/products/wnc/gen4/wnc-m25mss4+xch.html) for a variety of applications.
 
 \* Depending on channel conditions and reliability requirements.
@@ -58,7 +58,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %})|
+| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %})|
 | User Interface                         | Interactive web UI                        |
 | Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 

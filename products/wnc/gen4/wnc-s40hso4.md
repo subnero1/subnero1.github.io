@@ -27,7 +27,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
-- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %}).
+- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %}).
 
 \* Depending on channel conditions and reliability requirements.
 
@@ -64,7 +64,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unetstack/index.md %})|
+| Framework                              | [UnetStack]({{ site.baseurl }}{%link products/wnc/unetstack/index.md %})|
 | User Interface                         | Interactive web UI                        |
 | Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 

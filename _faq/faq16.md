@@ -12,5 +12,5 @@ UnetStack is available in three editions:
 - Commercial Edition: Same as Community Edition, but with a license for commercial use.
 - OEM Edition: Pre-installed on Subnero modems, tailored for integrated use. Also available as part of UnetCube.
 
-For detailed information about the various editions and their applications, refer to the [UnetStack page](https://subnero.com/products/unetstack/) or [whitepaper](https://subnero.com/brochures/unlocking-underwater-connectivity.pdf).
+For detailed information about the various editions and their applications, refer to the [UnetStack page](https://subnero.com/products/wnc/unetstack/) or [whitepaper](https://subnero.com/brochures/unlocking-underwater-connectivity.pdf).
 
