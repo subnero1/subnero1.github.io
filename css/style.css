@@ -6630,11 +6630,6 @@ a.usecase-card:hover {
   padding-left: 1rem;
   border-left: 2px solid #ededed;
 }
-.return-home a {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
 .full-column {
   display: grid;
   grid-template-columns: 1fr 0.6fr;
@@ -7523,6 +7518,9 @@ a.usecase-card:hover {
   max-width: 620px;
   margin: 0 auto;
   text-align: center;
+}
+.page-hero.page404 .g4x-hero-btns {
+  justify-content: center;
 }
 
 @media (min-width: 1593px){
