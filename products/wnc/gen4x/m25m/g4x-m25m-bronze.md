@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: S1000-N
+breadcrumb: Bronze
 ---
 
 {% include breadcrumbs.html %}

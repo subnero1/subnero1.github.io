@@ -22,17 +22,24 @@ canonical: /products/wnc/gen4x/hull-options/
   <div class='row'>
       <div class='accessories'>
         <div class='accessories-img'>
-            <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Options">
-            </div>
-            <div class='modGallery'>
-              <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Option - Stainless Steel"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero Modem Hull Option - Titanium"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero Modem Hull Option - Aluminum"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero Modem Hull Option - Aluminum"></a></div>
+          <!-- slider -->
+          <div class="product-images">
+            <div class="main-slider">
+              <div class="slider-track">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Option - Stainless Steel">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero Modem Hull Option - Titanium">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero Modem Hull Option - Aluminum">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero Modem Hull Option - Aluminum">
               </div>
             </div>
+            <div class="thumbs">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Option - Stainless Steel">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero Modem Hull Option - Titanium">
+              <img data-index="2" src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero Modem Hull Option - Aluminum">
+              <img data-index="3" src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero Modem Hull Option - Aluminum">
+            </div>
+          </div>
+          <!-- ./slider -->
         </div>
         <div class='accessories-info'>
             <h1>Hull Options</h1>
@@ -41,7 +48,9 @@ canonical: /products/wnc/gen4x/hull-options/
               <li>Supported depths: 300 m, 2000 m, 4000 m</li>
               <li>Supported materials: Aluminum, Stainless Steel, Titanium</li>
             </ul>
-            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+            <div class="quote-row">
+              {%- include formRequestQuote.html -%}
+            </div>
         </div>
       </div>
       <hr>
@@ -85,4 +94,4 @@ canonical: /products/wnc/gen4x/hull-options/
     </div>
   </div>
 </div>
-{%- include display.html -%}
+{%- include imageViewer.html -%}

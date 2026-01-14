@@ -31,7 +31,9 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 
 \* Depending on channel conditions and reliability requirements.
 
-<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+<div class="quote-row">
+{%- include formRequestQuote.html -%}
+</div>
 
 <div class='full' style='background: #f5f5f5'>
 

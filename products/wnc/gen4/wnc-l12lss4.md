@@ -32,7 +32,9 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 
 \* Depending on channel conditions and reliability requirements.
 
-<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+<div class="quote-row">
+{%- include formRequestQuote.html -%}
+</div>
 
 <div class='full' style='background: #f5f5f5'>
 

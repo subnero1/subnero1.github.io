@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: L12L Silver
+breadcrumb: Silver
 ---
 {% include breadcrumbs.html %}
 <div class="product-details">

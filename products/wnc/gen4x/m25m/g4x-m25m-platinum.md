@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: M25M Platinum
+breadcrumb: Platinum
 ---
 
 {% include breadcrumbs.html %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: M25M Silver
+breadcrumb: Silver
 ---
 
 {% include breadcrumbs.html %}

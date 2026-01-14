@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: S40H Silver
+breadcrumb: Silver
 ---
 
 {% include breadcrumbs.html %}

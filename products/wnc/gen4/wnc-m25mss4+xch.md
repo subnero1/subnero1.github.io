@@ -23,7 +23,9 @@ Subnero's multi-receiver smart modems utilize advanced spatial diversity combini
   - Diversity combining techniques to enhance communication performance.
   - Positioning applications (e.g. USBL).
 
-<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+<div class="quote-row">
+{%- include formRequestQuote.html -%}
+</div>
 
 <div id="embedded"></div>
 <div class='full' style='background: #f5f5f5'>

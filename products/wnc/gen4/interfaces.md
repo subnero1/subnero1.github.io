@@ -21,17 +21,24 @@ excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
   <div class='row'>
       <div class='accessories'>
         <div class='accessories-img'>
-            <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Additional interfaces for Subnero underwater modems">
-            </div>
-            <div class='modGallery'>
-              <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Additional interfaces for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Additional interfaces for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="Additional interfaces for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="Additional interfaces for Subnero underwater modems"></a></div>
+          <!-- slider -->
+          <div class="product-images">
+            <div class="main-slider">
+              <div class="slider-track">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Additional interfaces for Subnero underwater modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Additional interfaces for Subnero underwater modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="Additional interfaces for Subnero underwater modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="Additional interfaces for Subnero underwater modems">
               </div>
             </div>
+            <div class="thumbs">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Additional interfaces for Subnero underwater modems">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Additional interfaces for Subnero underwater modems">
+              <img data-index="2" src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="Additional interfaces for Subnero underwater modems">
+              <img data-index="3" src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="Additional interfaces for Subnero underwater modems">
+            </div>
+          </div>
+          <!-- ./slider -->
         </div>
         <div class='accessories-info'>
             <h1>Interfaces</h1>
@@ -40,7 +47,9 @@ excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
               <li>RS232</li>
               <li>Support for up to 115200 bps</li>
             </ul>
-            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+            <div class="quote-row">
+              {%- include formRequestQuote.html -%}
+            </div>
         </div>
       </div>
       <hr>
@@ -68,4 +77,4 @@ excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
       </div>
   </div>
 </div>
-{%- include display.html -%}
+{%- include imageViewer.html -%}

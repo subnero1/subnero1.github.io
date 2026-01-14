@@ -22,17 +22,24 @@ canonical: /products/wnc/gen4x/co-processors/
   <div class='row'>
       <div class='accessories'>
         <div class='accessories-img'>
-            <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-coprocessor01.jpg' alt="Subnero Modem Co-processor Module">
-            </div>
-            <div class='modGallery'>
-              <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor01.jpg' alt="Subnero Modem Co-processor Module - View 1"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor02.jpg' alt="Subnero Modem Co-processor Module - View 2"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor03.jpg' alt="Subnero Modem Co-processor Module - View 3"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor04.jpg' alt="Subnero Modem Co-processor Module - View 4"></a></div>
+          <!-- slider -->
+          <div class="product-images">
+            <div class="main-slider">
+              <div class="slider-track">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor01.jpg" alt="Subnero Modem Co-processor Module - View 1">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor02.jpg" alt="Subnero Modem Co-processor Module - View 2">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor03.jpg" alt="Subnero Modem Co-processor Module - View 3">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor04.jpg" alt="Subnero Modem Co-processor Module - View 4">
               </div>
             </div>
+            <div class="thumbs">
+              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/accessories-coprocessor01.jpg" alt="Subnero Modem Co-processor Module - View 1">
+              <img data-index="1" src="{{site.baseurl}}/images/accessories-coprocessor02.jpg" alt="Subnero Modem Co-processor Module - View 2">
+              <img data-index="2" src="{{site.baseurl}}/images/accessories-coprocessor03.jpg" alt="Subnero Modem Co-processor Module - View 3">
+              <img data-index="3" src="{{site.baseurl}}/images/accessories-coprocessor04.jpg" alt="Subnero Modem Co-processor Module - View 4">
+            </div>
+          </div>
+          <!-- ./slider -->
         </div>
         <div class='accessories-info'>
             <h1>nVidia Jetson TX2</h1>
@@ -42,7 +49,9 @@ canonical: /products/wnc/gen4x/co-processors/
               <li>Dual-Core nVIDIA Denver 2 64-Bit CPU</li>
               <li>8GB 128-bit LPDDR4 Memory</li>
             </ul>
-            <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+            <div class="quote-row">
+              {%- include formRequestQuote.html -%}
+            </div>
         </div>
       </div>
       <hr>
@@ -74,4 +83,4 @@ canonical: /products/wnc/gen4x/co-processors/
       </div>
   </div>
 </div>
-{%- include display.html -%}
+{%- include imageViewer.html -%}

@@ -4645,6 +4645,11 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   font-size: 1.2rem;
   background-color: #F5F7FF;
 }
+.download-file img {
+  display: block;
+  width: 70px;
+  height: auto;
+}
 .useful-links {
   margin-bottom: 3rem;
 }
