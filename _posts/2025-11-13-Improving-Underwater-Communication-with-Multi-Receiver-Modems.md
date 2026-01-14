@@ -54,7 +54,7 @@ Multi-receiver modems can also act as capable passive acoustic monitoring system
 
 ### Learn More About Subnero’s Multi-Receiver Modems
 
-By adding the optional additional hydrophones, users can upgrade Subnero’s smart modems into multi-receiver modems. This provides all the capabilities described above within a robust, configurable platform suitable for both operational deployments and research-focused experimentation. Learn more about how to enable multi-receiver capability on your modems [here](https://subnero.com/products/gen4x/multi-receiver.html).
+By adding the optional additional hydrophones, users can upgrade Subnero's smart modems into multi-receiver modems. This provides all the capabilities described above within a robust, configurable platform suitable for both operational deployments and research-focused experimentation. Learn more about how to enable multi-receiver capability on your modems [here]({{ site.baseurl}}/products/wnc/gen4x/accessories/multi-receiver.html).
 
 </div>
 

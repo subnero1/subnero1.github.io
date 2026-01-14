@@ -16,7 +16,6 @@ headerTag: Support
   </div>
 </section>
 
-<!-- key capabilities -->
 <section class="g4x-section support" style="background-color: #F8FAFC;">
   <div class="row large py2">
     <div class="feature-grid col4">
@@ -72,8 +71,8 @@ headerTag: Support
             <li><a href="https://github.com/org-arl/fjage" target="_blank">fjåge project</a></li>
             <li><a href="https://fjage.readthedocs.io/en/latest/" target="_blank">fjåge developer’s guide</a></li>
             <li><a href="http://org-arl.github.io/fjage/javadoc" target="_blank">fjåge API reference</a></li>
-            <li><a href="{{site.baseurl}}/products/unet.html" >UnetStack</a></li>
-            <li><a href="{{site.baseurl}}/products/unet.html#offerings">Unet Downloads</a></li>
+            <li><a href="{{site.baseurl}}/products/wnc/unetstack/" >UnetStack</a></li>
+            <li><a href="{{site.baseurl}}/products/wnc/unetstack/#offerings">Unet Downloads</a></li>
           </ul>
         </div>
       </div>

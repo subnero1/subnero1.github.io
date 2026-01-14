@@ -2,6 +2,7 @@
 layout: product
 title: Components, Accessories and Optional Upgrades
 category: accessories
+breadcrumb: Accessories
 order: 4
 ---
 

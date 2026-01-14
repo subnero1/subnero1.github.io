@@ -11,7 +11,7 @@ collections:
     output: false
   gen4x:
     output: true
-    permalink: /products/gen4x/:title/
+    permalink: /products/wnc/gen4x/:title/
   userstories: 
     output: true
     permalink: /user-stories/:title/

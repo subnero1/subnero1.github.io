@@ -15,7 +15,7 @@ thumbnail: images/pulse-thumbnail-node-modem.jpg
 {: .post-image-wrap}
 
 
-Subnero’s [Silver Edition modem](https://subnero.com/products/#smart-modems){:target="_blank"} (Node configuration) was deployed in the Mediterranean Sea as part of an academic research project.
+Subnero’s [Silver Edition modem]({{ site.baseurl }}/products/#smart-modems){:target="_blank"} (Node configuration) was deployed in the Mediterranean Sea as part of an academic research project.
 
 The team led by [Roee Diamant](https://sites.google.com/edu.haifa.ac.il/anl/personnel){:target="_blank"} at the University of Haifa deployed a Subnero modem with an [additional co-processor](https://subnero.com/product-launch/feature/2018/11/17/Underwater-modem-with-a-coprocessor.html){:target="_blank"}, configured to support sonar-like functionality for their research activities.
 

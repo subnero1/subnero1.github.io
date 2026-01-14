@@ -62,7 +62,7 @@ One of the most compelling applications of the coprocessor is its ability to run
 
 If you’re interested in adding edge processing to your underwater communication system, Subnero’s coprocessor is available as an optional accessory for our modems. With this accessory, you gain access to the full power of the modem's capabilities, including advanced processing, machine learning, and custom algorithm development, all within the robust and pressure-rated housing of Subnero’s acoustic modems.
 
-<a href="{{site.baseurl}}/products/gen4x/co-processors.html">Explore the Coprocessor Accessory Here.</a>
+<a href="{{site.baseurl}}/products/wnc/gen4x/accessories/co-processors.html">Explore the Coprocessor Accessory Here.</a>
 
 </div>
 
