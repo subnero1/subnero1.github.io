@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: Silver
+breadcrumb: Silver Edition
 ---
 
 {% include breadcrumbs.html %}

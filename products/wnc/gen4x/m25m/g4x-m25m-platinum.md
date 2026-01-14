@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: Platinum
+breadcrumb: Platinum Edition
 ---
 
 {% include breadcrumbs.html %}

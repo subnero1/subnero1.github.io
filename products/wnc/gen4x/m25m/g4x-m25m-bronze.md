@@ -1,6 +1,6 @@
 ---
 layout: default
-breadcrumb: Bronze
+breadcrumb: Bronze Edition
 ---
 
 {% include breadcrumbs.html %}
