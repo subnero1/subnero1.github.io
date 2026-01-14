@@ -7,6 +7,7 @@ excerpt: Subnero Wireless Integrated Suite, ADCP Edition
 categories: swis
 section_id: solutions
 tabs: swancomponents
+breadcrumb: SWIS ADCP
 ---
 
 <section class="page-hero gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
@@ -19,6 +20,7 @@ tabs: swancomponents
     </div>
   </div>
 </section>
+{% include breadcrumbs.html %}
 
 <section id="adcp-edition" class="g4x-section">
   <div class="g4x-section-head">

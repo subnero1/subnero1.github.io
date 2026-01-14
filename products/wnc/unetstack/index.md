@@ -5,6 +5,7 @@ banner : images/unetstack-abstract-01.jpg
 thumbnail: images/boxart-unet.png
 categories: unet
 section_id: products
+breadcrumb: UnetStack
 ---
 
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -65,6 +66,7 @@ section_id: products
     </div>
   </div>
 </section>
+{% include breadcrumbs.html %}
 
 <section class="g4x-section unet">
   <div class="row large">

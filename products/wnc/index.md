@@ -79,7 +79,7 @@ section_id: products
           <tr>
             <td>&nbsp;</td>
             <td>
-              <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/l12lsilver.html" title="L12L Series Modem">
+              <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/l12l/g4x-l12l-silver.html" title="L12L Series Modem">
                 <img
                   src="{{site.baseurl}}/images/gen4x/gen4x-band-lf-cover.png" alt="L12L Series Modem" />
                 <small>View Details</small>
@@ -93,7 +93,7 @@ section_id: products
               </a>
             </td>
             <td>
-              <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/s40hsilver.html" title="S40H Series Modem">
+              <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/s40h/g4x-s40h-silver.html" title="S40H Series Modem">
                 <img
                   src="{{site.baseurl}}/images/gen4x/gen4x-band-hf-cover.png" alt="S40H Series Modem" />
                 <small>View Details</small>
@@ -177,21 +177,21 @@ section_id: products
   </div>
   <div class="row large py2">
     <div class="feature-grid col3">
-      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25mplatinum.html" title="Platinum Edition">
+      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-platinum.html" title="Platinum Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-preview.png" alt="Subnero M25M Platinum Edition Underwater Modem">
         <div>
           <h4>Platinum Edition</h4>
           <p>The ultimate performance for defense missions.</p>
         </div>
       </a>
-      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25msilver.html" title="Silver Edition">
+      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-silver.html" title="Silver Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-silver-preview.png" alt="Subnero M25M Silver Edition Underwater Modem">
         <div>
           <h4>Silver Edition</h4>
           <p>The reliable workhorse for offshore, marine & subsea deployments.</p>
         </div>
       </a>
-      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25mbronze.html" title="Bronze Edition">
+      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-bronze.html" title="Bronze Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-preview.png" alt="Subnero M25M Bronze Edition Underwater Modem">
         <div>
           <h4>Bronze Edition</h4>
