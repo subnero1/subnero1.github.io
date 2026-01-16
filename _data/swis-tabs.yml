@@ -1,7 +1,7 @@
 - name: Subnero WNC Series
   id: swis-tab-one
-  input_id: SwanBot
-  panel_id: swan-panel-one
+  input_id: tab-1
+  panel_id: panel-1
   thumbnail: images/swis-WNC.jpg
   order: 1
   introduction: Ease of use, integration ready and support for multiple ADCPs are some of the additional advantages of Subnero WNC series of products.
@@ -14,8 +14,8 @@
       description: Download data from multiple seabed units using a single topside unit, making the data retrieval process faster and efficient.
 - name: Seamless UI
   id: swis-tab-two
-  input_id: SwanCloud
-  panel_id: swan-panel-two
+  input_id: tab-2
+  panel_id: panel-2
   thumbnail: images/swis-ui.png
   order: 2
   introduction: Intuitive web-based user interface (UI) powered by Unetstack for configuration, data download and visualization. No software installation required. Operating system and platform independent.
@@ -28,8 +28,8 @@
       description: Accessible via desktop, laptops, tablets and mobile platforms.
 - name: CAP Engine
   id: swis-tab-three
-  input_id: SwanNode
-  panel_id: swan-panel-three
+  input_id: tab-3
+  panel_id: panel-3
   thumbnail: images/CAP.jpg
   order: 3
   introduction: Content-Aware Processing (CAP) engine that leverages machine learning techniques to generate smart previews of the ADCP data files.

@@ -6,8 +6,7 @@ thumbnail: images/boxart-swis.jpg
 excerpt: Subnero Wireless Integrated Suite, ADCP Edition
 categories: swis
 section_id: solutions
-tabs: swancomponents
-breadcrumb: SWIS ADCP
+breadcrumb: SWIS - ADCP Edition
 ---
 
 <section class="page-hero gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
@@ -193,9 +192,9 @@ breadcrumb: SWIS ADCP
 </div>
 <!-- Simple Deployment  -->
 <div style="background-image: url({{site.baseurl}}/images/swis-second-banner.jpg);">
-  <div class="swan-position">
-    <div class="swan-overlay"></div>
-    <div class="row accordion-row swan-position">
+  <div class="overlay-container">
+    <div class="dark-overlay"></div>
+    <div class="row accordion-row overlay-container">
       <h1 class="section-heading bg-white heading-padding">Simplified Operations</h1>
     </div>
     <div class="row row-width row-padding-bottom">
@@ -256,7 +255,7 @@ breadcrumb: SWIS ADCP
     <div class="large-12 columns flex-col">
       <h2>Brochures</h2>
       <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class="brochure-margin"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg" alt="SWIS ADCP Edition Brochure"></a>
+        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class="brochure-margin"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg" alt="SWIS - ADCP Edition Brochure"></a>
         <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank">Subnero Wireless Integrated Suite (SWIS), ADCP Edition</a>
       </div>
     </div>

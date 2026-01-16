@@ -3,7 +3,7 @@ layout: pulse_post
 title: UnetStack Newsletter - November 2020
 banner : images/banner-about.jpg
 date:  2020-11-18
-categories: unetstack, press
+categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 

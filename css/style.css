@@ -3634,13 +3634,13 @@ ul{
   justify-content: space-around;
   padding-bottom: 2rem;
 }
-/* SWAN page css */
-.full.tall.swan{
+/* Product page overlay css */
+.full.tall.product-hero{
   height:700px;
   position: relative;
 }
 
-.full.tall.swan::before{
+.full.tall.product-hero::before{
   background-color: rgba(152, 66, 211, 0.63);
   position:absolute;
   width:100%;
@@ -3703,7 +3703,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   border-radius: 5px;
 }
 
-.swan-highlight{
+.feature-highlight{
   font-weight: 900;
   font-family: sans-serif;
   color: #333;
@@ -3765,7 +3765,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   color: red;
 }
 
-.swan-overlay{
+.dark-overlay{
   background-image: linear-gradient(#fff 0%, #fff 60%, #fff);
   opacity: 0.5;
   position: absolute;
@@ -3776,7 +3776,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   height: 100%;
 }
 
-.swan-position{
+.overlay-container{
   position: relative;
 }
 
@@ -3784,7 +3784,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin-block-start:auto;
 }
 
-.swan-video{
+.video-embed{
   padding-bottom: 55%;
 }
 

@@ -30,7 +30,7 @@
       description: CAP engine supports summary generation for a user-selectable date range.
 # - name: Divers
 #   id: wnc-tab-three
-#   input_id: SwanNode
+#   input_id: divers-tab
 #   thumbnail: images/wnc-divers.jpg
 #   introduction: Real-time underwater communication, localization and monitoring system for defense, commercial and recreational divers.
 #   sections:

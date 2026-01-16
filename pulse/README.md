@@ -42,10 +42,10 @@ category: news
 title: Punchlines
 external_url: https://www.straitstimes.com/opinion/cartoons/punchlines-july-17-2018
 source : https://www.straitstimes.com/opinion/cartoons
-thumbnail: images/pulse-thumbnail-swan-comic.jpg
+thumbnail: images/pulse-thumbnail-example.jpg
 ---
 ```
-    - If there is a reference to our modems/UnetStack/SWAN, it would be good to provide links to the respective page in our website or the UnetStack website.
+    - If there is a reference to our modems/UnetStack, it would be good to provide links to the respective page in our website or the UnetStack website.
 
 - Click `Commit new file` at the bottom of the page.
 - Create a `Pull request` to add the post to master.
