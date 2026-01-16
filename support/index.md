@@ -42,7 +42,7 @@ headerTag: Support
           <ul>
             <li><a href="https://www.youtube.com/playlist?list=PLttGlbEIPGiep7kkHlTiXWLDENHBTviqN" target="_blank">UnetStack3 Tutorials</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGVwN6dFu_Z7zva17lMj7LPG" target="_blank">Practical UWSN Series</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGX5QMJG-hjfa3q1oQKDdNPX" target="_blank">SWIS ADCP Edition</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGX5QMJG-hjfa3q1oQKDdNPX" target="_blank">SWIS - ADCP Edition</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGXiZMe1mu1Z7B8zgFnfgHo5" target="_blank">Subnero WNC</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGUQkXcqpMva7SSQm4GtHwON" target="_blank">Subnero Solutions</a></li>
           </ul>
