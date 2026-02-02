@@ -152,6 +152,7 @@ ul.shortcode-list i {
 .mt-auto {margin-top: auto;}
 .m0 {margin:0}
 .mb0 {margin-bottom: 0;}
+.mb2 {margin-bottom: 2rem;}
 .my2 {margin-top: 2rem; margin-bottom: 2rem;}
 .my3 {margin-top: 3rem; margin-bottom: 3rem;}
 .mt1 {margin-top: 1rem;}
@@ -5291,6 +5292,26 @@ body:has(dialog[open]) { overflow: hidden; }
 .case-studies figure img {
   border-radius: 6px;
 }
+.case-studies figcaption {
+  padding: 4px 4px 0;
+  line-height: 1.2;
+}
+.case-studies h3.h3-title {
+  font-size: 2.2rem;
+}
+.case-studies h3.sec-head {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.case-studies .docs-card {
+  background-color: #eaf4ff;
+}
+.case-studies .docs-card .count{
+  font-size: 1.6rem;
+  color: rgb(var(--orange));
+  font-weight: 600;
+
+}
 .pdf-download {
   display: block;
   width: 260px;
@@ -5334,6 +5355,12 @@ body:has(dialog[open]) { overflow: hidden; }
 .hlight-card li {
   color: #fff;
   margin: 6px 0;
+}
+.hlight-row {
+  background-color: #FFFAEA;
+  padding: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .case-study-list {
   margin-top: 1.6rem;
@@ -8016,6 +8043,9 @@ a.usecase-card:hover {
   }
   .static-content {
     position: static;
+  }
+  .hlight-row {
+    padding: 1rem;
   }
 }
 
