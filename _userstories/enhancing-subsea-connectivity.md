@@ -4,7 +4,7 @@ title: Enhancing Subsea Connectivity for RTS Cube Systems
 sub_title: Enhancing Subsea Connectivity for RTS Cube Systems
 excerpt: How RTS enhanced the performance and future readiness of its RTS Cube systems using Subnero smart modems.
 banner: images/rts-case-study.jpg
-tag: Case Study
+tag: Customer Success Story
 date: 2026-01-20
 ---
 
