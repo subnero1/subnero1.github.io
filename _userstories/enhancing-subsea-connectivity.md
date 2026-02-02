@@ -2,7 +2,7 @@
 layout: default
 title: Enhancing Subsea Connectivity for RTS Cube Systems
 sub_title: Enhancing Subsea Connectivity for RTS Cube Systems
-excerpt: How Subnero smart modems enabled Underwater IoT for RTS Cube subsea sensor systems through software-defined acoustic networking.
+excerpt: How RTS enhanced the performance and future readiness of its RTS Cube systems using Subnero smart modems.
 banner: images/rts-case-study.jpg
 tag: Case Study
 date: 2026-01-20
