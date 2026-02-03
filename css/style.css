@@ -5321,14 +5321,9 @@ body:has(dialog[open]) { overflow: hidden; }
   background-color: #fff;
   border-color: #E2E8F0;
 }
-.case-studies .docs-card .count{
+.casestudy-card.unet-card .count {
   font-size: 1.6rem;
   font-weight: 600;
-}
-.case-studies .key-limitation .docs-card .count{
-  font-weight: 400;
-  color: #000;
-  font-size: 1.1rem;
 }
 .case-studies .key-limitation .docs-card p{
   font-size: 1.2rem;
@@ -5382,15 +5377,10 @@ body:has(dialog[open]) { overflow: hidden; }
   margin: 6px 0;
 }
 .hlight-row {
-  background-color: #FFFAEA;
+  background-color: #eaf4ff;
   padding: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-.hlight-p {
-  padding: 2rem;
-  margin: 2rem 0 0;
-  background-color: #eaf4ff;
 }
 .case-study-list {
   margin-top: 1.6rem;

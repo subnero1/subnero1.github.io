@@ -25,7 +25,7 @@ date: 2026-01-20
     </div>
     <div class="large-4 columns"> 
       <p>For more than a decade, RTS has delivered reliable subsea measurement and monitoring solutions to the marine and offshore industry. As parts of the existing system approached end-of-life and newer digital technologies matured, RTS saw an opportunity not only to modernize the platform, but also to evaluate alternative suppliers and unlock new functionalities.</p>  
-      <p class="hlight-p">By integrating Subnero’s software-defined acoustic smart modems, RTS has strengthened real-time underwater communication between subsea structures and topside assets, while also opening up new possibilities for edge processing, data logging, automation, and smarter system integration, marking a natural next step in the evolution of the RTS Cube platform.</p>
+      <p>By integrating Subnero’s software-defined acoustic smart modems, RTS has strengthened real-time underwater communication between subsea structures and topside assets, while also opening up new possibilities for edge processing, data logging, automation, and smarter system integration, marking a natural next step in the evolution of the RTS Cube platform.</p>
     </div>
     <div class="large-8 columns"> 
       <figure>
@@ -36,15 +36,13 @@ date: 2026-01-20
     </div>
   </div>
 
-  <div class="row large py2 my2 hlight-row">
-    <div class="columns full-header">
+  <div class="row large py2">
+    <div class="large-8 columns" style="background-color:#FFFAEA; padding:3rem;">
       <h2 class="sec-head text-gradient g-orange" style="font-size:28px;">Customer Overview</h2>
-    </div>
-    <div class="large-8 columns"> 
       <p style="padding-top: 6px;">RTS (Rental Technology & Services) with HQ in Karmøy, Norway, is a premier supplier and rental company based in Stavanger, Norway, serving the global subsea industry. Established as a trusted partner in the North Sea region, RTS provides high-quality equipment and turnkey solutions for offshore survey, and subsea construction operations. With a strong focus on innovation, RTS develops its own products—such as the RTS Cube—to meet the demanding requirements of subsea projects across the world. </p>
     </div>
     <div class="large-4 columns">
-      <a class="pdf-download" style="width: 140px;" href="{{site.baseurl}}/brochures/rts-customer-success-story.pdf" target="_blank" alt="Customer Success Story" >
+      <a class="pdf-download" style="width: 240px;" href="{{site.baseurl}}/brochures/rts-customer-success-story.pdf" target="_blank" alt="Customer Success Story" >
         <div class="pdf-img">
           <img src="{{site.baseurl}}/images/case-study-rts-cover.jpg" alt="Customer Success Story" />
         </div>
@@ -69,37 +67,20 @@ date: 2026-01-20
     </div>
     <div class="large-6 columns"> 
       <p>During subsea construction operations, operators rely on real-time deflection, tilt, and attitude data from RTS Cube systems installed on underwater structures. RTS has long delivered this data reliably using a combination of underwater displays and acoustic communication systems across numerous offshore projects. However, as legacy hardware approached end-of-life, RTS identified the need to modernize its communication architecture to ensure long-term availability, greater flexibility, and support for future capabilities. Increasingly complex operations in challenging shallow-water and nearshore environments further highlighted the need for improved configurability, network management, and onboard intelligence beyond basic data transmission.</p>
-    </div>
-     <div class="columns full-header" style="padding: 2rem 1rem 1rem;">
-      <h3 class="sec-head text-gradient g-orange" style="display:block; max-width:100%; text-align: center;">Key Limitations</h3>
-    </div>
-    <div class="columns">
-      <div class="feature-grid col3 key-limitation">
-        <div class="docs-card">
-          <div class="count">1.</div>
-          <div>
-            <p>Reduced reliability in poor visibility or turbulent waters</p>
-          </div>
-        </div>
-        <div class="docs-card">
-          <div class="count">2.</div>
-          <div>
-            <p>High operational overhead, as ROV pilots needed to maintain line-of-sight</p>
-          </div>
-        </div>
-        <div class="docs-card">
-          <div class="count">3.</div>
-          <div>
-            <p>Increased cost and time, due to repeated positioning attempts and re-reads</p>
-          </div>
-        </div>
-      </div>
+      <h3 class="sec-head text-gradient g-orange">Key Limitations</h3>
+      <ul class="case-study-list">
+        <li>Reduced reliability in poor visibility or turbulent waters</li>
+        <li>High operational overhead, as ROV pilots needed to maintain line-of-sight</li>
+        <li>Increased cost and time, due to repeated positioning attempts and re-reads</li>
+      </ul>
     </div>
   </div> 
 
   <div class="row large py2">
-    <div class="large-5 columns">
+    <div class="columns full-header">
       <h2 class="sec-head text-gradient g-orange">The Solution</h2>
+    </div>
+    <div class="large-5 columns">
       <p>As part of this modernization effort, RTS conducted thorough testing and evaluation of Subnero’s M25M series acoustic smart modems as a potential replacement for the existing acoustic communication components within the Cube system.</p>
       <p>Built on the UnetStack software-defined networking framework, the Subnero modems demonstrated strong performance in demanding North Sea conditions and aligned well with RTS’s long-term development roadmap. Following extensive testing of both the modems and their integration with the Cube systems, RTS selected Subnero as its new acoustic communication partner.</p>
     </div>
@@ -151,38 +132,33 @@ date: 2026-01-20
     </div>
     <div class="columns">
       <div class="feature-grid col3">
-        <div class="docs-card flex-column">
-          <div class="count">01.</div>
+        <div class="unet-card casestudy-card">
           <div>
-            <h4 class="m0 capitalize-none text-lg normal-spacing text-600 m0">Reliable in harsh conditions</h4>
+            <h4 class="capitalize-none text-xl normal-spacing text-600">Reliable in harsh conditions</h4>
             <p>Subnero modems maintained stable acoustic links between Cube systems and topside receivers during testing and offshore operations in the challenging North Sea environment.</p>
           </div>
         </div>
-        <div class="docs-card flex-column">
-          <div class="count">02.</div>
+        <div class="unet-card casestudy-card">
           <div>
-            <h4 class="m0 capitalize-none text-lg normal-spacing text-600 m0">Supports multiple links</h4>
+            <h4 class="capitalize-none text-xl normal-spacing text-600">Supports multiple links</h4>
             <p>The full networking stack enables simultaneous communication with multiple topside receivers, enabling seamless multi-node data exchange during complex offshore campaigns.</p>
           </div>       
         </div>
-        <div class="docs-card flex-column">
-          <div class="count">03.</div>
+        <div class="unet-card casestudy-card">
           <div>
-            <h4 class="m0 capitalize-none text-lg normal-spacing text-600 m0">Flexible integration options</h4>
+            <h4 class="capitalize-none text-xl normal-spacing text-600">Flexible integration options</h4>
             <p>The software-defined architecture supports simple plug-and-play deployment today, while enabling deeper API-based and network-level integration as requirements evolve.</p>
           </div>       
         </div>
-        <div class="docs-card flex-column">
-          <div class="count">04.</div>
+        <div class="unet-card casestudy-card">
           <div>
-            <h4 class="m0 capitalize-none text-lg normal-spacing text-600 m0">Smart operational control</h4>
+            <h4 class="capitalize-none text-xl normal-spacing text-600">Smart operational control</h4>
             <p>Built-in features like adaptive power control automatically adjust settings depending on whether the modem is in-water or on-deck, simplifying operations.</p>
           </div>       
         </div>
-        <div class="docs-card flex-column">
-          <div class="count">05.</div>
+        <div class="unet-card casestudy-card">
           <div>
-            <h4 class="m0 capitalize-none text-lg normal-spacing text-600 m0">Added functionality through edge processing</h4>
+            <h4 class="capitalize-none text-xl normal-spacing text-600">Added functionality through edge processing</h4>
             <p>Beyond communication, the modems enable programmable edge-processing capabilities, including data logging, store-and-forward messaging, task scheduling, and autonomous sensor interfacing.</p>
           </div>       
         </div>
@@ -194,7 +170,7 @@ date: 2026-01-20
     <div class="row p2">
       <div class="feature-grid- col2-">
         <div class="testimonial-card">
-          <blockquote class="testimonial" style="background-color: #eaf4ff;">
+          <blockquote class="testimonial" style="background-color: #FFFAEA;">
             <div class="quote">
               <svg viewBox="0 0 48 48"><path fill="currentColor" fill-rule="evenodd" d="M18.853 9.116Q7.558 16.37 6.303 26.003C5 36 13.94 40.893 18.47 36.497s1.815-9.977-1.465-11.503s-5.286-.994-4.936-3.033s5.016-7.69 9.116-10.322a.75.75 0 0 0 .114-1.02L20.285 9.3c-.44-.572-.862-.55-1.432-.185m19.826.001q-11.295 7.254-12.55 16.887C24.825 36 33.765 40.893 38.295 36.497s1.815-9.977-1.466-11.503s-5.286-.994-4.936-3.033s5.017-7.69 9.117-10.322a.75.75 0 0 0 .113-1.02L40.11 9.3c-.44-.572-.862-.55-1.431-.185" clip-rule="evenodd"/></svg>
             </div>
@@ -212,7 +188,7 @@ date: 2026-01-20
     </div>
   </div> 
 
-  <div class="row large py2 hlight-row">
+  <div class="row large hlight-row ">
     <div class="columns full-header">
       <h3 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Looking Ahead</h3>
     </div>
