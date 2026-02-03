@@ -68,12 +68,6 @@ date: 2026-01-20
     </div>
     <div class="large-6 columns"> 
       <p>During subsea construction operations, operators rely on real-time deflection, tilt, and attitude data from RTS Cube systems installed on underwater structures. RTS has long delivered this data reliably using a combination of underwater displays and acoustic communication systems across numerous offshore projects. However, as legacy hardware approached end-of-life, RTS identified the need to modernize its communication architecture to ensure long-term availability, greater flexibility, and support for future capabilities. Increasingly complex operations in challenging shallow-water and nearshore environments further highlighted the need for improved configurability, network management, and onboard intelligence beyond basic data transmission.</p>
-      <h3 class="sec-head text-gradient g-orange">Key Limitations</h3>
-      <ul class="case-study-list">
-        <li>Reduced reliability in poor visibility or turbulent waters</li>
-        <li>High operational overhead, as ROV pilots needed to maintain line-of-sight</li>
-        <li>Increased cost and time, due to repeated positioning attempts and re-reads</li>
-      </ul>
     </div>
   </div> 
 
