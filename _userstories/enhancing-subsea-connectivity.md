@@ -8,7 +8,7 @@ tag: Customer Success Story
 date: 2026-01-20
 ---
 
-<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}}); background-position:center;">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}}); background-position:center top;">
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">{{ page.tag }}</h4>
@@ -24,7 +24,7 @@ date: 2026-01-20
       <h2 class="sec-head text-gradient g-orange">Executive Summary</h2>
     </div>
     <div class="large-4 columns"> 
-      <p>For more than a decade, RTS has delivered reliable subsea measurement and monitoring solutions to the marine and offshore industry. As parts of the existing system approached end-of-life and newer digital technologies matured, RTS saw an opportunity not only to modernize the platform, but also to evaluate alternative suppliers and unlock new functionalities.</p>  
+      <p>For more than a decade, RTS – Rental Technology & Services has delivered reliable subsea measurement and monitoring solutions to the marine and offshore industry. As parts of the existing system approached end-of-life and newer digital technologies matured, RTS saw an opportunity not only to modernize the platform, but also to evaluate alternative suppliers and unlock new functionalities.</p>  
       <p>By integrating Subnero’s software-defined acoustic smart modems, RTS has strengthened real-time underwater communication between subsea structures and topside assets, while also opening up new possibilities for edge processing, data logging, automation, and smarter system integration, marking a natural next step in the evolution of the RTS Cube platform.</p>
     </div>
     <div class="large-8 columns"> 
@@ -39,7 +39,7 @@ date: 2026-01-20
   <div class="row large py2">
     <div class="large-8 columns" style="background-color:#FFFAEA; padding:3rem;">
       <h2 class="sec-head text-gradient g-orange" style="font-size:28px;">Customer Overview</h2>
-      <p style="padding-top: 6px; margin:0; font-size: 1.3rem; line-height: 1.7;">RTS (Rental Technology & Services) with HQ in Karmøy, Norway, is a premier supplier and rental company based in Stavanger, Norway, serving the global subsea industry. Established as a trusted partner in the North Sea region, RTS provides high-quality equipment and turnkey solutions for offshore survey, and subsea construction operations. With a strong focus on innovation, RTS develops its own products—such as the RTS Cube—to meet the demanding requirements of subsea projects across the world. </p>
+      <p style="padding-top: 6px; margin:0; font-size: 1.3rem; line-height: 1.7;">RTS, with headquarters in Karmøy, Norway, is a premier supplier and rental company serving the global subsea industry. Established as a trusted partner in the North Sea region, RTS provides high-quality equipment and turnkey solutions for offshore survey, and subsea construction operations. With a strong focus on innovation, RTS develops its own products, such as the RTS Cube, to meet the demanding requirements of subsea projects across the world.</p>
     </div>
     <div class="large-4 columns">
       <a class="pdf-download" style="width: 224px;" href="{{site.baseurl}}/brochures/rts-customer-success-story.pdf" target="_blank" alt="Customer Success Story" >
@@ -101,10 +101,10 @@ date: 2026-01-20
     <div class="large-6 columns">
       <p>Thanks to close collaboration between RTS and Subnero, integration and testing were completed efficiently, followed by smooth operational validation offshore.</p>
       <ol class="case-study-list">
-        <li>Verified the Subnero M25M modems as a robust and reliable solution for its use case</li>
-        <li>Upgraded all RTS Cube systems to the new modem platform</li>
-        <li>Completed more than five successful offshore deployments to date, demonstrating ease of use and stable performance</li>
-        <li>Reduced operational turnaround time while improving flexibility, safety, and long-term maintainability of the Cube systems</li>
+        <li>Verified the Subnero M25M modems as a robust and reliable solution for its use case.</li>
+        <li>Upgraded RTS Cube systems to the new modem platform.</li>
+        <li>Completed more than five successful offshore deployments to date, demonstrating ease of use and stable performance.</li>
+        <li>Reduced operational turnaround time while improving flexibility, safety, and long-term maintainability of the Cube systems.</li>
       </ol>
     </div>
     <div class="large-6 columns">
@@ -174,7 +174,7 @@ date: 2026-01-20
             <div class="quote">
               <svg viewBox="0 0 48 48"><path fill="currentColor" fill-rule="evenodd" d="M18.853 9.116Q7.558 16.37 6.303 26.003C5 36 13.94 40.893 18.47 36.497s1.815-9.977-1.465-11.503s-5.286-.994-4.936-3.033s5.016-7.69 9.116-10.322a.75.75 0 0 0 .114-1.02L20.285 9.3c-.44-.572-.862-.55-1.432-.185m19.826.001q-11.295 7.254-12.55 16.887C24.825 36 33.765 40.893 38.295 36.497s1.815-9.977-1.466-11.503s-5.286-.994-4.936-3.033s5.017-7.69 9.117-10.322a.75.75 0 0 0 .113-1.02L40.11 9.3c-.44-.572-.862-.55-1.431-.185" clip-rule="evenodd"/></svg>
             </div>
-            <p>The Subnero M25M modems were thoroughly tested together with our Cube systems and proved to be a strong fit, meeting our reliability requirements. As parts of our previous acoustic solution reached end-of-life, this integration allowed us to modernize the platform while gaining new capabilities that open up exciting opportunities for future development.</p>
+            <p>We did a thorough test before integrating the new Subnero modems into our Cube systems. The results showed significantly greater range and higher data rates compared to our existing solutions. In addition, the expanded functionality of the Subnero modems strengthens RTS’s ability to deliver customized sensor packages for deployment in remote locations.</p>
             <div class="author">
               <div class="photo"><img src="{{site.baseurl}}/images/rts-ivar-ersland.jpg" alt="Ivar Ersland" /></div>
               <div class="name">
@@ -200,7 +200,7 @@ date: 2026-01-20
       <figure class="casestudy-img" style="max-width: 240px" >
         <img
           src="{{site.baseurl}}/images/rts-cube.png" alt="RTS Cube"/>
-        <figcaption class="text-center">RTS Cube</figcaption>
+        <figcaption class="text-center">RTS Cube SDM</figcaption>
       </figure>
     </div>
   </div> 
