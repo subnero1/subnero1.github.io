@@ -23,7 +23,7 @@ This successful deployment aligns perfectly with Subnero’s mission to foster t
 
 Ultimately, this case study underlines how Subnero's technology is supporting a new era of marine science, allowing researchers to rapidly transition from hypothesis to real-world validation.
 
-The full case study, titled [How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research]({{site.baseurl}}/user-stories/flexible-software-defined-modems/){:target="_blank"}, is available [here]({{site.baseurl}}/user-stories/flexible-software-defined-modems/){:target="_blank"}.
+The full case study, titled [Transforming Underwater Research – How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research]({{site.baseurl}}/user-stories/flexible-software-defined-modems/){:target="_blank"}, is available [here]({{site.baseurl}}/user-stories/flexible-software-defined-modems/){:target="_blank"}.
 
 #### *About Subnero*
 
