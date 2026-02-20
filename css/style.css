@@ -152,6 +152,8 @@ ul.shortcode-list i {
 .mt-auto {margin-top: auto;}
 .m0 {margin:0}
 .mb0 {margin-bottom: 0;}
+.mb1 {margin-bottom: 1rem;}
+.mb2 {margin-bottom: 2rem;}
 .my2 {margin-top: 2rem; margin-bottom: 2rem;}
 .my3 {margin-top: 3rem; margin-bottom: 3rem;}
 .mt1 {margin-top: 1rem;}
@@ -5291,6 +5293,46 @@ body:has(dialog[open]) { overflow: hidden; }
 .case-studies figure img {
   border-radius: 6px;
 }
+.case-studies figcaption {
+  padding: 4px 4px 0;
+  line-height: 1.2;
+}
+.case-studies h3.h3-title {
+  font-size: 2.2rem;
+}
+.case-studies h3.sec-head {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.case-studies .docs-card {
+  background-color: #fff;
+}
+.case-studies .docs-card.flex-column {
+  flex-direction: column;
+}
+.case-studies .docs-card p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #2a2a2a;
+}
+.case-studies .docs-card h4 {
+  color: rgb(var(--orange));
+}
+.case-studies .docs-card:hover {
+  background-color: #fff;
+  border-color: #E2E8F0;
+}
+.casestudy-card.unet-card .count {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.case-studies .key-limitation .docs-card p{
+  font-size: 1.2rem;
+  margin: 0;
+}
+.case-studies .key-limitation .docs-card{
+  background-color: #f3f3f3;
+}
 .pdf-download {
   display: block;
   width: 260px;
@@ -5310,7 +5352,7 @@ body:has(dialog[open]) { overflow: hidden; }
   align-items: center;
   gap: 6px;
   padding: 6px 0;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 .pdf-download:hover .download-link{
   color: #02518d;
@@ -5334,6 +5376,12 @@ body:has(dialog[open]) { overflow: hidden; }
 .hlight-card li {
   color: #fff;
   margin: 6px 0;
+}
+.hlight-row {
+  background-color: #eaf4ff;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .case-study-list {
   margin-top: 1.6rem;
@@ -8016,6 +8064,9 @@ a.usecase-card:hover {
   }
   .static-content {
     position: static;
+  }
+  .hlight-row {
+    padding: 1rem;
   }
 }
 
