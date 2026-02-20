@@ -2,7 +2,7 @@
 layout: default
 title: How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research
 sub_title: How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research
-excerpt: Three novel underwater sensing applications from researchers at ANL enabled by Subnero's versatile software-defined smart modem.
+excerpt: Accelerating underwater innovation requires flexible hardware that adapts to a researcher's vision. This case study shows how the Underwater Acoustic & Navigation Lab (ANL) leveraged Subnero modems to implement three advanced sensing applications, transforming the modem into a programmable underwater laboratory.
 banner: images/haifa-case-study.jpg
 tag: Case Study
 date: 2026-02-10
@@ -30,7 +30,7 @@ date: 2026-02-10
       <p>This is achieved because Subnero exposes the entire stack, from the acoustic front end to the processing interfaces to the user, rather than treating the modem as a closed communication appliance. This allows researchers to treat the modem as a high-performance edge computing platform with multiple communication interfaces.</p>
     </div>
     <div class="large-5 columns"> 
-      <a class="pdf-download" href="{{site.baseurl}}/brochures/software-defined-modems-case-study.pdf" target="_blank" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" style="width:260px;">
+      <a class="pdf-download" href="{{site.baseurl}}/brochures/case-study-software-defined-modems.pdf" target="_blank" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" style="width:260px;">
         <div class="pdf-img">
           <img src="{{site.baseurl}}/images/haifa-cover.jpg" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" />
         </div>
