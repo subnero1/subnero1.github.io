@@ -1,19 +1,20 @@
 ---
 layout: default
-title: How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research
-sub_title: How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research
-excerpt: Three novel underwater sensing applications from researchers at ANL enabled by Subnero's versatile software-defined smart modem.
-banner: images/haifa-case-study.jpg
+title: Transforming Underwater Research – How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research
+sub_title: Transforming Underwater Research – How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research
+excerpt: Accelerating underwater innovation requires flexible hardware that adapts to a researcher's vision. This case study shows how the Underwater Acoustic & Navigation Lab (ANL) leveraged Subnero modems to implement three advanced sensing applications, transforming the modem into a programmable underwater laboratory.
+banner: images/case-study-banner-anl.jpg
+thumbnail: images/case-study-thumbnail-anl.jpg
 tag: Case Study
 date: 2026-02-10
 ---
 
-<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}}); background-position:center bottom;">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">{{ page.tag }}</h4>
-      <h1>How Flexible, Software‐Defined Modems <span class="text-gradient g-blue">Empower Cutting‐Edge Research</span></h1>
-      <p>Three novel underwater sensing applications from researchers at ANL enabled by Subnero's versatile software-defined smart modem.
+      <h1>Transforming <span class="text-gradient g-blue">Underwater Research</span></h1>
+      <p>How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research.
 </p>
     </div>
   </div>
@@ -30,9 +31,9 @@ date: 2026-02-10
       <p>This is achieved because Subnero exposes the entire stack, from the acoustic front end to the processing interfaces to the user, rather than treating the modem as a closed communication appliance. This allows researchers to treat the modem as a high-performance edge computing platform with multiple communication interfaces.</p>
     </div>
     <div class="large-5 columns"> 
-      <a class="pdf-download" href="{{site.baseurl}}/brochures/software-defined-modems-case-study.pdf" target="_blank" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" style="width:260px;">
+      <a class="pdf-download" href="{{site.baseurl}}/brochures/case-study-software-defined-modems.pdf" target="_blank" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" style="width:260px;">
         <div class="pdf-img">
-          <img src="{{site.baseurl}}/images/haifa-cover.jpg" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" />
+          <img src="{{site.baseurl}}/images/anl-cover.jpg" alt="How Flexible, Software‐Defined Modems Empower Cutting‐Edge Research" />
         </div>
         <p class="download-link">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z"/></svg>
@@ -82,7 +83,7 @@ date: 2026-02-10
             <div class="photo"><img src="{{site.baseurl}}/images/dr-roee-diamant.jpg" alt="Dr. Roee Diamant" /></div>
             <div class="name">
               <p>Dr. Roee Diamant</p>
-              <div><span class="text-500 text-black">Associate Professor</span> <br /><i>University of Haifa, Israel</i></div>
+              <div><span class="text-500 text-black">Associate Professor</span> <br /><i>University of ANL, Israel</i></div>
               <div><span class="text-500 text-black">Professor</span> <br /><i>University of Zagreb, FER, Croatia</i></div>
             </div>
           </div>
@@ -117,7 +118,7 @@ date: 2026-02-10
     <div class="large-8 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/haifa-use-case-01.jpg" alt="Enhancing Subsea Connectivity for RTS Cube Systems" />
+          src="{{site.baseurl}}/images/anl-use-case-01.jpg" alt="Enhancing Subsea Connectivity for RTS Cube Systems" />
         <figcaption>Midwater Doppler Estimation</figcaption>
       </figure>
     </div>
@@ -153,7 +154,7 @@ date: 2026-02-10
     <div class="large-8 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/haifa-use-case-02.jpg" alt="Enhancing Subsea Connectivity for RTS Cube Systems" />
+          src="{{site.baseurl}}/images/anl-use-case-02.jpg" alt="Enhancing Subsea Connectivity for RTS Cube Systems" />
         <figcaption>Lab-Grade Transducer Characterization</figcaption>
       </figure>
     </div>
@@ -189,12 +190,12 @@ date: 2026-02-10
     <div class="large-8 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/haifa-use-case-03a.jpg" alt="Active Sonar for 3D Fish Tracking" />
+          src="{{site.baseurl}}/images/anl-use-case-03a.jpg" alt="Active Sonar for 3D Fish Tracking" />
         <figcaption>Active Sonar for 3D Fish Tracking</figcaption>
       </figure>
       <figure>
         <img
-          src="{{site.baseurl}}/images/haifa-use-case-03b.jpg" alt="Passive Acoustic Monitoring & Tracking of Marine Mammals and Trawlers" />
+          src="{{site.baseurl}}/images/anl-use-case-03b.jpg" alt="Passive Acoustic Monitoring & Tracking of Marine Mammals and Trawlers" />
         <figcaption>Passive Acoustic Monitoring & Tracking of Marine Mammals and Trawlers</figcaption>
       </figure>
     </div>
@@ -218,7 +219,7 @@ date: 2026-02-10
     <div class="large-7 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/haifa-subnero-modems.jpg" alt="Test procedure" />
+          src="{{site.baseurl}}/images/anl-subnero-modems.jpg" alt="Test procedure" />
         <figcaption>Subnero modems</figcaption>
       </figure>
     </div>
