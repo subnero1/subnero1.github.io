@@ -2,7 +2,7 @@
 layout: pulse_post
 title: Transforming Underwater Research – New Case Study with the Underwater Acoustic & Navigation Lab (ANL)
 banner: images/banner-anl-case-study.jpg
-date:  2026-02-20
+date:  2026-02-23
 categories: case-study research
 thumbnail: images/pulse-thumbnail-anl-case-study.jpg
 ---
