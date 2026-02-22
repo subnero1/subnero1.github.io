@@ -38,7 +38,7 @@ The full case study, titled [Transforming Underwater Research – How Flexible, 
 <div class="post-sidebar" markdown="1">
 
 <a href="{{site.baseurl}}/brochures/case-study-software-defined-modems.pdf" title="Case Study" target="_blank" class="post-image-link" >
-  ![Case Study]({{site.baseurl}}/images/haifa-cover.jpg)
+  ![Case Study]({{site.baseurl}}/images/anl-cover.jpg)
   *Download PDF*
 </a>
 
