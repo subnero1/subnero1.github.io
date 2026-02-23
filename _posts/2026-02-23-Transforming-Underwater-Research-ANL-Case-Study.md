@@ -19,7 +19,7 @@ Subnero platform's features such as direct access to raw passband and baseband s
 
 This successful deployment aligns perfectly with Subnero’s mission to foster technological advancement beneath the surface.
 
-> “Our goal at Subnero has always been to provide more than just a reliable communication link; we strive to offer a truly flexible platform that accelerates innovation,” said *Manu Ignatius, CEO of Subnero*. “Seeing the Underwater Acoustic & Navigation Lab utilize our edge-computing capabilities and open interfaces to achieve such remarkable research milestones is a testament to the power of software-defined underwater architecture.”
+> “Our goal at Subnero has always been to provide more than just a reliable communication link; we strive to offer a truly flexible platform that accelerates innovation,” said _Manu Ignatius, CEO of Subnero_. “Seeing the Underwater Acoustic & Navigation Lab utilize our edge-computing capabilities and open interfaces to achieve such remarkable research milestones is a testament to the power of software-defined underwater architecture.”
 
 Ultimately, this case study underlines how Subnero's technology is supporting a new era of marine science, allowing researchers to rapidly transition from hypothesis to real-world validation.
 
