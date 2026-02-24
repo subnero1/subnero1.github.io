@@ -43,9 +43,9 @@ date: 2026-02-24
       <p style="padding-top: 6px; margin:0; font-size: 1.3rem; line-height: 1.7;">RTS, with headquarters in Karmøy, Norway, is a premier supplier and rental company serving the global subsea industry. Established as a trusted partner in the North Sea region, RTS provides high-quality equipment and turnkey solutions for offshore survey, and subsea construction operations. With a strong focus on innovation, RTS develops its own products, such as the RTS Cube, to meet the demanding requirements of subsea projects across the world.</p>
     </div>
     <div class="large-4 columns">
-      <a class="pdf-download" style="width: 224px;" href="{{site.baseurl}}/brochures/rts-customer-success-story.pdf" target="_blank" alt="Customer Success Story" >
+      <a class="pdf-download" style="width: 224px;" href="{{site.baseurl}}/brochures/customer-success-story-subsea-monitoring.pdf" target="_blank" alt="Customer Success Story" >
         <div class="pdf-img">
-          <img src="{{site.baseurl}}/images/case-study-rts-cover.jpg" alt="Customer Success Story" />
+          <img src="{{site.baseurl}}/images/rts-cover.jpg" alt="Customer Success Story" />
         </div>
         <p class="download-link m0">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z"/></svg>
