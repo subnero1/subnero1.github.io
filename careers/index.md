@@ -102,39 +102,39 @@ headerTag: Careers
       </header>
       <div class="main">
         <div class="modal-content-item" data-product="job-01">
-          <p>We are looking for a Technical Marketing & Evangelism Executive who can bridge the gap between technology and communication — someone who understands our products and can craft compelling stories around how they solve real-world challenges underwater.</p>
+          <p>We are looking for a Technical Marketing & Evangelism Executive who can bridge the gap between technology and communication, someone who understands our products and can craft compelling stories around how they solve real-world challenges underwater.</p>
           <h3>About the Role</h3>
           <p>As a Technical Marketing & Evangelism Executive, you’ll play a central role in shaping Subnero’s public voice and digital presence. You will work closely with the leadership and product teams to communicate our value, revamp our website and materials, and create engaging content that resonates with our customers and partners.</p>
           <h3>Key Responsibilities</h3>
           <ul>
-            <li>Develop a deep understanding of Subnero’s technologies, products, and user applications.</li>
-            <li>Craft technical and marketing content (blogs, newsletters, case studies, social media posts, videos, product pages, etc.) that clearly communicate value to diverse audiences.</li>
-            <li>Engage directly with customers and partners to understand their use cases, pain points, and success stories.</li>
-            <li>Plan, coordinate, and execute marketing campaigns across multiple channels to build awareness and engagement.</li>
-            <li>Organize and manage marketing and technical events such as Subnero Open Days, product launches, webinars, and conference exhibitions.</li>
-            <li>Support and manage the marketing roadmap and activity calendar, ensuring timely execution of deliverables.</li>
-            <li>Collaborate with internal teams and external partners to align messaging, visuals, and event logistics.</li>
-            <li>Create or assist in the design of graphics, visual assets, and short videos using tools such as Figma, Photoshop, Illustrator, or Premiere Pro.</li>
-            <li>Manage multiple projects and stakeholders concurrently while ensuring deadlines are met and deliverables maintain high quality.</li>
+            <li>Develop a comprehensive understanding of Subnero’s technologies, products, and user applications to effectively communicate their value.</li>
+            <li>Craft technical and marketing content including technical specifications, blogs, newsletters, case studies, social media posts, videos, and product pages that clearly articulate product benefits to diverse audiences.</li>
+            <li>Engage directly with customers and partners to gather insights on use cases, challenges, and success stories to inform content and messaging.</li>
+            <li>Plan, coordinate, and execute multi-channel marketing campaigns to increase brand awareness and customer engagement.</li>
+            <li>Organize and manage marketing and technical events such as Subnero Open Days, product launches, webinars, and conference exhibitions to showcase products and foster community engagement.</li>
+            <li>Support and manage the marketing roadmap and activity calendar to ensure timely delivery of marketing initiatives.</li>
+            <li>Collaborate with internal teams and external partners to align messaging, visuals, and event logistics for cohesive brand representation.</li>
+            <li>Create or assist in designing graphics, visual assets, and short videos using tools such as Figma, Photoshop, Illustrator, or Final Cut Pro X/Premiere Pro to enhance marketing materials.</li>
+            <li>Manage multiple projects and stakeholders concurrently, ensuring deadlines are met and deliverables maintain high quality standards.</li>
           </ul>
           <h3>Requirements</h3>
           <ul>
-            <li>Bachelor’s degree in Engineering (Computer, Electrical, or related fields).</li>
+            <li>Bachelor’s degree in Engineering (Computer, Electrical), or related fields or equivalent experience.</li>
+            <li>Experience or strong interest in technical content creation, writing, visual design, or multimedia.</li>
+            <li>Familiarity with creative tools such as Figma, Photoshop, Illustrator, and video editing software.</li>
             <li>Strong interest in technology, communication systems, and ocean innovation.</li>
             <li>Excellent written and verbal communication skills in English.</li>
-            <li>Structured, disciplined, and detail-oriented, with strong organizational skills to manage logistics, schedules, and event execution.</li>
-            <li>Ability to multitask effectively across projects and coordinate with multiple stakeholders.</li>
-            <li>Attention to detail is a must.</li>
-            <li>Proactive and extroverted personality — comfortable engaging with customers, partners, and the community.</li>
-            <li>Experience or strong interest in technical content creation — writing, visual design, or multimedia.</li>
-            <li>Familiarity with creative tools such as Figma, Photoshop, Illustrator, or video editing software is a plus.</li>
-            <li>Prior experience in marketing, technical writing, or event management is preferred, but fresh graduates are welcome to apply.</li>
+            <li>Structured, disciplined, and detail-oriented with strong organizational skills to manage logistics, schedules, and event execution.</li>
+            <li>Ability to multitask effectively across projects and coordinate with multiple stakeholders is a must.</li>
+            <li>Attention to detail.</li>
+            <li>Proactive and extroverted personality comfortable engaging with customers, partners, and the community.</li>
+            <li>Prior experience in marketing, technical writing, or event management is preferred but not required; fresh graduates are welcome to apply.</li>
           </ul>
         </div>          
       </div>
       <div class="footer">
         <button class="button footer-close-btn" id="footerCloseModal">Close</button>
-        <a class="button apply" href="https://www.mycareersfuture.gov.sg/job/944e75e31e5c3c794e5d9622cd03595c" target="blank">
+        <a class="button apply" href="https://www.mycareersfuture.gov.sg/job/marketing/technical-marketing-evangelism-executive-subnero-3884ab3cf6c59cabef0984a462110d6d" target="blank">
           <span>Apply Now</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-4 h-4 ml-2"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
         </a>
