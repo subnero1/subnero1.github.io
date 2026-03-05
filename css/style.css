@@ -6366,6 +6366,9 @@ a.usecase-card:hover {
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+.docs-card.column-card {
+  flex-direction: column;;
+}
 .docs-card.uj { color: rgb(var(--orange)); }
 .docs-card.uh { color: rgb(var(--blue)); }
 .docs-card.vt { color: rgb(var(--red)); }
@@ -7590,7 +7593,91 @@ a.usecase-card:hover {
 .page-hero.page404 .g4x-hero-btns {
   justify-content: center;
 }
-
+.list-icons {
+  padding: 2rem 1.6rem;
+  background-color: #f8f9fa;
+}
+.list-icon-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.list-icon-row svg {
+  flex: none;
+}
+.list-icon-row svg {
+  color: rgb(var(--orange));
+}
+.list-icon-row h4 {
+  font-weight: 600;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: normal;
+  margin-bottom: 6px;
+}
+.list-icon-row p {
+  font-size: 1rem;
+  color: #000;
+}
+.docs-card .card-count {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #F2772F;
+  border-radius: 100px;
+}
+.dark-card .docs-card {
+  border: none;
+  padding: 0;
+}
+.dark-card .docs-card.data-harvesting {
+  padding: 1.4rem;
+  border-radius: 12px;
+  background-color: rgb(53 98 115 / 60%);
+}
+.dark-card .docs-card.data-harvesting img {
+  border-radius: 8px;
+}
+.dark-card .docs-card  p {
+  color: #fff;
+}
+.dark-card .docs-card  h5 {
+  color: #F2772F;
+}
+.data-harvesting-integration {
+  background-color: #1d2536;
+}
+.data-harvesting-integration .docs-card {
+  padding: 2rem;
+  background-color: #000;
+}
+.autonomous-journey {
+  padding: 4rem 0 0;
+}
+.autonomous-journey h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+.autonomous-journey .contact-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.autonomous-journey a.button {
+  border-radius: 6px;
+}
+.hero-text .contact-label {
+  font-size: 1.2rem;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
