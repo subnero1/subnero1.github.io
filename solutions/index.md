@@ -18,10 +18,32 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 
 <section class="g4x-section" id="sun">
   <div class="g4x-section-head">
+    <h2 class="sec-head text-gradient g-orange">Autonomous Acoustic Data Harvesting</h2>
+    <p class="sec-subhead">The intelligent bridge between subsea assets and surface autonomy. Deploy seafloor assets and retrieve critical insights via USVs without ever sending a vessel to sea.</p>
+  </div>
+  <div class="row large">
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>As offshore operations transition to full autonomy, traditional data retrieval—relying on expensive telemetry buoys or manual diver intervention—has become a significant bottleneck.</p>
+        <p>Subnero’s Acoustic Data Harvesting Solution transforms any Unmanned Surface Vehicle (USV) into an intelligent data mule. By offloading the complexity of underwater connectivity to our smart modems, we enable seamless, high-speed data collection from seafloor assets with zero human-in-the-loop.</p>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/data-harvesting">Explore Acoustic Data Harvesting &#8594;</a></p>
+      </div>
+    </div>
+    <div class="large-6 columns ">
+      <img alt="Autonomous Acoustic Data Harvesting" class="rounded-sm" src="{{site.baseurl}}/images/solutions-data-harvesting-bg.jpg"/>
+    </div>  
+  </div>
+</section>
+
+<section class="g4x-section" id="sun" style="background-color:#F8FAFC;">
+  <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Subnero Underwater Network (SUN)</h2>
     <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p>
   </div>
-  <div class="row" style="margin-top:0;">
+  <div class="row large">
+    <div class="large-6 columns ">
+      <img alt="Subnero Underwater Network (SUN) Network Diagram" class="rounded-sm" src="{{site.baseurl}}/images/network-solutions.jpg"/>
+    </div>
     <div class="large-6 columns"> 
       <div class="category-content">
         <p>The Subnero Underwater Network (SUN) provides a complete solution for building scalable and resilient subsea communication networks. Designed to connect various subsea assets, it supports both centralized (cellular-like) and ad hoc mesh topologies to suit a range of deployment needs. Built on Subnero’s WNC technology, the network delivers real-time data access, improved asset visibility, and enhanced operational efficiency. Subnero’s proven expertise includes one of the world’s first commercial underwater cellular network deployments in Singapore.</p>
@@ -36,8 +58,5 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
         {%- include formContactUs.html suffix="_bottom" -%}
       </div>
     </div>
-    <div class="large-6 columns ">
-      <img alt="Subnero Underwater Network (SUN) Network Diagram" src="{{site.baseurl}}/images/Network4.0.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
   </div>
 </section>
