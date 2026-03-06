@@ -1,5 +1,5 @@
 <div class="cta">
-  <p id="ctaMessage">Looking for a reliable underwater communication solution?</p>
+  <p id="ctaMessage"></p>
   <button class="cta-button" id="openCTA">Contact us</button>
 </div>
 <!-- Modal -->
@@ -29,10 +29,16 @@ function getRandomMessage() {
   return ctaMessages[Math.floor(Math.random() * ctaMessages.length)];
 }
 
-// Set random message on page load
+const labelText = "{{ include.labelText }}";
+
+// Set message on page load
 document.addEventListener('DOMContentLoaded', () => {
   const ctaMessageEl = document.getElementById('ctaMessage');
-  ctaMessageEl.textContent = getRandomMessage();
+  if (labelText.trim() !== "") {
+    ctaMessageEl.textContent = labelText;
+  } else {
+    ctaMessageEl.textContent = getRandomMessage();
+  }
 });
 
 const CTAModal = document.getElementById('CTAModal');
