@@ -2,7 +2,7 @@
 layout: default
 title: Enhancing Subsea Connectivity for RTS Cube Systems
 sub_title: Enhancing Subsea Connectivity for RTS Cube Systems
-excerpt: How RTS enhanced the performance and future readiness of its RTS Cube systems using Subnero smart modems.
+excerpt: RTS integrated Subnero’s M25M acoustic smart modems to ensure reliable, real-time data transmission for their subsea Cube systems in harsh North Sea conditions. This case study shows how upgrading to software-defined modems modernized the platform, reducing operational turnaround time and unlocking new edge processing capabilities.
 banner: images/case-study-banner-rts.jpg
 thumbnail: images/case-study-thumbnail-rts.jpg
 tag: Customer Success Story
