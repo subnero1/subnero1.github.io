@@ -7593,14 +7593,22 @@ a.usecase-card:hover {
 .page-hero.page404 .g4x-hero-btns {
   justify-content: center;
 }
-.list-icons {
-  padding: 2rem 1.6rem;
-  background-color: #f8f9fa;
+.list-grid-wrap {
+  margin-top: 2rem;
+  padding: 1rem 0 0;
+}
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
 }
 .list-icon-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 8px;
+  padding: 1.6rem 1rem;
+  background-color: #f4f4f4;
+  border-radius: 4px;
 }
 .list-icon-row svg {
   flex: none;
@@ -7613,7 +7621,8 @@ a.usecase-card:hover {
   color: #000;
   font-size: 1rem;
   letter-spacing: normal;
-  margin-bottom: 6px;
+  margin-bottom: 0;
+  text-transform: none;
 }
 .list-icon-row p {
   font-size: 1rem;
@@ -7677,6 +7686,22 @@ a.usecase-card:hover {
 }
 .hero-text .contact-label {
   font-size: 1.2rem;
+}
+.operational-advandages .docs-card {
+  background-color: rgb(95 161 255 / 12%);
+}
+.strategic-apps .docs-card {
+  background-color: #fff;
+  padding: 1rem;
+}
+.strategic-apps .docs-card h5 {
+  color: #006090;
+}
+.strategic-apps .docs-card img {
+  border-radius: 8px;
+}
+.g4x-hero-btns.data-harvesting {
+  padding-top: 1rem 0;
 }
 @media (min-width: 1593px){
   .media.product{
