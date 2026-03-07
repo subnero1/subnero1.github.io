@@ -32,7 +32,7 @@ To learn more about this integration, [click here]({{site.baseurl}}/user-stories
 <div class="post-sidebar" markdown="1">
 
 <a href="{{site.baseurl}}/brochures/customer-success-story-subsea-monitoring.pdf" title="Case Study PDF here" target="_blank" rel="noopener noreferrer" class="post-image-link" >
-  ![]({{site.baseurl}}/images/rts-cover.jpg)
+  ![RTS Cube system case study cover]({{site.baseurl}}/images/rts-cover.jpg)
   *Download PDF*
 </a>
 
