@@ -19,13 +19,19 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 <section class="g4x-section" id="sun">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Autonomous Acoustic Data Harvesting</h2>
-    <p class="sec-subhead">The intelligent bridge between subsea assets and surface autonomy. Deploy seafloor assets and retrieve critical insights via USVs without ever sending a vessel to sea.</p>
+    <p class="sec-subhead">The intelligent bridge between subsea assets and surface autonomy.</p>
   </div>
   <div class="row large">
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>As offshore operations transition to full autonomy, traditional data retrieval—relying on expensive telemetry buoys or manual diver intervention—has become a significant bottleneck.</p>
-        <p>Subnero’s Acoustic Data Harvesting Solution transforms any Unmanned Surface Vehicle (USV) into an intelligent data mule. By offloading the complexity of underwater connectivity to our smart modems, we enable seamless, high-speed data collection from seafloor assets with zero human-in-the-loop.</p>
+        <p>Transform any Unmanned Surface Vehicle (USV) into an intelligent data harvester. By offloading communication complexities to our SWIS-enabled smart modems, this solution enables seamless, high-speed, end-to-end data collection from seafloor assets directly to your office, eliminating the need for expensive crewed vessels and manual intervention.</p>
+        <h4>Features</h4>
+        <ul>
+          <li>Zero-Intervention Operations.</li>
+          <li>Massive Cost Savings.</li>
+          <li>Plug-and-Play Integration.</li>
+          <li>Near Real-Time Insights.</li>
+        </ul>
         <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/data-harvesting">Explore Acoustic Data Harvesting &#8594;</a></p>
       </div>
     </div>
