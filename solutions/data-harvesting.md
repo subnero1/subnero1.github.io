@@ -23,17 +23,17 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
   <div class="row large">
     <div class="large-6 columns"> 
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Solution Overview</h2>
-      <p>As offshore operations transition to full autonomy, traditional data retrieval—relying on expensive telemetry buoys or manual diver intervention—has become a significant bottleneck.</p>
-      <p>Subnero’s Acoustic Data Harvesting Solution transforms any Unmanned Surface Vehicle (USV) into an intelligent data mule. By offloading the complexity of underwater connectivity to our smart modems, we enable seamless, high-speed data collection from seafloor assets with zero human-in-the-loop.</p>
+      <p>As offshore operations transition to full autonomy, traditional data retrieval, relying on expensive telemetry buoys or manual diver intervention, has become a significant bottleneck.</p>
+      <p>Subnero’s Acoustic Data Harvesting Solution transforms any Unmanned Surface Vehicle (USV) into an intelligent data mule. By offloading the complexity of underwater connectivity to our smart modems, we enable seamless, end-to-end, high-speed data collection from seafloor assets with zero human-in-the-loop.</p>
       <div class="list-grid-wrap">
-        <h4 class="text-lg text-600">The Subnero USP</h4>
+        <h4 class="text-lg text-600">The Subnero Advantage</h4>
         <div class="list-grid">
           <div class="list-icon-row">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m7 22l4-7.5l-8-1L15 2h2l-4 7.5l8 1L9 22z"/></svg>
-            <h4>Reduced Download Time</h4>
+            <h4>Seamless End-to-End Connectivity</h4>
           </div>
           <div class="list-icon-row">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 9.5c0-3-2.46-5-5.5-5s-5.5 2-5.5 5v4h11ZM7 4.5v-4m-5.5 10h11m-7.5 0v3m4-3v3"/><circle cx="5" cy="8" r=".5"/><circle cx="9" cy="8" r=".5"/></g></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="m19 9l-1.25-2.75L15 5l2.75-1.25L19 1l1.25 2.75L23 5l-2.75 1.25L19 9Zm0 14l-1.25-2.75L15 19l2.75-1.25L19 15l1.25 2.75L23 19l-2.75 1.25L19 23ZM9 20l-2.5-5.5L1 12l5.5-2.5L9 4l2.5 5.5L17 12l-5.5 2.5L9 20Z"/></svg>
             <h4>Zero Manual Intervention</h4>
           </div> 
           <div class="list-icon-row">
@@ -68,7 +68,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>01. Easy Integration (Plug-and-Play)</h5>
-          <p>Rapidly integrate Subnero technology into any USV platform via high-level APIs. Seafloor assets are deployed using ready-to-go SWIS-integrated landers.</p>
+          <p>Rapidly integrate Subnero technology into any USV platform. Seafloor assets are deployed using ready-to-go SWIS-integrated landers.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting">
@@ -77,7 +77,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>02. Autonomous Logging &amp; Standby</h5>
-          <p>Landers autonomously log sensor data (ADCP, pressure, etc.) while remaining in a low-power "Listen" mode to maximize deployment longevity.</p>
+          <p>Landers autonomously log sensor data (ADCP, CTD, etc.) while conserving power to maximize deployment longevity.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting">
@@ -86,7 +86,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>03. Proximity Activation</h5>
-          <p>As the USV enters the deployment zone, it autonomously triggers the lander via an acoustic "Wake-up" or "Ready" signal.</p>
+          <p>As the USV enters the deployment zone, it autonomously triggers the lander via an acoustic wake-up signal.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting">
@@ -94,8 +94,8 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
           <img src="{{site.baseurl}}/images/data-harvesting-card-05.jpg" />
         </div>
         <div>
-          <h5>04. Intelligent Data Harvest</h5>
-          <p>Modems establish an optimized link. Subnero logic manages the complex handshake, error correction, and adaptive modulation in real-time.</p>
+          <h5>04. Smart Data Harvest</h5>
+          <p>Modems establish an optimized link and manage the handshake, error correction, and adaptive modulation in real-time to download the relevant data.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting">
@@ -104,7 +104,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>05. Near Real-Time Relay</h5>
-          <p>Harvested data is instantly bridged to Satellite or 4G/LTE networks, providing processed insights to your desktop via the USV’s backhaul.</p>
+          <p>Harvested data is instantly uploaded to the cloud using high-speed satellite or 4G/LTE networks, delivering insights to your desktop.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting">
@@ -153,13 +153,13 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       <div class="docs-card uj">
         <div>
           <h5>Rapid Data-to-Decision Cycle</h5>
-          <p>On-board edge processing delivers refined insights via satellite/4G.</p>
+          <p>On-board edge processing delivers refined insights directly to the user.</p>
         </div>
       </div>
       <div class="docs-card uj">
         <div>
           <h5>Environmental Sustainability</h5>
-          <p>Deploy zero-emission electric USVs for data collection.</p>
+          <p>Deploy zero-emission USVs for data collection.</p>
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>Defense & Port Security</h5>
-          <p>Monitor unauthorized subsea activity with mobile USV alerts.</p>
+          <p>Monitoring unauthorized activity with USVs.</p>
         </div>
       </div>
       <div class="docs-card uj column-card">
@@ -187,7 +187,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>Asset Integrity & Intrusion</h5>
-          <p>Detect anomalies near cables/pipelines with automated relay.</p>
+          <p>Detect anomalies near subsea assets such as pipelines.</p>
         </div>
       </div>
       <div class="docs-card uj column-card">
@@ -204,8 +204,8 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
           <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-04.jpg" />
         </div>
         <div>
-          <h5>Subsea Power Cable Health</h5>
-          <p>Predictive maintenance through autonomous strain/temp monitoring.</p>
+          <h5>Subsea Cable Health</h5>
+          <p>Predictive maintenance through autonomous strain monitoring.</p>
         </div>
       </div>
       <div class="docs-card uj column-card">
@@ -213,7 +213,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
           <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-05.jpg" />
         </div>
         <div>
-          <h5>Environmental Monitoring (ADCPs)</h5>
+          <h5>Environmental Monitoring</h5>
           <p>High-resolution temporal data via SWIS landers.</p>
         </div>
       </div>
@@ -222,7 +222,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
           <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-06.jpg" />
         </div>
         <div>
-          <h5>Seismic & Tsunami Warning</h5>
+          <h5>Seismic & Tsunami Monitoring</h5>
           <p>Remote data retrieval for disaster prevention without buoys.</p>
         </div>
       </div>
@@ -232,7 +232,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>Acoustic Ecology</h5>
-          <p>Long-term PAM data for migration and noise mapping.</p>
+          <p>Long-term acoustic monitoring for migration and noise mapping.</p>
         </div>
       </div>
       <div class="docs-card uj column-card">
