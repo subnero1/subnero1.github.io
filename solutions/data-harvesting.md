@@ -58,7 +58,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
 <section class="g4x-section bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-01.jpg);">
   <div class="g4x-section-head relative">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">The Mission Workflow</h2>
-    <p class="sec-subhea text-slate-400">Bridging the gap from seafloor to cloud in six seamless steps.</p>
+    <p class="text-slate-400">Bridging the gap from seafloor to cloud in six seamless steps.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col3 dark-card">
@@ -125,7 +125,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Core Operational Advantages</h2>
   </div>
   <div class="row large py2 relative">
-    <div class="feature-grid col3 operational-advandages">
+    <div class="feature-grid col3 operational-advantages">
       <div class="docs-card uj">
         <div>
           <h5>Fully Autonomous Operation</h5>
@@ -174,7 +174,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
     <div class="feature-grid col4 strategic-apps">
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-01.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-01.jpg" alt="Defense & Port Security" />
         </div>
         <div>
           <h5>Defense & Port Security</h5>
@@ -183,7 +183,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-02.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-02.jpg" alt="Asset Integrity & Intrusion" />
         </div>
         <div>
           <h5>Asset Integrity & Intrusion</h5>
@@ -192,7 +192,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-03.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-03.jpg" alt="Offshore Site Characterization" />
         </div>
         <div>
           <h5>Offshore Site Characterization</h5>
@@ -201,7 +201,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-04.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-04.jpg" alt="Subsea Cable Health" />
         </div>
         <div>
           <h5>Subsea Cable Health</h5>
@@ -210,7 +210,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-05.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-05.jpg" alt="Environmental Monitoring" />
         </div>
         <div>
           <h5>Environmental Monitoring</h5>
@@ -219,7 +219,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-06.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-06.jpg" alt="Seismic & Tsunami Monitoring" />
         </div>
         <div>
           <h5>Seismic & Tsunami Monitoring</h5>
@@ -228,7 +228,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-07.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-07.jpg" alt="Acoustic Ecology" />
         </div>
         <div>
           <h5>Acoustic Ecology</h5>

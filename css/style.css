@@ -6367,7 +6367,7 @@ a.usecase-card:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .docs-card.column-card {
-  flex-direction: column;;
+  flex-direction: column;
 }
 .docs-card.uj { color: rgb(var(--orange)); }
 .docs-card.uh { color: rgb(var(--blue)); }
@@ -7687,8 +7687,11 @@ a.usecase-card:hover {
 .hero-text .contact-label {
   font-size: 1.2rem;
 }
-.operational-advandages .docs-card {
+.operational-advantages .docs-card {
   background-color: rgb(95 161 255 / 12%);
+}
+.operational-advantages .docs-card p {
+  color: #000;
 }
 .strategic-apps .docs-card {
   background-color: #fff;
@@ -7701,7 +7704,7 @@ a.usecase-card:hover {
   border-radius: 8px;
 }
 .g4x-hero-btns.data-harvesting {
-  padding-top: 1rem 0;
+  padding: 1rem 0 0;
 }
 @media (min-width: 1593px){
   .media.product{

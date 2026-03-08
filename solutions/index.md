@@ -16,7 +16,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
   </div>
 </section>
 
-<section class="g4x-section" id="sun">
+<section class="g4x-section" id="data-harvesting">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Autonomous Acoustic Data Harvesting</h2>
     <p class="sec-subhead">The intelligent bridge between subsea assets and surface autonomy.</p>
