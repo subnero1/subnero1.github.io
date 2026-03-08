@@ -49,7 +49,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
     </div>
     <div class="large-6 columns">
       <figure class="col-figure no-shadow">
-        <img alt="UnetStack Software Ecosystem Overview" src="{{site.baseurl}}/images/solutions-data-harvesting.jpg" />
+        <img alt="Subnero’s Acoustic Data Harvesting Solution" src="{{site.baseurl}}/images/solutions-data-harvesting.jpg" />
       </figure>
     </div>  
   </div>
