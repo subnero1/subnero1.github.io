@@ -14,18 +14,7 @@ section_id: home
   <div id="main" role="main" class="top-shift">
     <div class="full no-padding">
     <div class="fullscreen">
-      <img id="fullscreen-video" alt="Subnero Underwater Wireless Technology in Action">
-      <script>
-        var numImages = 12;
-        if (window.location.hash &&  parseInt(window.location.hash.substring(1))){
-          var id =  parseInt(window.location.hash.substring(1));
-        }
-        if (!id || id > numImages){
-          id = Math.floor(Math.random() * numImages)+1;
-        }
-        document.getElementById('fullscreen-video').src = "images/lp"+id+".jpg";
-      </script>
-      
+      <img id="fullscreen-video" alt="Subnero Underwater Wireless Technology in Action" src="images/lp.jpg">
       <div class="overlay"></div>
       <div class="layer">
         <h1 class="thin" id="to-be-update">The future of <br> <span class="text-gradient g-orange">underwater wireless</span></h1>
