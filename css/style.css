@@ -6881,6 +6881,9 @@ a.usecase-card:hover {
   border: 1px solid rgb(229, 231, 235);
   border-radius: 12px;
 }
+.job-post + .job-post {
+  margin-top: 0.6rem;
+}
 .job-title {
   display: flex;
   align-items: center;
@@ -7025,6 +7028,20 @@ a.usecase-card:hover {
 }
 .job-details h3 {
   font-size: 1.4rem;
+  font-weight: 600;
+  color: #000;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.job-details h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.job-details h5 {
+  font-size: 1rem;
   font-weight: 600;
   color: #000;
   text-transform: none;

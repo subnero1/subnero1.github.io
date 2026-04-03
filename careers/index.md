@@ -62,25 +62,29 @@ headerTag: Careers
       <p>Singapore Based</p>
     </div>
   </div>
+
+  <!-- job post row -->
+  {% assign job_listings = site.jobs | where: "active", true | sort: "order" %}
   <div class="row large job-list">
-    <a class="card-dialog job-post" href="javascript:void(0)" data-product="job-01">
+    {% for job in job_listings %}
+      <a class="card-dialog job-post" href="javascript:void(0)" data-product="{{ job.id }}">
       <div class="job-info">
         <div class="job-title">
-          <h3>Technical Marketing & Evangelism Executive</h3>
-          <span>New</span>
+          <h3>{{ job.title }}</h3>
+          {% if job.is_new %}<span>New</span>{% endif %}
         </div>
         <div class="job-features">
           <div class="feature">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-4 h-4 mr-1.5 text-gray-400"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            <span>Singapore</span>
+            <span>{{ job.location }}</span>
           </div>
           <div class="feature">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="briefcase" class="lucide lucide-briefcase w-4 h-4 mr-1.5 text-gray-400"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
-            <span>Full-time</span>
+            <span>{{ job.employment_type }}</span>
           </div>
           <div class="feature">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" class="lucide lucide-users w-4 h-4 mr-1.5 text-gray-400"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
-            <span>Marketing Team</span>
+            <span>{{ job.team }}</span>
           </div>
         </div>
       </div>
@@ -88,59 +92,10 @@ headerTag: Careers
         <button class="button g-orange-btn">View Details &rarr;</button>
       </div>
     </a>
+    {% endfor %}
   </div>
-  <!-- Modal -->
-  <dialog id="configModal" class="modal-dialog job-details">
-    <div class="modal-content">
-      <header>
-        <h2>Technical Marketing & Evangelism Executive</h2>
-        <div class="job-points">
-          <span class="time">Full-time</span>
-          <span class="place">Singapore</span>
-        </div>
-        <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
-      </header>
-      <div class="main">
-        <div class="modal-content-item" data-product="job-01">
-          <p>We are looking for a Technical Marketing & Evangelism Executive who can bridge the gap between technology and communication, someone who understands our products and can craft compelling stories around how they solve real-world challenges underwater.</p>
-          <h3>About the Role</h3>
-          <p>As a Technical Marketing & Evangelism Executive, you’ll play a central role in shaping Subnero’s public voice and digital presence. You will work closely with the leadership and product teams to communicate our value, revamp our website and materials, and create engaging content that resonates with our customers and partners.</p>
-          <h3>Key Responsibilities</h3>
-          <ul>
-            <li>Develop a comprehensive understanding of Subnero’s technologies, products, and user applications to effectively communicate their value.</li>
-            <li>Craft technical and marketing content including technical specifications, blogs, newsletters, case studies, social media posts, videos, and product pages that clearly articulate product benefits to diverse audiences.</li>
-            <li>Engage directly with customers and partners to gather insights on use cases, challenges, and success stories to inform content and messaging.</li>
-            <li>Plan, coordinate, and execute multi-channel marketing campaigns to increase brand awareness and customer engagement.</li>
-            <li>Organize and manage marketing and technical events such as Subnero Open Days, product launches, webinars, and conference exhibitions to showcase products and foster community engagement.</li>
-            <li>Support and manage the marketing roadmap and activity calendar to ensure timely delivery of marketing initiatives.</li>
-            <li>Collaborate with internal teams and external partners to align messaging, visuals, and event logistics for cohesive brand representation.</li>
-            <li>Create or assist in designing graphics, visual assets, and short videos using tools such as Figma, Photoshop, Illustrator, or Final Cut Pro X/Premiere Pro to enhance marketing materials.</li>
-            <li>Manage multiple projects and stakeholders concurrently, ensuring deadlines are met and deliverables maintain high quality standards.</li>
-          </ul>
-          <h3>Requirements</h3>
-          <ul>
-            <li>Bachelor’s degree in Engineering (Computer, Electrical), or related fields or equivalent experience.</li>
-            <li>Experience or strong interest in technical content creation, writing, visual design, or multimedia.</li>
-            <li>Familiarity with creative tools such as Figma, Photoshop, Illustrator, and video editing software.</li>
-            <li>Strong interest in technology, communication systems, and ocean innovation.</li>
-            <li>Excellent written and verbal communication skills in English.</li>
-            <li>Structured, disciplined, and detail-oriented with strong organizational skills to manage logistics, schedules, and event execution.</li>
-            <li>Ability to multitask effectively across projects and coordinate with multiple stakeholders is a must.</li>
-            <li>Attention to detail.</li>
-            <li>Proactive and extroverted personality comfortable engaging with customers, partners, and the community.</li>
-            <li>Prior experience in marketing, technical writing, or event management is preferred but not required; fresh graduates are welcome to apply.</li>
-          </ul>
-        </div>          
-      </div>
-      <div class="footer">
-        <button class="button footer-close-btn" id="footerCloseModal">Close</button>
-        <a class="button apply" href="https://www.mycareersfuture.gov.sg/job/marketing/technical-marketing-evangelism-executive-subnero-3884ab3cf6c59cabef0984a462110d6d" target="blank">
-          <span>Apply Now</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-4 h-4 ml-2"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-        </a>
-      </div>
-    </div>
-  </dialog>
+
+  {% include job-modals.html %}
 </section>
 <section class="g4x-section job-email" style="background-color: #F8FAFC;">
   <div class="row large job-email-row">
@@ -154,4 +109,3 @@ headerTag: Careers
     </div>
   </div>
 </section>
-{% include productDetailsDialog.html %}
