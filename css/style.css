@@ -6924,6 +6924,9 @@ a.usecase-card:hover {
   width: 20px;
   height: 20px;
 }
+.job-btn {
+  flex: none;
+}
 .job-btn button {
   margin: 0;
   border-radius: 8px;
@@ -8571,8 +8574,17 @@ a.usecase-card:hover {
   .footer-row{
     grid-template-columns: 1fr;
   }
+  .career-head {
+    padding: 0;
+  }
+  .career-head h3 {
+    font-size: 1.5rem;
+  }
+  .career-head p {
+    font-size: 0.9rem;
+  }
   .job-list {
-    padding: 1rem;
+    padding: 1rem 0;
   }
   .job-email-row {
     padding: 1rem;
@@ -8582,7 +8594,16 @@ a.usecase-card:hover {
   }
   .job-post {
     flex-direction: column;
+    align-items: flex-start;
   }
+  .job-title h3 {
+    font-size: 1.2rem;
+  }
+  .job-features {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
 }
 
 @media (min-width: 481px) and (max-width: 767px){
