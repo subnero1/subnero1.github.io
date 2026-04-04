@@ -4,7 +4,7 @@ title: "Project: Marine Acoustic Calibration System Development Internship"
 id: "job-13"
 location: "Singapore"
 employment_type: "6 - 12 months"
-team: "Marketing Team"
+team: "R&D"
 order: 13
 is_new: true
 active: true
@@ -38,3 +38,8 @@ As a Mechanical Design Intern, you will play a critical role in streamlining Sub
 - **Goal:** Speed up the quality assurance process for newly machined parts.
 - **Function:** Design Go/No-Go gauges and custom fixtures to rapidly verify critical tolerances (e.g., O-ring groove depth, bolt pattern concentricity).
 - **Efficiency:** Eliminate tedious manual measurements so staff can confirm part compliance instantly and accurately.
+
+
+### How to Apply:
+
+- Send your resume and a cover letter detailing your relevant experience to hr (at) subnero (dot) com Please include links to your portfolio, GitHub, or relevant projects, if applicable.

@@ -4,7 +4,7 @@ title: "Software Engineer (Applications & Algorithms) "
 id: "job-11"
 location: "Singapore"
 employment_type: "Full-time"
-team: "Marketing Team"
+team: "R&D"
 order: 11
 is_new: true
 active: true
