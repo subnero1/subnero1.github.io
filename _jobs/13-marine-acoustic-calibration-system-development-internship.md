@@ -5,6 +5,7 @@ id: "job-13"
 location: "Singapore"
 employment_type: "6 - 12 months"
 team: "R&D"
+team: "R&D"
 order: 13
 is_new: true
 active: true
