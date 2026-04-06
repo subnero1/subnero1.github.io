@@ -8,7 +8,7 @@ team: "Marketing Team"
 order: 12
 is_new: true
 active: true
-apply_url: "https://www.mycareersfuture.gov.sg/job/advertising/deep-tech-content-engagement-specialist-subnero-a08135ec8f56741e9a089cde2097e646"
+apply_url: "https://mycareersfuture.gov.sg/job/a08135ec8f56741e9a089cde2097e646"
 ---
 
 Do you have an engineering background but find yourself more drawn to storytelling, brand building, and connecting people with technology? At Subnero, we create the solutions that make underwater communication possible and we need a creative, high-energy specialist to help the world understand how we do it. 
@@ -55,7 +55,7 @@ We are a small, highly technical, and collaborative team working on cutting-edge
 
 ### How to Apply:
 
-- Apply at <a href="https://www.mycareersfuture.gov.sg/job/advertising/deep-tech-content-engagement-specialist-subnero-a08135ec8f56741e9a089cde2097e646" target="_blank">MyCareersFuture.</a>
+- Apply at <a href="https://mycareersfuture.gov.sg/job/a08135ec8f56741e9a089cde2097e646" target="_blank">MyCareersFuture.</a>
 - Send your resume and a cover letter detailing your relevant experience to hr (at) subnero (dot) com.
 - Please include links to any creative work such as portfolios, blogs, design projects, or videos that demonstrate your communication skills.
 
