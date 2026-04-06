@@ -15,6 +15,8 @@ collections:
   userstories: 
     output: true
     permalink: /user-stories/:title/
+  jobs:
+    output: false
 
 # Build settings
 markdown: kramdown
