@@ -55,7 +55,7 @@ We are a small, highly technical, and collaborative team working on cutting-edge
 
 ### How to Apply:
 
-- Apply at <a href="http://mycareersfuture.gov.sg/job/23b1e2387787d5773a15f8b5c7e87012" target="_blank">MyCareersFuture</a>
+- Apply at <a href="https://www.mycareersfuture.gov.sg/job/advertising/deep-tech-content-engagement-specialist-subnero-a08135ec8f56741e9a089cde2097e646" target="_blank">MyCareersFuture.</a>
 - Send your resume and a cover letter detailing your relevant experience to hr (at) subnero (dot) com.
 - Please include links to any creative work such as portfolios, blogs, design projects, or videos that demonstrate your communication skills.
 

@@ -4,7 +4,7 @@ title: "Software Engineer (Applications & Algorithms) "
 id: "job-11"
 location: "Singapore"
 employment_type: "Full-time"
-team: "R&D"
+team: "R&D Team"
 order: 11
 is_new: true
 active: true
@@ -67,5 +67,5 @@ We are a small, highly technical, and collaborative team working on cutting-edge
 
 ### How to Apply:
 
-- Apply at <a href="http://mycareersfuture.gov.sg/job/23b1e2387787d5773a15f8b5c7e87012" target="_blank">MyCareersFuture</a>
+- Apply at <a href="http://mycareersfuture.gov.sg/job/23b1e2387787d5773a15f8b5c7e87012" target="_blank">MyCareersFuture.</a>
 - Send your resume and a cover letter detailing your relevant experience to hr (at) subnero (dot) com Please include links to your portfolio, GitHub, or relevant projects, if applicable.

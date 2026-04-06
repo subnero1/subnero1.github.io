@@ -1,11 +1,10 @@
 ---
 layout: null
-title: "Project: Marine Acoustic Calibration System Development Internship"
+title: "Internship: Marine Acoustic Calibration System Development"
 id: "job-13"
 location: "Singapore"
 employment_type: "6 - 12 months"
-team: "R&D"
-team: "R&D"
+team: "R&D Team"
 order: 13
 is_new: true
 active: true
