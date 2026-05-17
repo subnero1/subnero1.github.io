@@ -1,8 +1,0 @@
----
-layout: pulse_post
-title: Subnero featured in KrAsia article
-external_url: https://kr-asia.com/how-water-drones-can-help-singapore-sustain-its-water-sources
-source: https://kr-asia.com/
-categories: press
-thumbnail: images/pulse-kr-asia.jpg
----
