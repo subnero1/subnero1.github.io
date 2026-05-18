@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const jobs = await getCollection('careers');
+  return jobs.map(job => ({
+    params: { id: job.id },
+    props: { job },
+  }));
+}
+
+const { job } = Astro.props;
+const { Content } = await render(job);
+---
+
+<BaseLayout title={`${job.data.title} | Careers at Subnero`}>
+  <div class="max-w-4xl mx-auto px-6 py-20">
+    <div class="mb-12 border-b border-gray-100 pb-12">
+      <a href="/about/careers" class="text-blue-600 font-bold flex items-center gap-2 mb-8 hover:underline">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Back to Careers
+      </a>
+      <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">{job.data.title}</h1>
+      <div class="flex flex-wrap gap-6 text-gray-600">
+        <span class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          {job.data.location}
+        </span>
+        <span class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          {job.data.type}
+        </span>
+        <span class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+          {job.data.department}
+        </span>
+      </div>
+    </div>
+
+    <div class="prose prose-lg prose-blue max-w-none mb-16">
+      <Content />
+    </div>
+
+    <div class="bg-blue-50 p-10 rounded-3xl text-center">
+      <h3 class="text-2xl font-bold mb-4">Interested in this position?</h3>
+      <p class="text-gray-600 mb-8">Send your CV and a brief cover letter to <a href="mailto:careers@subnero.com" class="text-blue-600 font-bold hover:underline">careers@subnero.com</a></p>
+      <a href="mailto:careers@subnero.com" class="inline-block bg-blue-600 text-white font-bold px-10 py-4 rounded-xl hover:bg-blue-700 transition-colors">
+        Apply Now
+      </a>
+    </div>
+  </div>
+</BaseLayout>

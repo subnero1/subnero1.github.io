@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('user-stories');
+  return stories.map(story => ({
+    params: { id: story.id },
+    props: { story },
+  }));
+}
+
+const { story } = Astro.props;
+const { Content } = await render(story);
+---
+
+<BaseLayout title={`${story.data.title} | Subnero User Story`} description={story.data.excerpt}>
+  <article class="max-w-4xl mx-auto px-6 py-20">
+    <div class="mb-12">
+      <p class="text-blue-600 font-semibold mb-4 uppercase tracking-wider">{story.data.company}</p>
+      <h1 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">{story.data.title}</h1>
+      <img 
+        src={story.data.thumbnail} 
+        alt={story.data.title} 
+        class="w-full aspect-video object-cover rounded-3xl shadow-xl"
+      />
+    </div>
+
+    <div class="prose prose-lg prose-blue max-w-none">
+      <Content />
+    </div>
+
+    <div class="mt-20 pt-8 border-t border-gray-100">
+      <a href="/user-stories" class="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-700">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Back to User Stories
+      </a>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,128 @@
+---
+const { currentPath = '/' } = Astro.props;
+import subneroLogo from '@assets/subnero-logo.svg';
+import { Icon } from 'astro-icon/components';
+---
+
+<header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+  <nav class="max-w-7xl mx-auto px-6" x-data="{ mobileOpen: false }">
+    
+    <div class="flex items-center justify-between h-16">
+      
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3">
+        <img 
+          src={subneroLogo.src} 
+          alt="Company Logo" 
+          class="h-8 w-auto"
+        >
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-x-8">
+        <a href="/" class="nav-link ${currentPath === '/' ? 'active' : ''}">Home</a>
+        
+        <!-- Products Dropdown -->
+        <div class="relative group" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+          <button class="nav-link flex items-center gap-1">
+            Products
+            <Icon name="chevron-down" class="w-4 h-4 transition-transform group-hover:rotate-180" />
+          </button>
+          <div x-show="open" class="absolute pt-2 w-64" style="display: none;">
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 py-3">
+              <a href="/products/wnc" class="block px-6 py-2.5 hover:bg-gray-50">WNC Series</a>
+              <a href="/products/wnc/unetstack" class="block px-6 py-2.5 hover:bg-gray-50">UnetStack</a>
+              
+              <a href="/products/swis" class="block px-6 py-2.5 hover:bg-gray-50">SWIS</a>
+              
+            </div>
+          </div>
+        </div>
+
+        <a href="/solutions" class="nav-link ${currentPath === '/solutions' ? 'active' : ''}">Solutions</a>
+        <a href="/pulse" class="nav-link ${currentPath.startsWith('/pulse') ? 'active' : ''}">Pulse</a>
+        <a href="/user-stories" class="nav-link ${currentPath.startsWith('/user-stories') ? 'active' : ''}">User Stories</a>
+
+        <!-- Resources Dropdown -->
+        <div class="relative group" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+          <button class="nav-link flex items-center gap-1">
+            Resources
+            <Icon name="chevron-down" class="w-4 h-4 transition-transform group-hover:rotate-180" />
+          </button>
+          <div x-show="open" class="absolute pt-2 w-48" style="display: none;">
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 py-3">
+              <a href="/resources/support" class="block px-6 py-2.5 hover:bg-gray-50">Support</a>
+              <a href="/resources/faq" class="block px-6 py-2.5 hover:bg-gray-50">FAQ</a>
+              <a href="/resources/technical-resources" class="block px-6 py-2.5 hover:bg-gray-50">Technical Resources</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Dropdown -->
+        <div class="relative group" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+          <button class="nav-link flex items-center gap-1">
+            About
+            <Icon name="chevron-down" class="w-4 h-4 transition-transform group-hover:rotate-180" />
+          </button>
+          <div x-show="open" class="absolute pt-2 w-48" style="display: none;">
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 py-3">
+              <a href="/about/company" class="block px-6 py-2.5 hover:bg-gray-50">Company</a>
+              <a href="/about/careers" class="block px-6 py-2.5 hover:bg-gray-50">Careers</a>
+              <a href="/about/contact" class="block px-6 py-2.5 hover:bg-gray-50">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button 
+        @click="mobileOpen = !mobileOpen"
+        class="md:hidden p-2 rounded-lg hover:bg-gray-100 focus:outline-none">
+        <Icon x-show="!mobileOpen" name="menu" class="w-6 h-6" />
+        <Icon x-show="mobileOpen" name="x" class="w-6 h-6" />
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div x-show="mobileOpen" class="md:hidden border-t py-6 bg-white">
+      <div class="px-6 space-y-5 text-lg">
+        <a href="/" class="block">Home</a>
+        
+        <div x-data="{ open: false }">
+          <button @click="open = !open" class="flex items-center justify-between w-full">
+            <span>Products</span>
+            <Icon name="chevron-down" :class="open ? 'rotate-180' : ''" class="w-5 h-5 transition-transform" />
+          </button>
+          <div x-show="open" class="pl-4 mt-3 space-y-3 text-base text-gray-600 border-l-2 border-gray-100">
+            <a href="/products/wnc" class="block">WNC Series (Modems)</a>
+            <a href="/products/wnc/unetstack" class="block">UnetStack</a>
+            <a href="/products/swis" class="block">SWIS Series</a>
+            <a href="/products" class="block font-medium text-blue-600">All Products &rarr;</a>
+          </div>
+        </div>
+
+        <a href="/solutions" class="block">Solutions</a>
+        <a href="/pulse" class="block">Pulse</a>
+        <a href="/user-stories" class="block">User Stories</a>
+
+        <div class="pt-6 border-t">
+          <p class="font-semibold text-gray-500 mb-3">Resources</p>
+          <a href="/resources/support" class="block py-2">Support</a>
+          <a href="/resources/faq" class="block py-2">FAQ</a>
+          <a href="/resources/technical-resources" class="block py-2">Technical Resources</a>
+        </div>
+
+        <div class="pt-6 border-t">
+          <p class="font-semibold text-gray-500 mb-3">About</p>
+          <a href="/about/company" class="block py-2">Company</a>
+          <a href="/about/careers" class="block py-2">Careers</a>
+          <a href="/about/contact" class="block py-2">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<style>
+
+</style>

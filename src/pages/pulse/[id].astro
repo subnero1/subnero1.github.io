@@ -1,0 +1,48 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('pulse');
+  return posts.map(post => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout title={`${post.data.title} | Subnero Pulse`} description={post.data.excerpt}>
+  <article class="max-w-4xl mx-auto px-6 py-20">
+    <div class="mb-12 text-center">
+      <time class="text-gray-500 mb-4 block">
+        {post.data.publishDate.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+      </time>
+      <h1 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">{post.data.title}</h1>
+      <img 
+        src={post.data.thumbnail} 
+        alt={post.data.title} 
+        class="w-full aspect-video object-cover rounded-3xl shadow-xl"
+      />
+    </div>
+
+    <div class="prose prose-lg prose-blue max-w-none">
+      <Content />
+    </div>
+
+    <div class="mt-20 pt-8 border-t border-gray-100">
+      <a href="/pulse" class="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-700">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Back to Pulse
+      </a>
+    </div>
+  </article>
+</BaseLayout>
