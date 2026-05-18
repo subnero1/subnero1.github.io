@@ -1,14 +1,14 @@
 ---
-title: "Senior Embedded Software Engineer"
+title: "Software Engineer (Applications & Algorithms)"
 location: "Singapore"
 type: "Full-time"
 department: "Engineering"
 publishDate: 2026-05-01
-description: "We are looking for an experienced Embedded Software Engineer to join our team in developing cutting-edge underwater communication systems."
+description: "We are looking for an experienced Software Engineer to join our team in developing cutting-edge underwater communication systems."
 ---
 
 ## Role Overview
-As a Senior Embedded Software Engineer at Subnero, you will be responsible for...
+As a Senior Software Engineer at Subnero, you will be responsible for...
 
 ## Responsibilities
 - Design and implement software for underwater acoustic modems.
