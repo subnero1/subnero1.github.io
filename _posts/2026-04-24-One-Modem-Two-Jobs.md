@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-usbl-transceiver.jpg
 
 <div class="post-main" markdown="1">
 
-For many subsea operators, acoustic communication and underwater positioning have traditionally required two separate systems, two sets of hardware on the deployment frame, and two lines on the budget. But what if the modem you already use to talk to your AUV could also tell you exactly where it is?
+For many subsea operators, acoustic communication and underwater positioning have traditionally relied on two separate systems, two sets of hardware on the deployment frame, and two lines on the budget. But what if the modem you already use to talk to your AUV could also tell you exactly where it is?
 
 In a new post on the Unet Blog, we show how a multi-receiver acoustic modem running UnetStack can be converted into a fully functional Ultra-Short Baseline (USBL) transceiver with only two minor additions: a rigid scaffold for the hydrophones and a short script running on your laptop. Because the hardware requirements for spatial-diversity communication and for USBL localization are almost identical, the same Subnero multi-receiver modem can serve both roles at once.
 
