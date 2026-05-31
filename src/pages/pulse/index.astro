@@ -32,9 +32,6 @@ const sortedPosts = posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.p
                   day: 'numeric'
                 })}
               </time>
-              {post.data.featured && (
-                <span class="px-2 py-0.5 bg-blue-50 text-blue-600 text-xs font-bold rounded-full uppercase tracking-wider">Featured</span>
-              )}
             </div>
             <a href={`/pulse/${post.id}`} class="block group-hover:text-blue-600 transition-colors">
               <h2 class="text-2xl font-bold mb-4 leading-tight">{post.data.title}</h2>
