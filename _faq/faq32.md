@@ -1,7 +1,7 @@
 ---
 layout: default
-title: What are the various supported wake-up modes for Subnero modems from the Deep Sleep Mode?
-search_content: What are the various supported wake-up modes for Subnero modems from the Deep Sleep Mode?
+title: What are the various supported wake-up modes for Subnero modems from the Sleep and Deep Sleep Mode?
+search_content: What are the various supported wake-up modes for Subnero modems from the Sleep and Deep Sleep Mode?
 faq_section: battery-and-power
 ---
 
