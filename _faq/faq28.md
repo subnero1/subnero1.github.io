@@ -6,3 +6,5 @@ faq_section: battery-and-power
 ---
 
 Subnero Gen4 series modems operate with a nominal input voltage of 24 VDC, with an acceptable range of 22 - 28 VDC.
+
+The Gen4X series modems operate with a nominal input voltage of 24 VDC, with an acceptable range of 18 - 30 VDC.
