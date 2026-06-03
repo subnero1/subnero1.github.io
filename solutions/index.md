@@ -18,21 +18,21 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 
 <section class="g4x-section" id="data-harvesting">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient g-orange">Autonomous Acoustic Data Harvesting</h2>
-    <p class="sec-subhead">The intelligent bridge between subsea assets and surface autonomy.</p>
+    <h2 class="sec-head text-gradient g-orange">Autonomous Subsea Data Operations</h2>
+    <p class="sec-subhead">The communications layer that turns the seabed into a connected node.</p>
   </div>
   <div class="row large">
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>Transform any Unmanned Surface Vehicle (USV) into an intelligent data harvester. By offloading communication complexities to our SWIS-enabled smart modems, this solution enables seamless, high-speed, end-to-end data collection from seafloor assets directly to your office, eliminating the need for expensive crewed vessels and manual intervention.</p>
+        <p>Turn any Unmanned Surface Vehicle (USV) into an intelligent data harvester. Through acoustic data harvesting, Subnero’s Acoustic Smart Modems and software defined networking move information from seabed sensors to your endpoint over satellite or cellular backhaul, reducing reliance on crewed recovery vessels.</p>
         <h4>Features</h4>
         <ul>
-          <li>Zero-Intervention Operations.</li>
-          <li>Massive Cost Savings.</li>
-          <li>Plug-and-Play Integration.</li>
-          <li>Near Real-Time Insights.</li>
+          <li>One communication layer, seabed to shore</li>
+          <li>Intelligence at the edge</li>
+          <li>Software defined, link agnostic</li>
+          <li>Reduced reliance on recovery vessels</li>
         </ul>
-        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/data-harvesting">Explore Acoustic Data Harvesting &#8594;</a></p>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/data-harvesting">Explore Autonomous Subsea Data Operations &#8594;</a></p>
       </div>
     </div>
     <div class="large-6 columns ">

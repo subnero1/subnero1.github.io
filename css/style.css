@@ -4248,7 +4248,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   border: 1px solid #E2E8F0;
   border-radius: 12px;
 }
-
+.solutions .wnc-card {
+  background-color: rgb(95 161 255 / 12%);
+}
+.solutions .wnc-card .g4x-h5 {
+  font-size: 1.74rem;
+}
 .row.flex-row {
   position: relative;
   display: flex;
@@ -7726,6 +7731,77 @@ a.usecase-card:hover {
 .g4x-hero-btns.data-harvesting {
   padding: 1rem 0 0;
 }
+.collaborators-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 360px;
+  padding: 2.4rem 3rem;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.collaborators-intro h2 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.collaborators-intro p {
+  position: relative;
+  color: #fff;
+}
+.collaborator {
+  padding: 2rem;
+  margin: 0;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.collaborator + .collaborator {
+  margin-top: 1rem;
+}
+.collaborator header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.collaborator h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: none;
+}
+.collaborator p {
+  color: #000;
+}
+.collaborator .chip {
+  background-color: #ff8241;
+  padding: 8px 16px;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 14px;
+}
+.collaborator footer {
+  display: flex;
+  gap: 16px;
+}
+.collaborator a {
+  font-size: 16px;
+  padding: 8px 14px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+}
+.collaborator a:hover{
+  color: #006090;
+}
+
+
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
