@@ -8,7 +8,7 @@ excerpt: The communications layer that turns the seabed into a connected node. R
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Autonomous Operations</h4>
+      <h4 class="g4x-tag">For Unmanned Surface Vessels</h4>
       <h1>Autonomous <span class="text-gradient g-blue">Subsea Data Operations</span></h1>
       <p>Turning the seabed into a connected node, for recurring, vessel light subsea data.</p>
       <div class="g4x-hero-btns data-harvesting">
@@ -19,19 +19,17 @@ excerpt: The communications layer that turns the seabed into a connected node. R
 
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient g-orange">Solution Overview</h2>
+    <h2 class="sec-head text-gradient g-orange">Rethinking Subsea Data</h2>
   </div>
   <div class="row large py2">
     <div class="feature-grid col2 solutions">
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The Challenge</h5>
-        <p class="text-black-01">For decades, the rule has been simple. If you want data from the seabed, you send a vessel to get it. Crews mobilize. Landers come up. Weeks pass before the data reaches the people who need it. Every campaign repeats the cycle, and every repeat means cost, risk, and lost time.</p>
-        <p class="text-black-01">Offshore wind, oil and gas, and ocean science programs have outgrown this model. The sensors are ready. The science is ready. The bottleneck is the journey from seabed to shore.</p>
+        <p class="text-black-01">Retrieving seabed data has always meant sending a vessel, then waiting weeks for the results. For long term monitoring, that cost and delay no longer adds up.</p>
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The Solution</h5>
-        <p class="text-black-01">Subnero’s Autonomous Subsea Data Operations platform is the communications layer that turns any Unmanned Surface Vehicle (USV) into an intelligent data harvester.</p>
-        <p class="text-black-01">Through acoustic data harvesting, seabed landers fitted with industry standard sensors link acoustically to a Subnero Acoustic Smart Modem on board the USV. Harvested information is then relayed over satellite or cellular backhaul to the user’s cloud endpoint or operations center. The entire path from seabed to shore is managed by Subnero, leaving the USV operator free to focus on the mission.</p>
+        <p class="text-black-01">Subnero's Autonomous Subsea Data Operations platform turns any USV into an intelligent data harvester, relaying seabed sensor data to your endpoint over satellite or cellular. One communication layer, managed end to end, from seabed to shore.</p>
       </div>
     </div> 
   </div>
@@ -212,7 +210,7 @@ excerpt: The communications layer that turns the seabed into a connected node. R
         </div>
         <div>
           <h5>Environmental Monitoring</h5>
-          <p>High-resolution temporal data via SWIS landers.</p>
+          <p>High-resolution temporal data via SWIS-integrated landers.</p>
         </div>
       </div>
       <div class="docs-card uj column-card">
@@ -267,7 +265,7 @@ excerpt: The communications layer that turns the seabed into a connected node. R
             <p>Subnero is collaborating with HydroSurv, a UK based designer and operator of battery electric and battery hybrid uncrewed surface vessels purpose built for the global survey industry. Together, the two companies are demonstrating a complete operational offering for persistent subsea monitoring.</p>
           </div>
           <footer>
-            <a href="#">Read the announcement</a>
+            <a href="{{site.baseurl}}/partnership/2026/06/03/Subnero-HydroSurv-Collaborate-on-Autonomous-Subsea-Data-Operations.html">Read the announcement</a>
             <a href="{{site.baseurl}}/brochures/Autonomous-Subsea-Data-Operations-Joint-Brief.pdf" title="Autonomous Subsea Data Operations Joint Brief" target="_blank">Download the collaboration brief</a>
           </footer>
         </div>
@@ -287,7 +285,8 @@ excerpt: The communications layer that turns the seabed into a connected node. R
 					<img src="{{site.baseurl}}/brochures/autonomous-subsea-data-operations-subnero.jpg" alt="Autonomous Subsea Data Operations Subnero">
 				</div>
 				<div class="tech-content">
-					<h4>Solution Brief  —  Subnero</h4>
+          <p>Solution Brief</p>
+					<h4>For Any USV</h4>
 					<p>The communications layer for recurring, vessel light subsea data.</p>
 				</div>
 			</a>
@@ -296,7 +295,8 @@ excerpt: The communications layer that turns the seabed into a connected node. R
 					<img src="{{site.baseurl}}/brochures/autonomous-subsea-data-operations-joint-brief.jpg" alt="Autonomous Subsea Data Operations Joint Brief">
 				</div>
 				<div class="tech-content">
-					<h4>Collaboration Brief  —  Subnero and HydroSurv</h4>
+          <p>Collaboration Brief</p>
+					<h4>Subnero and HydroSurv</h4>
 					<p>The integrated offering for complete operations.</p>
 				</div>
 			</a>

@@ -36,7 +36,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
     </div>
     <div class="large-6 columns ">
-      <img alt="Autonomous Acoustic Data Harvesting" class="rounded-sm" src="{{site.baseurl}}/images/solutions-data-harvesting-bg.jpg"/>
+      <img alt="Autonomous Subsea Data Operations" class="rounded-sm" src="{{site.baseurl}}/images/solutions-data-harvesting-bg.jpg"/>
     </div>  
   </div>
 </section>
