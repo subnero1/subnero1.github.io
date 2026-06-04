@@ -2,7 +2,7 @@
 layout: pulse_post
 title: Subnero and HydroSurv Collaborate on Autonomous Subsea Data Operations for Persistent Ocean Monitoring
 banner: images/banner-pulse-data-harvesting.jpg
-date:  2026-06-03
+date:  2026-06-05
 categories: partnership
 thumbnail: images/pulse-thumbnail-data-harvesting.jpg
 ---
