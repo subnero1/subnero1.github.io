@@ -2,14 +2,14 @@
 layout: pulse_post
 title: Subnero and HydroSurv Collaborate on Autonomous Subsea Data Operations for Persistent Ocean Monitoring
 banner: images/banner-pulse-data-harvesting.jpg
-date:  2026-06-05
+date:  2026-06-08
 categories: partnership
 thumbnail: images/pulse-thumbnail-data-harvesting.jpg
 ---
 
 <div class="post-main" markdown="1">
 
-**Singapore, (5th June 2026)**
+**Singapore, (8th June 2026)**
 
 Subnero Pte Ltd., a leader in underwater wireless communication and networking solutions, today announced a collaboration with HydroSurv, a UK-based designer and operator of uncrewed surface vessels (USVs), to demonstrate an autonomous subsea connectivity layer for persistent offshore and ocean monitoring programmes.
 
