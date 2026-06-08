@@ -29,7 +29,7 @@ For offshore wind, oil and gas, ocean science, environmental monitoring and crit
 
 **About HydroSurv**
 
-HydroSurv is a global innovator in Uncrewed Surface Vessel (USV) technology, specializing in low-impact platforms for marine survey and environmental monitoring. Based in Exeter, UK, the company develops and deploys advanced solutions for coastal and offshore applications worldwide, with a focus on sustainable marine operations and high-quality data acquisition. For more information, visit [www.hydro-surv.com](www.hydro-surv.com){:target="_blank"}.
+HydroSurv is a global innovator in Uncrewed Surface Vessel (USV) technology, specialising in low-impact platforms for marine survey and environmental monitoring. Based in Exeter, UK, the company develops and deploys advanced solutions for coastal and offshore applications worldwide, with a focus on sustainable marine operations and high-quality data acquisition. For more information, visit [www.hydro-surv.com](https://www.hydro-surv.com){:target="_blank" rel="noopener noreferrer"}.
 
 **About Subnero**
 
