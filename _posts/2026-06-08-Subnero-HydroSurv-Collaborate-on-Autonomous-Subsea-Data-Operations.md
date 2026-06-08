@@ -35,7 +35,7 @@ HydroSurv is a global innovator in Uncrewed Surface Vessel (USV) technology, spe
 
 Subnero develops underwater communication, networking and edge-intelligence technologies that help connect subsea assets, autonomous platforms and customer systems. Through its Acoustic Smart Modem platform and UnetStack networking software, Subnero enables data exchange, remote interaction and scalable underwater connectivity across defense, offshore energy, marine, subsea and scientific applications. For more information, visit subnero.com.
 
-Read HydroSurv's announcement [here](https://www.hydro-surv.com/press-release/subnero-and-hydrosurv-collaborate-on-autonomous-subsea-data-operations-for-persistent-ocean-monitoring/){:target="_blank"}.
+Read HydroSurv's announcement [here](https://www.hydro-surv.com/press-release/subnero-and-hydrosurv-collaborate-on-autonomous-subsea-data-operations-for-persistent-ocean-monitoring/){:target="_blank" rel="noopener noreferrer"}.
 
 Media Contact: media@subnero.com
 
