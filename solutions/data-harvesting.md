@@ -1,51 +1,47 @@
 ---
 layout: default
-title: Autonomous Acoustic Data Harvesting
+title: Autonomous Subsea Data Operations
 banner : images/banner-data-harvesting.jpg
-excerpt: The intelligent bridge between subsea assets and surface autonomy. Deploy seafloor assets and retrieve critical insights via USVs without ever sending a vessel to sea.
+excerpt: The communications layer that turns the seabed into a connected node. Recurring, vessel light subsea data from seabed to shore, through acoustic data harvesting.
 ---
 
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Autonomous Operations</h4>
-      <h1>Autonomous <span class="text-gradient g-blue">Acoustic Data Harvesting</span></h1>
-      <p>The intelligent bridge between subsea assets and surface autonomy.</p>
+      <h4 class="g4x-tag">For Unmanned Surface Vessels</h4>
+      <h1>Autonomous <span class="text-gradient g-blue">Subsea Data Operations</span></h1>
+      <p>Turning the seabed into a connected node, for recurring, vessel light subsea data.</p>
       <div class="g4x-hero-btns data-harvesting">
-        {%- include formContactUs.html suffix="_left" btnText="Interested in the solution?" -%}
-        {%- include formContactUs.html suffix="_right" btnText="Like to partner with us?" -%}
       </div>
     </div>
+  </div>
+</section>
+
+<section class="g4x-section" style="background-color:#F8FAFC;">
+  <div class="g4x-section-head">
+    <h2 class="sec-head text-gradient g-orange">Rethinking Subsea Data</h2>
+  </div>
+  <div class="row large py2">
+    <div class="feature-grid col2 solutions">
+      <div class="wnc-card p2">
+        <h5 class="g4x-h5 text-gradient g-orange">The Challenge</h5>
+        <p class="text-black-01">Retrieving seabed data has always meant sending a vessel, then waiting weeks for the results. For long term monitoring, that cost and delay no longer adds up.</p>
+      </div>
+      <div class="wnc-card p2">
+        <h5 class="g4x-h5 text-gradient g-orange">The Solution</h5>
+        <p class="text-black-01">Subnero's Autonomous Subsea Data Operations platform turns any USV into an intelligent data harvester, relaying seabed sensor data to your endpoint over satellite or cellular. One communication layer, managed end to end, from seabed to shore.</p>
+      </div>
+    </div> 
   </div>
 </section>
 
 <section class="g4x-section unet">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Solution Overview</h2>
-      <p>As offshore operations transition to full autonomy, traditional data retrieval, relying on expensive telemetry buoys or manual diver intervention, has become a significant bottleneck.</p>
-      <p>Subnero’s Acoustic Data Harvesting Solution transforms any Unmanned Surface Vehicle (USV) into an intelligent data mule. By offloading the complexity of underwater connectivity to our smart modems, we enable seamless, end-to-end, high-speed data collection from seafloor assets with zero human-in-the-loop.</p>
-      <div class="list-grid-wrap">
-        <h4 class="text-lg text-600">The Subnero Advantage</h4>
-        <div class="list-grid">
-          <div class="list-icon-row">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m7 22l4-7.5l-8-1L15 2h2l-4 7.5l8 1L9 22z"/></svg>
-            <h4>Seamless End-to-End Connectivity</h4>
-          </div>
-          <div class="list-icon-row">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="m19 9l-1.25-2.75L15 5l2.75-1.25L19 1l1.25 2.75L23 5l-2.75 1.25L19 9Zm0 14l-1.25-2.75L15 19l2.75-1.25L19 15l1.25 2.75L23 19l-2.75 1.25L19 23ZM9 20l-2.5-5.5L1 12l5.5-2.5L9 4l2.5 5.5L17 12l-5.5 2.5L9 20Z"/></svg>
-            <h4>Zero Manual Intervention</h4>
-          </div> 
-          <div class="list-icon-row">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0c2.12 0 4.16.843 5.66 2.34C15.16 3.84 16 5.88 16 8a8.02 8.02 0 0 1-2.34 5.66A8 8 0 0 1 8 16a8.02 8.02 0 0 1-5.66-2.34A8 8 0 0 1 0 8c0-2.12.843-4.16 2.34-5.66C3.84.84 5.88 0 8 0m1.76 11H6.23l.05.305c.119.655.266 1.24.43 1.75l.127.365c.365.988.792 1.58 1.16 1.58s.792-.59 1.16-1.58l.126-.365q.274-.863.43-1.75l.05-.305zm-4.54 0H1.68a7.14 7.14 0 0 0 1.94 2.46a7.1 7.1 0 0 0 2.82 1.37c-.531-.868-.953-2.16-1.2-3.71l-.017-.114zm9.11 0h-3.55l-.016.114c-.245 1.54-.667 2.84-1.2 3.71a7 7 0 0 0 2.82-1.37a6.9 6.9 0 0 0 1.94-2.46v-.001zM5.1 6H1.3a7 7 0 0 0-.29 2c0 .695.101 1.37.29 2l3.8-.001l-.038-.459Q4.932 7.77 5.1 6m4.8 0H6.11a19.4 19.4 0 0 0 0 4H9.9c.138-1.33.138-2.67 0-4m4.81 0h-3.8l.04.459q.129 1.77-.04 3.54h3.8a7 7 0 0 0 0-4zM6.43 1.18l-.071.018a7.1 7.1 0 0 0-2.78 1.37a6.9 6.9 0 0 0-1.91 2.43h3.55l.017-.114c.245-1.54.667-2.84 1.2-3.71l-.001-.001zM8 1.005c-.365 0-.792.59-1.16 1.58l-.126.365a14 14 0 0 0-.43 1.75l-.051.305h3.53l-.05-.305a13 13 0 0 0-.43-1.75l-.126-.365c-.341-.922-.736-1.5-1.08-1.57l-.074-.007zm1.57.176l.065.108c.5.866.898 2.12 1.13 3.6l.016.114h3.55a7.14 7.14 0 0 0-1.94-2.46a7.1 7.1 0 0 0-2.82-1.37z"/></svg>
-            <h4>Global Near-Real-Time Access</h4>
-          </div> 
-          <div class="list-icon-row">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M14 9h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1m-1 4h-2v-2h2Zm8 0a1 1 0 0 0 0-2h-2V9h2a1 1 0 0 0 0-2h-2.18A3 3 0 0 0 17 5.18V3a1 1 0 0 0-2 0v2h-2V3a1 1 0 0 0-2 0v2H9V3a1 1 0 0 0-2 0v2.18A3 3 0 0 0 5.18 7H3a1 1 0 0 0 0 2h2v2H3a1 1 0 0 0 0 2h2v2H3a1 1 0 0 0 0 2h2.18A3 3 0 0 0 7 18.82V21a1 1 0 0 0 2 0v-2h2v2a1 1 0 0 0 2 0v-2h2v2a1 1 0 0 0 2 0v-2.18A3 3 0 0 0 18.82 17H21a1 1 0 0 0 0-2h-2v-2Zm-4 3a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1Z"/></svg>
-            <h4>SWIS-Enabled Intelligence</h4>
-          </div>
-        </div>
-      </div>
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">A Smart, Integrated System</h2>
+      <p>The Autonomous Subsea Data Operations platform is built as one system, not a stack of parts. Seabed landers carry your chosen sensors. A Subnero equipped USV transits the site and harvests data acoustically. Satellite or cellular backhaul carries it to the user’s cloud or operations center, where analytics turn it into decisions.</p>
+      <p>Subnero Acoustic Smart Modems sit at every seabed sensor node and on the USV, running edge intelligence that processes data where it is generated. Above the surface, Subnero’s software defined networking stack takes over, intelligently routing that data across available links such as satellite, cellular, or terrestrial, all the way to the user’s endpoint.</p>
+      <p><b>One communication layer, spanning the entire path from seabed to shore.</b></p>
     </div>
     <div class="large-6 columns">
       <figure class="col-figure no-shadow">
@@ -104,7 +100,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>05. Near Real-Time Relay</h5>
-          <p>Harvested data is instantly uploaded to the cloud using high-speed satellite or 4G/LTE networks, delivering insights to your desktop.</p>
+          <p>Harvested data is instantly uploaded to the cloud using high-speed satellite or 4G/LTE networks, delivering the right information to your endpoint.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting">
@@ -128,38 +124,38 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
     <div class="feature-grid col3 operational-advantages">
       <div class="docs-card uj">
         <div>
-          <h5>Fully Autonomous Operation</h5>
-          <p>Independent management of the entire retrieval lifecycle.</p>
+          <h5>One system, end to end</h5>
+          <p>Seabed sensors, USV, backhaul, and user endpoint, all connected through a single Subnero communication layer.</p>
         </div>
       </div>
       <div class="docs-card uj">
         <div>
-          <h5>Enhanced Safety</h5>
-          <p>Remove personnel from high-risk offshore environments.</p>
+          <h5>Intelligence at the edge</h5>
+          <p>Subnero Acoustic Smart Modems process data where it is generated, so what reaches you is information, not noise.</p>
         </div>
       </div>
       <div class="docs-card uj">
         <div>
-          <h5>Orders of Magnitude Cost Savings</h5>
-          <p>Eliminate specialized crewed vessels and mobilization logistics.</p>
+          <h5>Software defined, link agnostic</h5>
+          <p>Subnero’s networking stack intelligently routes data across satellite, cellular, or terrestrial links, all the way to your endpoint.</p>
         </div>
       </div>
       <div class="docs-card uj">
         <div>
-          <h5>Scalable Network Architecture</h5>
-          <p>Support complex underwater clusters in a single mission.</p>
+          <h5>Reduced reliance on recovery vessels</h5>
+          <p>Replaces routine vessel mobilization with recurring autonomous USV missions, cutting day rate, fuel, and crew costs from every campaign.</p>
         </div>
       </div>
       <div class="docs-card uj">
         <div>
-          <h5>Rapid Data-to-Decision Cycle</h5>
-          <p>On-board edge processing delivers refined insights directly to the user.</p>
+          <h5>Scalable underwater networks</h5>
+          <p>One mission, many landers, one site wide dataset.</p>
         </div>
       </div>
       <div class="docs-card uj">
         <div>
-          <h5>Environmental Sustainability</h5>
-          <p>Deploy zero-emission USVs for data collection.</p>
+          <h5>USV agnostic by design</h5>
+          <p>Integrate with the surface platform of your choice. No lock in to a single vessel ecosystem.</p>
         </div>
       </div>
     </div>
@@ -214,7 +210,7 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
         </div>
         <div>
           <h5>Environmental Monitoring</h5>
-          <p>High-resolution temporal data via SWIS landers.</p>
+          <p>High-resolution temporal data via SWIS-integrated landers.</p>
         </div>
       </div>
       <div class="docs-card uj column-card">
@@ -248,6 +244,68 @@ excerpt: The intelligent bridge between subsea assets and surface autonomy. Depl
   </div>
 </section>
 
-<section class="call-to-action category-container mb2">
-  {%- include formCTA.html labelText="Want to know more about Autonomous Acoustic Data Harvesting or collaborate with us?" -%}
+
+<section class="g4x-section" style="background-color:#F8FAFC;">
+  <!-- <div class="g4x-section-head relative">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Collaborators</h2>
+  </div> -->
+  <div class="row large py2 relative">
+    <div class="feature-grid col2 collaborators">
+      <div class="collaborators-intro bg-gradient-img" style="background-image: url({{site.baseurl}}/images/collaborators.jpg);">
+        <h2>Working With Collaborators</h2>
+        <p>Subnero collaborates with leading USV operators, sensor manufacturers, and survey companies to bring Autonomous Subsea Data Operations to programs worldwide. Whether you operate your own USV fleet, work with a vessel provider, or are evaluating a new deployment, the platform is designed to integrate cleanly into your existing operations.</p>
+      </div>
+      <div class="collaborators-list">
+        <div class="collaborator">
+          <header>
+            <h3 class="text-gradient g-blue">HydroSurv</h3>
+            <p class="chip">Featured Collaboration</p>
+          </header>
+          <div>
+            <p>Subnero is collaborating with HydroSurv, a UK based designer and operator of battery electric and battery hybrid uncrewed surface vessels purpose built for the global survey industry. Together, the two companies are demonstrating a complete operational offering for persistent subsea monitoring.</p>
+          </div>
+          <footer>
+            <a href="{{site.baseurl}}/partnership/2026/06/03/Subnero-HydroSurv-Collaborate-on-Autonomous-Subsea-Data-Operations.html">Read the announcement</a>
+            <a href="{{site.baseurl}}/brochures/Autonomous-Subsea-Data-Operations-Joint-Brief.pdf" title="Autonomous Subsea Data Operations Joint Brief" target="_blank">Download the collaboration brief</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<section class="g4x-section">
+  <div class="g4x-section-head relative">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Download</h2>
+  </div>
+  <div class="row relative">
+    <div class="feature-grid col2">
+			<a class="tech-link" href="{{site.baseurl}}/brochures/Autonomous-Subsea-Data-Operations-Subnero.pdf" title="Autonomous Subsea Data Operations Subnero" target="_blank">
+				<div class="tech-img md">
+					<img src="{{site.baseurl}}/brochures/autonomous-subsea-data-operations-subnero.jpg" alt="Autonomous Subsea Data Operations Subnero">
+				</div>
+				<div class="tech-content">
+          <p>Solution Brief</p>
+					<h4>For Any USV</h4>
+					<p>The communications layer for recurring, vessel light subsea data.</p>
+				</div>
+			</a>
+			<a class="tech-link" href="{{site.baseurl}}/brochures/Autonomous-Subsea-Data-Operations-Joint-Brief.pdf" title="Autonomous Subsea Data Operations Joint Brief" target="_blank">
+				<div class="tech-img md">
+					<img src="{{site.baseurl}}/brochures/autonomous-subsea-data-operations-joint-brief.jpg" alt="Autonomous Subsea Data Operations Joint Brief">
+				</div>
+				<div class="tech-content">
+          <p>Collaboration Brief</p>
+					<h4>Subnero and HydroSurv</h4>
+					<p>The integrated offering for complete operations.</p>
+				</div>
+			</a>
+			
+		</div>
+  </div>
+</section>
+
+<section class="call-to-action category-container mb2">
+  {%- include formCTA.html labelText="Want to know more about Autonomous Subsea Data Operations or collaborate with us?" -%}
+</section>
+
