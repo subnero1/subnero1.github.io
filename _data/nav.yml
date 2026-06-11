@@ -20,23 +20,37 @@
 - name: Solutions
   path: solutions/
   section_id: solutions
+  submenu:
+  - name: Autonomous Subsea Data Operations
+    path: /solutions/data-harvesting
+    section_id: solutions
+  - name: Subnero Underwater Network
+    path: /solutions/underwater-network
+    section_id: solutions
+- name: Industries
+  path: industries/defense
+  section_id: industries
+  submenu:
+  - name: Defense
+    path: /industries/defense
+    section_id: industries
 - name: Pulse
   path: pulse/
   section_id: pulse
-- name: User Stories
-  path: user-stories
-  section_id: puluserstoriesse
 - name: Resources
   path: support/
   section_id: support
   submenu:
+  - name: User Stories
+    path: /user-stories
+    section_id: support
   - name: Support
     path: /support
     section_id: support
   - name: FAQ
     path: /faq
     section_id: faq
-  - name: Technical Resources 
+  - name: Technical Resources
     path: /technical-resources
     section_id: technical-resources
 - name: About

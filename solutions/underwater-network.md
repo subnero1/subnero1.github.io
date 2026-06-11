@@ -3,6 +3,7 @@ layout: default
 title: Underwater Networking Solution
 banner : images/banner-underwater-network.jpg
 excerpt: A complete communication layer connecting AUVs, sensors, and divers underwater and on to shore. A configurable underwater network stack with field proven cellular and mesh topologies, simulators included, out of the box.
+section_id: solutions
 ---
 
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>

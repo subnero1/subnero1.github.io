@@ -3,6 +3,7 @@ layout: default
 title: Explore Smart Solutions for Reliable Underwater Connectivity
 banner : images/hero-solutions.jpg
 excerpt: Subnero's solutions for marine robots and underwater sensors.
+section_id: solutions
 ---
 
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>

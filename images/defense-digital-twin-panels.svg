@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 540" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="skyMini" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16243A"/><stop offset="1" stop-color="#54616B"/>
+    </linearGradient>
+    <linearGradient id="waterMini" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15405E"/><stop offset="1" stop-color="#061626"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="sceneClip"><rect x="90" y="130" width="600" height="340" rx="8"/></clipPath>
+  </defs>
+  <style>
+    text { fill:#D9E6F2; letter-spacing:2px; }
+    .panelLbl { font-size:15px; letter-spacing:4px; fill:#7FD3EC; }
+    .cardTitle { font-size:22px; letter-spacing:4px; font-weight:600; }
+    .cardSub { font-size:13px; letter-spacing:3px; fill:#7FD3EC; }
+    .desc { font-size:12px; letter-spacing:1.5px; fill:#8AA0B5; }
+    .flow { font-size:11px; letter-spacing:3px; fill:#8AA0B5; }
+    .tag { font-size:13px; letter-spacing:5px; fill:#7FD3EC; }
+    .panel { fill:#0F2032; stroke:#2C4257; stroke-width:2; }
+    .acoustic { stroke:#4FD8FF; stroke-width:2; stroke-linecap:round; stroke-dasharray:0.1 7; fill:none; filter:url(#glow); }
+    .rf { stroke:#FFC98A; stroke-width:2; stroke-linecap:round; stroke-dasharray:0.1 7; fill:none; filter:url(#glow); }
+    .wire { stroke:#4FD8FF; stroke-width:1.6; stroke-linecap:round; stroke-dasharray:0.1 6; fill:none; opacity:.9; }
+    .wnode { fill:none; stroke:#4FD8FF; stroke-width:1.8; }
+    .hw { fill:#E8B62A; stroke:#9C7714; stroke-width:1.2; }
+    .node { fill:#F08A2D; stroke:#B05E12; stroke-width:1.2; }
+    .naval { fill:#2A3A4A; stroke:#93A9BD; stroke-width:1.4; }
+    .mast { stroke:#93A9BD; stroke-width:1.4; }
+    .screen { fill:#04101C; stroke:#3C5168; stroke-width:2; }
+    .grid { stroke:#11283C; stroke-width:1; }
+    .rack { fill:#0B1623; stroke:#51677C; stroke-width:1.6; }
+    .rackUnit { fill:#13283C; stroke:#33485F; stroke-width:1.2; }
+    .led { fill:#4FD8FF; }
+    .ledAmber { fill:#FFC98A; }
+    .arrowC { fill:#4FD8FF; }
+    .arrowA { fill:#FFC98A; }
+    .icon { stroke:#7FD3EC; stroke-width:2.2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  </style>
+
+  <rect x="0" y="0" width="1600" height="540" fill="#0C1826"/>
+
+  <!-- LIVE NETWORK panel -->
+  <rect class="panel" x="70" y="70" width="640" height="420" rx="14"/>
+  <text class="panelLbl" x="100" y="112">LIVE NETWORK</text>
+  <g clip-path="url(#sceneClip)">
+    <rect fill="url(#skyMini)" x="90" y="130" width="600" height="110"/>
+    <rect fill="url(#waterMini)" x="90" y="240" width="600" height="230"/>
+    <path fill="#0A1928" d="M90,430 C220,444 420,420 560,436 L690,430 L690,470 L90,470 Z"/>
+    <line x1="90" y1="240" x2="690" y2="240" stroke="#6FB7D9" stroke-width="1.6" opacity="0.9"/>
+    <!-- buoy -->
+    <g>
+      <ellipse class="hw" cx="390" cy="238" rx="16" ry="6"/>
+      <line class="mast" x1="390" y1="232" x2="390" y2="200"/>
+      <circle class="ledAmber" cx="390" cy="197" r="3"/>
+    </g>
+    <!-- amber uplink leaving frame -->
+    <path class="rf" d="M392,202 L672,142"/>
+    <!-- nodes -->
+    <g class="node">
+      <rect x="160" y="398" width="18" height="22" rx="3"/><ellipse cx="169" cy="398" rx="9" ry="3.4"/>
+      <rect x="288" y="412" width="18" height="22" rx="3"/><ellipse cx="297" cy="412" rx="9" ry="3.4"/>
+      <rect x="560" y="404" width="18" height="22" rx="3"/><ellipse cx="569" cy="404" rx="9" ry="3.4"/>
+    </g>
+    <!-- AUV -->
+    <g class="hw">
+      <rect x="450" y="318" width="58" height="13" rx="6.5"/>
+      <path d="M450,320 L441,315 L441,334 L450,329 Z"/>
+    </g>
+    <!-- cyan links -->
+    <path class="acoustic" d="M388,248 L172,396"/>
+    <path class="acoustic" d="M390,250 L298,410"/>
+    <path class="acoustic" d="M394,250 L476,316"/>
+    <path class="acoustic" d="M508,328 L566,402"/>
+    <path class="acoustic" d="M178,408 L290,420"/>
+    <path class="acoustic" d="M306,420 L560,414"/>
+  </g>
+
+  <!-- DIGITAL TWIN panel -->
+  <rect class="panel" x="890" y="70" width="640" height="420" rx="14"/>
+  <text class="panelLbl" x="920" y="112">DIGITAL TWIN</text>
+  <!-- monitor -->
+  <rect class="screen" x="920" y="150" width="380" height="250" rx="8"/>
+  <g>
+    <line class="grid" x1="920" y1="212" x2="1300" y2="212"/>
+    <line class="grid" x1="920" y1="274" x2="1300" y2="274"/>
+    <line class="grid" x1="920" y1="336" x2="1300" y2="336"/>
+    <line class="grid" x1="1015" y1="150" x2="1015" y2="400"/>
+    <line class="grid" x1="1110" y1="150" x2="1110" y2="400"/>
+    <line class="grid" x1="1205" y1="150" x2="1205" y2="400"/>
+  </g>
+  <!-- wireframe mirror of the live scene -->
+  <path class="wnode" d="M1104,182 L1116,182 L1110,170 Z"/>
+  <circle class="wnode" cx="975" cy="362" r="7"/>
+  <circle class="wnode" cx="1040" cy="372" r="7"/>
+  <circle class="wnode" cx="1235" cy="366" r="7"/>
+  <rect class="wnode" x="1156" y="282" width="34" height="10" rx="5"/>
+  <path class="wire" d="M1106,188 L979,356"/>
+  <path class="wire" d="M1110,188 L1042,365"/>
+  <path class="wire" d="M1114,188 L1162,280"/>
+  <path class="wire" d="M1190,292 L1232,360"/>
+  <path class="wire" d="M982,360 L1033,370"/>
+  <path class="wire" d="M1047,370 L1228,366"/>
+  <rect fill="#0B1623" stroke="#3C5168" stroke-width="1.6" x="1090" y="400" width="40" height="14"/>
+  <rect fill="#0B1623" stroke="#3C5168" stroke-width="1.6" x="1060" y="414" width="100" height="8" rx="3"/>
+  <!-- rack server -->
+  <rect class="rack" x="1350" y="150" width="150" height="272" rx="8"/>
+  <g>
+    <rect class="rackUnit" x="1362" y="166" width="126" height="32" rx="4"/>
+    <rect class="rackUnit" x="1362" y="206" width="126" height="32" rx="4"/>
+    <rect class="rackUnit" x="1362" y="246" width="126" height="32" rx="4"/>
+    <rect class="rackUnit" x="1362" y="286" width="126" height="32" rx="4"/>
+    <rect class="rackUnit" x="1362" y="326" width="126" height="32" rx="4"/>
+    <rect class="rackUnit" x="1362" y="366" width="126" height="32" rx="4"/>
+    <circle class="led" cx="1376" cy="182" r="3"/><circle class="led" cx="1376" cy="222" r="3"/>
+    <circle class="ledAmber" cx="1376" cy="262" r="3"/><circle class="led" cx="1376" cy="302" r="3"/>
+    <circle class="led" cx="1376" cy="342" r="3"/><circle class="ledAmber" cx="1376" cy="382" r="3"/>
+    <line x1="1394" y1="182" x2="1476" y2="182" stroke="#33485F" stroke-width="2"/>
+    <line x1="1394" y1="222" x2="1476" y2="222" stroke="#33485F" stroke-width="2"/>
+    <line x1="1394" y1="262" x2="1476" y2="262" stroke="#33485F" stroke-width="2"/>
+    <line x1="1394" y1="302" x2="1476" y2="302" stroke="#33485F" stroke-width="2"/>
+    <line x1="1394" y1="342" x2="1476" y2="342" stroke="#33485F" stroke-width="2"/>
+    <line x1="1394" y1="382" x2="1476" y2="382" stroke="#33485F" stroke-width="2"/>
+  </g>
+  <path d="M1300,410 L1350,410" stroke="#51677C" stroke-width="1.6" stroke-dasharray="3 4" fill="none"/>
+
+  <!-- exchange arrows -->
+  <path class="acoustic" d="M716,210 L872,210"/>
+  <polygon class="arrowC" points="884,210 868,202 868,218"/>
+  <text class="flow" x="800" y="190" text-anchor="middle">SAME STACK</text>
+  <path class="rf" d="M884,360 L728,360"/>
+  <polygon class="arrowA" points="716,360 732,352 732,368"/>
+  <text class="flow" x="800" y="394" text-anchor="middle">VALIDATED CONFIGS</text>
+
+</svg>
