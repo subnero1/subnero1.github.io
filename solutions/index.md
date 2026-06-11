@@ -44,7 +44,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 <section class="g4x-section" id="sun" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Subnero Underwater Network (SUN)</h2>
-    <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p>
+    <p class="sec-subhead">A complete communication layer connecting your subsea assets to shore. A software-defined network stack paired with field proven subsea connectivity.</p>
   </div>
   <div class="row large">
     <div class="large-6 columns ">
@@ -52,16 +52,8 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
     </div>
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>The Subnero Underwater Network (SUN) provides a complete solution for building scalable and resilient subsea communication networks. Designed to connect various subsea assets, it supports both centralized (cellular-like) and ad hoc mesh topologies to suit a range of deployment needs. Built on Subnero’s WNC technology, the network delivers real-time data access, improved asset visibility, and enhanced operational efficiency. Subnero’s proven expertise includes one of the world’s first commercial underwater cellular network deployments in Singapore.</p>
-        <h4>Features</h4>
-        <ul>
-          <li>Supports centralized and mesh network architectures.</li>
-          <li>Enables real-time monitoring of underwater assets.</li>
-          <li>Offers scalable, multi-node communication networks.</li>
-          <li>Proven through field-tested deployments worldwide.</li>
-        </ul>
-        <!-- <p><a class="inline-btn" href="{{site.baseurl}}/products/swis-adcp">Learn More &#8594;</a></p> -->
-        {%- include formContactUs.html suffix="_bottom" -%}
+        <p>The Subnero Underwater Network (SUN) is a complete communication layer connecting subsea assets to the surface, shore, or cloud. At its core is a software defined network stack that handles addressing, routing, relaying, and mobility end to end. The same stack that carries traffic over acoustic links underwater and over terrestrial links such as satellite, cellular, or radio above the surface. Around it, SUN delivers field proven subsea connectivity for AUVs, seabed sensors, landers, divers, gateway buoys, and vessels, configurable as a centralized cellular style network with seamless handover, or as an ad hoc mesh that relays hop by hop. SUN powers one of the world's first commercial underwater cellular networks, deployed and operating in Singapore waters.</p>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/underwater-network">Explore  Subnero Underwater Network &#8594;</a></p>
       </div>
     </div>
   </div>

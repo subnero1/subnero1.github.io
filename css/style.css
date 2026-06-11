@@ -7675,6 +7675,9 @@ a.usecase-card:hover {
   border-radius: 12px;
   background-color: rgb(53 98 115 / 60%);
 }
+.dark-card .docs-card.data-harvesting.uwn {
+  background-color: rgb(15 25 35 / 80%);
+}
 .dark-card .docs-card.data-harvesting img {
   border-radius: 8px;
 }
