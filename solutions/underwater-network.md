@@ -41,7 +41,6 @@ excerpt: A complete communication layer connecting AUVs, sensors, and divers und
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">One Network for Everything Underwater</h2>
       <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software defined network stack that handles addressing, routing, relaying, and mobility end to end. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, and bridges to satellite, cellular, or radio links above the surface.</p>
       <p>Underwater, SUN turns independent devices, autonomous vehicles, seabed sensors, landers, divers, gateway buoys, and vessels, into one coordinated network. The same technology scales from a single relay link to a wide area fabric of many nodes.</p>
-      <p>Interest in networked underwater systems is growing quickly, and the network is the piece most teams are still missing.</p>
     </div>
     <div class="large-6 columns">
       <figure class="col-figure no-shadow">
@@ -59,13 +58,13 @@ excerpt: A complete communication layer connecting AUVs, sensors, and divers und
     <div class="feature-grid col3 operational-advantages">
       <div class="docs-card uh">
         <div>
-          <h5>AUVs and marine robots</h5>
+          <h5>Marine Robots</h5>
           <p>Keep command, control, and telemetry live as the vehicle moves through the operating area, and relay payload data such as imagery back through the network.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
-          <h5>Fixed sensor nodes</h5>
+          <h5>Sensor Nodes</h5>
           <p>Landers and moorings that log continuously and deliver their data over the network to a topside or shore endpoint, without a vessel sitting on station.</p>
         </div>
       </div>
@@ -136,7 +135,7 @@ excerpt: A complete communication layer connecting AUVs, sensors, and divers und
         </div>
         <div>
           <h5>06. Persistent Subsea IoT</h5>
-          <p>Many nodes, one always on network, scaling like a terrestrial communication layer.</p>
+          <p>Many nodes, one always on network, scaling like a terrestrial communication network.</p>
         </div>
       </div>
     </div>
@@ -163,7 +162,7 @@ excerpt: A complete communication layer connecting AUVs, sensors, and divers und
 
 <section class="g4x-section">
   <div class="g4x-section-head relative">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Two Topologies, One Stack</h2>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Multiple Topologies, One Stack</h2>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 dark-card">
@@ -213,7 +212,7 @@ excerpt: A complete communication layer connecting AUVs, sensors, and divers und
     </div>
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven in the Field</h2>
-      <p>Subnero deployed one of the world's first commercial underwater cellular networks in Singapore waters, demonstrating continuous coverage, seamless handover, multi user resource sharing, and real time tracking of subsea assets.</p>
+      <p>Subnero deployed one of the world's first commercial underwater cellular networks in Singapore waters, demonstrating continuous coverage, seamless handover, multi-user resource sharing, and real-time tracking of subsea assets.</p>
       <p>The deployment is documented in an OCEANS 2024 paper and a full case study, and the same technology is deployed with customers around the world.</p>
       <p><a href="{{site.baseurl}}/user-stories/cellular-network/">Read the Singapore underwater cellular network story</a></p>
     </div>
@@ -235,6 +234,16 @@ excerpt: A complete communication layer connecting AUVs, sensors, and divers und
           <p>Technical Whitepaper</p>
           <h4>The Future of Underwater Wireless</h4>
           <p>The technology behind underwater networks, from the physical layer to full network deployments.</p>
+        </div>
+      </a>
+      <a class="tech-link" href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" title="Underwater Cellular Network Case Study" target="_blank">
+        <div class="tech-img md">
+          <img src="{{site.baseurl}}/images/case-study-underwater-cellular-network-cover.jpg" alt="Underwater Cellular Network Case Study">
+        </div>
+        <div class="tech-content">
+          <p>Case Study</p>
+          <h4>A Connected Ocean</h4>
+          <p>How Subnero's Singapore deployment proved a multi-cell underwater cellular network with seamless handover and real time tracking.</p>
         </div>
       </a>
     </div>
