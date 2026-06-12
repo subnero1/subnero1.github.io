@@ -10,12 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Generate link check config with internal link replacement patterns
+      run: |
+        jq --arg ws "$GITHUB_WORKSPACE" \
+          '. + {"replacementPatterns": [{"pattern": "^(/[^#?]+/)$", "replacement": ("file://" + $ws + "$1")}, {"pattern": "^(/[^#?.]+)$", "replacement": ("file://" + $ws + "$1.md")}]}' \
+          .github/workflows/markdown.links.config.json > /tmp/mlc.config.json
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       id: checker
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
-        config-file: '.github/workflows/markdown.links.config.json'
+        config-file: '/tmp/mlc.config.json'
     - uses: slackapi/slack-github-action@v1
       if: failure()
       id: slack

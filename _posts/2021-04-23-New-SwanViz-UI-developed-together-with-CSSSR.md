@@ -28,7 +28,7 @@ The SwanViz features a dashboard that showcases an overview of various SwanBots 
 
 The SwanViz is accessible via a computer (desktop/laptop) or mobile devices. Users can view and configure SwanBots for various types of water quality monitoring missions from the comfort of their offices. It also enables the water quality data collected by the SwanBot to be viewed in real-time, in the form of heatmaps and data plots. 
 
-The development of a new SwanViz is part of a collaborative project with the National University of Singapore, Subnero has been working on improving the [SWAN](https://subnero.com/solutions/swan.html){:target="_blank"}.
+The development of a new SwanViz is part of a collaborative project with the National University of Singapore, Subnero has been working on improving the SWAN.
 
 In the project, we are also upgrading the SWAN to incorporate intelligent mission planning capabilities. To that effect, the SwanBots (SWAN robots) will be capable of learning from the data collected while exploring an area, to dynamically update an ongoing mission to gather more useful data, in real-time. This enhances the efficiency and cost-effectiveness of SWAN as a water quality monitoring solution.
 
