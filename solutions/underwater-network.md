@@ -26,7 +26,7 @@ section_id: solutions
     <div class="feature-grid col2 solutions">
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The Challenge</h5>
-        <p class="text-black-01">Most teams entering underwater networking start by buying acoustic modems, then spend years building the protocol stack, routing, and network logic on top. The physics are unforgiving and the development cost is high.</p>
+        <p class="text-black-01">Most teams entering underwater networking start by buying acoustic modems, then spend years building the protocol stack, routing, and network logic on top. The physics is unforgiving and the development cost is high.</p>
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The Solution</h5>
@@ -87,7 +87,7 @@ section_id: solutions
     <div class="feature-grid col3 dark-card">
       <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-app-offshore-energy.jpg" alt="Passive acoustic monitoring network relaying seabed sensor contacts hop by hop to a gateway buoy" />
+          <img src="{{site.baseurl}}/images/underwater-network-app-offshore-energy.jpg" alt="Passive acoustic monitoring network relaying seabed sensor contacts hop-by-hop to a gateway buoy" />
         </div>
         <div>
           <h5>01. Offshore Energy Asset Monitoring</h5>
@@ -127,7 +127,7 @@ section_id: solutions
         </div>
         <div>
           <h5>05. Data Muling</h5>
-          <p>A mobile node or vehicle joins the network, collects from many sensor nodes in one pass, and relays the data back to your endpoint over the same stack.</p>
+          <p>A mobile node or vehicle joins the network, collects data from many sensor nodes in one pass, and relays it back to your endpoint over the same stack.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting uwn">
@@ -161,7 +161,7 @@ section_id: solutions
     <div class="feature-grid col2 solutions">
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The Build It Yourself Path</h5>
-        <p class="text-black-01">Buy modems, then develop multi hop relaying, routing across a changing topology, handover for mobile vehicles, and resource sharing across many users. A multi year research program before the first real mission.</p>
+        <p class="text-black-01">Buy modems, then develop multihop relaying, routing across a changing topology, handover for mobile vehicles, and resource sharing across many users. A multi year research program before the first real mission.</p>
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The SUN Path</h5>
@@ -188,11 +188,11 @@ section_id: solutions
       </div>
       <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-topology-mesh.jpg" alt="Ad hoc underwater mesh network topology relaying data hop by hop to a single gateway buoy" />
+          <img src="{{site.baseurl}}/images/underwater-network-topology-mesh.jpg" alt="Ad hoc underwater mesh network topology relaying data hop-by-hop to a single gateway buoy" />
         </div>
         <div>
           <h5 style="text-align: center;">Ad Hoc Mesh</h5>
-          <p>Nodes self organize and relay for each other, so coverage extends hop by hop and the network stays connected even when no single node can reach the destination directly.</p>
+          <p>Nodes self organize and relay for each other, so coverage extends hop-by-hop and the network stays connected even when no single node can reach the destination directly.</p>
         </div>
       </div>
     </div>
