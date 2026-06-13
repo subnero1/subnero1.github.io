@@ -17,7 +17,7 @@ headerTag: People
 	<div class="row member-info">
 		<div class="member-picture">
 			<div class="photo">
-				<img src="/images/people/manu.jpg" alt="Manu Ignatius">
+				<img src="/images/people/manu.jpg" alt="Manu Ignatius, CEO of Subnero">
 			</div>
 		</div>
 		<h1>Manu Ignatius</h1>

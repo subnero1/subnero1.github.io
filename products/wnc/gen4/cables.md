@@ -26,29 +26,29 @@ canonical: /products/wnc/gen4x/cables/
           <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Subnero Underwater Modem Cable - Type 1">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Subnero Underwater Modem Cable - Type 2">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Subnero Underwater Modem Cable - Type 3">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Subnero Underwater Modem Cable - Type 4">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Coiled green underwater cable for Subnero acoustic smart modems with a red wet-mate connector and Ethernet breakout">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Coiled green underwater cable for Subnero acoustic smart modems with a red connector and power breakout leads">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Coiled black underwater cable for Subnero acoustic smart modems with multiple connector breakouts for power and data">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Coiled blue underwater cable for Subnero acoustic smart modems with a multi-pin wet-mate connector and sensor interface breakout wires">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Subnero Underwater Modem Cable - Type 1">
-              <img data-index="1" src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Subnero Underwater Modem Cable - Type 2">
-              <img data-index="2" src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Subnero Underwater Modem Cable - Type 3">
-              <img data-index="3" src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Subnero Underwater Modem Cable - Type 4">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Thumbnail of green underwater cable with red wet-mate connector and Ethernet breakout">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Thumbnail of green underwater cable with red connector and power breakout leads">
+              <img data-index="2" src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Thumbnail of black underwater cable with multiple power and data connector breakouts">
+              <img data-index="3" src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Thumbnail of blue underwater cable with multi-pin connector and sensor interface breakout wires">
             </div>
           </div>
           <!-- ./slider -->
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Subnero Underwater Modem Cables">
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Coiled green underwater cable for Subnero acoustic smart modems with a red wet-mate connector and Ethernet breakout">
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Subnero Underwater Modem Cable - Type 1"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Subnero Underwater Modem Cable - Type 2"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Subnero Underwater Modem Cable - Type 3"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Subnero Underwater Modem Cable - Type 4"></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Coiled green underwater cable for Subnero acoustic smart modems with a red wet-mate connector and Ethernet breakout"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Coiled green underwater cable for Subnero acoustic smart modems with a red connector and power breakout leads"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Coiled black underwater cable for Subnero acoustic smart modems with multiple connector breakouts for power and data"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Coiled blue underwater cable for Subnero acoustic smart modems with a multi-pin wet-mate connector and sensor interface breakout wires"></a></div>
               </div>
             </div>
 

@@ -26,17 +26,17 @@ canonical: /products/wnc/gen4x/co-processors/
           <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor01.jpg" alt="Subnero Modem Co-processor Module - View 1">
-                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor02.jpg" alt="Subnero Modem Co-processor Module - View 2">
-                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor03.jpg" alt="Subnero Modem Co-processor Module - View 3">
-                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor04.jpg" alt="Subnero Modem Co-processor Module - View 4">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor01.jpg" alt="nVidia Jetson TX2 co-processor module for Subnero underwater modems, shown from above with its cooling fan and heatsink">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor02.jpg" alt="nVidia Jetson TX2 co-processor module circuit boards for Subnero underwater modems, showing the NVIDIA Pascal GPU chip">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor03.jpg" alt="nVidia Jetson TX2 co-processor module for Subnero underwater modems, shown at an angle with its heatsink-covered enclosure">
+                <img class="main-img" src="{{site.baseurl}}/images/accessories-coprocessor04.jpg" alt="nVidia Jetson TX2 co-processor module for Subnero underwater modems, shown from below displaying its high-density edge connector">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/accessories-coprocessor01.jpg" alt="Subnero Modem Co-processor Module - View 1">
-              <img data-index="1" src="{{site.baseurl}}/images/accessories-coprocessor02.jpg" alt="Subnero Modem Co-processor Module - View 2">
-              <img data-index="2" src="{{site.baseurl}}/images/accessories-coprocessor03.jpg" alt="Subnero Modem Co-processor Module - View 3">
-              <img data-index="3" src="{{site.baseurl}}/images/accessories-coprocessor04.jpg" alt="Subnero Modem Co-processor Module - View 4">
+              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/accessories-coprocessor01.jpg" alt="Thumbnail of nVidia Jetson TX2 co-processor module with cooling fan and heatsink">
+              <img data-index="1" src="{{site.baseurl}}/images/accessories-coprocessor02.jpg" alt="Thumbnail of nVidia Jetson TX2 co-processor circuit boards showing the NVIDIA Pascal GPU chip">
+              <img data-index="2" src="{{site.baseurl}}/images/accessories-coprocessor03.jpg" alt="Thumbnail of nVidia Jetson TX2 co-processor module with heatsink-covered enclosure">
+              <img data-index="3" src="{{site.baseurl}}/images/accessories-coprocessor04.jpg" alt="Thumbnail of nVidia Jetson TX2 co-processor module showing its edge connector">
             </div>
           </div>
           <!-- ./slider -->

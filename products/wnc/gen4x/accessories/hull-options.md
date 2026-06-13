@@ -12,17 +12,17 @@ breadcrumb: Hull Options
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-01.png" alt="Subnero Modem Hull Options Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-02.png" alt="Subnero Modem Hull Options Gallery View 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-03.png" alt="Subnero Modem Hull Options Gallery View 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-04.png" alt="Subnero Modem Hull Options Gallery View 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-01.png" alt="Subnero acoustic smart modem in a stainless steel hull, shown upright with its underwater connector — one of several available hull material options">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-02.png" alt="Subnero acoustic smart modem in a stainless steel hull with dual underwater connectors, illustrating an alternative hull form factor option">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-03.png" alt="Subnero acoustic smart modem in an anodized aluminum hull, shown upright with its underwater connector — an alternative to the stainless steel and titanium options">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-04.png" alt="Multiple Subnero acoustic smart modems with aluminum hulls floating at a harbor, illustrating different hull material and depth-rating options for various deployments">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-01.png" alt="Subnero Modem Hull Options Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-02.png" alt="Subnero Modem Hull Options Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-03.png" alt="Subnero Modem Hull Options Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-04.png" alt="Subnero Modem Hull Options Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-01.png" alt="Subnero modem hull options thumbnail – stainless steel hull, single connector">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-02.png" alt="Subnero modem hull options thumbnail – stainless steel hull, dual connectors">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-03.png" alt="Subnero modem hull options thumbnail – aluminum hull, single connector">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-hull-thumb-04.png" alt="Subnero modem hull options thumbnail – multiple modems at harbor">
           </div>
         </div>
         <!-- ./slider -->
@@ -66,7 +66,7 @@ breadcrumb: Hull Options
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-hull-feature.png" alt="Subnero Modem Hull Options Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-hull-feature.png" alt="Subnero acoustic smart modem in a stainless steel hull with dual underwater connectors, available among multiple hull material and depth-rating options" />
       </div>
     </div>
   </section>

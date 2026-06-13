@@ -61,7 +61,7 @@ section_id: solutions
     <div class="feature-grid col3 dark-card">
       <div class="docs-card column-card data-harvesting">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-card-01.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-card-01.jpg" alt="Illustration of a Subnero acoustic modem connecting to a USV for plug-and-play integration with SWIS-integrated landers" />
         </div>
         <div>
           <h5>01. Easy Integration (Plug-and-Play)</h5>
@@ -70,7 +70,7 @@ section_id: solutions
       </div>
       <div class="docs-card column-card data-harvesting">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-card-02.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-card-02.jpg" alt="Illustration of a seafloor lander with a Subnero modem and sensors autonomously logging data while on standby" />
         </div>
         <div>
           <h5>02. Autonomous Logging &amp; Standby</h5>
@@ -79,7 +79,7 @@ section_id: solutions
       </div>
       <div class="docs-card column-card data-harvesting">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-card-03.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-card-03.jpg" alt="Illustration of a USV sending an acoustic wake-up signal to activate a seafloor lander on approach" />
         </div>
         <div>
           <h5>03. Proximity Activation</h5>
@@ -88,7 +88,7 @@ section_id: solutions
       </div>
       <div class="docs-card column-card data-harvesting">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-card-05.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-card-05.jpg" alt="Illustration of a Subnero acoustic modem establishing a high-speed link with a seafloor lander to harvest data" />
         </div>
         <div>
           <h5>04. Smart Data Harvest</h5>
@@ -97,7 +97,7 @@ section_id: solutions
       </div>
       <div class="docs-card column-card data-harvesting">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-card-04.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-card-04.jpg" alt="Illustration of a USV relaying harvested subsea data to the cloud via satellite link" />
         </div>
         <div>
           <h5>05. Near Real-Time Relay</h5>
@@ -106,7 +106,7 @@ section_id: solutions
       </div>
       <div class="docs-card column-card data-harvesting">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-card-06.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-card-06.jpg" alt="Illustration of a USV harvesting data from multiple seafloor landers across an underwater network in a single mission" />
         </div>
         <div>
           <h5>06. Multi-Lander Scalability</h5>
@@ -234,7 +234,7 @@ section_id: solutions
       </div>
       <div class="docs-card uj column-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-08.jpg" />
+          <img src="{{site.baseurl}}/images/data-harvesting-strategic-app-08.jpg" alt="Illustration of an underwater shipwreck site monitored for chemistry and structural stability" />
         </div>
         <div>
           <h5>Underwater Archaeology</h5>
@@ -266,7 +266,7 @@ section_id: solutions
             <p>Subnero is collaborating with HydroSurv, a UK based designer and operator of battery electric and battery hybrid uncrewed surface vessels purpose built for the global survey industry. Together, the two companies are demonstrating a complete operational offering for persistent subsea monitoring.</p>
           </div>
           <footer>
-            <a href="{{site.baseurl}}/partnership/2026/06/03/Subnero-HydroSurv-Collaborate-on-Autonomous-Subsea-Data-Operations.html">Read the announcement</a>
+            <a href="{{site.baseurl}}/partnership/2026/06/08/Subnero-HydroSurv-Collaborate-on-Autonomous-Subsea-Data-Operations.html">Read the announcement</a>
             <a href="{{site.baseurl}}/brochures/Autonomous-Subsea-Data-Operations-Joint-Brief.pdf" title="Autonomous Subsea Data Operations Joint Brief" target="_blank">Download the collaboration brief</a>
           </footer>
         </div>

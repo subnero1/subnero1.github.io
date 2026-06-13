@@ -11,17 +11,17 @@ breadcrumb: Silver Edition
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-02.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-03.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-04.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" alt="Subnero L12L Series Silver Edition low-frequency (LF) acoustic smart modem in side profile, showing its compact cylindrical underwater housing and connector">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-02.png" alt="Subnero L12L Series Silver Edition LF acoustic smart modem mounted upright on its base, showing the underwater connector and cable assembly">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-03.png" alt="Disassembled Subnero L12L Series Silver Edition modem showing its internal electronics stack, processing board, and pressure housing components">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-04.png" alt="Subnero L12L Series Silver Edition acoustic smart modem on a dockside ledge with a harbor in the background, ready for long-range underwater deployment">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-01.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-02.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-03.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-04.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-01.png" alt="Subnero L12L Series Silver Edition LF modem thumbnail – side profile view">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-02.png" alt="Subnero L12L Series Silver Edition LF modem thumbnail – upright mounted view">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-03.png" alt="Subnero L12L Series Silver Edition LF modem thumbnail – disassembled internal components">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-04.png" alt="Subnero L12L Series Silver Edition LF modem thumbnail – dockside deployment view">
           </div>
         </div>
         <!-- ./slider -->
@@ -63,7 +63,7 @@ breadcrumb: Silver Edition
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-feature.png" alt="Subnero L12L Series Silver Edition Modem Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-feature.png" alt="Subnero L12L Series Silver Edition low-frequency (LF) acoustic smart modem shown at an angle, highlighting its rugged underwater housing and connector" />
       </div>
     </div>
   </section>

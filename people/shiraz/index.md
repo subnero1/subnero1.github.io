@@ -17,7 +17,7 @@ headerTag: People
 	<div class="row member-info">
 		<div class="member-picture">
 			<div class="photo">
-				<img src="/images/people/shiraz.jpg" alt="Shiraz Shahabudeen">
+				<img src="/images/people/shiraz.jpg" alt="Shiraz Shahabudeen, Research Scientist at Subnero">
 			</div>
 		</div>
 		<h1>Shiraz Shahabudeen</h1>

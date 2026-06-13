@@ -25,13 +25,13 @@ canonical: /products/wnc/gen4x/storage/
           <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-storage01.jpg' alt="Additional storage for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-storage02.jpg' alt="Additional storage for Subnero underwater modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-storage01.jpg' alt="MicroSD memory card with SD adapter used for additional onboard storage in Subnero underwater acoustic smart modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-storage02.jpg' alt="USB flash drive used for additional external storage with Subnero underwater acoustic smart modems">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-storage01.jpg' alt="Additional storage for Subnero underwater modems">
-              <img data-index="1" src='{{site.baseurl}}/images/accessories-storage02.jpg' alt="Additional storage for Subnero underwater modems">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-storage01.jpg' alt="Thumbnail of microSD memory card with SD adapter for Subnero underwater modem storage">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-storage02.jpg' alt="Thumbnail of USB flash drive for Subnero underwater modem external storage">
             </div>
           </div>
           <!-- ./slider -->

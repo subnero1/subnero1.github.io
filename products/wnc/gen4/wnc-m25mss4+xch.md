@@ -94,7 +94,7 @@ Subnero's multi-receiver smart modems utilize advanced spatial diversity combini
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-receiver Modems</a>
+      <a href="{{site.baseurl}}/product-launch/feature/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-receiver Modems</a>
     </div>
 </div>
 </div>

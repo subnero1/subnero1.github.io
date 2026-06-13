@@ -123,7 +123,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     </div>
     <div class="large-6 columns">
       <figure class="col-figure no-shadow">
-        <img alt="Subnero Team Photo" src="{{site.baseurl}}/images/about-image-full.jpg" />
+        <img alt="The Subnero team at a trade show, on a field deployment, and together at the office" src="{{site.baseurl}}/images/about-image-full.jpg" />
       </figure>
     </div>  
   </div>
