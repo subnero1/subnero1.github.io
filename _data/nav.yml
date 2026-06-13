@@ -21,6 +21,9 @@
   path: solutions/
   section_id: solutions
   submenu:
+  - name: Overview
+    path: /solutions
+    section_id: solutions
   - name: Autonomous Subsea Data Operations
     path: /solutions/data-harvesting
     section_id: solutions

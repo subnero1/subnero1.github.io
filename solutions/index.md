@@ -45,7 +45,7 @@ section_id: solutions
 <section class="g4x-section" id="sun" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Subnero Underwater Network (SUN)</h2>
-    <p class="sec-subhead">A complete communication layer connecting your subsea assets to shore. A software-defined network stack paired with field proven subsea connectivity.</p>
+    <p class="sec-subhead">A complete communication layer connecting your subsea assets to shore.</p>
   </div>
   <div class="row large">
     <div class="large-6 columns ">
@@ -53,7 +53,15 @@ section_id: solutions
     </div>
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>The Subnero Underwater Network (SUN) is a complete communication layer connecting subsea assets to the surface, shore, or cloud. At its core is a software defined network stack that handles addressing, routing, relaying, and mobility end to end. The same stack that carries traffic over acoustic links underwater and over terrestrial links such as satellite, cellular, or radio above the surface. Around it, SUN delivers field proven subsea connectivity for AUVs, seabed sensors, landers, divers, gateway buoys, and vessels, configurable as a centralized cellular style network with seamless handover, or as an ad hoc mesh that relays hop by hop. SUN powers one of the world's first commercial underwater cellular networks, deployed and operating in Singapore waters.</p>
+        <p>The Subnero Underwater Network (SUN) is a complete communication layer for the subsea domain: a configurable network stack connecting AUVs, sensors, and divers to the surface, shore, and cloud. Built on Subnero's WNC technology and proven in one of the world's first commercial underwater cellular network deployments in Singapore.</p>
+        <h4>Features</h4>
+        <ul>
+          <li>Out of the box network: configure, do not develop</li>
+          <li>Centralized cellular style and ad hoc mesh topologies</li>
+          <li>Seamless handover and real time asset tracking</li>
+          <li>Full toolchain with UnetStack, UnetSim, and channel modeling</li>
+          <li>Proven in field deployments worldwide</li>
+        </ul>
         <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/underwater-network">Explore  Subnero Underwater Network &#8594;</a></p>
       </div>
     </div>

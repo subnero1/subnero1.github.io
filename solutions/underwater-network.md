@@ -40,7 +40,7 @@ section_id: solutions
   <div class="row large">
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">One Network for Everything Underwater</h2>
-      <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software defined network stack that handles addressing, routing, relaying, and mobility end to end. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, and bridges to satellite, cellular, or radio links above the surface.</p>
+      <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software defined network stack that handles addressing, routing, relaying, and mobility end to end. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, routes across optical links where higher bandwidth is available, and bridges to satellite, cellular, or radio links above the surface.</p>
       <p>Underwater, SUN turns independent devices, autonomous vehicles, seabed sensors, landers, divers, gateway buoys, and vessels, into one coordinated network. The same technology scales from a single relay link to a wide area fabric of many nodes.</p>
     </div>
     <div class="large-6 columns">
@@ -87,47 +87,47 @@ section_id: solutions
     <div class="feature-grid col3 dark-card">
       <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-app-pam.jpg" alt="Passive acoustic monitoring network relaying seabed sensor contacts hop by hop to a gateway buoy" />
+          <img src="{{site.baseurl}}/images/underwater-network-app-offshore-energy.jpg" alt="Passive acoustic monitoring network relaying seabed sensor contacts hop by hop to a gateway buoy" />
         </div>
         <div>
-          <h5>01. Passive Acoustic Monitoring</h5>
-          <p>Seabed nodes listen for signatures and relay contacts hop by hop across the network to a gateway buoy, even when no node has a direct link to the surface.</p>
+          <h5>01. Offshore Energy Asset Monitoring</h5>
+          <p>Pipelines, wellheads, and wind farm foundations report continuously over the network, with condition data delivered to shore without a vessel on station.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-app-data-muling.jpg" alt="Data muling over an underwater network with a mobile node collecting from many seabed sensors" />
+          <img src="{{site.baseurl}}/images/underwater-network-app-pam-research.jpg" alt="Data muling over an underwater network with a mobile node collecting from many seabed sensors" />
         </div>
         <div>
-          <h5>02. Data Muling</h5>
+          <h5>02. Acoustic Monitoring (PAM) for Marine Mammal Research</h5>
+          <p>Hydrophone equipped seabed nodes detect whales, dolphins and other marine mammals and relay detections to shore in near real-time, with no recovery trips and no waiting for the data.</p>
+        </div>
+      </div>
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/underwater-network-app-observatory.jpg" alt="Diver communication and tracking network with relay nodes extending range to a supervisor" />
+        </div>
+        <div>
+          <h5>03. Ocean Observatories and Environmental Monitoring</h5>
+          <p>Long term seabed stations and early warning sensors relay their data hop-by-hop to shore, season after season.</p>
+        </div>
+      </div>
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/underwater-network-app-fleet-ops.jpg" alt="Underwater network for mine countermeasures with AUV handover between coverage cells" />
+        </div>
+        <div>
+          <h5>04. Marine Robotics Fleet Operations</h5>
+          <p>Command, control, telemetry, and data offload for AUV and ROV fleets, with seamless handover as vehicles move across the survey area.</p>
+        </div>
+      </div>
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/underwater-network-app-data-muling.jpg" alt="Underwater command and control network carrying traffic from every subsea asset to one operating picture" />
+        </div>
+        <div>
+          <h5>05. Data Muling</h5>
           <p>A mobile node or vehicle joins the network, collects from many sensor nodes in one pass, and relays the data back to your endpoint over the same stack.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-app-diver.jpg" alt="Diver communication and tracking network with relay nodes extending range to a supervisor" />
-        </div>
-        <div>
-          <h5>03. Diver Communication and Tracking</h5>
-          <p>Telemetry and position for every diver on the network, relayed hop by hop so a supervisor stays in contact well beyond point to point range.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-app-mcm.jpg" alt="Underwater network for mine countermeasures with AUV handover between coverage cells" />
-        </div>
-        <div>
-          <h5>04. Mine Countermeasures</h5>
-          <p>AUVs prosecute mines while staying connected to the network for command, control, and sonar imagery, with seamless handover as they move between cells.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/underwater-network-app-c2.jpg" alt="Underwater command and control network carrying traffic from every subsea asset to one operating picture" />
-        </div>
-        <div>
-          <h5>05. Command and Control</h5>
-          <p>One network carries traffic from every underwater asset, AUVs, sensors, divers, and relays, to a single operations picture.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting uwn">
@@ -136,12 +136,22 @@ section_id: solutions
         </div>
         <div>
           <h5>06. Persistent Subsea IoT</h5>
-          <p>Many nodes, one always on network, scaling like a terrestrial communication network.</p>
+          <p>Many nodes, one always on network, from aquaculture farms to harbor infrastructure, scaling like a terrestrial communication layer.</p>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="row large relative">
+    <div class="wnc-card p2" style="text-align:center;">
+      <h5 class="g4x-h5 text-gradient g-orange">Defense Applications</h5>
+      <p>The same network underpins mine countermeasures, passive acoustic monitoring for surveillance, diver operations, and command and control. Explore the defense versions of these missions on our Defense page.</p>
+      <p class="mb0"><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/industries/defense">Explore Defense Applications &#8594;</a></p>
+    </div>
+  </div>
+
 </section>
+
 
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head relative">
@@ -167,21 +177,21 @@ section_id: solutions
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 dark-card">
-      <div class="docs-card column-card data-harvesting">
+      <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/underwater-network-topology-centralized.jpg" alt="Centralized cellular style underwater network topology with base station buoys, coverage cells, and AUV handover" />
         </div>
         <div>
-          <h5>Centralized, Cellular Style</h5>
+          <h5 style="text-align: center;">Centralized, Cellular Style</h5>
           <p>Base stations provide continuous coverage across cells, with seamless handover as mobile assets move between them, multi user resource sharing, and real time tracking.</p>
         </div>
       </div>
-      <div class="docs-card column-card data-harvesting">
+      <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/underwater-network-topology-mesh.jpg" alt="Ad hoc underwater mesh network topology relaying data hop by hop to a single gateway buoy" />
         </div>
         <div>
-          <h5>Ad Hoc Mesh</h5>
+          <h5 style="text-align: center;">Ad Hoc Mesh</h5>
           <p>Nodes self organize and relay for each other, so coverage extends hop by hop and the network stays connected even when no single node can reach the destination directly.</p>
         </div>
       </div>
@@ -245,6 +255,16 @@ section_id: solutions
           <p>Case Study</p>
           <h4>A Connected Ocean</h4>
           <p>How Subnero's Singapore deployment proved a multi-cell underwater cellular network with seamless handover and real time tracking.</p>
+        </div>
+      </a>
+      <a class="tech-link" href="{{site.baseurl}}/brochures/case-study-software-defined-modems.pdf" title="Software-Defined Modems for Underwater Research Case Study" target="_blank">
+        <div class="tech-img md">
+          <img src="{{site.baseurl}}/images/anl-cover.jpg" alt="Software-Defined Modems for Underwater Research Case Study">
+        </div>
+        <div class="tech-content">
+          <p>Case Study</p>
+          <h4>Transforming Underwater Research</h4>
+          <p>How researchers used Subnero's software-defined modems for passive acoustic monitoring of marine mammals, alongside other advanced underwater sensing applications.</p>
         </div>
       </a>
     </div>

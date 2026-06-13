@@ -178,7 +178,6 @@ section_id: industries
         <div>
           <h5>UnetCloud</h5>
           <p>The full simulation environment, hosted in the cloud for instant access, or delivered on a rack server inside your own secure perimeter, a standing digital twin for planning, evaluation, and training.</p>
-  </div>
         </div>
       </div>
     </div>
@@ -196,7 +195,7 @@ section_id: industries
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven Where It Matters</h2>
       <p>Working with ST Engineering, Subnero deployed one of the world's first commercial underwater cellular networks in Singapore waters, demonstrating continuous coverage, seamless handover, multi user resource sharing, and real time tracking of subsea assets. The deployment is documented in an OCEANS 2024 paper and a full case study.</p>
       <p><a href="{{site.baseurl}}/user-stories/cellular-network/">Read the Singapore underwater cellular network story.</a></p>
-      <p>The Subnero Underwater Network also won the DisTec Undersea Challenge at UDT 2021, selected ahead of finalists from across the undersea defence community.</p>
+      <p>The Subnero Underwater Network also won the DisTec Undersea Challenge at UDT 2021, selected ahead of finalists from across the undersea defense community.</p>
       <p><a href="{{site.baseurl}}/event/press/2021/07/15/Subnero-wins-DisTec.html">Read about the DisTec Undersea Challenge win.</a></p>
     </div>
   </div>
