@@ -35,7 +35,7 @@ section_id: industries
     <p>Most forces have a strong maritime picture on and above the water, and almost none in the subsea domain. Subsea domain awareness means knowing where your underwater assets are and what they are doing, and that requires a network beneath the surface. That network is what Subnero builds.</p>
   </div>
   <div class="row large py2 relative">
-    <div class="feature-grid col3 operational-advantages">
+    <div class="feature-grid col2 operational-advantages">
       <div class="docs-card uh">
         <div>
           <h5>Persistent connectivity</h5>
@@ -54,6 +54,12 @@ section_id: industries
           <p>Fewer vessels on station and fewer people in the water, with more of the mission run remotely and autonomously.</p>
         </div>
       </div>
+      <div class="docs-card uh">
+        <div>
+          <h5>Seabed to operator</h5>
+          <p>Backhaul over satellite, cellular, or radio carries the subsea picture from the gateway straight to your command center and shore networks.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -61,7 +67,7 @@ section_id: industries
 <section class="g4x-section defense-dark">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">One Communication Layer, Many Missions</h2>
-    <p>Every mission below depends on the same thing: a communication layer for the subsea domain. Subnero delivers that layer as a configurable underwater network connecting sensors, vehicles, divers, gateways, and shore stations.</p>
+    <p>Every mission below depends on the same thing: a communication layer for the subsea domain. Subnero delivers that layer as a configurable underwater network connecting sensors, vehicles, divers, gateways, and shore stations, with backhaul over satellite, cellular, and radio links above the surface, so the subsea picture reaches the operator in real time.</p>
   </div>
   <figure class="section-edge-img">
     <img alt="Subsea domain awareness across a coastal theater, with seabed sensors, AUVs, divers, gateway buoys, vessels, shore stations, and satellites connected by one underwater network" src="{{site.baseurl}}/images/defense-subsea-network-master.jpg" />
@@ -133,6 +139,7 @@ section_id: industries
         <li>Every underwater asset reports into one network and onto one operating picture.</li>
         <li>Vehicles, sensors, and divers share a single connectivity fabric.</li>
         <li>The subsea picture joins the maritime picture the force already holds.</li>
+        <li>Backhaul to shore over satellite, cellular, or radio links delivers that picture to command centers and wider networks</li>
       </ul>
       <p>Powered by the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
     </div>
