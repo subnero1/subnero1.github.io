@@ -37,6 +37,12 @@
   - name: Defense
     path: /industries/defense
     section_id: industries
+  - name: Energy
+    path: /industries/energy
+    section_id: industries
+  - name: Research
+    path: /industries/research
+    section_id: industries
 - name: Pulse
   path: pulse/
   section_id: pulse

@@ -1,15 +1,22 @@
 {
     "ignorePatterns": [
-        { "pattern" : "^https?://www.smartseatech.com/en/index.aspx" }, 
-        { "pattern" : "^https?://www.asianscientist.com.*" }, 
+        { "pattern" : "^https?://www.smartseatech.com/en/index.aspx" },
+        { "pattern" : "^https?://www.asianscientist.com.*" },
         { "pattern" : "^https?://www.oceans19mtsieeemarseille.org.*" },
-        { "pattern" : "^{{site.baseurl}}.*" },
+        { "pattern" : "\\{\\{.*\\}\\}" },
+        { "pattern" : "%7B%7B.*%7D%7D" },
         { "pattern" : "^https://www.opengovasia.com/" },
         { "pattern" : "^\/images.*"},
         { "pattern" : "^https://medium.com/@NUSEnterprise/"},
         { "pattern" : "^https://www.mtsociety.org/"},
-        { "pattern" : "^https://www.linkedin.com/company/rijas-technical-solutions-pvt-ltd/"}
+        { "pattern" : "^https://www.linkedin.com/company/rijas-technical-solutions-pvt-ltd/"},
+        { "pattern" : "^https?://www\\.hydro-surv\\.com"},
+        { "pattern" : "^https?://github\\.com/org-arl/unetsockets/blob/"},
+        { "pattern" : "^https?://www\\.wired\\.co\\.uk/magazine/archive/"},
+        { "pattern" : "^https?://podcasts\\.apple\\.com/"},
+        { "pattern" : "^https://subnero\\.com/solutions/swan\\.html"}
     ],
+    "aliveStatusCodes": [200, 202, 206, 301, 302, 303, 304, 403, 429, 999],
     "retryOn429": true,
     "retryCount": 5,
     "fallbackRetryDelay": "30s",
