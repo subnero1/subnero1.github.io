@@ -5479,6 +5479,16 @@ body:has(dialog[open]) { overflow: hidden; }
   background-color: rgb(196 231 255 / 20%);
   border-radius: 12px;
 }
+.app-card {
+  display: flex;
+  flex-direction: column;
+}
+.app-card .col-figure {
+  margin: 0 0 1.5rem;
+}
+.app-card h2 {
+  margin-top: 0;
+}
 .feature-grid p.lead {
   color: #007A8C;
 }
