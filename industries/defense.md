@@ -164,7 +164,7 @@ section_id: industries
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Simulate, Rehearse, Deploy with a Digital Twin</h2>
     <p>A defense network cannot be improvised at sea. Subnero provides a complete simulation and digital twin environment, in the cloud or on premises, so the entire network is rehearsed before any asset touches the water. Simulation and deployment share the same stack: what is rehearsed in the twin is what runs in the ocean.</p>
   </div>
-  <figure class="section-edge-img">
+  <figure class="section-edge-img" style="width: 100%; max-width: 1200px; margin: 2rem auto 0;">
     <img alt="Digital twin of an underwater defense network, mirroring the live network in simulation and feeding validated configurations back to sea" src="{{site.baseurl}}/images/defense-digital-twin-panels.png" />
   </figure>
   <div class="row large py2 relative">

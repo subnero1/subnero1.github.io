@@ -11,7 +11,7 @@ section_id: industries
     <div class="hero-text">
       <h4 class="g4x-tag">Industries / Research</h4>
       <h1>A Programmable <span class="text-gradient g-blue">Underwater Laboratory</span></h1>
-      <p>Research needs hardware that adapts to the experiment, not a sealed box. Subnero software defined modems open every layer of the stack, so the modem becomes a programmable platform for communication, navigation, and sensing.</p>
+      <p>Research needs hardware that adapts to the experiment, not a sealed box. Subnero software-defined modems open every layer of the stack, so the modem becomes a programmable platform for communication, navigation, sensing and a lot more.</p>
       <div class="g4x-hero-btns data-harvesting">
       </div>
     </div>
@@ -21,7 +21,7 @@ section_id: industries
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Hardware That Adapts to Your Research</h2>
-    <p>Most underwater modems are closed boxes. Subnero modems run UnetStack, an open, agent based software stack that exposes every layer from the application down to the physical layer. The same platform that carries data is the platform you reprogram for your experiment, on the bench, in simulation, and in the water.</p>
+    <p>Most underwater modems are closed boxes. Subnero modems run UnetStack, an open architecture, agent based software stack that exposes every layer from the application down to the physical layer. The same platform that carries data is the platform you reprogram for your experiment, on the bench, in simulation, and in the water.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 operational-advantages">
@@ -156,14 +156,53 @@ section_id: industries
   </div>
 </section>
 
-<section class="g4x-section" style="background-color:#F8FAFC;">
+<section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Your Tools, From Desk to Ocean</h2>
-    <p>Research needs to be designed, validated, and reproduced. UnetStack builds and customizes protocols, UnetSim simulates the full network, and physics based channel modeling tests the physical layer against realistic conditions. Validate on your desk, then deploy the same code in the water.</p>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">The One True Software Defined Modem</h2>
+    <p>Everything is open, every layer is reachable, and customization has no ceiling. If you can describe the experiment, the platform can support it.</p>
   </div>
-  <figure class="section-edge-img" style="width: 100%; max-width: 700px; margin: 2rem auto 0;">
-    <img alt="Research toolchain from design in UnetStack to simulation in UnetSim and channel modeling to deployment on Subnero modems" src="{{site.baseurl}}/images/underwater-network-toolchain.png" />
-  </figure>
+  <div class="row large py2 relative">
+    <div class="feature-grid col2">
+      <div class="docs-card uh">
+        <div>
+          <h5>Open and unrestricted</h5>
+          <p>Every interaction is open. Bypass our physical layer and run your own, or run your processing on our coprocessors and make it your modem. Customization has no end.</p>
+        </div>
+      </div>
+      <div class="docs-card uh">
+        <div>
+          <h5>Your language, any interface</h5>
+          <p>APIs in Java, Groovy, Python, Julia, C, and JavaScript. Work through the web interface, shell, higher layer abstractions, socket apps, and gateway API libraries, or drop to raw JSON messages over TCP for extreme cases.</p>
+        </div>
+      </div>
+      <div class="docs-card uh">
+        <div>
+          <h5>Built for physical layer research</h5>
+          <p>Access raw waveforms and transmit arbitrary waveforms. Add optional coprocessor upgrades, and extra channels for spatial diversity and localization research.</p>
+        </div>
+      </div>
+      <div class="docs-card uh">
+        <div>
+          <h5>Full stack and simulators</h5>
+          <p>Deploy a subsea network out of the box for routing research, simulate at both network and physical layers, and scale the modular architecture from full modem to the UnetCube SBC. Backed by the <a href="{{site.baseurl}}/products/wnc/unetstack/">Unet handbook</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="g4x-section unet" style="background-color:#F8FAFC;">
+  <div class="row large">
+    <div class="large-6 columns">
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Your Tools, From Desk to Ocean</h2>
+      <p>Research needs to be designed, validated, and reproduced. UnetStack builds and customizes protocols, UnetSim simulates the full network, and physics based channel modeling tests the physical layer against realistic conditions. Validate on your desk, then deploy the same code in the water.</p>
+    </div>
+    <div class="large-6 columns">
+      <figure class="col-figure no-shadow" style="margin-top: 0;">
+        <img alt="Research toolchain from design in UnetStack to simulation in UnetSim and channel modeling to deployment on Subnero modems" src="{{site.baseurl}}/images/underwater-network-toolchain.png" />
+      </figure>
+    </div>
+  </div>
 </section>
 
 <section class="g4x-section unet">
