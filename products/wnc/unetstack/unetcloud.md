@@ -173,8 +173,8 @@ breadcrumb: UnetCloud
           <svg viewBox="0 0 56 56"><path fill="currentColor" d="M6.215 31.387H16.62q1.583 0 1.898-1.407l3.516-16.148L28.2 50.84c.281 1.687 2.883 1.664 3.211 0l5.977-28.008l1.382 6.96c.211 1.08.82 1.595 1.922 1.595h9.094c.938 0 1.688-.727 1.688-1.64c0-.938-.727-1.665-1.688-1.665h-8.297l-2.695-11.93c-.352-1.617-2.766-1.617-3.164.07l-5.883 26.274l-6.14-37.336c-.258-1.64-2.673-1.687-3.048 0L15.59 28.082H6.215c-.938 0-1.688.75-1.688 1.664s.75 1.64 1.688 1.64"/></svg>
         </div>
         <div>
-          <h5>Physics-Based Channel</h5>
-          <p>Simulation uses Pekeris ray tracer and compatible propagation models, configured by Subnero for your environment and node geometry.</p>
+          <h5>Choice of Propagation Models</h5>
+          <p>Choose from a library of physics-based propagation models &mdash; including Bellhop, Kraken, and Subnero's own Pekeris ray tracer &mdash; configured for your environment and node geometry.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -193,6 +193,15 @@ breadcrumb: UnetCloud
         <div>
           <h5>Secure VPN Access</h5>
           <p>All access is through WireGuard VPN. Each node has a dedicated IP address. All traffic and stored data are encrypted end-to-end.</p>
+        </div>
+      </div>
+      <div class="docs-card uh cols-span2">
+        <div class="card-svg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></svg>
+        </div>
+        <div>
+          <h5>Bring Your Own Channel Model</h5>
+          <p>Plug in your own channel model, or replay real-world recorded channels from benchmark datasets such as the <a href="https://uwa-channels.github.io/" target="_blank">UWA Channels</a> library, instead of relying solely on a simulated environment. Support for custom and benchmark channel models is coming soon.</p>
         </div>
       </div>
     </div>
@@ -269,42 +278,49 @@ breadcrumb: UnetCloud
       </div>
       <div class="faq-item">
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-6" />
-        <label class="toggle-label" for="ucfaq-6">How many nodes can be simulated?</label>
+        <label class="toggle-label" for="ucfaq-6">Which channel models are available during the beta?</label>
+        <div class="item-content">
+          <p>During the beta, UnetCloud supports the existing channel models available in VAO, including Bellhop, Kraken, and Subnero's Pekeris ray tracer. Support for plugging in your own channel models, as well as benchmark real-world channel datasets, is coming soon.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <input class="toggle-checkbox" type="checkbox" id="ucfaq-7" />
+        <label class="toggle-label" for="ucfaq-7">How many nodes can be simulated?</label>
         <div class="item-content">
           <p>During the beta, we are offering two tiers. The standard tier supports up to 4 compute nodes. An expanded tier supporting up to 10 nodes is also planned, though pricing for that tier is not yet finalized. If you anticipate needing more than 10 nodes, for example for large AUV fleet simulations, please get in touch to discuss requirements and roadmap.</p>
         </div>
       </div>
       <div class="faq-item">
-        <input class="toggle-checkbox" type="checkbox" id="ucfaq-7" />
-        <label class="toggle-label" for="ucfaq-7">Which version of UnetStack do the cloud nodes run?</label>
+        <input class="toggle-checkbox" type="checkbox" id="ucfaq-8" />
+        <label class="toggle-label" for="ucfaq-8">Which version of UnetStack do the cloud nodes run?</label>
         <div class="item-content">
           <p>UnetCloud runs the same UnetStack version used in current Subnero modems. The latest available version at the time of writing is v7. This means you can develop against the production API without needing to manage version compatibility between your simulation and your physical hardware.</p>
         </div>
       </div>
       <div class="faq-item">
-        <input class="toggle-checkbox" type="checkbox" id="ucfaq-8" />
-        <label class="toggle-label" for="ucfaq-8">Is UnetCloud publicly available? What is the timeline?</label>
+        <input class="toggle-checkbox" type="checkbox" id="ucfaq-9" />
+        <label class="toggle-label" for="ucfaq-9">Is UnetCloud publicly available? What is the timeline?</label>
         <div class="item-content">
           <p>UnetCloud is currently in a closed beta. Access is available to select customers on request, to help us collect feedback before public release. We are targeting a public release before the end of 2026, though a firm date has not been set.</p>
         </div>
       </div>
       <div class="faq-item">
-        <input class="toggle-checkbox" type="checkbox" id="ucfaq-9" />
-        <label class="toggle-label" for="ucfaq-9">What is the pricing model?</label>
+        <input class="toggle-checkbox" type="checkbox" id="ucfaq-10" />
+        <label class="toggle-label" for="ucfaq-10">What is the pricing model?</label>
         <div class="item-content">
           <p>Beta access is provided at no charge. After the beta period, UnetCloud will move to a subscription model. Subscriptions start at a minimum of 3 months, with options for 6-month and annual terms. No other subscription blocks are available at this stage. The standard tier (up to 4 compute nodes) is priced at USD 350 per month. Pricing for the expanded tier (up to 10 nodes) is not yet finalized. Contact us for details.</p>
         </div>
       </div>
       <div class="faq-item">
-        <input class="toggle-checkbox" type="checkbox" id="ucfaq-10" />
-        <label class="toggle-label" for="ucfaq-10">We are concerned about intellectual property. Does anything about our network design, mesh topology, or configuration leave our systems?</label>
+        <input class="toggle-checkbox" type="checkbox" id="ucfaq-11" />
+        <label class="toggle-label" for="ucfaq-11">We are concerned about intellectual property. Does anything about our network design, mesh topology, or configuration leave our systems?</label>
         <div class="item-content">
           <p>Your application code runs entirely on your own systems and never touches UnetCloud infrastructure. The simulation scripts that Subnero configures on your behalf describe the acoustic channel environment, not your application logic or protocol design. You do not need to include geographic coordinates. Your mesh topology and routing configuration can be loaded by your own startup scripts over the VPN connection.</p>
         </div>
       </div>
       <div class="faq-item">
-        <input class="toggle-checkbox" type="checkbox" id="ucfaq-11" />
-        <label class="toggle-label" for="ucfaq-11">Can we run this on our own servers instead of using the cloud?</label>
+        <input class="toggle-checkbox" type="checkbox" id="ucfaq-12" />
+        <label class="toggle-label" for="ucfaq-12">Can we run this on our own servers instead of using the cloud?</label>
         <div class="item-content">
           <p>This is not available as a standard offering today, but it is on the roadmap as an on-premises deployment option where you can purchase server hardware that runs UnetCloud on your own premises. This is particularly relevant for customers with strict data sovereignty requirements, such as defense programs, where sending any simulation traffic outside a controlled environment is not acceptable. Please note that access to the internals of the system may be limited compared to a fully self-managed setup. Setting this up involves a scoped engagement with Subnero rather than a self-service installation. If this is a firm requirement for your program, contact us to discuss scope and timelines.</p>
         </div>
