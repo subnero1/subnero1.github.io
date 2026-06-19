@@ -79,12 +79,6 @@ breadcrumb: UnetCloud
             <td>Up to 4 nodes (standard tier) or up to 10 nodes (expanded tier)</td>
             <td>No</td>
           </tr>
-          <tr>
-            <td>On-premises server <i>(Future option)</i></td>
-            <td>Customer-managed server, Subnero-assisted setup</td>
-            <td>Configurable</td>
-            <td>Server hardware required (no modems needed)</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -145,7 +139,7 @@ breadcrumb: UnetCloud
           </div>
         </div>
         <h3 class="step-title">Connect as you would to a modem</h3>
-        <p class="step-desc">Use the same UnetStack APIs, web shell, and UnetPy scripts you already use with physical hardware. The interface is identical to a real modem.</p>
+        <p class="step-desc">Use the same UnetStack APIs, web shell, and UnetPy scripts you already use with physical hardware. The interface is identical to a Subnero modem.</p>
       </div>
     </div>
   </div>
@@ -165,7 +159,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Full UnetStack Software</h5>
-          <p>Virtual nodes run the same UnetStack binary as deployed Subnero modems. The latest version at the time of writing is v7. Develop against the production API with no version mismatch between simulation and hardware.</p>
+          <p>Virtual nodes run the same UnetStack binary as deployed Subnero modems. Develop against the production API with no version mismatch between simulation and hardware.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -266,7 +260,7 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-4" />
         <label class="toggle-label" for="ucfaq-4">How is access and data secured?</label>
         <div class="item-content">
-          <p>All access is through a WireGuard VPN, and all traffic within the VPN is encrypted. All data stored in the cloud is encrypted at rest. The default uses Google-managed encryption keys. If your security requirements require it, you can generate your own public/private key pair and provide us with the public key; we configure the instance and supply a connection file. Two-factor authentication for account access is on the roadmap for the production release.</p>
+          <p>All access is through a WireGuard VPN, and all traffic within the VPN is encrypted. All data stored in the cloud is encrypted at rest. If your security requirements require it, you can generate your own public/private key pair and provide us with the public key; we configure the instance and supply a connection file.</p>
         </div>
       </div>
       <div class="faq-item">
@@ -294,7 +288,7 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-8" />
         <label class="toggle-label" for="ucfaq-8">Which version of UnetStack do the cloud nodes run?</label>
         <div class="item-content">
-          <p>UnetCloud runs the same UnetStack version used in current Subnero modems. The latest available version at the time of writing is v7. This means you can develop against the production API without needing to manage version compatibility between your simulation and your physical hardware.</p>
+          <p>UnetCloud runs the same UnetStack version used in current Subnero modems. This means you can develop against the production API without needing to manage version compatibility between your simulation and your physical hardware.</p>
         </div>
       </div>
       <div class="faq-item">
