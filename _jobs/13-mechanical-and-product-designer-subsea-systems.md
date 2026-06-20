@@ -40,7 +40,7 @@ We don't just build devices; we create integrated systems where the hardware, so
 - Have managed revisions and the full product design lifecycle, ideally with configuration management or PLM tools.
 - Are comfortable engaging vendors and manufacturers early to steer materials and manufacturing choices.
 - Have an eye for industrial design and care how a product looks and feels, not only how it performs.
-- Have marine, subsea, or pressure rated product experience, which is a strong plus.
+- Have marine, subsea, or pressure-rated product experience, which is a strong plus.
 - Hold a degree in mechanical engineering with associated industrial or product design, or carry the equivalent in hard experience.
 
 ### Before applying, you might want to:
