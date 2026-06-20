@@ -20,7 +20,7 @@ We don't just build devices; we create integrated systems where the hardware, so
 ### As a Mechanical and Product Designer at Subnero, you will:
 
 - Design our subsea products: Engineer systems and accessories like those in our current range, rated to 6 km of ocean depth, from concept through to qualified hardware.
-- Design our topside products too: Create the desk based and deck units that work alongside the subsea hardware.
+- Design our topside products too: Create the desk-based and deck units that work alongside the subsea hardware.
 - Bring an industrial design eye: Incorporate a clean, modern, and purposeful industrial design lens to every project, ensuring our hardware is as visually thoughtful as it is technically proficient.
 - Design for manufacture and excellence: Apply DFM and DFE thinking from the first sketch, not as an afterthought.
 - Design the materials and sealing: Select materials and design the sealing and connector interfaces that survive seawater and pressure, and prove the housings to their depth rating with the right structural analysis.
