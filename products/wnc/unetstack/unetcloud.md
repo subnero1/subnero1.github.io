@@ -65,7 +65,7 @@ breadcrumb: UnetCloud
             <td>In-water HIL with physical modems</td>
             <td>Real modems, VAO on your laptop</td>
             <td>Limited to modems you own</td>
-            <td>Yes</td>
+            <td>Yes (Subnero modems)</td>
           </tr>
           <tr>
             <td>UnetCube bench HIL</td>
@@ -89,8 +89,8 @@ breadcrumb: UnetCloud
 <!-- How it works -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-blue normal-spacing">What happens when you join the beta</h2>
-    <p class="sec-subhead">How it works</p>
+    <h2 class="sec-head lg text-gradient g-blue normal-spacing">What happens when you join the beta?</h2>
+    <p class="sec-subhead">How it works?</p>
   </div>
   <style>
     .steps-4col.flow-container { grid-template-columns: repeat(4, minmax(100px, 1fr)); }
@@ -108,8 +108,8 @@ breadcrumb: UnetCloud
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
           </div>
         </div>
-        <h3 class="step-title">You describe your geometry</h3>
-        <p class="step-desc">Share the number of nodes, their approximate positions (depth, spacing), and any relevant channel parameters. Exact coordinates are not required.</p>
+        <h3 class="step-title">You request access</h3>
+        <p class="step-desc">Tell us you would like to join the beta. There is no need to specify exact node positions or channel parameters upfront.</p>
       </div>
       <div class="step">
         <div class="step-circle">
@@ -118,18 +118,18 @@ breadcrumb: UnetCloud
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
           </div>
         </div>
-        <h3 class="step-title">We configure the simulation</h3>
-        <p class="step-desc">Subnero sets up the simulation using a physics-based channel model (Pekeris ray tracer or equivalent for your environment) and provisions the virtual modem nodes.</p>
+        <h3 class="step-title">We provision a standard tier instance</h3>
+        <p class="step-desc">Subnero sets up a standard tier instance with an example node geometry already in place, and sends you VPN credentials to connect.</p>
       </div>
       <div class="step">
         <div class="step-circle">
           <span class="step-number">03</span>
           <div class="step-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><line x1="21" x2="14" y1="4" y2="4"></line><line x1="10" x2="3" y1="4" y2="4"></line><line x1="21" x2="12" y1="12" y2="12"></line><line x1="8" x2="3" y1="12" y2="12"></line><line x1="21" x2="16" y1="20" y2="20"></line><line x1="12" x2="3" y1="20" y2="20"></line><line x1="14" x2="14" y1="2" y2="6"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="16" x2="16" y1="18" y2="22"></line></svg>
           </div>
         </div>
-        <h3 class="step-title">You receive VPN credentials</h3>
-        <p class="step-desc">Access is provided exclusively over a WireGuard VPN. You receive IP addresses for each node and a configuration file to connect. You can supply your own public key if preferred.</p>
+        <h3 class="step-title">You customize the geometry</h3>
+        <p class="step-desc">Use the geometry editor in the VAO web UI to adjust node positions, depth, spacing, and channel parameters to match your scenario.</p>
       </div>
       <div class="step">
         <div class="step-circle">
@@ -159,7 +159,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Full UnetStack Software</h5>
-          <p>Virtual nodes run the same UnetStack binary as deployed Subnero modems. Develop against the production API with no version mismatch between simulation and hardware.</p>
+          <p>Virtual nodes run the same UnetStack software as deployed Subnero modems. Develop against the production API with no version mismatch between simulation and hardware.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -168,7 +168,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Choice of Propagation Models</h5>
-          <p>Choose from a library of physics-based propagation models &mdash; including Bellhop, Kraken, and Subnero's own Pekeris ray tracer &mdash; configured for your environment and node geometry.</p>
+          <p>Choose from a library of physics-based propagation models including Bellhop, Kraken, PekerisModeSolver etc. configured for your environment and node geometry.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -177,7 +177,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Identical API</h5>
-          <p>Connect using the same UnetStack web shell, UnetPy scripts, UnetSockets, and REST API you already use with physical modems. No code changes required.</p>
+          <p>Connect using the same UnetStack web shell, UnetPy scripts, UnetSockets, and Gateway API you already use with physical modems. No code changes required.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -186,16 +186,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Secure VPN Access</h5>
-          <p>All access is through WireGuard VPN. Each node has a dedicated IP address. All traffic and stored data are encrypted end-to-end.</p>
-        </div>
-      </div>
-      <div class="docs-card uh cols-span2">
-        <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></svg>
-        </div>
-        <div>
-          <h5>Bring Your Own Channel Model</h5>
-          <p>Plug in your own channel model, or replay real-world recorded channels from benchmark datasets such as the <a href="https://uwa-channels.github.io/" target="_blank">UWA Channels</a> library, instead of relying solely on a simulated environment. Support for custom and benchmark channel models is coming soon.</p>
+          <p>All access is through VPN. Each node has a dedicated IP address. All traffic and data are encrypted end-to-end.</p>
         </div>
       </div>
     </div>
@@ -215,7 +206,7 @@ breadcrumb: UnetCloud
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-blue">Protocol Development, Validation, and Remote Collaboration</h3>
-        <p>Write and iterate on your UnetStack agents, routing protocols, and application scripts against virtual nodes that behave identically to hardware. Your code runs locally on your own machine; only the modem software and acoustic channel run in the cloud. Test mission logic under simulated channel conditions before committing to a sea trial, rapidly exploring the impact of node geometry, water depth, and channel parameters on network behavior. Multiple developers in different locations can connect to the same shared virtual network simultaneously, enabling collaborative development and integration testing without co-location.</p>
+        <p>Write and iterate on your UnetStack agents, physical layer, routing protocols, and application scripts against virtual nodes that behave identically to hardware. Your code runs locally on your own machine; only the modem software and acoustic channel run in the cloud. Test mission logic under simulated channel conditions before committing to a sea trial, rapidly exploring the impact of node geometry, water depth, and channel parameters on network behavior. Multiple developers in different locations can connect to the same shared virtual network simultaneously, enabling collaborative development and integration testing without co-location.</p>
       </div>
     </div>
   </div>
@@ -239,7 +230,7 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-1" />
         <label class="toggle-label" for="ucfaq-1">Is UnetCloud the same as using a physical modem with HIL? What is the actual difference?</label>
         <div class="item-content">
-          <p>From an API and workflow perspective, the experience is identical. You connect to a node using its IP address, use the web shell, run Python or C scripts via UnetSockets, and receive datagram notifications exactly as you would with a physical modem. The difference is that the acoustic channel and the modem software are both running in the cloud rather than on physical hardware in a tank or in the water. The modem software is the same binary that runs on Subnero modems, since they are fully software-defined.</p>
+          <p>From an API and workflow perspective, the experience is identical. You connect to a node using its IP address, use the web shell, run Python or C scripts via UnetSockets, and receive datagram notifications exactly as you would with a physical modem. The difference is that the acoustic channel and the modem software are both running in the cloud rather than on physical hardware in a tank or in the water. The modem software is the same that runs on Subnero modems, since they are fully software-defined.</p>
         </div>
       </div>
       <div class="faq-item">
@@ -260,21 +251,21 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-4" />
         <label class="toggle-label" for="ucfaq-4">How is access and data secured?</label>
         <div class="item-content">
-          <p>All access is through a WireGuard VPN, and all traffic within the VPN is encrypted. All data stored in the cloud is encrypted at rest. If your security requirements require it, you can generate your own public/private key pair and provide us with the public key; we configure the instance and supply a connection file.</p>
+          <p>All access is through a VPN, and all traffic within the VPN is encrypted. All data stored in the cloud is encrypted at rest. If your security requirements require it, you can generate your own public/private key pair and provide us with the public key; we configure the instance and supply a connection file.</p>
         </div>
       </div>
       <div class="faq-item">
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-5" />
         <label class="toggle-label" for="ucfaq-5">Can we control what goes into the simulation script? Can we change node locations or channel parameters after setup?</label>
         <div class="item-content">
-          <p>In the current beta, Subnero configures the simulation on your behalf. You cannot edit simulation scripts directly yet. We can update your setup if requirements change. Self-service configuration is planned for a later release. REST endpoints for updating node locations programmatically are also under development.</p>
+          <p>Yes. Subnero provisions your instance with an example node geometry on a standard tier to get you started, and from there you can use the geometry editor in the VAO web UI to adjust node positions, depth, spacing, and channel parameters yourself, without waiting on us.</p>
         </div>
       </div>
       <div class="faq-item">
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-6" />
         <label class="toggle-label" for="ucfaq-6">Which channel models are available during the beta?</label>
         <div class="item-content">
-          <p>During the beta, UnetCloud supports the existing channel models available in VAO, including Bellhop, Kraken, and Subnero's Pekeris ray tracer. Support for plugging in your own channel models, as well as benchmark real-world channel datasets, is coming soon.</p>
+          <p>During the beta, UnetCloud supports the existing channel models available in VAO, including Bellhop, Kraken, PekerisModeSolver etc. Support for plugging in your own channel models, as well as other real-world channel datasets, is coming soon.</p>
         </div>
       </div>
       <div class="faq-item">
@@ -302,21 +293,21 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-10" />
         <label class="toggle-label" for="ucfaq-10">What is the pricing model?</label>
         <div class="item-content">
-          <p>Beta access is provided at no charge. After the beta period, UnetCloud will move to a subscription model. Subscriptions start at a minimum of 3 months, with options for 6-month and annual terms. No other subscription blocks are available at this stage. The standard tier (up to 4 compute nodes) is priced at USD 350 per month. Pricing for the expanded tier (up to 10 nodes) is not yet finalized. Contact us for details.</p>
+          <p>Beta access is provided at no charge. After the beta period, UnetCloud will move to a subscription model. Subscriptions start at a minimum of 3 months, with options for 6-month and annual terms. No other subscription blocks are available at this stage. The standard tier (up to 4 nodes) is priced at USD 350 per month. Pricing for the expanded tier (up to 10 nodes) is not yet finalized. Contact us for details.</p>
         </div>
       </div>
       <div class="faq-item">
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-11" />
         <label class="toggle-label" for="ucfaq-11">We are concerned about intellectual property. Does anything about our network design, mesh topology, or configuration leave our systems?</label>
         <div class="item-content">
-          <p>Your application code runs entirely on your own systems and never touches UnetCloud infrastructure. The simulation scripts that Subnero configures on your behalf describe the acoustic channel environment, not your application logic or protocol design. You do not need to include geographic coordinates. Your mesh topology and routing configuration can be loaded by your own startup scripts over the VPN connection.</p>
+          <p>Your application code runs entirely on your own systems and never touches UnetCloud infrastructure. The example geometry Subnero sets up to get you started describes the acoustic channel environment, not your application logic or protocol design, and you do not need to share exact geographic coordinates with us to request it. Once your instance is live, you can adjust the geometry yourself through the VAO web UI without sending those details to Subnero at all. Your mesh topology and routing configuration can be loaded by your own startup scripts over the VPN connection.</p>
         </div>
       </div>
       <div class="faq-item">
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-12" />
         <label class="toggle-label" for="ucfaq-12">Can we run this on our own servers instead of using the cloud?</label>
         <div class="item-content">
-          <p>This is not available as a standard offering today, but it is on the roadmap as an on-premises deployment option where you can purchase server hardware that runs UnetCloud on your own premises. This is particularly relevant for customers with strict data sovereignty requirements, such as defense programs, where sending any simulation traffic outside a controlled environment is not acceptable. Please note that access to the internals of the system may be limited compared to a fully self-managed setup. Setting this up involves a scoped engagement with Subnero rather than a self-service installation. If this is a firm requirement for your program, contact us to discuss scope and timelines.</p>
+          <p>This is not available as a standard offering today, but it is on the roadmap as an on-premises deployment option we offer server hardware that runs UnetCloud on your own premises. This is particularly relevant for customers with strict data sovereignty requirements, such as defense programs, where sending any simulation traffic outside a controlled environment is not acceptable. Please note that access to the internals of the system may be limited compared to a fully self-managed setup. Setting this up involves a scoped engagement with Subnero rather than a self-service installation. If this is a firm requirement for your program, contact us to discuss scope and timelines.</p>
         </div>
       </div>
     </div>
