@@ -41,17 +41,17 @@
   const applyLink = document.getElementById('jobApplyLink');
   let currentJobId = null;
 
-  const jobs = {
+  const jobs = Object.assign(Object.create(null), {
     {% assign job_listings = site.jobs | where: "active", true | sort: "order" %}
     {% for job in job_listings %}
       "{{ job.id }}": {
-        "title": "{{ job.title }}",
+        "title": "{{ job.title | escape_once }}",
         "type": "{{ job.employment_type | escape_once }}",
         "location": "{{ job.location | escape_once }}",
         "apply_url": "{{ job.apply_url | escape_once }}"
       }{% if forloop.last == false %},{% endif %}
     {% endfor %}
-  };
+  });
 
   function openJob(jobId, pushHash) {
     const job = jobs[jobId];
@@ -61,7 +61,8 @@
       item.style.display = 'none';
     });
 
-    const content = modal.querySelector(`[data-product="${jobId}"]`);
+    const content = Array.from(modal.querySelectorAll('.modal-content-item'))
+      .find(item => item.dataset.product === jobId);
     if (content) {
       content.style.display = 'block';
       content.scrollTop = 0;
@@ -110,7 +111,7 @@
       const original = copyLinkBtn.textContent;
       copyLinkBtn.textContent = 'Link Copied!';
       setTimeout(() => { copyLinkBtn.textContent = original; }, 1500);
-    });
+    }).catch(() => {});
   });
 
   modal.addEventListener('close', () => {
