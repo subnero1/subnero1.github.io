@@ -32,7 +32,7 @@ breadcrumb: UnetCloud
       <p>UnetCloud takes the same idea one step further: both the simulator and the modem software run in the cloud. You are not limited by how many physical modems you have. Any number of virtual nodes can be provisioned, each running the same software image as a real Subnero modem.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="UnetCloud Cloud Simulation Architecture" src="{{site.baseurl}}/images/unetstack-abstract-02.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="UnetCloud Cloud Simulation Architecture" src="{{site.baseurl}}/images/unetcloud-comparison.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>
   </div>
 </section>
@@ -202,7 +202,7 @@ breadcrumb: UnetCloud
   <div class="row usecase-wrap">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/unetstack-abstract-01.jpg" alt="Developing Underwater Network Protocols Against Cloud-Hosted Virtual Modem Nodes">
+        <img src="{{site.baseurl}}/images/unetcloud-usecases.jpg" alt="Developing Underwater Network Protocols Against Cloud-Hosted Virtual Modem Nodes">
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-blue">Protocol Development, Validation, and Remote Collaboration</h3>
