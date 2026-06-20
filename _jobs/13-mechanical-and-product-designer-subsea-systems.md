@@ -35,7 +35,7 @@ We don't just build devices; we create integrated systems where the hardware, so
 
 - Have 4-5 years of experience in mechanical design, with a portfolio of physical products you have taken to production.
 - Have managed the design and manufacturing of multiple devices and variants at once, not just a single product.
-- Bring DFM, DFE, and industrial design experience, ideally from consumer electronics or a similarly high quality product.
+- Bring DFM, DFE, and industrial design experience, ideally from consumer electronics or a similarly high-quality product.
 - Are fluent in CAD and confident producing STEP files, general arrangement drawings, and production ready documentation. Finite element analysis for structural and pressure design is a strong advantage.
 - Have managed revisions and the full product design lifecycle, ideally with configuration management or PLM tools.
 - Are comfortable engaging vendors and manufacturers early to steer materials and manufacturing choices.
