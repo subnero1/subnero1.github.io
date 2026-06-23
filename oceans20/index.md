@@ -3,6 +3,7 @@ layout: page
 title: Practical Underwater Software-defined Networking
 permalink: /oceans20
 banner: images/banner-about.jpg
+description: Slides, code, and tutorial materials for the OCEANS 2020 tutorial on practical underwater software-defined networking with UnetStack.
 ---
 
 <!-- <h1 style="font-size: 32px;"><u>Practical Underwater Software-defined Networking</u></h1> -->

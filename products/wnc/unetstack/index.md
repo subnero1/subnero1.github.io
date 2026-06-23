@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Software-defined framework for underwater communication networks
+description: UnetStack is an agent-based software framework for underwater communication networks. Design, simulate, and deploy across subsea and terrestrial domains.
 banner : images/unetstack-abstract-01.jpg
 thumbnail: images/boxart-unet.png
 categories: unet

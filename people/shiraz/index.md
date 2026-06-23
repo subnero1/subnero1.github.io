@@ -2,6 +2,7 @@
 layout: default
 title:  Shiraz Shahabudeen
 banner : images/banner-about.jpg
+description: Shiraz Shahabudeen is a Research Scientist at Subnero, working on underwater acoustic communication and networking technology.
 headerTag: People
 ---
 

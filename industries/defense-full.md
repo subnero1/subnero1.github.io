@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Subsea Domain Awareness for Defense
+title: Subsea Domain Awareness for Defense — Extended Brief
 banner : images/banner-defense-subsea-domain-awareness.jpg
 excerpt: Extend maritime domain awareness into the subsea domain. Subnero connects AUVs, sensors, and divers into one underwater network for MCM, monitoring, and command and control.
 section_id: industries
+noindex: true
+sitemap: false
 ---
 
 <style>
@@ -57,7 +59,7 @@ section_id: industries
       <div class="docs-card uh">
         <div>
           <h5>Seabed to operator</h5>
-          <p>Backhaul over available terrestrial networks carries the subsea picture from the gateway straight to your command center and shore networks.</p>
+          <p>Backhaul over satellite, cellular, or radio carries the subsea picture from the gateway straight to your command center and shore networks.</p>
         </div>
       </div>
     </div>
@@ -67,7 +69,7 @@ section_id: industries
 <section class="g4x-section defense-dark">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">One Communication Layer, Many Missions</h2>
-    <p>Every mission below depends on the same thing: a communication layer for the subsea domain. Subnero delivers that layer as a configurable underwater network connecting sensors, vehicles, divers, gateways, and shore stations, with backhaul over available links above the surface, so the subsea picture reaches the operator in real time.</p>
+    <p>Every mission below depends on the same thing: a communication layer for the subsea domain. Subnero delivers that layer as a configurable underwater network connecting sensors, vehicles, divers, gateways, and shore stations, with backhaul over satellite, cellular, and radio links above the surface, so the subsea picture reaches the operator in real time.</p>
   </div>
   <figure class="section-edge-img">
     <img alt="Subsea domain awareness across a coastal theater, with seabed sensors, AUVs, divers, gateway buoys, vessels, shore stations, and satellites connected by one underwater network" src="{{site.baseurl}}/images/defense-subsea-network-master.jpg" />
@@ -75,51 +77,87 @@ section_id: industries
 </section>
 
 <section class="g4x-section unet" style="background-color:#F8FAFC;">
-  <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Subsea Missions, One Network</h2>
-  </div>
-  <div class="row large py2 relative">
-    <div class="feature-grid col4">
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/defense-app-mcm.jpg" alt="Mine countermeasures over an underwater network, with AUVs prosecuting mines and handing over between coverage cells" />
-        </div>
-        <div style="text-align: center;">
-          <h5>Mine Countermeasures</h5>
-          <p>Vehicles stay connected as they prosecute mines, so contacts are known when found.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/defense-app-pam.jpg" alt="Passive acoustic monitoring network detecting a submarine at one end of a seabed sensor field and relaying the contact to a gateway buoy" />
-        </div>
-        <div style="text-align: center;">
-          <h5>Passive Acoustic Monitoring</h5>
-          <p>Seabed nodes listen and relay contacts for wider surveillance and antisubmarine awareness.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/defense-app-diver.jpg" alt="Diver communication and tracking over an underwater network, with relay nodes deployed along the dive route back to a support vessel" />
-        </div>
-        <div style="text-align: center;">
-          <h5>Diver Communication and Tracking</h5>
-          <p>Messaging, telemetry, and position for divers well beyond direct range.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/defense-app-c2.jpg" alt="Underwater command and control, with every subsea asset reporting through the network to one operating picture at a shore command center" />
-        </div>
-        <div style="text-align: center;">
-          <h5>Command and Control</h5>
-          <p>Every asset on one operating picture, reaching command centers ashore.</p>
-        </div>
-      </div>
+  <div class="row large">
+    <div class="large-6 columns">
+      <figure class="col-figure no-shadow">
+        <img alt="Mine countermeasures over an underwater network, with AUVs prosecuting mines and handing over between coverage cells" src="{{site.baseurl}}/images/defense-app-mcm.jpg" />
+      </figure>
+    </div>
+    <div class="large-6 columns">
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Mine Countermeasures</h2>
+      <ul>
+        <li>AUVs detect and classify mines while staying linked for command and control.</li>
+        <li>Sonar imagery of contacts or edge processed data relays back over the network rather than waiting for vehicle recovery.</li>
+        <li>Seamless handover keeps the link alive as the vehicle moves across the operating area.</li>
+      </ul>
+      <p>Enabled by the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>, running on <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a>.</p>
     </div>
   </div>
-  <div class="g4x-section-head relative" style="margin-top: 1.5rem;">
-    <p>Enabled by the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a></p>
+</section>
+
+<section class="g4x-section unet">
+  <div class="row large">
+    <div class="large-6 columns">
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Passive Acoustic Monitoring</h2>
+      <ul>
+        <li>Seabed nodes listen persistently for the acoustic signatures of passing ships and submarines.</li>
+        <li>Contacts relay hop by hop to the surface even when the detecting node has no direct path.</li>
+        <li>Supports wider intelligence, surveillance, and antisubmarine awareness across the theater.</li>
+      </ul>
+      <p>Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
+    </div>
+    <div class="large-6 columns">
+      <figure class="col-figure no-shadow">
+        <img alt="Passive acoustic monitoring network detecting a submarine at one end of a seabed sensor field and relaying the contact to a gateway buoy" src="{{site.baseurl}}/images/defense-app-pam.jpg" />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="g4x-section unet" style="background-color:#F8FAFC;">
+  <div class="row large">
+    <div class="large-6 columns">
+      <figure class="col-figure no-shadow">
+        <img alt="Diver communication and tracking over an underwater network, with relay nodes deployed along the dive route back to a support vessel" src="{{site.baseurl}}/images/defense-app-diver.jpg" />
+      </figure>
+    </div>
+    <div class="large-6 columns">
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Diver Communication and Tracking</h2>
+      <ul>
+        <li>Messaging and telemetry between divers and a supervisor well beyond direct range.</li>
+        <li>Position awareness across the whole dive team, on one picture at the surface.</li>
+        <li>Relay nodes deployed in the field, for example from a diver propulsion vehicle, extend reach as the operation moves.</li>
+      </ul>
+      <p>Runs on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>, with <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a> as diver and relay nodes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="g4x-section unet">
+  <div class="row large">
+    <div class="large-6 columns">
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Command and Control</h2>
+      <ul>
+        <li>Every underwater asset reports into one network and onto one operating picture.</li>
+        <li>Vehicles, sensors, and divers share a single connectivity fabric.</li>
+        <li>The subsea picture joins the maritime picture the force already holds.</li>
+        <li>Backhaul to shore over satellite, cellular, or radio links delivers that picture to command centers and wider networks</li>
+      </ul>
+      <p>Powered by the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
+    </div>
+    <div class="large-6 columns">
+      <figure class="col-figure no-shadow">
+        <img alt="Underwater command and control, with every subsea asset reporting through the network to one operating picture at a shore command center" src="{{site.baseurl}}/images/defense-app-c2.jpg" />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="g4x-section" style="background-color:#F8FAFC;">
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">The Communication Layer Behind Every Mission</h2>
+    <p>The missions above are different. What they share is the communication layer beneath them: one configurable underwater network supporting centralized, cellular style topologies and ad hoc mesh, scaling from a single relay link to a wide area fabric of many nodes. Configure it for your assets, your area, and your mission.</p>
+    <p><a href="{{site.baseurl}}/solutions/underwater-network">Explore the Subnero Underwater Network</a></p>
   </div>
 </section>
 
@@ -141,14 +179,14 @@ section_id: industries
       </div>
       <div class="docs-card uh">
         <div>
-          <h5>Hardware in the Loop Simulation</h5>
+          <h5>Hardware-in-the-loop Simulation</h5>
           <p>Run real Subnero modems against simulated channels and mission scenarios, so the exact hardware and software that will deploy is what gets tested.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>UnetCloud</h5>
-          <p>The full simulation environment, a standing digital twin for planning, evaluation, and training.</p>
+          <p>The full simulation environment, hosted in the cloud for instant access, or delivered on a rack server inside your own secure perimeter, a standing digital twin for planning, evaluation, and training.</p>
         </div>
       </div>
     </div>
@@ -178,3 +216,4 @@ section_id: industries
 <section class="call-to-action category-container mb2">
   {%- include formCTA.html labelText="Planning a subsea domain awareness capability, or integrating networked communications into your platforms?" -%}
 </section>
+

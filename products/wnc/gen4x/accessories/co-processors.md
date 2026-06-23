@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Co-processor | Gen4x Accessories
+description: An embedded Linux co-processor accessory for Subnero Gen4x modems, for running custom applications and algorithms directly on the modem.
 breadcrumb: Co-processor
 ---
 

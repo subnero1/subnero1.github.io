@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Underwater Research and Programmable Acoustic Modems
+title: Underwater Research and Programmable Acoustic Modems — Extended Brief
 banner : images/banner-research.jpg
 excerpt: A programmable underwater laboratory. Subnero software defined modems and UnetStack let researchers build custom protocols, navigation, sensing, and networked experiments on real hardware.
 section_id: industries
+noindex: true
+sitemap: false
 ---
 
 <style>
@@ -73,64 +75,96 @@ section_id: industries
 </section>
 
 <section class="g4x-section unet" style="background-color:#F8FAFC;">
-  <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Research Applications</h2>
+  <div class="row large">
+    <div class="feature-grid col2">
+      <div class="app-card">
+        <figure class="col-figure no-shadow">
+          <img alt="Custom protocol and physical layer research on a programmable underwater acoustic modem" src="{{site.baseurl}}/images/research-app-protocols.jpg" />
+        </figure>
+        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Custom Protocols and Physical Layer Research</h2>
+        <ul>
+          <li>Implement and test new modulation, coding, and network protocols on real hardware.</li>
+          <li>Reach the physical layer directly, with access to raw acoustic signals.</li>
+          <li>Add a <a href="{{site.baseurl}}/products/wnc/gen4x/accessories/co-processors">coprocessor</a> and run your own physical layer in the modem.</li>
+          <li>Compare your designs against proven baselines in the same environment.</li>
+        </ul>
+        <p>Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a> and <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a>.</p>
+      </div>
+      <div class="app-card">
+        <figure class="col-figure no-shadow">
+          <img alt="Underwater navigation and positioning research with acoustic ranging between networked nodes" src="{{site.baseurl}}/images/research-app-navigation.jpg" />
+        </figure>
+        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Navigation and Positioning Research</h2>
+        <ul>
+          <li>Develop ranging, localization, and underwater positioning algorithms on programmable hardware.</li>
+          <li>Run communication and tracking from the same modem, with no extra instrument.</li>
+          <li>Turn a multi-receiver modem into a <a href="https://blog.unetstack.net/turning-a-multi-receiver-modem-into-a-usbl-transceiver" target="_blank">USBL transceiver</a>.</li>
+          <li>Prototype navigation for AUVs, divers, and networked nodes.</li>
+        </ul>
+        <p>Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>, with a worked example in <a href="{{site.baseurl}}/feature/research/unetstack/2026/04/24/One-Modem-Two-Jobs.html">One Modem, Two Jobs</a>.</p>
+      </div>
+    </div>
   </div>
-  <div class="row large py2 relative">
-    <div class="feature-grid col3">
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/research-app-protocols.jpg" alt="Custom protocol and physical layer research on a programmable underwater acoustic modem" />
-        </div>
-        <div>
-          <h5>Custom Protocols and Physical Layer Access</h5>
-          <p>Test new modulation, coding, and protocols on real hardware. Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
-        </div>
+</section>
+
+<section class="g4x-section unet">
+  <div class="row large">
+    <div class="feature-grid col2">
+      <div class="app-card">
+        <figure class="col-figure no-shadow">
+          <img alt="Networked underwater research testbed with multiple nodes in cellular and mesh topologies" src="{{site.baseurl}}/images/research-app-networks.jpg" />
+        </figure>
+        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Networked and Multi-Node Experiments</h2>
+        <ul>
+          <li>Build underwater testbeds and run multi-node experiments at realistic scale.</li>
+          <li>Study cellular style and mesh topologies, routing, handover, and resource sharing.</li>
+          <li>Get a <a href="https://unetstack.net/handbook/unet-handbook_setting_up_small_networks" target="_blank">network running</a> now instead of building the stack from scratch.</li>
+        </ul>
+        <p>Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
       </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/research-app-navigation.jpg" alt="Underwater navigation and positioning research with acoustic ranging between networked nodes" />
-        </div>
-        <div>
-          <h5>Navigation and Positioning</h5>
-          <p>Ranging, localization, and tracking from the same modem. See <a href="{{site.baseurl}}/feature/research/unetstack/2026/04/24/One-Modem-Two-Jobs.html">One Modem, Two Jobs</a>.</p>
-        </div>
+      <div class="app-card">
+        <figure class="col-figure no-shadow">
+          <img alt="Acoustic modem used as a programmable sensing and edge processing platform underwater" src="{{site.baseurl}}/images/research-app-sensing.jpg" />
+        </figure>
+        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Sensing and Edge Processing</h2>
+        <ul>
+          <li>Turn the modem into a programmable sensing platform with onboard processing.</li>
+          <li>Run your own algorithms at the edge and relay only the results you need.</li>
+          <li>Add new sensing applications in software, without new hardware.</li>
+        </ul>
+        <p>Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>, as shown in the <a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">programmable modem case study</a>.</p>
       </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/research-app-networks.jpg" alt="Networked underwater research testbed with multiple nodes in cellular and mesh topologies" />
-        </div>
-        <div>
-          <h5>Underwater Network Deployments</h5>
-          <p>Build testbeds and study cellular and mesh topologies at scale. Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>.</p>
-        </div>
+    </div>
+  </div>
+</section>
+
+<section class="g4x-section unet" style="background-color:#F8FAFC;">
+  <div class="row large">
+    <div class="feature-grid col2">
+      <div class="app-card">
+        <figure class="col-figure no-shadow">
+          <img alt="Physical oceanography data collection of currents, waves, and tides relayed over an underwater network" src="{{site.baseurl}}/images/research-app-oceanography.jpg" />
+        </figure>
+        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Physical Oceanography</h2>
+        <ul>
+          <li>Collect currents, waves, tides, and water column data from seabed instruments with <a href="{{site.baseurl}}/products/swis/swis-adcp">SWIS ADCP</a>.</li>
+          <li>Relay measurements to shore over the network instead of waiting for recovery.</li>
+          <li>Keep long records flowing season after season, with data delivered as it is gathered.</li>
+        </ul>
+        <p>Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>, with data delivery through <a href="{{site.baseurl}}/solutions/data-harvesting">Autonomous Subsea Data Operations</a>.</p>
       </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/research-app-sensing.jpg" alt="Acoustic modem used as a programmable sensing and edge processing platform underwater" />
-        </div>
-        <div>
-          <h5>Sensing and Edge Processing</h5>
-          <p>Run your own algorithms on the modem and add sensing in software. See the <a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">case study</a>.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/research-app-oceanography.jpg" alt="Physical oceanography data collection of currents, waves, and tides relayed over an underwater network" />
-        </div>
-        <div>
-          <h5>Physical Oceanography</h5>
-          <p>Collect currents, waves, and water column data, relayed to shore as gathered. Built with <a href="{{site.baseurl}}/products/swis/swis-adcp">SWIS ADCP</a>.</p>
-        </div>
-      </div>
-      <div class="docs-card column-card data-harvesting uwn">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/research-app-simulators.jpg" alt="Software ecosystem of underwater network simulators including UnetSim, hardware-in-the-loop simulation, and UnetCloud" />
-        </div>
-        <div>
-          <h5>Full Simulation Ecosystem</h5>
-          <p>Simulate <a href="{{site.baseurl}}/products/wnc/unetstack/unetsim">networks</a>, <a href="{{site.baseurl}}/products/wnc/unetstack/hilsim">hardware-in-the-loop</a> and in the cloud, from desk to deployment.</p>
-        </div>
+      <div class="app-card">
+        <figure class="col-figure no-shadow">
+          <img alt="Software ecosystem of underwater network simulators including UnetSim, hardware-in-the-loop simulation, and UnetCloud" src="{{site.baseurl}}/images/research-app-simulators.jpg" />
+        </figure>
+        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">A Full Simulation Ecosystem</h2>
+        <ul>
+          <li>Simulate full network behavior, topologies, and protocols in <a href="{{site.baseurl}}/products/wnc/unetstack/unetsim">UnetSim</a> before any hardware touches the water.</li>
+          <li>Run real modems against simulated channels with <a href="{{site.baseurl}}/products/wnc/unetstack/hilsim">hardware-in-the-loop simulation</a>, so the exact code you deploy is what gets tested.</li>
+          <li>Get the full simulation environment on demand, hosted in the cloud with UnetCloud.</li>
+          <li>Repurpose the modem itself as a research platform, for applications such as passive acoustic monitoring.</li>
+        </ul>
+        <p>Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a> and its simulation tools, as demonstrated by the <a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">Underwater Acoustic and Navigation Lab</a>.</p>
       </div>
     </div>
   </div>
@@ -152,7 +186,7 @@ section_id: industries
       <div class="docs-card uh">
         <div>
           <h5>Your language, any interface</h5>
-          <p>APIs in Java, Groovy, Python, Julia, C, and JavaScript. Work through the web interface, shell, unet sockets and gateway API libraries, or drop to raw JSON messages over TCP for extreme cases.</p>
+          <p>APIs in Java, Groovy, Python, Julia, C, and JavaScript. Work through the web interface, shell, higher layer abstractions, socket and gateway API libraries, or drop to raw JSON messages over TCP for extreme cases.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -164,7 +198,7 @@ section_id: industries
       <div class="docs-card uh">
         <div>
           <h5>Full stack and simulators</h5>
-          <p>Deploy a subsea network out-of-the-box for routing research, simulate at both network and physical layers, and scale the modular architecture from full modem to the UnetCube</p>
+          <p>Deploy a subsea network out-of-the-box for routing research, simulate at both network and physical layers, and scale the modular architecture from full modem to the UnetCube SBC.</p>
         </div>
       </div>
     </div>
@@ -199,9 +233,8 @@ section_id: industries
     </div>
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven in the Lab and the Field</h2>
-      <p>The <a href="https://sites.google.com/edu.haifa.ac.il/anl">Underwater Acoustic and Navigation Lab (ANL)</a> used Subnero modems to implement three advanced sensing applications, turning the modem into a programmable underwater laboratory.</p>
+      <p>The <a href="https://sites.google.com/edu.haifa.ac.il/anl">Underwater Acoustic and Navigation Lab (ANL)</a> used Subnero modems to implement three advanced sensing applications, turning the modem into a programmable underwater laboratory. The same software-defined platform underpinned one of the world's first underwater cellular network testbeds.</p>
       <p><a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">Read the programmable research modem story.</a></p>
-      <p>The same software-defined platform underpinned one of the world's first underwater cellular network testbeds.</p>
       <p><a href="{{site.baseurl}}/user-stories/cellular-network/">Read the underwater cellular network testbed story.</a></p>
     </div>
   </div>

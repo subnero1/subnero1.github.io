@@ -73,62 +73,46 @@ section_id: industries
 </section>
 
 <section class="g4x-section unet" style="background-color:#F8FAFC;">
-  <div class="row large">
-    <div class="feature-grid col2">
-      <div class="app-card">
-        <figure class="col-figure no-shadow">
-          <img alt="Inspection, repair, and maintenance of subsea assets by AUVs and hybrid vehicles over an underwater network" src="{{site.baseurl}}/images/energy-app-irm.jpg" />
-        </figure>
-        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Asset Monitoring, Inspection, and IRM</h2>
-        <ul>
-          <li>Pipelines, wellheads, risers, and wind farm foundations report condition data continuously.</li>
-          <li>AUVs and hybrid vehicles run inspection, repair, and maintenance while staying linked, over a direct link or the network.</li>
-          <li>Spot anomalies early, before they become failures.</li>
-        </ul>
-        <p>A communication layer over acoustic and optical links, from a single connection to a full network. Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a> and <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a>, with sensors instrumented through <a href="{{site.baseurl}}/products/swis/">SWIS</a>.</p>
-      </div>
-      <div class="app-card">
-        <figure class="col-figure no-shadow">
-          <img alt="Decommissioning and brownfield monitoring for CO2 and methane leaks over a seabed sensor network" src="{{site.baseurl}}/images/energy-app-decommissioning.jpg" />
-        </figure>
-        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Decommissioning and Brownfield Monitoring</h2>
-        <ul>
-          <li>Watch decommissioned and brownfield sites for CO2, methane, and other leaks.</li>
-          <li>Seabed sensors log to local storage and offload to a passing data muling vehicle over optical or acoustic links, with no crewed visit required.</li>
-          <li>Hold a verifiable environmental record over the life of the site.</li>
-        </ul>
-        <p>A persistent communication layer carrying readings from seabed to shore. Built on the <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>, with sensors instrumented through <a href="{{site.baseurl}}/products/swis/">SWIS</a>.</p>
-      </div>
-    </div>
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Offshore Applications</h2>
   </div>
-</section>
-
-<section class="g4x-section unet">
-  <div class="row large">
-    <div class="feature-grid col2">
-      <div class="app-card">
-        <figure class="col-figure no-shadow">
-          <img alt="Long term subsea monitoring of a carbon capture and storage site with a persistent seabed sensor network" src="{{site.baseurl}}/images/energy-app-ccs.jpg" />
-        </figure>
-        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Carbon Capture and Storage</h2>
-        <ul>
-          <li>Long term monitoring of subsea carbon storage sites for containment and leak detection.</li>
-          <li>Persistent sensor networks deliver readings across the full life of the reservoir, from a single instrument to a wide field.</li>
-          <li>Support assurance and regulatory reporting with continuous subsea data.</li>
-        </ul>
-        <p>One communication layer linking the storage site from seabed to shore over heterogeneous links. Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>, with <a href="{{site.baseurl}}/products/swis/">SWIS</a> and <a href="{{site.baseurl}}/products/swis/swis-adcp">SWIS ADCP</a> for water column and current profiling.</p>
+  <div class="row large py2 relative">
+    <div class="feature-grid col4">
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/energy-app-irm.jpg" alt="Inspection, repair, and maintenance of subsea assets by AUVs and hybrid vehicles over an underwater network" />
+        </div>
+        <div style="text-align: center;">
+          <h5>Asset Monitoring and IRM</h5>
+          <p>Continuous condition data and connected vehicles for inspection and maintenance. Instrumented with <a href="{{site.baseurl}}/products/swis/">SWIS</a>.</p>
+        </div>
       </div>
-      <div class="app-card">
-        <figure class="col-figure no-shadow">
-          <img alt="Resident ROV and AUV operations supported by an underwater communication and navigation network" src="{{site.baseurl}}/images/energy-app-resident.jpg" />
-        </figure>
-        <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Resident Vehicle Operations</h2>
-        <ul>
-          <li>Communication and navigation for resident ROVs and AUVs living offshore.</li>
-          <li>Run inspection and intervention without mobilizing a vessel for every task.</li>
-          <li>Keep vehicles linked for tasking and data return, over a direct link or the wider network.</li>
-        </ul>
-        <p>A communication layer spanning seabed to shore, with over the air backhaul for tasking and real time data return. Enabled by the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>, running on <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/energy-app-decommissioning.jpg" alt="Decommissioning and brownfield monitoring for CO2 and methane leaks over a seabed sensor network" />
+        </div>
+        <div style="text-align: center;">
+          <h5>Decommissioning and Brownfield</h5>
+          <p>Watch retired sites for CO2 and methane leaks. Built on <a href="{{site.baseurl}}/products/wnc/">WNC Smart Modems</a>.</p>
+        </div>
+      </div>
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/energy-app-ccs.jpg" alt="Long term subsea monitoring of a carbon capture and storage site with a persistent seabed sensor network" />
+        </div>
+        <div style="text-align: center;">
+          <h5>Carbon Capture and Storage</h5>
+          <p>Long term containment and leak monitoring for subsea storage sites. Profiled with <a href="{{site.baseurl}}/products/swis/swis-adcp">SWIS ADCP</a>.</p>
+        </div>
+      </div>
+      <div class="docs-card column-card data-harvesting uwn">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/energy-app-resident.jpg" alt="Resident ROV and AUV operations supported by an underwater communication and navigation network" />
+        </div>
+        <div style="text-align: center;">
+          <h5>Resident Vehicle Operations</h5>
+          <p>Communication for vehicles living offshore. Enabled with <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -137,29 +121,7 @@ section_id: industries
 <section class="g4x-section defense-dark bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-02.jpg);">
   <div class="g4x-section-head relative">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">One Stack, Any Link, Any Device</h2>
-    <p>Offshore fields run mixed vendor equipment. The Subnero stack is defined in software, not locked to one link or one supplier, so it fits the infrastructure you already operate.</p>
-  </div>
-  <div class="row large py2 relative">
-    <div class="feature-grid col3 operational-advantages">
-      <div class="docs-card uh">
-        <div>
-          <h5>Heterogeneous links</h5>
-          <p>Acoustic for range, optical for high bandwidth at short range, and satellite, cellular, or radio above the surface, routed by one stack.</p>
-        </div>
-      </div>
-      <div class="docs-card uh">
-        <div>
-          <h5>Third party modems</h5>
-          <p>The software defined stack interoperates with other vendors' modems, including through the JANUS standard.</p>
-        </div>
-      </div>
-      <div class="docs-card uh">
-        <div>
-          <h5>Positioning and instruments</h5>
-          <p>Works alongside USBL positioning and subsea instruments, so communication and navigation share the water column.</p>
-        </div>
-      </div>
-    </div>
+    <p>Offshore fields run mixed vendor equipment. The Subnero stack is defined in software, not locked to one link or one supplier, so it works across acoustic and optical links underwater, satellite, cellular, and radio above the surface, and alongside the modems, positioning systems, and instruments you already operate.</p>
   </div>
 </section>
 
@@ -174,12 +136,12 @@ section_id: industries
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven Offshore</h2>
       <p>RTS Cube Systems integrated Subnero M25M modems to deliver reliable, real time data in harsh North Sea conditions, modernizing their subsea platform and unlocking new edge processing.</p>
       <p><a href="{{site.baseurl}}/user-stories/enhancing-subsea-connectivity/">Read the RTS Cube Systems story.</a></p>
-      <p>In the Gulf of Mexico, Subnero modems held reliable communication to 2.5 km depth with over 80 percent packet success.</p>
+      <p>In the Gulf of Mexico, Subnero modems on Nauticus Robotics' Aquanaut subsea robot held continuous communication through a descent to 2,300 meters, the deepest measured operation of a Subnero modem.</p>
       <p><a href="{{site.baseurl}}/user-stories/deep-water-test/">Read the Gulf of Mexico deep water trial.</a></p>
     </div>
   </div>
 </section>
 
 <section class="call-to-action category-container mb2">
-  {%- include formCTA.html labelText="Connecting offshore assets or planning a subsea monitoring programme? Tell us about your field and we will help you scope it." -%}
+  {%- include formCTA.html labelText="Connecting offshore assets or planning a subsea monitoring program? Tell us about your field and we will help you scope it." -%}
 </section>

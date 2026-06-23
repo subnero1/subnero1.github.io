@@ -1,5 +1,7 @@
 ---
 layout: default
+title: L12L Series Silver Edition | Long-Range Acoustic Smart Modem
+description: Silver Edition L12L series modem for reliable long-range underwater communication beyond 10 km, built for defense, research, and commercial deployments.
 breadcrumb: Silver Edition
 ---
 {% include breadcrumbs.html %}

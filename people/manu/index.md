@@ -2,6 +2,7 @@
 layout: default
 title:  Manu Ignatius
 banner : images/banner-about.jpg
+description: Manu Ignatius is the Chief Executive Officer of Subnero, leading the development of underwater wireless communication and networking technology.
 headerTag: People
 ---
 

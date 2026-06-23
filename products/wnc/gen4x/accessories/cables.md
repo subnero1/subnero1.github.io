@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Subsea Cables | Gen4x Accessories
+description: Subsea cable options for Subnero Gen4x modems, with power, Ethernet, RS232, and sensor interfaces in lengths from 5 m to 30 m.
 breadcrumb: Subsea Cables
 ---
 

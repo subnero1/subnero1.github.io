@@ -3,6 +3,7 @@ layout: default
 title:  Let’s Connect
 banner: images/banner-contact.jpg
 subhead: Reach out to our team for product enquiries, technical questions, or partnership opportunities.
+description: Get in touch with Subnero for product enquiries, technical questions, or partnership opportunities. Find our Singapore office address and contact details.
 headerTag: Contact Us
 address: |
     1003 Bukit Merah Central

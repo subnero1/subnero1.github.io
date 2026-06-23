@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Additional Receiving Channels | Gen4x Accessories
+description: Add extra receiving channels to Subnero Gen4x modems for spatial diversity, 3D localization, and raw multi-channel acoustic data access.
 breadcrumb: Multi-receiver
 ---
 

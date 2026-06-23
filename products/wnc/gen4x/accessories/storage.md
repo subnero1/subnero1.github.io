@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Storage | Gen4x Accessories
+description: Expandable onboard storage up to 1 TB for Subnero Gen4x modems, for passive acoustic monitoring and long-term data logging.
 breadcrumb: Storage
 ---
 

@@ -1,5 +1,7 @@
 ---
 layout: default
+title: M25M Series Bronze Edition (S1000-N) | Entry-Level Acoustic Modem
+description: The Bronze Edition S1000-N is an affordable, compact acoustic modem powered by UnetStack, ideal for students and educators learning underwater networking.
 breadcrumb: Bronze Edition
 ---
 

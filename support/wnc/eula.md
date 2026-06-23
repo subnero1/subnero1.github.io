@@ -2,6 +2,7 @@
 title: End User License Agreement
 layout: page
 banner : images/banner-about.jpg
+description: The End User License Agreement governing the use of Subnero products and software.
 ---
 
 ## Subnero Product & Software End User License Agreement

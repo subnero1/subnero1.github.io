@@ -1,5 +1,7 @@
 ---
 layout: default
+title: S40H Series Silver Edition | High-Speed Acoustic Smart Modem
+description: Silver Edition S40H series modem for high-throughput underwater communication, enabling image transmission and real-time marine robotics connectivity.
 breadcrumb: Silver Edition
 ---
 

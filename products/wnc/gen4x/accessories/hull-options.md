@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Hull Options | Gen4x Accessories
+description: Aluminum, stainless steel, and titanium hull options for Subnero Gen4x modems, rated to 300 m, 2000 m, 4000 m, or custom depths.
 breadcrumb: Hull Options
 ---
 

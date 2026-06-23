@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  L12L series
+description: L12L series long-range acoustic smart modems from Subnero, in Standalone and OEM configurations.
 categories: product-type
 tab-id: panel-three
 order: 2
