@@ -4,7 +4,10 @@ title: Underwater Research and Programmable Acoustic Modems
 banner : images/banner-research.jpg
 excerpt: A programmable underwater laboratory. Subnero software defined modems and UnetStack let researchers build custom protocols, navigation, sensing, and networked experiments on real hardware.
 section_id: industries
+breadcrumb: Research
 ---
+
+{% include breadcrumbs.html %}
 
 <style>
   .g4x-section.defense-dark { background-color:#0C1826; }

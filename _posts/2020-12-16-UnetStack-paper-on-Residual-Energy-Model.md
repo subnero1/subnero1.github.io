@@ -5,6 +5,7 @@ banner : images/banner-unetstack.jpg
 date:  2020-12-16
 categories: research unetstack
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: A research paper from NIT Karnataka builds a residual energy model framework in UnetStack to help researchers plan energy use in underwater sensor networks.
 ---
 
 <div class="post-main" markdown="1">

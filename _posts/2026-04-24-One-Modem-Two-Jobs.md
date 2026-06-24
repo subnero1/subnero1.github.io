@@ -5,6 +5,7 @@ banner: images/banner-usbl-transceiver.jpg
 date:  2026-04-24
 categories: feature research unetstack
 thumbnail: images/pulse-thumbnail-usbl-transceiver.jpg
+description: A Unet Blog post shows how to turn a Subnero multi-receiver modem into a fully functional USBL transceiver for combined communication and positioning.
 ---
 
 <div class="post-main" markdown="1">

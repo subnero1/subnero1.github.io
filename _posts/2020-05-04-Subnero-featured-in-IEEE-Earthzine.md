@@ -5,4 +5,5 @@ external_url: https://earthzine.org/talking-safely-underwater-acoustic-networks-
 source: https://earthzine.org/
 categories: press
 thumbnail: images/pulse-thumbnail-ieee-earthzine.jpg
+description: IEEE Earthzine covers Subnero's work building underwater acoustic networks that talk safely and stay robust to disruption.
 ---

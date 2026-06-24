@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles4.jpg
 date:  2019-10-01
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: UnetStack3 is released, debuting a software-defined modem that runs on a laptop, with web-based tools, Unet audio, JANUS support, and new language APIs.
 ---
 
 <div class="post-main" markdown="1">

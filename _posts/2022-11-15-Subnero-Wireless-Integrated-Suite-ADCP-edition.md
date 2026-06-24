@@ -5,6 +5,7 @@ banner: images/banner-SWIS.jpg
 date: 2022-11-15
 categories: swis product-launch press
 thumbnail: images/pulse-thumbnail-swis.jpg
+description: Launching SWIS - ADCP Edition, giving seabed-mounted ADCPs wireless connectivity, smart data previews, and remote download without cables or retrieval.
 ---
 
 <div class="post-main" markdown="1">

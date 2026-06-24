@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-10-19
 categories: partnership
 thumbnail: images/pulse-thumbnail-vortice.jpg
+description: Subnero appoints Vortice as its new business partner in Portugal, supporting both underwater networking and SWAN customers.
 ---
 
 <div class="post-main" markdown="1">

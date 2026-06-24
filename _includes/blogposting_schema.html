@@ -1,0 +1,25 @@
+{% assign post_image = page.image | default: page.banner | default: page.thumbnail | default: site.default_image %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
+  "image": {{ post_image | absolute_url | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "Subnero"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Subnero",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ "/images/subnero_logo.png" | absolute_url | jsonify }}
+    }
+  }
+}
+</script>

@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles4.jpg
 date:  2018-09-28
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: Introducing UnetPy, the new Python API for UnetStack, plus the Unet Blog, ArlPy updates, and the launch of Subnero's redesigned website.
 ---
 
 <div class="post-main" markdown="1">

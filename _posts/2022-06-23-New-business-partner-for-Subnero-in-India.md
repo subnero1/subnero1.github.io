@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2022-06-23
 categories: partnership
 thumbnail: images/pulse-thumbnail-rijas.jpg
+description: Subnero partners with RIJAS Technical Solutions to bring the SWAN water quality monitoring platform to the Indian market.
 ---
 
 <div class="post-main" markdown="1">

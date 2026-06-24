@@ -4,6 +4,7 @@ title: Robot swans to help monitor water quality in Singapore’s reservoirs
 categories: press
 source : https://www.channelnewsasia.com/
 thumbnail: images/pulse-thumbnail-swan3.jpg
+description: Channel NewsAsia reports on Subnero's robot swans helping monitor water quality in Singapore's reservoirs.
 ---
 
 <div class="post-main" markdown="1">

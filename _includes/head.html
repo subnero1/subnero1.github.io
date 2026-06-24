@@ -97,4 +97,8 @@
   {% if page.layout == 'product' or page.section_id == 'products' %}
   {% include product_schema.html %}
   {% endif %}
+
+  {% if page.layout == 'pulse_post' %}
+  {% include blogposting_schema.html %}
+  {% endif %}
 </head>

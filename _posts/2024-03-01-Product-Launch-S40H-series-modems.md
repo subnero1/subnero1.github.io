@@ -5,6 +5,7 @@ banner: images/banner-pulse-hf.jpg
 date:  2024-03-01
 categories: product-launch press
 thumbnail: images/pulse-thumbnail-hf.jpg
+description: Subnero launches the S40H series, high-speed acoustic smart modems delivering up to 33 kbps for challenging shallow water deployments.
 ---
 
 <div class="post-main" markdown="1">

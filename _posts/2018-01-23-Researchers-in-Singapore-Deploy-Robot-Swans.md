@@ -5,6 +5,7 @@ categories: press
 external_url: https://mentalfloss.com/article/526024/researchers-singapore-deploy-robot-swans-test-water-quality
 source : https://mentalfloss.com/
 thumbnail: images/pulse-thumbnail-swan1.jpg
+description: Mental Floss covers Singapore researchers deploying Subnero's robot swans to test water quality.
 ---
 
 <div class="post-main" markdown="1">

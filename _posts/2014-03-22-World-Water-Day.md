@@ -5,6 +5,7 @@ banner : images/banner-pulse-world-waterday.jpg
 date:  2014-03-22
 categories: press
 thumbnail: images/pulse-thumbnail-blue4.jpg
+description: For World Water Day, an introduction to the Subnero Water Assessment Network (SWAN), a fleet of swan-shaped robots for real-time water quality monitoring.
 ---
 
 <div class="post-main" markdown="1">

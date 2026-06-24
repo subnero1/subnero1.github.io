@@ -139,7 +139,7 @@ breadcrumb: UnetCloud
           </div>
         </div>
         <h3 class="step-title">Connect as you would to a modem</h3>
-        <p class="step-desc">Use the same UnetStack APIs, web shell, and UnetPy scripts you already use with physical hardware. The interface is identical to a Subnero modem.</p>
+        <p class="step-desc">Use the same UnetStack APIs, web shell, and scripts you already use with physical hardware. The interface is identical to a Subnero modem.</p>
       </div>
     </div>
   </div>
@@ -168,7 +168,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Choice of Propagation Models</h5>
-          <p>Choose from a library of physics-based propagation models including Bellhop, Kraken, PekerisModeSolver etc. configured for your environment and node geometry.</p>
+          <p>Choose from a library of physics-based propagation models including Bellhop, Kraken, PekerisModeSolver, etc. configured for your environment and node geometry.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -177,7 +177,7 @@ breadcrumb: UnetCloud
         </div>
         <div>
           <h5>Identical API</h5>
-          <p>Connect using the same UnetStack web shell, UnetPy scripts, UnetSockets, and Gateway API you already use with physical modems. No code changes required.</p>
+          <p>Connect using the same UnetStack web shell, UnetSockets, and Gateway API you already use with physical modems. No code changes required.</p>
         </div>
       </div>
       <div class="docs-card uh">
@@ -265,7 +265,7 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-6" />
         <label class="toggle-label" for="ucfaq-6">Which channel models are available during the beta?</label>
         <div class="item-content">
-          <p>During the beta, UnetCloud supports the existing channel models available in VAO, including Bellhop, Kraken, PekerisModeSolver etc. Support for plugging in your own channel models, as well as other real-world channel datasets, is coming soon.</p>
+          <p>During the beta, UnetCloud supports the existing channel models available in VAO, including Bellhop, Kraken, PekerisModeSolver, etc. Support for plugging in your own channel models, as well as other real-world channel datasets, is coming soon.</p>
         </div>
       </div>
       <div class="faq-item">
@@ -307,7 +307,7 @@ breadcrumb: UnetCloud
         <input class="toggle-checkbox" type="checkbox" id="ucfaq-12" />
         <label class="toggle-label" for="ucfaq-12">Can we run this on our own servers instead of using the cloud?</label>
         <div class="item-content">
-          <p>This is not available as a standard offering today, but it is on the roadmap as an on-premises deployment option we offer server hardware that runs UnetCloud on your own premises. This is particularly relevant for customers with strict data sovereignty requirements, such as defense programs, where sending any simulation traffic outside a controlled environment is not acceptable. Please note that access to the internals of the system may be limited compared to a fully self-managed setup. Setting this up involves a scoped engagement with Subnero rather than a self-service installation. If this is a firm requirement for your program, contact us to discuss scope and timelines.</p>
+          <p>This is not available as a standard offering today, but it is on the roadmap as an on-premises deployment option we offer server hardware that runs UnetCloud on your own premises. This is particularly relevant for customers with strict data sovereignty requirements, such as defense programs, where sending any simulation traffic outside a controlled environment is not acceptable. Please note that access to the internals of the system may be limited compared to a fully managed setup. Setting this up involves a scoped engagement with Subnero rather than a self-service installation. If this is a firm requirement for your program, contact us to discuss scope and timelines.</p>
         </div>
       </div>
     </div>

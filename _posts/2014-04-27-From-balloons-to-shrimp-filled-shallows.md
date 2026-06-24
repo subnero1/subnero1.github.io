@@ -6,6 +6,7 @@ external_url: https://www.cnbc.com/2014/04/27/from-balloons-to-shrimp-filled-sha
 source : https://www.cnbc.com/world/
 date:   2014-04-27
 thumbnail: images/pulse-thumbnail-internet.jpg
+description: CNBC covers wireless innovation from high-altitude balloons to underwater networks, featuring Subnero's underwater communication technology.
 ---
 
 <div class="post-main" markdown="1">

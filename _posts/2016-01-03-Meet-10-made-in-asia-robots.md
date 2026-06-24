@@ -5,6 +5,7 @@ categories: press
 external_url: https://www.asianscientist.com/2017/01/print/hello-world-meet-10-made-in-asia-robots/6/
 source : https://www.asianscientist.com/
 thumbnail: images/pulse-thumbnail-robots.jpg
+description: Asian Scientist features Subnero's robot swans among 10 made-in-Asia robots.
 ---
 
 <div class="post-main" markdown="1">

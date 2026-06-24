@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-07-06
 categories: partnership
 thumbnail: images/pulse-thumbnail-seabreath.jpg
+description: Subnero partners with Tokyo-based SeaBreath to represent and grow its underwater communication business in Japan.
 ---
 
 <div class="post-main" markdown="1">

@@ -5,6 +5,7 @@ banner: images/banner-pulse-oi-2026.jpg
 date:  2026-02-27
 categories: event
 thumbnail: images/pulse-thumbnail-OI-talk.jpg
+description: At Oceanology International 2026, Subnero presents field results from a SWIS-ADCP deployment near Pulau Ubin testing autonomous seabed data retrieval.
 ---
 
 <div class="post-main" markdown="1">
@@ -41,7 +42,7 @@ We invite you to join the session to dive into the data:
 <div class="post-sidebar" markdown="1">
 
 <a href="https://www.oceanologyinternational.com/london/en-gb/programme/session-details.4738.256754.ocean-observation-%E2%80%93-autonomous--mobile-ocean-observing-systems.html" title="Session Details" target="_blank" rel="noopener noreferrer" class="post-image-link" >
-  ![]({{site.baseurl}}/images/OI-2026-talk.jpg)
+  ![Oceanology International 2026 session details for Subnero's SWIS-ADCP field study talk]({{site.baseurl}}/images/OI-2026-talk.jpg)
   *Session Details*
 </a>
 

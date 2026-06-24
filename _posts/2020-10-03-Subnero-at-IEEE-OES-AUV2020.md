@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2020-10-03
 categories: event
 thumbnail: images/pulse-thumbnail-auv2020.jpg
+description: Subnero takes part in its first virtual exhibition at the IEEE OES AUV 2020 symposium, held online due to the pandemic.
 ---
 
 <div class="post-main" markdown="1">

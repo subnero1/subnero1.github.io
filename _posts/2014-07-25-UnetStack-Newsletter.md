@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles1.jpg
 date:  2014-07-25
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue1.jpg
+description: UnetStack and simulator v1.2 release notes, with new channel models, a new MAC protocol, software-defined modem support, and Windows compatibility.
 ---
 
 <div class="post-main" markdown="1">

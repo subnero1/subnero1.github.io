@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles3.jpg
 date:  2013-03-09
 categories: press
 thumbnail: images/pulse-thumbnail-economist.png
+description: The Economist features Subnero co-founder Dr. Mandar Chitre on the growing interest in underwater networking for defense, water, and commercial sectors.
 ---
 
 <div class="post-main" markdown="1">

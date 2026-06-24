@@ -5,6 +5,7 @@ banner: images/banner-Gen4x.png
 date:  2025-04-07
 categories: product-launch press
 thumbnail: images/pulse-thumbnail-Gen4X.png
+description: Subnero launches the Gen4X series, compact acoustic smart modems with acoustic wakeup, hardware-in-the-loop simulation, and the latest UnetStack.
 ---
 
 <div class="post-main" markdown="1">

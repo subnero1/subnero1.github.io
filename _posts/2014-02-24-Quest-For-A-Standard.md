@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2014-02-24
 categories: press unetstack
 thumbnail: images/pulse-thumbnail-standard.jpg
+description: Why underwater networks need a common communication standard, and how NATO's JANUS signaling standard is paving the way for interoperability.
 ---
 
 <div class="post-main" markdown="1">

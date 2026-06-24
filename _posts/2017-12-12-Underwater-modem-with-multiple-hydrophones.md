@@ -5,6 +5,7 @@ banner : images/banner-pulse-custommodem.jpg
 date:  2017-12-12
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-multichannel.jpg
+description: How Subnero integrated a synchronized secondary data acquisition system into a modem for a research customer needing multi-hydrophone signal recording.
 ---
 
 <div class="post-main" markdown="1">

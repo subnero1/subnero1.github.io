@@ -5,6 +5,7 @@ banner : images/banner-pulse-arecorder.jpg
 date:  2015-02-20
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-arecorder.jpg
+description: Introducing the Subnero aRecorder, a multi-hydrophone broadband acoustic data acquisition system for scheduled, extended underwater deployments.
 ---
 
 <div class="post-main" markdown="1">

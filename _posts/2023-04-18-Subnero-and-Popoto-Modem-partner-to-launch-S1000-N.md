@@ -5,6 +5,7 @@ banner : images/banner-pulse-product-launch.jpg
 date:  2023-04-18
 categories: partnership product-launch press
 thumbnail: images/pulse-thumbnail-s1000n.png
+description: Subnero and Popoto Modem launch the S1000-N, combining Popoto's hardware with UnetStack for affordable, software-defined underwater networking.
 ---
 
 <div class="post-main" markdown="1">

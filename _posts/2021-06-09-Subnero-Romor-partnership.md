@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-06-09
 categories: partnership
 thumbnail: images/pulse-thumbnail-romor.jpg
+description: Subnero partners with ROMOR Ocean Solutions to support business growth and distribution in Canada.
 ---
 
 <div class="post-main" markdown="1">

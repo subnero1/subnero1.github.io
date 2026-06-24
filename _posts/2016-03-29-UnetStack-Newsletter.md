@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles2.jpg
 date:  2016-03-29
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue2.jpg
+description: UnetStack and simulator v1.3 release notes, with a new IDE, declarative PDU and FSM frameworks, plus details of our OCEANS '16 tutorial and booth.
 ---
 
 <div class="post-main" markdown="1">

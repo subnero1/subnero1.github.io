@@ -5,6 +5,7 @@ banner: images/banner-unetstack.jpg
 date:  2024-11-30
 categories: feature case-study
 thumbnail: images/pulse-thumbnail-network2.jpg
+description: Subnero and ST UIS publish a paper on designing and deploying an underwater cellular network for asset communication and localization near Singapore.
 ---
 
 <div class="post-main" markdown="1">

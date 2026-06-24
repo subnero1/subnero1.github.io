@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-04-23
 categories: feature
 thumbnail: images/pulse-thumbnail-swan-ASEAN-post.jpg
+description: SwanViz, a new cloud-based dashboard built with CSSSR, brings real-time data visualization and mission status to Subnero's SWAN water quality robots.
 ---
 
 <div class="post-main" markdown="1">
