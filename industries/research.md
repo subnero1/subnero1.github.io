@@ -85,7 +85,7 @@ breadcrumb: Research
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/research-app-protocols.jpg" alt="Custom protocol and physical layer research on a programmable underwater acoustic modem" />
         </div>
-        <div>
+        <div style="text-align: center;">
           <h5>Custom Protocols and Physical Layer Access</h5>
           <p>Test new modulation, coding, and protocols on real hardware. Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
         </div>
@@ -94,7 +94,7 @@ breadcrumb: Research
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/research-app-navigation.jpg" alt="Underwater navigation and positioning research with acoustic ranging between networked nodes" />
         </div>
-        <div>
+        <div style="text-align: center;">
           <h5>Navigation and Positioning</h5>
           <p>Ranging, localization, and tracking from the same modem. See <a href="{{site.baseurl}}/feature/research/unetstack/2026/04/24/One-Modem-Two-Jobs.html">One Modem, Two Jobs</a>.</p>
         </div>
@@ -103,7 +103,7 @@ breadcrumb: Research
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/research-app-networks.jpg" alt="Networked underwater research testbed with multiple nodes in cellular and mesh topologies" />
         </div>
-        <div>
+        <div style="text-align: center;">
           <h5>Underwater Network Deployments</h5>
           <p>Build testbeds and study cellular and mesh topologies at scale. Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a>.</p>
         </div>
@@ -112,7 +112,7 @@ breadcrumb: Research
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/research-app-sensing.jpg" alt="Acoustic modem used as a programmable sensing and edge processing platform underwater" />
         </div>
-        <div>
+        <div style="text-align: center;">
           <h5>Sensing and Edge Processing</h5>
           <p>Run your own algorithms on the modem and add sensing in software. See the <a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">case study</a>.</p>
         </div>
@@ -121,7 +121,7 @@ breadcrumb: Research
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/research-app-oceanography.jpg" alt="Physical oceanography data collection of currents, waves, and tides relayed over an underwater network" />
         </div>
-        <div>
+        <div style="text-align: center;">
           <h5>Physical Oceanography</h5>
           <p>Collect currents, waves, and water column data, relayed to shore as gathered. Built with <a href="{{site.baseurl}}/products/swis/swis-adcp">SWIS ADCP</a>.</p>
         </div>
@@ -130,7 +130,7 @@ breadcrumb: Research
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/research-app-simulators.jpg" alt="Software ecosystem of underwater network simulators including UnetSim, hardware-in-the-loop simulation, and UnetCloud" />
         </div>
-        <div>
+        <div style="text-align: center;">
           <h5>Full Simulation Ecosystem</h5>
           <p>Simulate <a href="{{site.baseurl}}/products/wnc/unetstack/unetsim">networks</a>, <a href="{{site.baseurl}}/products/wnc/unetstack/hilsim">hardware-in-the-loop</a> and in the cloud, from desk to deployment.</p>
         </div>

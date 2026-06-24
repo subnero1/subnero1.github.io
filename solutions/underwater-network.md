@@ -40,7 +40,7 @@ section_id: solutions
   <div class="row large">
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">One Network for Everything Underwater</h2>
-      <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software defined network stack that handles addressing, routing, relaying, and mobility end to end. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, routes across optical links where higher bandwidth is available, and bridges to satellite, cellular, or radio links above the surface.</p>
+      <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software-defined network stack that handles the full networking problem end-to-end. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, optical links where higher bandwidth is available, and terrestrial links above the surface.</p>
       <p>Underwater, SUN turns independent devices, autonomous vehicles, seabed sensors, landers, divers, gateway buoys, and vessels, into one coordinated network. The same technology scales from a single relay link to a wide area fabric of many nodes.</p>
     </div>
     <div class="large-6 columns">
@@ -161,11 +161,11 @@ section_id: solutions
     <div class="feature-grid col2 solutions">
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The Build It Yourself Path</h5>
-        <p class="text-black-01">Buy modems, then develop multihop relaying, routing across a changing topology, handover for mobile vehicles, and resource sharing across many users. A multi year research program before the first real mission.</p>
+        <p class="text-black-01">Buy modems, then spend years building the network logic on top, a multi-year research program before the first real mission.</p>
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The SUN Path</h5>
-        <p class="text-black-01">Everything that makes underwater networking hard is already solved and proven in the water. Your team configures the network for its mission instead of inventing it from scratch, and stands up a deployment now.</p>
+        <p class="text-black-01">Everything that makes underwater networking hard is already solved and proven in the water. Your team configures the network for its mission instead of inventing it from scratch.</p>
       </div>
     </div>
   </div>
@@ -183,7 +183,7 @@ section_id: solutions
         </div>
         <div>
           <h5 style="text-align: center;">Centralized, Cellular Style</h5>
-          <p>Base stations provide continuous coverage across cells, with seamless handover as mobile assets move between them, multi user resource sharing, and real time tracking.</p>
+          <p>Continuous, coordinated coverage for areas with many assets and high traffic.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting uwn">
@@ -192,7 +192,7 @@ section_id: solutions
         </div>
         <div>
           <h5 style="text-align: center;">Ad Hoc Mesh</h5>
-          <p>Nodes self organize and relay for each other, so coverage extends hop-by-hop and the network stays connected even when no single node can reach the destination directly.</p>
+          <p>Flexible coverage that extends across an area with no fixed infrastructure.</p>
         </div>
       </div>
     </div>
@@ -203,7 +203,7 @@ section_id: solutions
   <div class="row large">
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Design, Simulate, Deploy</h2>
-      <p>Underwater networking is hard to design and harder to validate before you get wet. Subnero gives you the complete toolchain to do both. UnetStack provides the deployable network stack and the agent based environment to build and customize protocols. UnetSim simulates the entire network, topology, traffic, and protocol behavior, before a single node enters the water. Physics based acoustic channel modeling tests the physical layer against realistic propagation conditions.</p>
+      <p>Underwater networking is hard to design and harder to validate before you get wet. Subnero gives you the complete toolchain to design, simulate, and validate the whole network on your desk before any node enters the water.</p>
       <p>Design, simulate, and validate end to end, then deploy the same stack. Simulation and deployment share the same code, so what works on your desk is what runs in the ocean.</p>
     </div>
     <div class="large-6 columns">
