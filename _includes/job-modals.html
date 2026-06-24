@@ -45,10 +45,10 @@
     {% assign job_listings = site.jobs | where: "active", true | sort: "order" %}
     {% for job in job_listings %}
       "{{ job.id }}": {
-        "title": "{{ job.title | escape_once }}",
-        "type": "{{ job.employment_type | escape_once }}",
-        "location": "{{ job.location | escape_once }}",
-        "apply_url": "{{ job.apply_url | escape_once }}"
+        "title": {{ job.title | jsonify }},
+        "type": {{ job.employment_type | jsonify }},
+        "location": {{ job.location | jsonify }},
+        "apply_url": {{ job.apply_url | jsonify }}
       }{% if forloop.last == false %},{% endif %}
     {% endfor %}
   });
