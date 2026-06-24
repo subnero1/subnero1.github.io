@@ -23,7 +23,7 @@ breadcrumb: Research
     <div class="hero-text">
       <h4 class="g4x-tag">Industries / Research</h4>
       <h1>A Programmable <span class="text-gradient g-blue">Underwater Laboratory</span></h1>
-      <p>Research needs hardware that adapts to the experiment, not a sealed box. Subnero software-defined modems open every layer of the stack, so the modem becomes a programmable platform for communication, navigation, sensing and a lot more.</p>
+      <p>Research needs hardware that adapts to the experiment, not a sealed box. Subnero software-defined modems work across every layer of the stack, so the modem becomes a programmable platform for communication, navigation, sensing and a lot more.</p>
       <div class="g4x-hero-btns data-harvesting">
       </div>
     </div>
@@ -33,7 +33,7 @@ breadcrumb: Research
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Hardware That Adapts to Your Research</h2>
-    <p>Most underwater modems are closed boxes. Subnero modems run UnetStack, an open architecture, agent based software stack that exposes every layer from the application down to the physical layer. The same platform that carries data is the platform you reprogram for your experiment, on the bench, in simulation, and in the water.</p>
+    <p>Most underwater modems are closed boxes. Subnero modems run UnetStack, an open architecture, agent based software stack that works across every layer from the application down to the physical layer. The same platform that carries data is the platform you reprogram for your experiment, on the bench, in simulation, and in the water.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 operational-advantages">
@@ -141,33 +141,33 @@ breadcrumb: Research
 
 <section class="g4x-section defense-dark bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-04.jpg);">
   <div class="g4x-section-head relative">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">The One True Software-Defined Platform</h2>
-    <p>Every interface is open, every layer is reachable, and customization has no ceiling. If you can describe the experiment, the platform can support it.</p>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">A Flexible Platform for Underwater Research</h2>
+    <p>Work across multiple levels of the stack, integrate your own instruments and vehicles, simulate network behavior, and move from the bench to field trials on one platform.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 operational-advantages">
       <div class="docs-card uh">
         <div>
-          <h5>Open and unrestricted</h5>
-          <p>Every interaction is open. Bypass our physical layer and run your own, or run your processing on our coprocessors and make it your modem. Customization has no end.</p>
+          <h5>Work across the stack</h5>
+          <p>Customize behavior at multiple layers, run your own processing on optional coprocessors, and adapt the modem to your experiment.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
-          <h5>Your language, any interface</h5>
-          <p>APIs in Java, Groovy, Python, Julia, C, and JavaScript. Work through the web interface, shell, unet sockets and gateway API libraries, or drop to raw JSON messages over TCP for extreme cases.</p>
+          <h5>Integrate your way</h5>
+          <p>Connect through standard programming interfaces and integration libraries, so the platform fits the tools and instruments your lab already uses.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
-          <h5>Ideal for physical layer research</h5>
-          <p>Access multi-receiver raw waveforms and transmit arbitrary waveforms. Add optional coprocessor upgrades, and extra channels for spatial diversity and localization research.</p>
+          <h5>Built for physical layer research</h5>
+          <p>Explore physical layer research with multi-receiver and waveform-level access, optional coprocessor upgrades, and extra channels for spatial diversity and localization.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>Full stack and simulators</h5>
-          <p>Deploy a subsea network out-of-the-box for routing research, simulate at both network and physical layers, and scale the modular architecture from full modem to the UnetCube</p>
+          <p>Deploy a subsea network out-of-the-box for routing research, simulate at both network and physical layers, and scale the modular architecture from full modem to the UnetCube.</p>
         </div>
       </div>
     </div>

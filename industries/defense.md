@@ -24,7 +24,7 @@ breadcrumb: Defense
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Industries / Defense</h4>
-      <h1>Subsea <span class="text-gradient g-blue">Domain Awareness</span></h1>
+      <h1><span class="text-gradient g-blue">Connected Subsea Operations</span> for Defense</h1>
       <p>Maritime domain awareness does not stop at the waterline. Across every subsea mission, the enabler is the same: a communication layer that keeps underwater assets connected. Subnero provides it.</p>
       <div class="g4x-hero-btns data-harvesting">
       </div>
@@ -35,7 +35,7 @@ breadcrumb: Defense
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">The Gap in Maritime Domain Awareness</h2>
-    <p>Most forces have a strong maritime picture on and above the water, and almost none in the subsea domain. Subsea domain awareness means knowing where your underwater assets are and what they are doing, and that requires a network beneath the surface. That network is what Subnero builds.</p>
+    <p>Most forces have a strong maritime picture on and above the water, and almost none in the subsea domain. Subsea domain awareness means knowing where your underwater assets are and what they are doing, and that requires a network beneath the surface. Subnero provides the communication layer that enables that network.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 operational-advantages">
@@ -88,8 +88,8 @@ breadcrumb: Defense
           <img src="{{site.baseurl}}/images/defense-app-mcm.jpg" alt="Mine countermeasures over an underwater network, with AUVs prosecuting mines and handing over between coverage cells" />
         </div>
         <div style="text-align: center;">
-          <h5>Mine Countermeasures</h5>
-          <p>Vehicles stay connected as they prosecute mines, so contacts are known when found.</p>
+          <h5>Unmanned System Coordination</h5>
+          <p>Enable communication with underwater vehicles during detection and classification, including ordnance.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting uwn">
@@ -128,8 +128,8 @@ breadcrumb: Defense
 
 <section class="g4x-section defense-dark bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-02.jpg);">
   <div class="g4x-section-head relative">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Simulate, Rehearse, Deploy with a Digital Twin</h2>
-    <p>A defense network cannot be improvised at sea. Subnero provides a complete simulation and digital twin environment, in the cloud or on premises, so the entire network is rehearsed before any asset touches the water. Simulation and deployment share the same stack: what is rehearsed in the twin is what runs in the ocean.</p>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Plan, Simulate and Validate Before Deployment</h2>
+    <p>Subsea networks need to be tested before field operations. Subnero supports simulation and hardware-in-the-loop validation so teams can evaluate configurations, traffic patterns and operating assumptions before deployment.</p>
   </div>
   <figure class="section-edge-img" style="width: 100%; max-width: 1200px; margin: 2rem auto 0;">
     <img alt="Digital twin of an underwater defense network, mirroring the live network in simulation and feeding validated configurations back to sea" src="{{site.baseurl}}/images/defense-digital-twin-panels.png" />

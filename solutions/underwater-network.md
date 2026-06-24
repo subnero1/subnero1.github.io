@@ -10,7 +10,7 @@ section_id: solutions
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">For OEMs, Integrators, and Mission Owners</h4>
-      <h1>Underwater Networking, <span class="text-gradient g-blue">Out of the Box</span></h1>
+      <h1><span class="text-gradient g-blue">Underwater Networking</span>, Out of the Box</h1>
       <p>A complete communication layer for your subsea assets, AUVs, sensors, and divers, built on a configurable network stack. Take the stack, not the integration risk.</p>
       <div class="g4x-hero-btns data-harvesting">
       </div>
@@ -20,7 +20,7 @@ section_id: solutions
 
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient g-orange">Rethinking Underwater Connectivity</h2>
+    <h2 class="sec-head text-gradient g-orange">Reimagining Underwater Connectivity</h2>
   </div>
   <div class="row large py2">
     <div class="feature-grid col2 solutions">
@@ -40,7 +40,7 @@ section_id: solutions
   <div class="row large">
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">One Network for Everything Underwater</h2>
-      <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software-defined network stack that handles the full networking problem end-to-end. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, optical links where higher bandwidth is available, and terrestrial links above the surface.</p>
+      <p>The Subnero Underwater Network, or SUN, is a complete communication layer connecting subsea assets to the surface, shore, and cloud. At its core is a software-defined network stack that coordinates communication across fixed, mobile and surface-connected assets. It runs on Subnero Acoustic Smart Modems over acoustic links underwater, optical links where higher bandwidth is available, and terrestrial links above the surface.</p>
       <p>Underwater, SUN turns independent devices, autonomous vehicles, seabed sensors, landers, divers, gateway buoys, and vessels, into one coordinated network. The same technology scales from a single relay link to a wide area fabric of many nodes.</p>
     </div>
     <div class="large-6 columns">
@@ -155,7 +155,7 @@ section_id: solutions
 
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head relative">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">You Do Not Need to Develop a Stack. You Configure Ours.</h2>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">A Ready Network Stack for Your Most Demanding Missions</h2>
   </div>
   <div class="row large py2">
     <div class="feature-grid col2 solutions">
@@ -165,7 +165,7 @@ section_id: solutions
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange">The SUN Path</h5>
-        <p class="text-black-01">Everything that makes underwater networking hard is already solved and proven in the water. Your team configures the network for its mission instead of inventing it from scratch.</p>
+        <p class="text-black-01">Much of the hardest work in underwater networking is already built, field-tested and configurable. Your team configures the network for its mission instead of inventing it from scratch.</p>
       </div>
     </div>
   </div>
@@ -181,18 +181,18 @@ section_id: solutions
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/underwater-network-topology-centralized.jpg" alt="Centralized cellular style underwater network topology with base station buoys, coverage cells, and AUV handover" />
         </div>
-        <div>
-          <h5 style="text-align: center;">Centralized, Cellular Style</h5>
-          <p>Continuous, coordinated coverage for areas with many assets and high traffic.</p>
+        <div style="text-align: center;">
+          <h5>Centralized, Cellular Style</h5>
+          <p>Centralized deployments can support coordinated coverage across operating areas, including mobile assets and multiple users.</p>
         </div>
       </div>
       <div class="docs-card column-card data-harvesting uwn">
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/underwater-network-topology-mesh.jpg" alt="Ad hoc underwater mesh network topology relaying data hop-by-hop to a single gateway buoy" />
         </div>
-        <div>
-          <h5 style="text-align: center;">Ad Hoc Mesh</h5>
-          <p>Flexible coverage that extends across an area with no fixed infrastructure.</p>
+        <div style="text-align: center;">
+          <h5>Ad Hoc Mesh</h5>
+          <p>Distributed deployments can extend coverage across nodes when direct communication is not available.</p>
         </div>
       </div>
     </div>
@@ -203,7 +203,7 @@ section_id: solutions
   <div class="row large">
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Design, Simulate, Deploy</h2>
-      <p>Underwater networking is hard to design and harder to validate before you get wet. Subnero gives you the complete toolchain to design, simulate, and validate the whole network on your desk before any node enters the water.</p>
+      <p>Underwater networks are hard to design and harder to validate before you get wet. Subnero gives you the complete toolchain to design, simulate, and validate the whole network on your desk before any node enters the water.</p>
       <p>Design, simulate, and validate end to end, then deploy the same stack. Simulation and deployment share the same code, so what works on your desk is what runs in the ocean.</p>
     </div>
     <div class="large-6 columns">

@@ -22,7 +22,7 @@ breadcrumb: Energy
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Industries / Energy</h4>
-      <h1>Connected <span class="text-gradient g-blue">Subsea Infrastructure</span></h1>
+      <h1><span class="text-gradient g-blue">Connected Subsea</span> Infrastructure</h1>
       <p>Offshore energy depends on data from beneath the surface, from sensors, robots, and structures. Subnero delivers it from seabed to surface to shore, over whatever links the mission allows, without a vessel on station.</p>
       <div class="g4x-hero-btns data-harvesting">
       </div>
