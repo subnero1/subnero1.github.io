@@ -11,7 +11,7 @@ section_id: solutions
     <div class="hero-text">
       <h4 class="g4x-tag">For OEMs, Integrators, and Mission Owners</h4>
       <h1><span class="text-gradient g-blue">Underwater Networking</span>, Out of the Box</h1>
-      <p>A complete communication layer for your subsea assets, AUVs, sensors, and divers, built on a configurable network stack. Take the stack, not the integration risk.</p>
+      <p>A complete communication layer for your subsea assets, AUVs, sensors, and divers, built on a configurable network stack. Use the stack, mitigate the integration risk.</p>
       <div class="g4x-hero-btns data-harvesting">
       </div>
     </div>

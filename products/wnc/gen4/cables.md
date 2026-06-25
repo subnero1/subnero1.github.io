@@ -62,6 +62,9 @@ canonical: /products/wnc/gen4x/cables/
             <div class="quote-row">
               {%- include formRequestQuote.html -%}
             </div>
+            <section class="call-to-action category-container">
+              {%- include formCTA.html -%}
+            </section>
         </div>
       </div>
       <hr>
