@@ -31,7 +31,7 @@
     path: /solutions/underwater-network
     section_id: solutions
 - name: Industries
-  path: industries/defense
+  path: /industries/defense
   section_id: industries
   submenu:
   - name: Defense

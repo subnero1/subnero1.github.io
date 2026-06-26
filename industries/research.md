@@ -86,7 +86,7 @@ breadcrumb: Research
           <img src="{{site.baseurl}}/images/research-app-protocols.jpg" alt="Custom protocol and physical layer research on a programmable underwater acoustic modem" />
         </div>
         <div style="text-align: center;">
-          <h5>Custom Protocols and Physical Layer Access</h5>
+          <h5>Custom Protocols and Physical Layer Research</h5>
           <p>Test new modulation, coding, and protocols on real hardware. Built on <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
         </div>
       </div>
