@@ -1,5 +1,7 @@
 ---
 layout: default
+title: M25M Series Bronze Edition (S1000-N) | Entry-Level Acoustic Modem
+description: The Bronze Edition S1000-N is an affordable, compact acoustic modem powered by UnetStack, ideal for students and educators learning underwater networking.
 breadcrumb: Bronze Edition
 ---
 
@@ -8,7 +10,7 @@ breadcrumb: Bronze Edition
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-gallery-01.png" alt="Subnero S1000-N Bronze Edition Underwater Modem Gallery View" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-gallery-01.png" alt="Subnero S1000-N Bronze Edition compact black underwater acoustic modem in upright view, showing its slim cylindrical housing and connector" />
       </div>
       <div class="large-7 columns">
           <div class="card-tag bronze">Bronze Edition</div>
@@ -36,7 +38,7 @@ breadcrumb: Bronze Edition
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-feature.png" alt="Subnero S1000-N Bronze Edition Underwater Modem Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-feature.png" alt="Subnero S1000-N Bronze Edition acoustic modem shown at an angle, highlighting its compact, lightweight form factor for entry-level underwater networking" />
       </div>
     </div>
   </section>

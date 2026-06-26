@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles2.jpg
 date:  2016-12-20
 categories: press feature
 thumbnail: images/pulse-thumbnail-connecting.jpg
+description: Open Resource magazine interviews Subnero co-founder Dr. Mandar Chitre on underwater communication technology and the challenge of connecting the ocean online.
 ---
 
 <div class="post-main" markdown="1">

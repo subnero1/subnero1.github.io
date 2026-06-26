@@ -81,21 +81,21 @@ section_id: products
             <td>
               <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/l12l/g4x-l12l-silver.html" title="L12L Series Modem">
                 <img
-                  src="{{site.baseurl}}/images/gen4x/gen4x-band-lf-cover.png" alt="L12L Series Modem" />
+                  src="{{site.baseurl}}/images/gen4x/gen4x-band-lf-cover.png" alt="Subnero L12L Series low-frequency (LF) acoustic smart modem for long-range underwater communication" />
                 <small>View Details</small>
               </a>
             </td>
             <td>
               <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/m25m" title="M25M Series Modem">
                 <img
-                  src="{{site.baseurl}}/images/gen4x/gen4x-band-mf-cover.png" alt="M25M Series Modem" />
+                  src="{{site.baseurl}}/images/gen4x/gen4x-band-mf-cover.png" alt="Subnero M25M Series medium-frequency (MF) acoustic smart modem for underwater networking" />
                 <small>View Details</small>
               </a>
             </td>
             <td>
               <a class="comparison-img" href="{{site.baseurl}}/products/wnc/gen4x/s40h/g4x-s40h-silver.html" title="S40H Series Modem">
                 <img
-                  src="{{site.baseurl}}/images/gen4x/gen4x-band-hf-cover.png" alt="S40H Series Modem" />
+                  src="{{site.baseurl}}/images/gen4x/gen4x-band-hf-cover.png" alt="Subnero S40H Series high-frequency (HF) acoustic smart modem for high-bandwidth underwater links" />
                 <small>View Details</small>
               </a>
             </td>

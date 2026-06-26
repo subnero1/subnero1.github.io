@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles1.jpg
 date:  2017-02-02
 categories: press research
 thumbnail: images/pulse-thumbnail-blue1.jpg
+description: A peer-reviewed IEEE paper reviews software-defined underwater modems, naming Subnero among the few with fully reprogrammable physical and network layers.
 ---
 
 <div class="post-main" markdown="1">

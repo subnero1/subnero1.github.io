@@ -5,6 +5,7 @@ categories: press
 external_url: https://www.channelnewsasia.com/news/video-on-demand/tipping-point/muddy-waters-11381352
 source : https://www.channelnewsasia.com/
 thumbnail: images/pulse-thumbnail-cna.jpg
+description: The SWAN features in a Channel NewsAsia documentary on water preservation, giving real-time data on Singapore's water quality.
 ---
 
 <div class="post-main" markdown="1">

@@ -5,6 +5,7 @@ banner: images/banner-unetstack4.jpg
 date:  2024-02-06
 categories: unetstack feature
 thumbnail: images/pulse-thumbnail-unetstack4.jpg
+description: Subnero releases a whitepaper exploring the UnetStack framework for subsea communications and networking, from its origins to editions and licensing.
 ---
 
 <div class="post-main" markdown="1">

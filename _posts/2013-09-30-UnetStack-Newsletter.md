@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles2.jpg
 date:  2013-09-30
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue1.jpg
+description: UnetStack v1.1 is available for download, alongside the launch of the Nemo modem, Subnero's first UnetStack-conformant software-defined modem.
 ---
 
 <div class="post-main" markdown="1">

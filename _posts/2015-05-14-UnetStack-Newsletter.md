@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles3.jpg
 date:  2015-05-14
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue3.jpg
+description: Meet Subnero at OCEANS' 15 in Genova, and read about the release of the aRecorder, a scheduled multi-hydrophone broadband acoustic data recorder.
 ---
 
 <div class="post-main" markdown="1">

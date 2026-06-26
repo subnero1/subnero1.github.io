@@ -1,5 +1,7 @@
 ---
 layout: default
+title: M25M Series Platinum Edition | MIL-Qualified Acoustic Smart Modem
+description: Platinum Edition M25M series modem built to rigorous quality standards for defense, oil & gas, and subsea engineering deployments.
 breadcrumb: Platinum Edition
 ---
 
@@ -12,13 +14,13 @@ breadcrumb: Platinum Edition
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="Subnero M25M Series Platinum Edition Modem Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-02.png" alt="Subnero M25M Series Platinum Edition Modem Gallery View 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="Subnero M25M Series Platinum Edition medium-frequency (MF) acoustic smart modem in a rugged housing on a protective cage base, with underwater connector and antenna">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-02.png" alt="Two Subnero M25M Series Platinum Edition MF acoustic smart modems in bronze and dark green rugged housings, showing available hull finish options">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-01.png" alt="Subnero M25M Series Platinum Edition Modem Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-02.png" alt="Subnero M25M Series Platinum Edition Modem Thumbnail 2">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-01.png" alt="Subnero M25M Series Platinum Edition MF modem thumbnail – front view on cage base">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-02.png" alt="Subnero M25M Series Platinum Edition MF modem thumbnail – bronze and dark green hull finishes">
           </div>
         </div>
         <!-- ./slider -->
@@ -50,7 +52,7 @@ breadcrumb: Platinum Edition
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-feature.png" alt="Subnero M25M Series Platinum Edition Modem Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-feature.png" alt="Subnero M25M Series Platinum Edition medium-frequency (MF) acoustic smart modem shown at an angle with its protective transducer cage and underwater connectors" />
       </div>
     </div>
   </section>

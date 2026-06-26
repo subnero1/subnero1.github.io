@@ -40,7 +40,7 @@ title_color : "#E6782F"
         {% endfor %}
       </div>
       <div class='image'>
-        <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
+        <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
           <img alt="{{ post.title }}" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
         </a>
       </div>
@@ -48,7 +48,7 @@ title_color : "#E6782F"
         <span>{{post.date | date: "%B %d, %Y" }}</span>
       </p>
       <h3 style="text-transform: none;">
-        <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a>
+        <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a>
       </h3>
       <div class="tags">
         {% for tag in post.categories %}

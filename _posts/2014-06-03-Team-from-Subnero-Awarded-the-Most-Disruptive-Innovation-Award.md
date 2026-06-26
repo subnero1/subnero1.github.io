@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles1.jpg
 date:  2014-06-03
 categories: press
 thumbnail: images/pulse-thumbnail-prize.jpg
+description: Subnero's Team Orca wins the Most Disruptive Innovation Award at SIWW 2014 for a diver navigation and communication concept.
 ---
 
 <div class="post-main" markdown="1">

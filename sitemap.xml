@@ -34,6 +34,20 @@ layout: null
       <priority>0.85</priority>
     </url>
   {% endfor %}
+
+  <!-- Industries Pages and Solutions Detail Pages (High Priority) -->
+  {% for page in site.pages %}
+    {% if page.sitemap != false %}
+      {% if page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' %}
+        <url>
+          <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
+          <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
   
   <!-- Gen4x Pages -->
   {% for page in site.pages %}
@@ -110,7 +124,7 @@ layout: null
   <!-- All Other Pages -->
   {% for page in site.pages %}
     {% if page.sitemap != false and page.url != "/404.html" and page.url != "/" %}
-      {% unless page.url == '/products/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' or page.url contains '/gen4x/' or page.url contains '/products/' or page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' or page.url contains '/unetstack/' or page.url contains '/faq/' %}
+      {% unless page.url == '/products/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' or page.url contains '/gen4x/' or page.url contains '/products/' or page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' or page.url contains '/unetstack/' or page.url contains '/faq/' or page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
           <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>

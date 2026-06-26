@@ -151,6 +151,10 @@ li.has-dropdown > a {
 .submenu a[href$="#adcp-edition"] {
   padding-left: 12px;
 }
+.submenu a[href$="/solutions/data-harvesting"],
+.submenu a[href$="/solutions/underwater-network"] {
+  padding-left: 12px;
+}
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-links {

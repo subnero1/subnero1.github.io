@@ -2,6 +2,7 @@
 layout: default
 title:  Shiraz Shahabudeen
 banner : images/banner-about.jpg
+description: Shiraz Shahabudeen is a Research Scientist at Subnero, working on underwater acoustic communication and networking technology.
 headerTag: People
 ---
 
@@ -17,7 +18,7 @@ headerTag: People
 	<div class="row member-info">
 		<div class="member-picture">
 			<div class="photo">
-				<img src="/images/people/shiraz.jpg" alt="Shiraz Shahabudeen">
+				<img src="/images/people/shiraz.jpg" alt="Shiraz Shahabudeen, Research Scientist at Subnero">
 			</div>
 		</div>
 		<h1>Shiraz Shahabudeen</h1>

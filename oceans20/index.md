@@ -3,6 +3,7 @@ layout: page
 title: Practical Underwater Software-defined Networking
 permalink: /oceans20
 banner: images/banner-about.jpg
+description: Slides, code, and tutorial materials for the OCEANS 2020 tutorial on practical underwater software-defined networking with UnetStack.
 ---
 
 <!-- <h1 style="font-size: 32px;"><u>Practical Underwater Software-defined Networking</u></h1> -->
@@ -23,12 +24,12 @@ This tutorial contains 6 parts. The PART 1 and PART 2 covers basics of setting u
 
 The following links provide the slides used for each of the parts.
 
-[Slides for PART 1](tutorial-part-1.pdf)\
-[Slides for PART 2](tutorial-part-2.pdf)\
-[Slides for PART 3](tutorial-part-3.pdf)\
-[Slides for PART 4](tutorial-part-4.pdf)\
-[Slides for PART 5](tutorial-part-5.pdf)\
-[Slides for PART 6](tutorial-part-6.pdf)
+[Slides for PART 1](/oceans20/tutorial-part-1.pdf)\
+[Slides for PART 2](/oceans20/tutorial-part-2.pdf)\
+[Slides for PART 3](/oceans20/tutorial-part-3.pdf)\
+[Slides for PART 4](/oceans20/tutorial-part-4.pdf)\
+[Slides for PART 5](/oceans20/tutorial-part-5.pdf)\
+[Slides for PART 6](/oceans20/tutorial-part-6.pdf)
 
 <!-- ## Hands-on sessions -->
 <h1 style="font-size: 32px;"><u>Hands-on sessions</u></h1>
@@ -91,7 +92,7 @@ To run this jupyter notebook, follow the instructions in the video carefully. Yo
 
 This questionnaire is *ONLY REQUIRED* for those who require CEU credits. For those who do not require credits, this questionnaire is optional.
 
-[Link to questionnaire](questionnaire.pdf)
+[Link to questionnaire](/oceans20/questionnaire.pdf)
 
 <!-- ## Videos -->
 <h1 style="font-size: 32px;"><u>Videos</u></h1>

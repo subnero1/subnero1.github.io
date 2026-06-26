@@ -160,7 +160,7 @@ date: 2025-11-20
                     </div>
                     <p>This collaboration has shown that cellular-style networks can bring real-world value to subsea operations. By validating the concept in Singapore’s demanding shallow-water conditions, we are opening the door to scalable solutions for defense, commercial, and research users alike.</p>
                     <div class="author">
-                      <div class="photo"><img src="{{site.baseurl}}/images/jin-jie-jay-poh.jpg" alt="Jin Jie Jay Poh" /></div>
+                      <div class="photo"><img src="{{site.baseurl}}/images/jin-jie-jay-poh.jpg" alt="Jay Poh Jin Jie, Vice President / Head Unmanned Systems Business Unit at ST Engineering" /></div>
                       <div class="name">
                         <p>Jay Poh Jin Jie</p>
                         <small>Vice President / Head Unmanned Systems Business Unit <br>ST Engineering</small>
@@ -175,7 +175,7 @@ date: 2025-11-20
                     </div>
                     <p>This deployment demonstrates our vision of making subsea communication networks as seamless and versatile as those on land. By enabling resource sharing and continuous connectivity, we are taking the first step toward building the &#39;Internet of the Oceans.&#39;</p>
                     <div class="author">
-                      <div class="photo"><img src="{{site.baseurl}}/images/manu-ignatius.jpg" alt="Manu Ignatius" /></div>
+                      <div class="photo"><img src="{{site.baseurl}}/images/manu-ignatius.jpg" alt="Manu Ignatius, CEO of Subnero" /></div>
                       <div class="name">
                         <p>Manu Ignatius</p>
                         <small>Subnero CEO</small>

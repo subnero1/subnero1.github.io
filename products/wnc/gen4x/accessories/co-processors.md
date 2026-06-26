@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Co-processor | Gen4x Accessories
+description: An embedded Linux co-processor accessory for Subnero Gen4x modems, for running custom applications and algorithms directly on the modem.
 breadcrumb: Co-processor
 ---
 
@@ -12,17 +14,17 @@ breadcrumb: Co-processor
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-01.png" alt="Subnero Modem Co-processor Module Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-02.png" alt="Subnero Modem Co-processor Module Gallery View 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-03.png" alt="Subnero Modem Co-processor Module Gallery View 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-04.png" alt="Subnero Modem Co-processor Module Gallery View 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-01.png" alt="Subnero Gen4x co-processor module (NXP i.MX8M Plus System-on-Module) in top-down view, showing its heatsink-covered ARM Cortex-A53 processor">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-02.png" alt="Subnero Gen4x co-processor module shown at an angle, highlighting the connector headers used to interface with the modem's main board">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-03.png" alt="Subnero Gen4x co-processor module shown from a top-down angle, displaying its compact circuit board layout and connector headers">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-04.png" alt="Subnero Gen4x co-processor module rotated to show its heatsink and corner mounting holes for integration inside the modem housing">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-01.png" alt="Subnero Modem Co-processor Module Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-02.png" alt="Subnero Modem Co-processor Module Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-03.png" alt="Subnero Modem Co-processor Module Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-04.png" alt="Subnero Modem Co-processor Module Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-01.png" alt="Subnero Gen4x co-processor module thumbnail – top view with heatsink">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-02.png" alt="Subnero Gen4x co-processor module thumbnail – angled view of connectors">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-03.png" alt="Subnero Gen4x co-processor module thumbnail – top-angled circuit board view">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-04.png" alt="Subnero Gen4x co-processor module thumbnail – rotated view with mounting holes">
           </div>
         </div>
         <!-- ./slider -->
@@ -83,7 +85,7 @@ breadcrumb: Co-processor
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-feature.png" alt="Subnero Modem Co-processor Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-feature.png" alt="Subnero Gen4x co-processor module (NXP i.MX8M Plus System-on-Module) shown at an angle, displaying its stacked circuit boards, heatsink, and connector" />
       </div>
     </div>
   </section>

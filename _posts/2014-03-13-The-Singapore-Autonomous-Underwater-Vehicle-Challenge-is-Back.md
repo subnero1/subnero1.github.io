@@ -5,6 +5,7 @@ banner : images/banner-pulse-sauvc2014.jpg
 date:  2014-03-13
 categories: event
 thumbnail: images/pulse-thumbnail-sauvc.jpg
+description: The 2014 Singapore Autonomous Underwater Vehicle Challenge (SAUVC) returns to NTU, with international student teams and Subnero volunteering at the event.
 ---
 
 <div class="post-main" markdown="1">

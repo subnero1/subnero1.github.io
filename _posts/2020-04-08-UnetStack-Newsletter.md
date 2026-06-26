@@ -5,6 +5,7 @@ banner : images/banner-about.jpg
 date:  2020-04-08
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: UnetStack 3.1 release notes, with a localization framework, redefined routing, wormholes, distributed spatial diversity, and new dashboards.
 ---
 
 <div class="post-main" markdown="1">

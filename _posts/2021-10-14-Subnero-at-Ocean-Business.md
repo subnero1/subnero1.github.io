@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-10-14
 categories: event
 thumbnail: images/pulse-thumbnail-ocean-business-2021.jpg
+description: Subnero returns to in-person exhibitions at Ocean Business 2021 in Southampton, its first physical event in nearly two years.
 ---
 
 <div class="post-main" markdown="1">

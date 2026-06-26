@@ -5,6 +5,7 @@ categories: press
 external_url: https://medium.com/@NUSEnterprise/the-hangar-by-nus-enterprise-entrepreneurs-feature-subnero-efc2ee7329aa
 source : https://medium.com/@NUSEnterprise
 thumbnail: images/pulse-thumbnail-hangar.jpg
+description: NUS Enterprise's The Hangar features Subnero as one of its entrepreneur success stories.
 ---
 
 <div class="post-main" markdown="1">

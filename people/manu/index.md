@@ -2,6 +2,7 @@
 layout: default
 title:  Manu Ignatius
 banner : images/banner-about.jpg
+description: Manu Ignatius is the Chief Executive Officer of Subnero, leading the development of underwater wireless communication and networking technology.
 headerTag: People
 ---
 
@@ -17,7 +18,7 @@ headerTag: People
 	<div class="row member-info">
 		<div class="member-picture">
 			<div class="photo">
-				<img src="/images/people/manu.jpg" alt="Manu Ignatius">
+				<img src="/images/people/manu.jpg" alt="Manu Ignatius, CEO of Subnero">
 			</div>
 		</div>
 		<h1>Manu Ignatius</h1>

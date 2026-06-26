@@ -5,6 +5,7 @@ banner: images/banner-anl-case-study.jpg
 date:  2026-02-23
 categories: case-study research
 thumbnail: images/pulse-thumbnail-anl-case-study.jpg
+description: A new case study with the Underwater Acoustic & Navigation Lab shows how Subnero's open, software-defined modems power sonar and tracking research.
 ---
 
 <div class="post-main" markdown="1">

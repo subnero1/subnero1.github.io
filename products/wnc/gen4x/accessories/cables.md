@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Subsea Cables | Gen4x Accessories
+description: Subsea cable options for Subnero Gen4x modems, with power, Ethernet, RS232, and sensor interfaces in lengths from 5 m to 30 m.
 breadcrumb: Subsea Cables
 ---
 
@@ -12,17 +14,17 @@ breadcrumb: Subsea Cables
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-01.png" alt="Subnero Subsea Cables Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-02.png" alt="Subnero Subsea Cables Gallery View 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-03.png" alt="Subnero Subsea Cables Gallery View 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-04.png" alt="Subnero Subsea Cables Gallery View 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-01.png" alt="Coiled green subsea cable with a wet-mate underwater connector for Subnero Gen4x acoustic smart modems">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-02.png" alt="Coiled green subsea cable with a multi-pin underwater connector, used for power, Ethernet, and sensor integration with Subnero modems">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-03.png" alt="Subnero subsea cable accessory packaged with a rugged transport case for field deployments">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-04.png" alt="Subnero deployment kit including subsea cables, transport case, and two M25M Series acoustic smart modems set up at a waterside location">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-01.png" alt="Subnero Subsea Cables Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-02.png" alt="Subnero Subsea Cables Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-03.png" alt="Subnero Subsea Cables Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-04.png" alt="Subnero Subsea Cables Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-01.png" alt="Subnero subsea cable thumbnail – coiled cable with wet-mate connector">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-02.png" alt="Subnero subsea cable thumbnail – coiled cable with multi-pin connector">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-03.png" alt="Subnero subsea cable thumbnail – cable with transport case">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-04.png" alt="Subnero subsea cable thumbnail – full deployment kit at waterside">
           </div>
         </div>
         <!-- ./slider -->
@@ -77,7 +79,7 @@ breadcrumb: Subsea Cables
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-cables-feature.png" alt="Subnero Subsea Cables Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-cables-feature.png" alt="Coiled green subsea cable with wet-mate underwater connector available for Subnero Gen4x acoustic smart modems" />
       </div>
     </div>
   </section>

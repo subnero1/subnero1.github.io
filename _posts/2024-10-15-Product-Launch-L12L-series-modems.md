@@ -5,6 +5,7 @@ banner: images/banner-pulse-lf.jpg
 date:  2024-10-5
 categories: product-launch press
 thumbnail: images/pulse-thumbnail-lf.jpg
+description: Subnero launches the L12L series, long-range acoustic smart modems delivering over 10 km of communication range for AUVs and coastal monitoring networks.
 ---
 
 <div class="post-main" markdown="1">

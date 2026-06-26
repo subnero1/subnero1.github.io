@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2023-03-27
 categories: product-launch press
 thumbnail: images/pulse-thumbnail-gen4.png
+description: Subnero launches its fourth-generation WNC series of acoustic modems, powered by UnetStack4, with advanced networking, localization, and edge AI readiness.
 ---
 
 <div class="post-main" markdown="1">

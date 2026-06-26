@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2020-11-19
 categories: event
 thumbnail: images/pulse-thumbnail-siww-online.png
+description: Subnero exhibits at a virtual booth for the Singapore International Water Week (SIWW) Online 2020, showcasing its underwater smart modems.
 ---
 
 <div class="post-main" markdown="1">

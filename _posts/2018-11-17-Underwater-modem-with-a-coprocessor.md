@@ -5,6 +5,7 @@ banner : images/banner-pulse-coproc.jpg
 date:  2018-11-17
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-modems.jpg
+description: How Subnero's optional coprocessor adds Linux-based edge computing to acoustic modems, for custom PHY research, higher-layer networking, and machine learning.
 ---
 
 <div class="post-main" markdown="1">

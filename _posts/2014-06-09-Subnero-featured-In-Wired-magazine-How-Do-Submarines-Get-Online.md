@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles3.jpg
 date:  2014-06-09
 categories: press
 thumbnail: images/pulse-thumbnail-wired.jpg
+description: Wired UK covers Subnero's technology in "The Undersea Internet," exploring wireless-enabled aquatic drones and augmented-reality dive gear.
 ---
 
 <div class="post-main" markdown="1">

@@ -5,6 +5,7 @@ banner: images/banner-pulse-data-harvesting.jpg
 date:  2026-06-08
 categories: partnership
 thumbnail: images/pulse-thumbnail-data-harvesting.jpg
+description: Subnero and HydroSurv combine acoustic smart modems with uncrewed surface vessels to demonstrate persistent, autonomous subsea data retrieval.
 ---
 
 <div class="post-main" markdown="1">

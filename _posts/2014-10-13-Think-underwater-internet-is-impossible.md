@@ -5,6 +5,7 @@ title: Think underwater internet is impossible? This Singapore startup is provin
 external_url: https://www.techinasia.com/subnero-is-making-underwater-internet-a-reality/
 source : https://www.techinasia.com/
 thumbnail: images/pulse-thumbnail-scuba.jpg
+description: Tech in Asia profiles Subnero, the Singapore startup making underwater internet a reality.
 ---
 
 <div class="post-main" markdown="1">

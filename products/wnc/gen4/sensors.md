@@ -25,17 +25,17 @@ excerpt: Additional sensors for Subnero underwater acoustic smart modems.
           <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors01.jpg' alt="Additional sensors for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors02.jpg' alt="Additional sensors for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors03.jpg' alt="Additional sensors for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors04.jpg' alt="Additional sensors for Subnero underwater modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors01.jpg' alt="Sparton AHRS-8 Attitude and Heading Reference System (AHRS) module for Subnero underwater acoustic smart modems, shown at an angle with its sensor housing and mounting bracket">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors02.jpg' alt="Sparton AHRS-8 Attitude and Heading Reference System (AHRS) module for Subnero underwater acoustic smart modems, shown in profile with its AHRS-8 label">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors03.jpg' alt="Adafruit PA1010D GPS module for Subnero underwater acoustic smart modems, showing its GNSS antenna and STEMMA connectors">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-sensors04.jpg' alt="Oven Controlled Crystal Oscillator (OCXO) low-drift clock module for Subnero underwater acoustic smart modems">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-sensors01.jpg' alt="Additional sensors for Subnero underwater modems">
-              <img data-index="1" src='{{site.baseurl}}/images/accessories-sensors02.jpg' alt="Additional sensors for Subnero underwater modems">
-              <img data-index="2" src='{{site.baseurl}}/images/accessories-sensors03.jpg' alt="Additional sensors for Subnero underwater modems">
-              <img data-index="3" src='{{site.baseurl}}/images/accessories-sensors04.jpg' alt="Additional sensors for Subnero underwater modems">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-sensors01.jpg' alt="Thumbnail of Sparton AHRS-8 attitude and heading reference system module">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-sensors02.jpg' alt="Thumbnail of Sparton AHRS-8 module shown in profile with AHRS-8 label">
+              <img data-index="2" src='{{site.baseurl}}/images/accessories-sensors03.jpg' alt="Thumbnail of Adafruit PA1010D GPS module with GNSS antenna">
+              <img data-index="3" src='{{site.baseurl}}/images/accessories-sensors04.jpg' alt="Thumbnail of Oven Controlled Crystal Oscillator (OCXO) low-drift clock module">
             </div>
           </div>
           <!-- ./slider -->
@@ -51,6 +51,9 @@ excerpt: Additional sensors for Subnero underwater acoustic smart modems.
             <div class="quote-row">
               {%- include formRequestQuote.html -%}
             </div>
+            <section class="call-to-action category-container">
+              {%- include formCTA.html -%}
+            </section>
         </div>
       </div>
       <hr>

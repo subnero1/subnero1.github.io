@@ -5,6 +5,7 @@ banner: images/banner-rts-case-study.jpg
 date:  2026-03-06
 categories: case-study partnership
 thumbnail: images/pulse-thumbnail-rts-case-study.jpg
+description: RTS integrates Subnero's M25M acoustic smart modems into its Cube subsea monitoring systems, gaining greater range and data rates for offshore deployments.
 ---
 
 <div class="post-main" markdown="1">

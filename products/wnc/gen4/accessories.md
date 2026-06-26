@@ -46,7 +46,7 @@ order: 3
 			{% for page in product_pages %}
 				{% if page.title contains "Storage" %}
 		        <div class='mod modBlogPost bg-grey'>
-		        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="Subnero Modem Storage Options" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="Subnero Modem Storage Options" src="{{site.baseurl}}/{{page.thumbnail}}"/>
 		          	<div class='content'>
 		            <h2>Storage</h2>
 		          </div></a>

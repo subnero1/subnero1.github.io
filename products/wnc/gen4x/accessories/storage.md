@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Storage | Gen4x Accessories
+description: Expandable onboard storage up to 1 TB for Subnero Gen4x modems, for passive acoustic monitoring and long-term data logging.
 breadcrumb: Storage
 ---
 
@@ -8,7 +10,7 @@ breadcrumb: Storage
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-gallery-01.png" alt="Subnero Modem Storage Accessory Gallery View" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-gallery-01.png" alt="256 GB microSD card used for expandable onboard storage in Subnero Gen4x acoustic smart modems" />
       </div>
       <div class="large-7 columns">
         <div class="card-tag gen4x">Gen4x</div>
@@ -49,7 +51,7 @@ breadcrumb: Storage
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-feature.png" alt="Subnero Modem Storage Accessory Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-feature.png" alt="Two 256 GB microSD cards illustrating expandable, redundant onboard storage for Subnero Gen4x acoustic smart modems" />
       </div>
     </div>
   </section>

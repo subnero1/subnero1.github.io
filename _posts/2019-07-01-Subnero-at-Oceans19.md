@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2019-07-01
 categories: event
 thumbnail: images/pulse-thumbnail-oceans19.jpg
+description: Subnero at OCEANS'19 Marseille, supporting a JANUS tutorial and demonstrating JANUS capabilities live using UnetStack3.
 ---
 
 <div class="post-main" markdown="1">

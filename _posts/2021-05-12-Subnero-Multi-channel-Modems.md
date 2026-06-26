@@ -5,6 +5,7 @@ banner : images/banner-multichannel-mf.jpg
 date:  2021-05-12
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-mr.jpg
+description: Introducing Subnero's multi-receiver modems, combining the M25M series with up to 4 synchronous receiving channels for recording, ranging, and tracking.
 ---
 
 <div class="post-main" markdown="1">

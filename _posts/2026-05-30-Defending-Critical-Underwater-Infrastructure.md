@@ -5,6 +5,7 @@ banner: images/banner-pulse-infra-defense.jpg
 date:  2026-05-30
 categories: press
 thumbnail: images/pulse-thumbnail-infra-defense.jpg
+description: Following the Shangri-La Dialogue's GUIDE principles, Subnero argues subsea infrastructure resilience depends on connected underwater sensing and communication.
 ---
 
 <div class="post-main" markdown="1">

@@ -5,6 +5,7 @@ banner : images/banner-careers.jpg
 date:  2023-08-02
 categories: corporate partnership
 thumbnail: images/pulse-thumbnail-overseas.jpg
+description: Partners SeaBreath, Nortek Japan, and Marine Works Japan demonstrate Subnero's SWIS-ADCP solution to clients in Japan to strong positive feedback.
 ---
 
 <div class="post-main" markdown="1">

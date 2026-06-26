@@ -5,6 +5,7 @@ banner : images/banner-pulse-swan.jpg
 date:  2015-08-01
 categories: press
 thumbnail: images/pulse-thumbnail-swan1.jpg
+description: Why static water monitoring falls short, and how the Subnero Water Assessment Network (SWAN) fleet provides real-time, scalable water quality data.
 ---
 
 <div class="post-main" markdown="1">

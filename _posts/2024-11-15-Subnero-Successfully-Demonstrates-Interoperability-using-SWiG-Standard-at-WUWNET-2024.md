@@ -5,6 +5,7 @@ banner: images/banner-pulse-swig-interop.jpg
 date:  2024-11-15
 categories: event case-study press
 thumbnail: images/pulse-thumbnail-swig-interop.jpg
+description: Subnero demonstrates multi-vendor interoperability using the SWiG acoustic Level 1 standard alongside EvoLogics, WSENSE, and NORCE at WUWNET 2024.
 ---
 
 <div class="post-main" markdown="1">

@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2019-10-29
 categories: event partnership
 thumbnail: images/pulse-thumbnail-smartsea-team.jpg
+description: Subnero exhibits in China for the first time at iOceans 2019 in Sanya, alongside new business partner Wuxi Smartsea Technology.
 ---
 
 <div class="post-main" markdown="1">

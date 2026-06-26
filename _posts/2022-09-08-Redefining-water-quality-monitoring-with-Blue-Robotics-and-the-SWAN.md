@@ -5,6 +5,7 @@ banner: images/pulse-Florence54.jpg
 date:  2022-09-08
 categories: case-study
 thumbnail: images/pulse-thumbnail-smallmarina.jpg
+description: How Subnero's SWAN water quality monitoring robots use Blue Robotics thrusters, speed controllers, and tethers to operate autonomously at depth.
 ---
 
 <div class="post-main" markdown="1">

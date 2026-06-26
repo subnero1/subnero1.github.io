@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2019-01-15
 categories: event
 thumbnail: images/pulse-thumbnail-swan-roadshow.jpg
+description: Subnero showcases the SWAN water quality monitoring robot to delegations from Australia, Malaysia, and Hong Kong at the PUB Roadshow.
 ---
 
 <div class="post-main" markdown="1">

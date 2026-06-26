@@ -5,4 +5,5 @@ external_url: https://lsc-pagepro.mydigitalpublication.com/publication/?m=60787&
 source: https://sea-technology.com/
 categories: press
 thumbnail: images/pulse-thumbnail-sea-technology.jpg
+description: Sea Technology magazine features Subnero's underwater wireless communication technology.
 ---

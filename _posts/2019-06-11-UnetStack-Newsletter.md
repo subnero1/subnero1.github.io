@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles4.jpg
 date:  2019-06-11
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: Meet Subnero at OCEANS' 19 Marseille for the UnetStack3 Beta release, with a new web-based IDE, short-circuiting, geotagging, and DTN support.
 ---
 
 <div class="post-main" markdown="1">

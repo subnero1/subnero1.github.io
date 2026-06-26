@@ -5479,6 +5479,16 @@ body:has(dialog[open]) { overflow: hidden; }
   background-color: rgb(196 231 255 / 20%);
   border-radius: 12px;
 }
+.app-card {
+  display: flex;
+  flex-direction: column;
+}
+.app-card .col-figure {
+  margin: 0 0 1.5rem;
+}
+.app-card h2 {
+  margin-top: 0;
+}
 .feature-grid p.lead {
   color: #007A8C;
 }
@@ -6370,6 +6380,16 @@ a.usecase-card:hover {
   margin: 1rem 1rem 2rem;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.section-edge-img {
+  position: relative;
+  width: calc(100% + 2rem);
+  margin: 2rem -1rem 0;
+}
+.section-edge-img img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .docs-card.column-card {
   flex-direction: column;
@@ -7675,6 +7695,9 @@ a.usecase-card:hover {
   border-radius: 12px;
   background-color: rgb(53 98 115 / 60%);
 }
+.dark-card .docs-card.data-harvesting.uwn {
+  background-color: rgb(15 25 35 / 80%);
+}
 .dark-card .docs-card.data-harvesting img {
   border-radius: 8px;
 }
@@ -7799,6 +7822,24 @@ a.usecase-card:hover {
 }
 .collaborator a:hover{
   color: #006090;
+}
+.logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.logo-strip img {
+  max-height: 64px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+.logo-strip img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 

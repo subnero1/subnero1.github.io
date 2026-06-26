@@ -25,17 +25,17 @@ excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
           <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Additional interfaces for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Additional interfaces for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="Additional interfaces for Subnero underwater modems">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="Additional interfaces for Subnero underwater modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="RS232 DB9 serial cable with male and female connectors for Subnero underwater acoustic smart modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Close-up of a DB9 RS232 connector on an interface cable for Subnero underwater acoustic smart modems">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="DB9 RS232 connector on a coiled blue underwater cable for Subnero acoustic smart modems, with additional sensor breakout wires">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="DB9 RS232 connector alongside an RJ45 Ethernet connector on a Subnero underwater modem interface cable">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Additional interfaces for Subnero underwater modems">
-              <img data-index="1" src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Additional interfaces for Subnero underwater modems">
-              <img data-index="2" src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="Additional interfaces for Subnero underwater modems">
-              <img data-index="3" src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="Additional interfaces for Subnero underwater modems">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-interfaces01.jpg' alt="Thumbnail of RS232 DB9 serial cable with male and female connectors">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-interfaces02.jpg' alt="Thumbnail of DB9 RS232 connector close-up on interface cable">
+              <img data-index="2" src='{{site.baseurl}}/images/accessories-interfaces03.jpg' alt="Thumbnail of DB9 RS232 connector on blue underwater cable with sensor wires">
+              <img data-index="3" src='{{site.baseurl}}/images/accessories-interfaces04.jpg' alt="Thumbnail of DB9 RS232 connector with RJ45 Ethernet connector">
             </div>
           </div>
           <!-- ./slider -->
@@ -50,6 +50,9 @@ excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
             <div class="quote-row">
               {%- include formRequestQuote.html -%}
             </div>
+            <section class="call-to-action category-container">
+              {%- include formCTA.html -%}
+            </section>
         </div>
       </div>
       <hr>
