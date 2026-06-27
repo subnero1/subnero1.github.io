@@ -201,8 +201,8 @@ breadcrumb: Silver Edition
               <td>
                 < 4 W (receive mode, nominal) <br />
                 < 45 W (transmit mode, avg.) <br />
-                < 150 mW (sleep mode) <br />
-                < 1 mW (deep sleep mode)
+                < 200 mW (sleep mode) <br />
+                < 5 mW (deep sleep mode)
               </td>
             </tr>
             <tr>
@@ -247,10 +247,6 @@ breadcrumb: Silver Edition
             <tr>
               <td>Dimensions</td>
               <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
-            </tr>
-            <tr>
-              <td>Weight (in air / water)</td>
-              <td>SC: 2.1 / 0.8 kg, OC: 0.65 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>
