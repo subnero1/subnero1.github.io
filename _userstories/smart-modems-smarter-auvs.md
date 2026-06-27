@@ -14,7 +14,6 @@ date: 2026-06-19
     <div class="hero-text">
       <h4 class="g4x-tag">{{ page.tag }}</h4>
       <h1><span class="text-gradient g-blue">Smart Modems, Smarter AUVs</span></h1>
-      <h2 class="text-white text-3xl text-600 capitalize-none normal-spacing m0">Enabling dynamic missions in commercial vehicles.</h2>
       <p>How the muNet Laboratory at the University of Alabama turned a commercial AUV into a programmable, acoustically controlled platform using a Subnero smart modem and UnetStack.</p>
     </div>
   </div>
