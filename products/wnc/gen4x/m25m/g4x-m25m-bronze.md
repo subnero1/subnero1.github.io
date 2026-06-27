@@ -154,10 +154,6 @@ breadcrumb: Bronze Edition
               <td>376 mm x 49 mm x 49 mm</td>
             </tr>
             <tr>
-              <td>Weight</td>
-              <td>Dry: 1275g (Nmodel), In Sea Water: 505g</td>
-            </tr>
-            <tr>
               <td>Depth rating</td>
               <td>1000 m</td>
             </tr>
