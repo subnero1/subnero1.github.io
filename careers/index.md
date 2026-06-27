@@ -3,6 +3,7 @@ layout: default
 title:  Join Our Team
 banner : images/banner-careers.jpg
 subhead: Join us in developing next-generation solutions for ocean connectivity, sensing, and autonomy.
+description: Explore open roles at Subnero and help build next-generation underwater connectivity, navigation, monitoring, and sensing technology.
 headerTag: Careers
 ---
 

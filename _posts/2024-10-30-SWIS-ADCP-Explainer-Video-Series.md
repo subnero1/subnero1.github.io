@@ -5,6 +5,7 @@ banner: images/banner-pulse-swis-explainer.jpg
 date:  2024-10-30
 categories: swis
 thumbnail: images/pulse-thumbnail-swis-explainer.jpg
+description: A new video series explains how SWIS - ADCP Edition pairs acoustic smart modems with Nortek ADCPs to simplify underwater data collection.
 ---
 
 <div class="post-main" markdown="1">

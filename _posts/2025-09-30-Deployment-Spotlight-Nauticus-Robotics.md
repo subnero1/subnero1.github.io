@@ -5,6 +5,7 @@ banner: images/banner-spotlight1.jpg
 date:  2025-09-30
 categories: case-study partnership
 thumbnail: images/pulse-thumbnail-spotlight1.jpg
+description: Subnero and Nauticus Robotics complete deep-water testing of acoustic smart modems aboard the Aquanaut robot, maintaining communication down to 2300 meters.
 ---
 
 <div class="post-main" markdown="1">

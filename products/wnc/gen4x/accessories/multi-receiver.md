@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Additional Receiving Channels | Gen4x Accessories
+description: Add extra receiving channels to Subnero Gen4x modems for spatial diversity, 3D localization, and raw multi-channel acoustic data access.
 breadcrumb: Multi-receiver
 ---
 
@@ -11,17 +13,17 @@ breadcrumb: Multi-receiver
         <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-01.png" alt="Subnero Multi-Receiver Modem Gallery View 1">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-02.png" alt="Subnero Multi-Receiver Modem Gallery View 2">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-03.png" alt="Subnero Multi-Receiver Modem Gallery View 3">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-04.png" alt="Subnero Multi-Receiver Modem Gallery View 4">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-01.png" alt="Subnero M25M Series modem with dual receiver channel configuration, showing two underwater connectors and antennas for multi-hydrophone acoustic arrays">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-02.png" alt="Subnero multi-receiver modem kit including two acoustic smart modems, additional hydrophone cable, and a rugged transport case">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-03.png" alt="Subnero M25M Series multi-receiver acoustic smart modem deployed outdoors with a harbor in the background, showing its dual-channel antenna setup">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-04.png" alt="Additional hydrophone receiver element with cable and connector for Subnero multi-receiver acoustic smart modems">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-01.png" alt="Subnero Multi-Receiver Modem Thumbnail 1">
-              <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-02.png" alt="Subnero Multi-Receiver Modem Thumbnail 2">
-              <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-03.png" alt="Subnero Multi-Receiver Modem Thumbnail 3">
-              <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-04.png" alt="Subnero Multi-Receiver Modem Thumbnail 4">
+              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-01.png" alt="Subnero multi-receiver modem thumbnail – dual-channel upright view">
+              <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-02.png" alt="Subnero multi-receiver modem thumbnail – kit with case and cable">
+              <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-03.png" alt="Subnero multi-receiver modem thumbnail – outdoor field deployment">
+              <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-04.png" alt="Subnero multi-receiver modem thumbnail – additional hydrophone cable accessory">
             </div>
           </div>
       </div>
@@ -77,7 +79,7 @@ breadcrumb: Multi-receiver
         <p>Enables three-dimensional localization and tracking using multi-hydrophone signal processing.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-feature.png" alt="Subnero Multi-Receiver Modem Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-feature.png" alt="Subnero M25M Series modem shown at an angle with its protective transducer cage and dual receiver connectors for multi-hydrophone configurations" />
       </div>
     </div>
   </section>

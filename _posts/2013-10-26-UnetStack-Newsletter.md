@@ -5,6 +5,7 @@ banner : images/banner-pulse-unet.jpg
 date:  2013-10-26
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: UnetStack v1.1.1 is available for download, alongside the Subnero Underwater Modem (formerly the Unet-2 modem), now available for field deployment.
 ---
 
 <div class="post-main" markdown="1">

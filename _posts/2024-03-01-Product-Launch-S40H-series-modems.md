@@ -5,6 +5,7 @@ banner: images/banner-pulse-hf.jpg
 date:  2024-03-01
 categories: product-launch press
 thumbnail: images/pulse-thumbnail-hf.jpg
+description: Subnero launches the S40H series, high-speed acoustic smart modems delivering up to 33 kbps for challenging shallow water deployments.
 ---
 
 <div class="post-main" markdown="1">
@@ -20,7 +21,7 @@ Designed to excel in challenging shallow water conditions, the S40H series intro
 - **Higher Data Rates:** Utilizing a higher frequency band and boasting a larger bandwidth (25 kHz bandwidth, from 25 - 50 kHz band), the S40H series achieves data rates of up to 33 kbps, ensuring seamless connectivity even in the harshest underwater environments.
 - **Extended Range:** Providing connectivity of up to 1 km, this series offers a competitive range in challenging conditions to enable your short-range deployments.
 - **Versatile Applications:** Equipped with advanced underwater communication algorithms, the S40H series unlocks a myriad of possibilities, including high-speed data transfer for underwater IoT applications, underwater image transfer, and large sensor payload data transfer for marine robotics.
-- **Enhanced Capability:** The [multi-receiver variant](/products/wnc/gen4x/accessories/multi-receiver.html){:target="_blank"} of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
+- **Enhanced Capability:** The [multi-receiver variant](/products/wnc/gen4x/accessories/multi-receiver){:target="_blank"} of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
 - **Powered by UnetStack:** Leveraging [UnetStack](/products/wnc/unetstack/){:target="_blank"}, a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
 - **Class-Leading Performance:** Combining a software-defined open architecture design with edge computing capability and machine learning-based link tuning features, these modems set a new standard for performance in the subsea wireless industry.
 

@@ -5,6 +5,7 @@ banner: images/banner-multichannel-mf-gen4x.jpg
 date:  2025-11-13
 categories: feature
 thumbnail: images/pulse-thumbnail-mr-gen4x.png
+description: How Subnero's multi-receiver modems improve robustness through receive diversity while also enabling bearing estimation, tracking, and passive acoustic sensing.
 ---
 
 <div class="post-main" markdown="1">

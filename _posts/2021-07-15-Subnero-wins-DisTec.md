@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-07-15
 categories: event press
 thumbnail: images/pulse-thumbnail-distec.jpg
+description: Subnero wins the DisTec Undersea Challenge, presenting the Subnero Underwater Network (SUN) to take the top spot at the undersea defence innovation contest.
 ---
 
 <div class="post-main" markdown="1">

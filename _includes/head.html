@@ -5,6 +5,9 @@
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.noindex %}
+  <meta name="robots" content="noindex, follow">
+  {% endif %}
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -93,5 +96,9 @@
 
   {% if page.layout == 'product' or page.section_id == 'products' %}
   {% include product_schema.html %}
+  {% endif %}
+
+  {% if page.layout == 'pulse_post' %}
+  {% include blogposting_schema.html %}
   {% endif %}
 </head>

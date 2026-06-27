@@ -116,7 +116,7 @@ date: 2026-02-24
           </div>
           <p>Our engagement with RTS demonstrates how modern, software-defined underwater networks can deliver tangible improvements in operational efficiency. The success of the Cube integration is a great example of what happens when innovation meets practical field experience.</p>
           <div class="author">
-            <div class="photo"><img src="{{site.baseurl}}/images/manu-ignatius.jpg" alt="Manu Ignatius" /></div>
+            <div class="photo"><img src="{{site.baseurl}}/images/manu-ignatius.jpg" alt="Manu Ignatius, CEO of Subnero" /></div>
             <div class="name">
               <p>Manu Ignatius</p>
               <small>Subnero CEO</small>
@@ -177,7 +177,7 @@ date: 2026-02-24
             </div>
             <p>We did a thorough test before integrating the new Subnero modems into our Cube systems. The results showed significantly greater range and higher data rates compared to our existing solutions. In addition, the expanded functionality of the Subnero modems strengthens RTS’s ability to deliver customized sensor packages for deployment in remote locations.</p>
             <div class="author">
-              <div class="photo"><img src="{{site.baseurl}}/images/rts-ivar-ersland.jpg" alt="Ivar Ersland" /></div>
+              <div class="photo"><img src="{{site.baseurl}}/images/rts-ivar-ersland.jpg" alt="Ivar Ersland, Development Manager at RTS" /></div>
               <div class="name">
                 <p>Ivar Ersland</p>
                 <small>Development Manager, RTS</small>

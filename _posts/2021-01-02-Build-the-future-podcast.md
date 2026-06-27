@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-01-02
 categories: press
 thumbnail: images/pulse-thumbnail-build-the-future.png
+description: Subnero CEO Manu Ignatius joins the Build The Future podcast to discuss the future of underwater wireless communications and ocean networks.
 ---
 
 <div class="post-main" markdown="1">

@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-05-10
 categories: research feature
 thumbnail: images/pulse-thumbnail-diver-comm-05-2021.jpg
+description: A Subnero and ARL paper published in IEEE Xplore details a diver communication and localization system built on software-defined acoustic technology.
 ---
 
 <div class="post-main" markdown="1">

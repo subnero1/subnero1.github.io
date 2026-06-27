@@ -1,5 +1,7 @@
 ---
 layout: default
+title: S40H Series Silver Edition | High-Speed Acoustic Smart Modem
+description: Silver Edition S40H series modem for high-throughput underwater communication, enabling image transmission and real-time marine robotics connectivity.
 breadcrumb: Silver Edition
 ---
 
@@ -12,17 +14,17 @@ breadcrumb: Silver Edition
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" alt="Subnero S40H Series Silver Edition Modem Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-02.png" alt="Subnero S40H Series Silver Edition Modem Gallery View 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-03.png" alt="Subnero S40H Series Silver Edition Modem Gallery View 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-04.png" alt="Subnero S40H Series Silver Edition Modem Gallery View 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" alt="Subnero S40H Series Silver Edition high-frequency (HF) acoustic smart modem in side profile, showing its compact underwater housing and connector">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-02.png" alt="Subnero S40H Series Silver Edition HF acoustic smart modem mounted upright on its base, showing the underwater connector and cable">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-03.png" alt="Disassembled Subnero S40H Series Silver Edition modem showing its internal electronics stack, processing board, and transducer components">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-04.png" alt="Two Subnero S40H Series Silver Edition acoustic smart modems standing on a railing with a harbor in the background, ready for high-speed underwater deployment">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-01.png" alt="Subnero S40H Series Silver Edition Modem Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-02.png" alt="Subnero S40H Series Silver Edition Modem Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="Subnero S40H Series Silver Edition Modem Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="Subnero S40H Series Silver Edition Modem Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-01.png" alt="Subnero S40H Series Silver Edition HF modem thumbnail – side profile view">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-02.png" alt="Subnero S40H Series Silver Edition HF modem thumbnail – upright mounted view">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="Subnero S40H Series Silver Edition HF modem thumbnail – disassembled internal components">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="Subnero S40H Series Silver Edition HF modem thumbnail – dockside deployment view">
           </div>
         </div>
         <!-- ./slider -->
@@ -62,7 +64,7 @@ breadcrumb: Silver Edition
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-feature.png" alt="Subnero S40H Series Silver Edition Modem Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-feature.png" alt="Subnero S40H Series Silver Edition high-frequency (HF) acoustic smart modem shown at an angle with its protective transducer cage and connector" />
       </div>
     </div>
   </section>
@@ -199,8 +201,8 @@ breadcrumb: Silver Edition
               <td>
                 < 4 W (receive mode, nominal) <br />
                 < 45 W (transmit mode, avg.) <br />
-                < 150 mW (sleep mode) <br />
-                < 1 mW (deep sleep mode)
+                < 200 mW (sleep mode) <br />
+                < 5 mW (deep sleep mode)
               </td>
             </tr>
             <tr>
@@ -241,10 +243,6 @@ breadcrumb: Silver Edition
             <tr>
               <td>Dimensions</td>
               <td>SC: ø 100 x 294 mm, OC: ø 88 x 137 mm</td>
-            </tr>
-            <tr>
-              <td>Weight (in air / water)</td>
-              <td>SC: 2.0 / 0.8 kg, OC: 0.65 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

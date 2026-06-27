@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2022-11-05
 categories: partnership
 thumbnail: images/pulse-thumbnail-nauticus-visit.jpg
+description: Subnero and anchor customer Nauticus Robotics complete joint field trials in Singapore, validating tech for autonomous marine operations.
 ---
 
 <div class="post-main" markdown="1">

@@ -4,5 +4,6 @@
   external_url: https://www.ipi-singapore.org/
   categories: press
   thumbnail: images/pulse-thumbnail-swan1.jpg
+  description: IPI Singapore's TechAlert features Subnero's SWAN water quality monitoring robot.
 ---
 

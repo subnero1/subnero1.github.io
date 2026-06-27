@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2021-07-08
 categories: partnership
 thumbnail: images/pulse-thumbnail-met.jpg
+description: Subnero partners with Met-Solutions, based in Busan, to support business growth in the Republic of Korea.
 ---
 
 <div class="post-main" markdown="1">

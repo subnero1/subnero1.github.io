@@ -80,7 +80,7 @@ date: 2026-02-10
           </div>
           <p>The Subnero modem operates as a truly flexible, software-defined, high-performance compute platform. By exposing the signal chain and having full access to raw data, we were able to rapidly implement complex, non-traditional acoustic applications without designing custom hardware.</p>
           <div class="author">
-            <div class="photo"><img src="{{site.baseurl}}/images/dr-roee-diamant.jpg" alt="Dr. Roee Diamant" /></div>
+            <div class="photo"><img src="{{site.baseurl}}/images/dr-roee-diamant.jpg" alt="Dr. Roee Diamant, Associate Professor at ANL, Israel and Professor at University of Zagreb FER, Croatia" /></div>
             <div class="name">
               <p>Dr. Roee Diamant</p>
               <div><span class="text-500 text-black">Associate Professor</span> <br /><i>University of ANL, Israel</i></div>
@@ -118,7 +118,7 @@ date: 2026-02-10
     <div class="large-8 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/anl-use-case-01.jpg" alt="Enhancing Subsea Connectivity for RTS Cube Systems" />
+          src="{{site.baseurl}}/images/anl-use-case-01.jpg" alt="Diagram of a Subnero multi-receiver acoustic modem performing on-device Doppler estimation and tracking against a seabed transponder" />
         <figcaption>Midwater Doppler Estimation</figcaption>
       </figure>
     </div>
@@ -154,7 +154,7 @@ date: 2026-02-10
     <div class="large-8 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/anl-use-case-02.jpg" alt="Enhancing Subsea Connectivity for RTS Cube Systems" />
+          src="{{site.baseurl}}/images/anl-use-case-02.jpg" alt="Lab setup using a Subnero acoustic modem as a calibrated acoustic source to characterize a hydrophone transducer in a test tank" />
         <figcaption>Lab-Grade Transducer Characterization</figcaption>
       </figure>
     </div>
@@ -219,7 +219,7 @@ date: 2026-02-10
     <div class="large-7 columns"> 
       <figure>
         <img
-          src="{{site.baseurl}}/images/anl-subnero-modems.jpg" alt="Test procedure" />
+          src="{{site.baseurl}}/images/anl-subnero-modems.jpg" alt="Five Subnero acoustic smart modems on a table with a harbor in the background" />
         <figcaption>Subnero modems</figcaption>
       </figure>
     </div>

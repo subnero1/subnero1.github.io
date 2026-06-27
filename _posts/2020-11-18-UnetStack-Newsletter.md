@@ -5,6 +5,7 @@ banner : images/banner-about.jpg
 date:  2020-11-18
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: UnetStack 3.2 release notes, with a new UDPLink interface, node roll/pitch support, and new blog articles on TDMA, Julia, and custom PHY development.
 ---
 
 <div class="post-main" markdown="1">

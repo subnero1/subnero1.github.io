@@ -5,4 +5,5 @@ external_url: https://kr-asia.com/how-water-drones-can-help-singapore-sustain-it
 source: https://kr-asia.com/
 categories: press
 thumbnail: images/pulse-kr-asia.jpg
+description: KrAsia covers how Subnero's water drones can help Singapore sustain its water sources.
 ---

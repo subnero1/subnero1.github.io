@@ -2,6 +2,7 @@
 layout: default
 title:  Chinmay Pendharkar
 banner : images/banner-about.jpg
+description: Chinmay Pendharkar is the Chief Technology Officer of Subnero, leading the engineering of acoustic smart modems and the UnetStack software platform.
 headerTag: People
 ---
 
@@ -17,7 +18,7 @@ headerTag: People
   <div class="row member-info">
     <div class="member-picture">
       <div class="photo">
-        <img src="/images/people/chinmay.jpg" alt="Chinmay Pendharkar">
+        <img src="/images/people/chinmay.jpg" alt="Chinmay Pendharkar, CTO of Subnero">
       </div>
     </div>
     <h1>Chinmay Pendharkar</h1>

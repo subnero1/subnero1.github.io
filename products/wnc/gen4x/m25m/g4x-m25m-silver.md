@@ -1,5 +1,7 @@
 ---
 layout: default
+title: M25M Series Silver Edition | Mid-Range Acoustic Smart Modem
+description: Silver Edition M25M series modem balancing range, data rate, and robustness, with a UnetStack software-defined architecture for subsea networks and robotics.
 breadcrumb: Silver Edition
 ---
 
@@ -12,17 +14,17 @@ breadcrumb: Silver Edition
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-01.png" alt="Subnero M25M Series Silver Edition Modem Gallery View 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="Subnero M25M Series Silver Edition Modem Gallery View 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-03.png" alt="Subnero M25M Series Silver Edition Modem Gallery View 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-04.png" alt="Subnero M25M Series Silver Edition Modem Gallery View 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-01.png" alt="Subnero M25M Series Silver Edition medium-frequency (MF) acoustic smart modem mounted upright on its base, showing the underwater connector and antenna">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="Subnero M25M Series Silver Edition MF acoustic smart modem mounted upright with dual underwater connectors and cables for multi-channel integration">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-03.png" alt="Disassembled Subnero M25M Series Silver Edition modem showing its internal electronics stack, processing board, and transducer housing components">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-04.png" alt="Subnero M25M Series Silver Edition acoustic smart modem being deployed by hand from a dockside during a field trial">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-01.png" alt="Subnero M25M Series Silver Edition Modem Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-02.png" alt="Subnero M25M Series Silver Edition Modem Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-03.png" alt="Subnero M25M Series Silver Edition Modem Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-04.png" alt="Subnero M25M Series Silver Edition Modem Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-01.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – upright front view">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-02.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – upright view with dual connectors">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-03.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – disassembled internal components">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-04.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – dockside field deployment">
           </div>
         </div>
         <!-- ./slider -->
@@ -64,7 +66,7 @@ breadcrumb: Silver Edition
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-feature.png" alt="Subnero M25M Series Silver Edition Modem Feature Image" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-feature.png" alt="Subnero M25M Series Silver Edition medium-frequency (MF) acoustic smart modem shown at an angle with its protective transducer cage, connector, and cable" />
       </div>
     </div>
   </section>
@@ -199,8 +201,8 @@ breadcrumb: Silver Edition
               <td>
                 < 4 W (receive mode, nominal) <br />
                 < 45 W (transmit mode, avg.) <br />
-                < 150 mW (sleep mode) <br />
-                < 1 mW (deep sleep mode)
+                < 200 mW (sleep mode) <br />
+                < 5 mW (deep sleep mode)
               </td>
             </tr>
             <tr>
@@ -245,10 +247,6 @@ breadcrumb: Silver Edition
             <tr>
               <td>Dimensions</td>
               <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
-            </tr>
-            <tr>
-              <td>Weight (in air / water)</td>
-              <td>SC: 2.1 / 0.8 kg, OC: 0.65 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

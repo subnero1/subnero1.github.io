@@ -5,6 +5,7 @@ banner: images/banner-connected-ocean.jpg
 date:  2025-12-11
 categories: case-study partnership
 thumbnail: images/pulse-thumbnail-connected-ocean.jpg
+description: Subnero and ST Engineering deploy an underwater cellular network in Singapore waters, delivering continuous coverage and real-time tracking for subsea assets.
 ---
 
 <div class="post-main" markdown="1">

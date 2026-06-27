@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2019-10-15
 categories: partnership
 thumbnail: images/pulse-thumbnail-smartsea.jpg
+description: Subnero partners with Wuxi Smartsea Technology to expand its underwater wireless communication and monitoring business in China.
 ---
 
 <div class="post-main" markdown="1">

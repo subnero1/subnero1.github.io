@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles4.jpg
 date:  2018-09-28
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: Introducing UnetPy, the new Python API for UnetStack, plus the Unet Blog, ArlPy updates, and the launch of Subnero's redesigned website.
 ---
 
 <div class="post-main" markdown="1">
@@ -13,7 +14,7 @@ We are delighted to share the following news updates with you:
 
 ### Introducing UnetPy - Python API for UnetStack
 
-Today, we are excited to share a new software framework to connect to UnetStack through python - [UnetPy](https://github.com/org-arl/unetsockets/tree/master/python){:target="_blank"}. UnetPy allows developers and users to use frameworks such as Jupyter notebook or similar Python tools to develop applications. UnetPy uses the package fjågepy. A simple tutorial is available [here](https://github.com/org-arl/unetsockets/blob/master/python/python-gateway-tutorial.ipynb){:target="_blank"} to help you get started.
+Today, we are excited to share a new software framework to connect to UnetStack through python - [UnetPy](https://github.com/org-arl/unetsockets/tree/master/python){:target="_blank"}. UnetPy allows developers and users to use frameworks such as Jupyter notebook or similar Python tools to develop applications. UnetPy uses the package fjågepy. Getting started documentation is available in the [README](https://github.com/org-arl/unetsockets/tree/master/python){:target="_blank"}.
  
 ### Check out the Unet Blog
 

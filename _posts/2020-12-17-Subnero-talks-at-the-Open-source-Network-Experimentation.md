@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2020-12-17
 categories: event unetstack
 thumbnail: images/pulse-thumbnail-NITK-2020.jpg
+description: Subnero leads a virtual workshop with NIT Karnataka on underwater communications, network topology design, and simulation with UnetStack.
 ---
 
 <div class="post-main" markdown="1">

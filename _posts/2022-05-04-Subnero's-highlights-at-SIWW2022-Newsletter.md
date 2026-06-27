@@ -5,6 +5,7 @@ banner : images/pulse-SIWWSWAN.jpg
 date:  2022-04-25
 categories: event
 thumbnail: images/pulse-thumbnail-marinaSWAN.jpg
+description: Highlights from Subnero's SIWW 2022 showcase, including live SWAN demonstrations at Marina Bay and the launch of a revamped SWAN website.
 ---
 
 <div class="post-main" markdown="1">

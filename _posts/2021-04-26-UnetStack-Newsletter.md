@@ -5,6 +5,7 @@ banner : images/banner-about.jpg
 date:  2021-04-26
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
+description: UnetStack 3.3 release notes, with a JSON event tracing framework, the viztrace sequence diagram tool, and the ability to write agents in Julia.
 ---
 
 <div class="post-main" markdown="1">

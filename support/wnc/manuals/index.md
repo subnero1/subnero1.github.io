@@ -2,6 +2,7 @@
 layout: page
 title:  WNC Support
 banner : images/banner-support.jpg
+description: Download the Subnero Underwater Modem User Manual and other WNC product documentation.
 ---
 
 <div class="full">

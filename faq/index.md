@@ -24,15 +24,18 @@ excerpt: Frequently asked questions about Subnero's offerings
       <div class="field-wrapper">            
         <ul class="section-list">
           {% for faqcat in site.data.faq-categories %}
-            <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a>
-              {% if faqcat.submenu %}
+            {% if faqcat.submenu %}
+              {% assign firstSub = faqcat.submenu | first %}
+              <li><a href="#{{firstSub.link}}">{{ faqcat.name }}</a>
                 <ul class="sub-links">
                 {% for entry in faqcat.submenu %}
                   <li><a href="#{{entry.link}}">{{ entry.name }}</a></li>
                 {% endfor %}
                 </ul>
-              {% endif %}
-            </li>
+              </li>
+            {% else %}
+              <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a></li>
+            {% endif %}
           {% endfor %}    
         </ul>
       </div>  

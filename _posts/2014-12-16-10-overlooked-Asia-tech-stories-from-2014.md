@@ -5,6 +5,7 @@ categories: press
 external_url: https://www.techinasia.com/10-overlooked-asia-tech-stories-2014/
 source : https://www.techinasia.com/
 thumbnail: images/pulse-thumbnail-book.jpg
+description: Tech in Asia includes Subnero's work making the internet possible underwater in its list of 10 overlooked Asia tech stories from 2014.
 ---
 
 <div class="post-main" markdown="1">

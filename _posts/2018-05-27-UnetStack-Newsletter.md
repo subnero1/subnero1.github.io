@@ -5,6 +5,7 @@ banner : images/banner-pulse-articles3.jpg
 date:  2018-05-27
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue3.jpg
+description: UnetStack v1.4 release notes, with new Python and C API support, a Scheduler agent, a new web interface, and details of our OCEANS '18 tutorial in Kobe.
 ---
 
 <div class="post-main" markdown="1">

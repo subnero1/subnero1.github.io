@@ -3,6 +3,7 @@ layout: default
 title: We’re Here to Help
 banner : images/banner-support.jpg
 subhead: Technical assistance, documentation, and expert support for all Subnero products.
+description: Find documentation, technical assistance, and expert support for all Subnero acoustic smart modems and software products.
 headerTag: Support
 ---
 

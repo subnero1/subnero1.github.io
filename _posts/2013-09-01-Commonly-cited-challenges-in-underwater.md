@@ -5,6 +5,7 @@ banner : images/banner-unetstack.jpg
 date:  2013-09-01
 categories: unetstack feature
 thumbnail: images/pulse-thumbnail-cloud.jpg
+description: An introduction to UnetStack, a Java/Groovy software-defined network stack that lets underwater networking protocols be designed, simulated, and deployed.
 ---
 
 <div class="post-main" markdown="1">

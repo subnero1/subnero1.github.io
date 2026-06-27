@@ -5,6 +5,7 @@ banner: images/banner-auv-connectivity.jpg
 date:  2026-01-08
 categories: feature research unetstack
 thumbnail: images/pulse-thumbnail-auv-connectivity.jpg
+description: A two-part Unet Blog series guides AUV operators through five levels of confidence, from technology choices to adaptive links, for reliable acoustics.
 ---
 
 <div class="post-main" markdown="1">

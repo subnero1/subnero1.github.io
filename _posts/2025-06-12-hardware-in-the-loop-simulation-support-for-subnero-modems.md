@@ -5,6 +5,7 @@ banner: images/banner-vao.jpg
 date:  2025-06-12
 categories: feature product-launch press
 thumbnail: images/pulse-thumbnail-vao.jpg
+description: Subnero adds hardware-in-the-loop simulation across its UnetStack modems, using the open-source Virtual Acoustic Ocean for pre-deployment testing.
 ---
 
 <div class="post-main" markdown="1">

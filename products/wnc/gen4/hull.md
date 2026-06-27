@@ -26,17 +26,17 @@ canonical: /products/wnc/gen4x/hull-options/
           <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Option - Stainless Steel">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero Modem Hull Option - Titanium">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero Modem Hull Option - Aluminum">
-                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero Modem Hull Option - Aluminum">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero underwater acoustic smart modem in a polished stainless steel hull, shown upright on its mounting cage with lifting eyebolts and underwater connector">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero underwater acoustic smart modem in a titanium hull, shown upright with dual underwater connectors on top">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero underwater acoustic smart modem in an aluminum hull with a dark protective coating, shown lying horizontally with its underwater connector and transducer cage">
+                <img class="main-img" src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero underwater acoustic smart modem in a gold anodized aluminum hull, shown upright on its mounting cage with lifting eyebolts and underwater connector">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Option - Stainless Steel">
-              <img data-index="1" src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero Modem Hull Option - Titanium">
-              <img data-index="2" src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero Modem Hull Option - Aluminum">
-              <img data-index="3" src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero Modem Hull Option - Aluminum">
+              <img class="selected-thumb" data-index="0" src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero modem hull thumbnail – stainless steel hull on mounting cage">
+              <img data-index="1" src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero modem hull thumbnail – titanium hull with dual connectors">
+              <img data-index="2" src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero modem hull thumbnail – aluminum hull with dark coating, horizontal view">
+              <img data-index="3" src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero modem hull thumbnail – gold anodized aluminum hull on mounting cage">
             </div>
           </div>
           <!-- ./slider -->
@@ -51,6 +51,9 @@ canonical: /products/wnc/gen4x/hull-options/
             <div class="quote-row">
               {%- include formRequestQuote.html -%}
             </div>
+            <section class="call-to-action category-container">
+              {%- include formCTA.html -%}
+            </section>
         </div>
       </div>
       <hr>

@@ -3,6 +3,7 @@ layout: default
 title: Insights from Beneath the Surface
 banner : images/banner-pulse.jpg
 title_color : "#E6782F"
+description: Pulse is Subnero's blog for news, product launches, case studies, and announcements from the world of underwater communication and networking.
 ---
 
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">

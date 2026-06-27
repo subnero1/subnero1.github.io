@@ -5,6 +5,7 @@ banner : images/banner-pulse-standard.jpg
 date:  2020-03-30
 categories: case-study
 thumbnail: images/pulse-thumbnail-node-modem.jpg
+description: University of Haifa researchers deploy a Subnero modem with a co-processor for sonar-like research functionality in the Mediterranean Sea.
 ---
 
 <div class="post-main" markdown="1">
