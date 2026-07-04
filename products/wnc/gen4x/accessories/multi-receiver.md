@@ -30,33 +30,45 @@ breadcrumb: Multi-receiver
       <div class="large-7 columns">
         <div class="card-tags">
           <div class="card-tag silver">Silver Edition</div>
+          <div class="card-tag gold">Gold Edition</div>
         </div>
         <h1>Additional Receiving Channels</h1>
         <p>Adding extra receiving channels enhances the modem’s capability by incorporating multiple hydrophones for improved signal processing. This upgrade enables spatial diversity combining, helping maintain reliable communication links in challenging environments while extending effective range. It also unlocks advanced functions such as localization and high-fidelity acoustic monitoring. For research users, the additional channels provide access to raw multi-channel data, making the modem a suitable platform for developing custom navigation and tracking algorithms for AUVs.</p>
+        <p>The Silver Edition supports up to 2 receive channels. The Gold Edition extends this to up to 4 channels, supporting star and linear array configurations for 3D localization and advanced beamforming.</p>
         <p>Learn how multi-receiver modems enable robust links and novel research use cases <a href="{{site.baseurl}}/feature/2025/11/13/Improving-Underwater-Communication-with-Multi-Receiver-Modems.html">here</a>.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>
-              <th>Details</th>
+              <th>Silver Edition</th>
+              <th>Gold Edition</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Receive channels</td>
               <td>1, 2</td>
+              <td>1, 2, 4</td>
+            </tr>
+            <tr>
+              <td>Array configurations</td>
+              <td>—</td>
+              <td>Star, Linear (4-channel)</td>
             </tr>
             <tr>
               <td>Supported configurations</td>
-              <td>Standalone Configuration (SC), Open Configuration (OC)</td>
+              <td>SC, OC</td>
+              <td>SC, OC</td>
             </tr>
             <tr>
               <td>Waveform streaming</td>
               <td>Supported (all receivers)</td>
+              <td>Supported (all receivers)</td>
             </tr>
             <tr>
               <td>Programmable gain</td>
+              <td>36 dB</td>
               <td>36 dB</td>
             </tr>
           </tbody>

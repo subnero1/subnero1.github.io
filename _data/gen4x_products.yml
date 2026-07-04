@@ -24,14 +24,18 @@ M25M:
   image: /images/gen4x/gen4x-band-mf-cover.png
   current_link: /products/wnc/gen4x/m25m
   products:
-    - name: Rugged and high-performance for demanding missions.
-      edition: Platinum
-      image: /images/gen4x/M25M-platinum-preview.png
-      link: /products/wnc/gen4x/m25m/g4x-m25m-platinum.html
+    - name: High-compute multi-channel for advanced deployments.
+      edition: Gold
+      image: /images/gen4x/M25M-gold-preview.png
+      link: /products/wnc/gen4x/m25m/g4x-m25m-gold.html
     - name: Reliable and customizable for commercial use.
       edition: Silver
       image: /images/gen4x/M25M-silver-preview.png
       link: /products/wnc/gen4x/m25m/g4x-m25m-silver.html
+    - name: Rugged and high-performance for demanding missions.
+      edition: Platinum
+      image: /images/gen4x/M25M-platinum-preview.png
+      link: /products/wnc/gen4x/m25m/g4x-m25m-platinum.html
     - name: Affordable and flexible for research and testing.
       edition: Bronze
       image: /images/gen4x/M25M-bronze-preview.png
@@ -45,8 +49,12 @@ S40H:
   details: High-speed connectivity for data-intensive underwater applications.
   description: The HF band delivers high-speed, short-range acoustic links ideal for transferring large datasets, images, and real-time sensor information in underwater IoT and robotic systems.
   image: /images/gen4x/gen4x-band-hf-cover.png
-  current_link: /products/wnc/gen4x/s40h/g4x-s40h-silver.html
+  current_link: /products/wnc/gen4x/s40h
   products:
+    - name: High-compute multi-channel for advanced deployments.
+      edition: Gold
+      image: /images/gen4x/S40H-gold-preview.png
+      link: /products/wnc/gen4x/s40h/g4x-s40h-gold.html
     - name: Reliable and customizable for commercial use.
       edition: Silver
       image: /images/gen4x/S40H-silver-preview.png

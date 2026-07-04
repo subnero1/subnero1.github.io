@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "M25M Silver Edition: Mid-Range Acoustic Modem"
-description: Silver Edition M25M series modem balancing range, data rate, and robustness, with a UnetStack software-defined architecture for subsea networks and robotics.
-breadcrumb: Silver Edition
+title: M25M Series Gold Edition | High-Compute Multi-Channel Acoustic Smart Modem
+description: Gold Edition M25M series modem with enhanced compute capability, Jetson Orin Nano co-processor support, and up to 4 receive channels for advanced multi-channel underwater deployments.
+breadcrumb: Gold Edition
 ---
 
 {% include breadcrumbs.html %}
@@ -14,17 +14,11 @@ breadcrumb: Silver Edition
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-01.png" alt="Subnero M25M Series Silver Edition medium-frequency (MF) acoustic smart modem mounted upright on its base, showing the underwater connector and antenna">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="Subnero M25M Series Silver Edition MF acoustic smart modem mounted upright with dual underwater connectors and cables for multi-channel integration">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-03.png" alt="Disassembled Subnero M25M Series Silver Edition modem showing its internal electronics stack, processing board, and transducer housing components">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-04.png" alt="Subnero M25M Series Silver Edition acoustic smart modem being deployed by hand from a dockside during a field trial">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-gold-gallery-01.png" alt="Subnero M25M Series Gold Edition medium-frequency (MF) acoustic smart modem">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-01.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – upright front view">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-02.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – upright view with dual connectors">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-03.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – disassembled internal components">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-04.png" alt="Subnero M25M Series Silver Edition MF modem thumbnail – dockside field deployment">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-gold-thumb-01.png" alt="Subnero M25M Series Gold Edition MF modem thumbnail">
           </div>
         </div>
         <!-- ./slider -->
@@ -32,18 +26,18 @@ breadcrumb: Silver Edition
       <div class="large-7 columns">
         <div class="card-tags">
           <div class="card-tag gen4x">Gen4x</div>
-          <div class="card-tag silver">Silver Edition</div>
+          <div class="card-tag gold">Gold Edition</div>
           <div class="card-tag mf">MF Band</div>
         </div>
         <h1>M25M Series</h1>
         <h2>20 - 32 kHz Band</h2>
-        <p>The Silver Edition M25M series modem is the dependable workhorse of the Gen4X series, designed for versatility across a wide range of underwater communication applications. Balancing data rate, range, and robustness, it provides a reliable foundation for subsea networks, marine robotics, and sensor platforms. With a software-defined architecture built on UnetStack, it enables easy customization of protocols and algorithms to suit mission-specific requirements.</p>
+        <p>The Gold Edition M25M series modem is the premium tier of the Gen4X lineup, engineered for demanding deployments that require enhanced compute power and multi-channel receive capability. Built on the same reliable MF acoustic foundation as the Silver Edition, it adds significantly greater processing capability — including support for the Jetson Orin Nano co-processor — and scales up to 4 receive channels, enabling advanced array processing, spatial diversity, and high-fidelity acoustic sensing.</p>
         <h3>Applications</h3>
         <ul>
-          <li>High-performance, all-rounder modem for oceanographic and commercial deployments</li>
-          <li>Subsea sensor networks for offshore monitoring</li>
-          <li>Marine robot integration for telemetry and control</li>
-          <li>General-purpose underwater research and testing</li>
+          <li>Advanced underwater acoustic research requiring multi-channel signal processing</li>
+          <li>High-performance sensor arrays for subsea monitoring and tracking</li>
+          <li>AUV and USV integration with onboard AI inference and compute-intensive algorithms</li>
+          <li>3D localization and beamforming using multi-hydrophone arrays</li>
         </ul>
         {%- include formRequestQuote.html -%}
       </div>
@@ -58,15 +52,17 @@ breadcrumb: Silver Edition
           <li>More than 4 km communication range in littoral waters.</li>
           <li>Built-in acoustic ranging with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
+          <li>Support for up to 4 receive channels for multi-channel array processing.</li>
+          <li>Enhanced onboard compute capability for processing-intensive applications.</li>
+          <li>Support for Jetson Orin Nano co-processor for AI and edge compute workloads.</li>
           <li>Support for coherent and incoherent communication schemes.</li>
           <li>Arbitrary signal transmission as well as recording (passband, baseband).</li>
           <li>User-defined communication schemes using UnetStack.</li>
-          <li>Compact and rugged form factor suited for versatile integration.</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-feature.png" alt="Subnero M25M Series Silver Edition medium-frequency (MF) acoustic smart modem shown at an angle with its protective transducer cage, connector, and cable" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-gold-feature.png" alt="Subnero M25M Series Gold Edition medium-frequency (MF) acoustic smart modem" />
       </div>
     </div>
   </section>
@@ -76,32 +72,48 @@ breadcrumb: Silver Edition
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, open, and 2-channel standalone configurations to suit a range of deployment needs—from self-contained setups to integrated and multi-hydrophone systems.</p>
+      <p>Available in standalone and open configurations, with multi-channel standalone variants supporting up to 4 receive channels for array-based deployments.</p>
     </header>
     <div class="card-wrapper">
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x">
-        <h2>WNC-M25MSS4X</h2>
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x">
+        <h2>WNC-M25MGS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Subnero WNC-M25MSS4X Standalone Configuration Preview">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-preview.png" alt="Subnero WNC-M25MGS4X Gold Edition Standalone Configuration Preview">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
       </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x">
-        <h2>WNC-M25MSO4X</h2>
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgo4x">
+        <h2>WNC-M25MGO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="Subnero WNC-M25MSO4X Open Configuration Preview">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-oc-preview.png" alt="Subnero WNC-M25MGO4X Gold Edition Open Configuration Preview">
         </div>
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
       </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x-2">
-        <h2>WNC-M25MSS4X-2</h2>
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x-2">
+        <h2>WNC-M25MGS4X-2</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-2ch-preview.png" alt="Subnero WNC-M25MSS4X-2 2-Channel Standalone Configuration Preview">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-2ch-preview.png" alt="Subnero WNC-M25MGS4X-2 Gold Edition 2-Channel Standalone Configuration Preview">
         </div>
         <h3>2-Channel Standalone</h3>
         <p>Standalone modem with 2 receive channels for spatial diversity and enhanced link performance.</p>
+      </a>
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x-4">
+        <h2>WNC-M25MGS4X-4</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-4sa-preview.png" alt="Subnero WNC-M25MGS4X-4 Gold Edition 4-Channel Star Array Standalone Configuration Preview">
+        </div>
+        <h3>4-Channel Star Array Standalone</h3>
+        <p>Standalone modem with 4-channel star array for 3D localization and advanced beamforming.</p>
+      </a>
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x-a">
+        <h2>WNC-M25MGS4X-A</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-4la-preview.png" alt="Subnero WNC-M25MGS4X-A Gold Edition 4-Channel Linear Array Standalone Configuration Preview">
+        </div>
+        <h3>4-Channel Linear Array Standalone</h3>
+        <p>Standalone modem with 4-channel linear array for directional sensing and extended spatial coverage.</p>
       </a>
     </div>
     <!-- Modal -->
@@ -111,17 +123,25 @@ breadcrumb: Silver Edition
           <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
         </header>
         <div class="main">
-          <div class="main modal-content-item" data-product="wnc-m25mss4x">
+          <div class="main modal-content-item" data-product="wnc-m25mgs4x">
             <h2>Standalone Configuration (SC)</h2>
             <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
           </div>
-          <div class="main modal-content-item" data-product="wnc-m25mso4x">
+          <div class="main modal-content-item" data-product="wnc-m25mgo4x">
             <h2>Open Configuration (OC)</h2>
             <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
           </div>
-          <div class="main modal-content-item" data-product="wnc-m25mss4x-2">
+          <div class="main modal-content-item" data-product="wnc-m25mgs4x-2">
             <h2>2-Channel Standalone Configuration</h2>
             <p>The 2-channel standalone configuration extends the standard standalone modem with an additional receive channel, enabling spatial diversity combining for improved link reliability in challenging acoustic environments. It also provides access to raw dual-channel data streams for research and custom algorithm development.</p>
+          </div>
+          <div class="main modal-content-item" data-product="wnc-m25mgs4x-4">
+            <h2>4-Channel Star Array Standalone Configuration</h2>
+            <p>The 4-channel star array standalone configuration provides four receive channels arranged in a star geometry, enabling 3D localization, beamforming, and high-fidelity spatial acoustic sensing. It is well suited for applications requiring precise direction-of-arrival estimation and multi-target tracking.</p>
+          </div>
+          <div class="main modal-content-item" data-product="wnc-m25mgs4x-a">
+            <h2>4-Channel Linear Array Standalone Configuration</h2>
+            <p>The 4-channel linear array standalone configuration provides four receive channels arranged in a linear geometry, enabling directional sensing along a single axis. It is suited for applications such as bearing estimation, linear aperture processing, and along-track acoustic imaging.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -211,23 +231,19 @@ breadcrumb: Silver Edition
             <tr>
               <td>Power consumption</td>
               <td>
-                < 4 W (receive mode, nominal) <br />
-                < 45 W (transmit mode, avg.) <br />
-                < 200 mW (sleep mode) <br />
-                < 5 mW (deep sleep mode)
+                &lt; 4 W (receive mode, nominal) <br />
+                &lt; 45 W (transmit mode, avg.) <br />
+                &lt; 200 mW (sleep mode) <br />
+                &lt; 5 mW (deep sleep mode)
               </td>
             </tr>
             <tr>
               <td>Wake up modes</td>
-              <td>
-                Acoustic wakeup, External electrical interrupt, Scheduled wakeup
-              </td>
+              <td>Acoustic wakeup, External electrical interrupt, Scheduled wakeup</td>
             </tr>
             <tr>
               <td>External interface</td>
-              <td>
-              Ethernet (10/100 Mbps), RS232<sup>*</sup>
-              </td>
+              <td>Ethernet (10/100 Mbps), RS232<sup>*</sup></td>
             </tr>
             <tr>
               <td>On-board storage</td>
@@ -235,7 +251,11 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>Receive channels</td>
-              <td>1, 2 (configurable at the time of purchase)</td>
+              <td>1, 2, 4 (configurable at the time of purchase)</td>
+            </tr>
+            <tr>
+              <td>Co-processor</td>
+              <td>Jetson Orin Nano (optional)</td>
             </tr>
           </tbody>
         </table>
@@ -258,6 +278,7 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>Dimensions</td>
+              <!-- TODO: Update dimensions for Gold Edition — differ from Silver due to multi-channel housing -->
               <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
             </tr>
             <tr>
@@ -272,7 +293,7 @@ breadcrumb: Silver Edition
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

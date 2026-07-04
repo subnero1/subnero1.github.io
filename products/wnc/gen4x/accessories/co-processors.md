@@ -32,40 +32,54 @@ breadcrumb: Co-processor
       <div class="large-7 columns">
         <div class="card-tag gen4x">Gen4x</div>
         <div class="card-tag silver">Silver Edition</div>
+        <div class="card-tag gold">Gold Edition</div>
         <h1>Co-processor</h1>
         <p>The Co-Processor option adds a powerful embedded computing platform directly within the Subnero modem, enabling users to deploy their own applications and algorithms with minimal effort. Designed for close hardware integration, it allows advanced processing, data management, and custom software execution within the modem — without the need for additional casing or mounting.</p>
+        <p>The Silver Edition supports the NXP i.MX8M Plus co-processor. The Gold Edition additionally supports the <strong>Jetson Orin Nano</strong>, bringing GPU-accelerated AI and deep learning capabilities directly into the modem for compute-intensive edge applications.</p>
         <p>For more background on how this capability is used in practice, you can read our blog post on the co-processor and its applications <a href="{{site.baseurl}}/product-launch/feature/2018/11/17/Underwater-modem-with-a-coprocessor.html">here</a>.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>
-              <th>Details</th>
+              <th>Silver Edition</th>
+              <th>Gold Edition</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Module</td>
               <td>UCM-iMX8M-Plus (NXP i.MX8M Plus System-on-Module)</td>
+              <td>UCM-iMX8M-Plus or Jetson Orin Nano</td>
             </tr>
             <tr>
               <td>Processor</td>
               <td>Quad-core ARM Cortex-A53 CPU</td>
+              <td>Quad-core ARM Cortex-A53 CPU or 6-core Arm Cortex-A78AE (Jetson)</td>
             </tr>
             <tr>
               <td>Memory</td>
               <td>4 GB LPDDR4</td>
+              <td>4 GB LPDDR4 or 8 GB LPDDR5 (Jetson)</td>
             </tr>
             <tr>
               <td>Storage</td>
               <td>64 GB eMMC</td>
+              <td>64 GB eMMC</td>
+            </tr>
+            <tr>
+              <td>AI Accelerator</td>
+              <td>—</td>
+              <td>1024-core NVIDIA Ampere GPU with 32 Tensor Cores (Jetson)</td>
             </tr>
             <tr>
               <td>Operating System</td>
               <td>Linux</td>
+              <td>Linux</td>
             </tr>
             <tr>
               <td>Connectivity</td>
+              <td>Ethernet, accessible via IP network on the same subnet as the modem</td>
               <td>Ethernet, accessible via IP network on the same subnet as the modem</td>
             </tr>
           </tbody>
