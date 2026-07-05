@@ -238,7 +238,7 @@ date: 2026-07-04
     <div class="large-5 columns">
       <figure class="casestudy-img" style="max-width: 320px" >
         <img
-          src="{{site.baseurl}}/images/mesn-modem.png" alt="Subnero WNC series modem"/>
+          src="{{site.baseurl}}/images/mesn-modem.jpg" alt="Subnero WNC series modem"/>
         <figcaption class="text-center">Subnero WNC series acoustic smart modem</figcaption>
       </figure>
     </div>
