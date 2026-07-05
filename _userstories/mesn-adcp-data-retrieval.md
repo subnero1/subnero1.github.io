@@ -46,7 +46,7 @@ date: 2026-07-04
     <div class="large-8 columns">
       <figure>
         <img
-          src="{{site.baseurl}}/images/mesn-map.png" alt="MESN buoy locations around Singapore" />
+          src="{{site.baseurl}}/images/mesn-map.jpg" alt="MESN buoy locations around Singapore" />
         <figcaption>MESN operates three buoys around Singapore: MESN-UBN (Pulau Ubin), MESN-SJI (St John&rsquo;s Island), and MESN-RLH (Raffles Lighthouse). This deployment ran at MESN-UBN. This map is an approximate view of Singapore for illustration purposes only.</figcaption>
       </figure>
     </div>
