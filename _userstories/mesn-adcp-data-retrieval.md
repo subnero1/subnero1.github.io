@@ -3,8 +3,8 @@ layout: default
 title: From Seabed to Shore
 sub_title: From Seabed to Shore
 excerpt: Subnero deployed SWIS ADCP Edition at the MESN UBN buoy off Pulau Ubin, demonstrating end-to-end wireless ADCP data retrieval from the seabed to the researcher's office. This case study shows how a four month deployment in challenging Singapore waters validated on-demand and on-schedule data delivery with no divers and no cables.
-banner: images/mesn-banner.jpg
-thumbnail: images/mesn-thumbnail.jpg
+banner: images/case-study-banner-mesn.jpg
+thumbnail: images/case-study-thumbnail-mesn.jpg
 tag: Case Study
 date: 2026-07-04
 ---
@@ -72,7 +72,7 @@ date: 2026-07-04
       <p>The goal at MESN-UBN was to demonstrate a single continuous path: from the instrument on the seabed, through the water, to the buoy, and on to a researcher at a desk, with no diver, no cable to the surface, and no separate data plumbing. In short, to validate that the whole chain could work unattended in Singapore waters.</p>
     </div>
     <div class="large-6 columns">
-      <figure class="m0 p0">
+      <figure class="m0 p0" style="max-width: 420px; margin: 0 auto;">
         <img
           src="{{site.baseurl}}/images/mesn-02.jpg" alt="The lander before deployment" />
         <figcaption>The lander before deployment, carrying the Nortek Aquadopp Profiler ADCP and the SWIS acoustic smart modem on its frame.</figcaption>
@@ -120,14 +120,14 @@ date: 2026-07-04
       <p>The water is also heavily turbid and biofouling builds up fast, one more reason a reliable acoustic link matters where optical methods struggle, and a reminder that a sustained observatory is an operational commitment. The modem&rsquo;s independent battery and multiple stored copies of each file added redundancy, so a single point of trouble did not put the data at risk.</p>
     </div>
     <div class="large-6 columns">
-      <figure class="m0 p0">
+      <figure class="m0 p0" style="max-width: 420px; margin: 0 auto;">
         <img
           src="{{site.baseurl}}/images/mesn-03.jpg" alt="The lander on the seabed in turbid water" />
         <figcaption>The lander on the seabed, seen from close above. The dense green water shows how low visibility is here.</figcaption>
       </figure>
     </div>
     <div class="large-6 columns">
-      <figure class="m0 p0">
+      <figure class="m0 p0" style="max-width: 420px; margin: 0 auto;">
         <img
           src="{{site.baseurl}}/images/mesn-04.jpg" alt="The lander on recovery" />
         <figcaption>The lander on recovery, showing the extent of biofouling after four months in the water.</figcaption>
@@ -238,7 +238,7 @@ date: 2026-07-04
     <div class="large-5 columns">
       <figure class="casestudy-img" style="max-width: 320px" >
         <img
-          src="{{site.baseurl}}/images/mesn-modem.jpg" alt="Subnero WNC series modem"/>
+          src="{{site.baseurl}}/images/mesn-subnero-modem.jpg" alt="Subnero WNC series modem"/>
         <figcaption class="text-center">Subnero WNC series acoustic smart modem</figcaption>
       </figure>
     </div>
