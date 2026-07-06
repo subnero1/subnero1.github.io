@@ -2,7 +2,7 @@
 layout: default
 title: From Seabed to Shore
 sub_title: From Seabed to Shore
-excerpt: Subnero deployed SWIS ADCP Edition at the MESN UBN buoy off Pulau Ubin, demonstrating end-to-end wireless ADCP data retrieval from the seabed to the researcher's office. This case study shows how a four month deployment in challenging Singapore waters validated on-demand and on-schedule data delivery with no divers and no cables.
+excerpt: Subnero deployed SWIS – ADCP Edition at the MESN-UBN buoy off Pulau Ubin, demonstrating end-to-end wireless ADCP data retrieval from the seabed to the researcher's office. This case study shows how a four month deployment in challenging Singapore waters validated on-demand and on-schedule data delivery with no divers and no cables.
 banner: images/case-study-banner-mesn.jpg
 thumbnail: images/case-study-thumbnail-mesn.jpg
 tag: Case Study
@@ -105,7 +105,7 @@ date: 2026-07-04
       <p>The deployment also exercised something less common: control of the seabed setup after it was deployed. Working from shore, the team changed the lander&rsquo;s configuration in the water, adjusting data collection frequency and switching modes, without recovering or revisiting the lander. This was validated as an experimental capability. Both modes worked.</p>
       <figure>
         <img
-          src="{{site.baseurl}}/images/mesn-dashboard.png" alt="The SWIS ADCP Edition interface" />
+          src="{{site.baseurl}}/images/mesn-dashboard.png" alt="The SWIS – ADCP Edition interface" />
         <figcaption class="text-center">The SWIS &ndash; ADCP Edition interface, showing the topside modem connected to the seabed modem, with the file listing.</figcaption>
       </figure>
     </div>
