@@ -403,7 +403,7 @@ form input.error, form textarea.error {
 
 .footer-row{
   display: grid;
-  grid-template-columns: 1fr 0.46fr 0.46fr 0.46fr;
+  grid-template-columns: 1.2fr 0.46fr 0.46fr 0.46fr 0.46fr;
   gap: 2rem;
   width: 100%;
   max-width: 90rem;
