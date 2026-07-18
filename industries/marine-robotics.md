@@ -25,7 +25,8 @@ breadcrumb: Marine Robotics
     flex: 1 1 24rem;
     max-width: 26rem;
   }
-  .stack-section .g4x-section-head {
+  .stack-section .g4x-section-head,
+  .simulate-section .g4x-section-head {
     max-width: 1100px;
   }
 </style>
@@ -134,7 +135,7 @@ breadcrumb: Marine Robotics
   </div>
 </section>
 
-<section class="g4x-section marine-dark bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-02.jpg);">
+<section class="g4x-section marine-dark bg-gradient-img simulate-section" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-02.jpg);">
   <div class="g4x-section-head relative">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Simulate First, Deploy With Confidence</h2>
     <p>Every Subnero system ships with a digital twin. The simulator runs the exact software that runs on the modems, so the network you test on your desk is the network you deploy at sea. One vehicle operator now simulates every deployment before sailing: using the local sound speed profile, they selected a 50 meter deployment depth in simulation, and in the field achieved roughly 3.5 kilometers of reliable communication, matching the prediction. The simulator also models optical and RF links, so you can rehearse a full multimodal network, with links appearing and disappearing as your vehicle dives and surfaces. The next step, already being taken by our customers, is bringing the digital twin onboard, so the vehicle predicts link quality in real time during the mission, an approach demonstrated in published physics-informed prediction research.</p>
@@ -152,7 +153,7 @@ breadcrumb: Marine Robotics
       </div>
       <div class="docs-card uh">
         <div>
-          <h5>Hardware in the Loop Simulation</h5>
+          <h5>Hardware-in-the-Loop Simulation</h5>
           <p>Run your actual vehicle software against real Subnero modems and simulated channels, so what gets tested is exactly what deploys.</p>
         </div>
       </div>
