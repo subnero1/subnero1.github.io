@@ -82,8 +82,6 @@ section_id: home
       border-top: 1px solid #E2E8F0;
     }
     .news-ticker-section .announcements {
-      position: static;
-      height: auto;
       background-color: transparent;
       padding: 1.5rem 0;
     }
@@ -94,8 +92,16 @@ section_id: home
     .news-ticker-section .announcements h3 {
       color: #344154;
     }
-    .news-ticker-section .latest-news {
-      height: 1.8rem;
+    .home-page .page-header {
+      background-color: rgba(22, 37, 45, 0.1);
+    }
+    .page-header.scrolled {
+      background-color: rgba(22, 37, 45, 1);
+    }
+    @media (max-width: 768px) {
+      .g4x-hero-btns .button {
+        text-align: left;
+      }
     }
   </style>
   {% include header.html %}
