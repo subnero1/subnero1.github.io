@@ -88,7 +88,7 @@ breadcrumb: Marine Robotics
 
 <section class="g4x-section proof-strip">
   <div class="row large">
-    <p>Proven in the field, from a <a href="{{site.baseurl}}/user-stories/cellular-network/" target="_blank" rel="noopener">commercial underwater cellular network in Singapore waters</a> to continuous acoustic communication at <a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">2,300 meters in the Gulf of Mexico</a>.</p>
+    <p>Proven in the field, from a <a href="{{site.baseurl}}/user-stories/cellular-network/" target="_blank" rel="noopener">commercial underwater cellular network in Singapore waters</a>, to continuous acoustic communication at <a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">2,300 meters in the Gulf of Mexico</a>, to <a href="{{site.baseurl}}/user-stories/smart-modems-smarter-auvs/" target="_blank" rel="noopener">acoustic command and control of an AUV at the University of Alabama</a>.</p>
   </div>
 </section>
 
@@ -282,16 +282,15 @@ breadcrumb: Marine Robotics
     </div>
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven Where It Matters</h2>
-      <p>With ST Engineering, Subnero deployed one of the world's first commercial underwater cellular networks in Singapore waters, with autonomous vehicles as the mobile assets: continuous coverage, seamless handover, real time tracking.</p>
+      <p>With ST Engineering, Subnero deployed one of the world's first commercial underwater cellular networks in Singapore waters.</p>
       <p><a href="{{site.baseurl}}/user-stories/cellular-network/" target="_blank" rel="noopener">Read the Singapore underwater cellular network story.</a></p>
-      <p>In the Gulf of Mexico, Subnero modems on Nauticus Robotics' Aquanaut held a continuous acoustic link from the surface down to 2,300 meters, the deepest measured operation of a Subnero modem.</p>
+      <p>In the Gulf of Mexico, Subnero modems on Nauticus Robotics' Aquanaut held a continuous acoustic link down to 2,300 meters.</p>
       <p><a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">Read the deep-water testing deployment spotlight.</a></p>
+      <p>At the University of Alabama's muNet Laboratory, a Subnero smart modem turned a commercial AUV into a programmable, acoustically controlled platform.</p>
+      <p><a href="{{site.baseurl}}/user-stories/smart-modems-smarter-auvs/" target="_blank" rel="noopener">Read the smart modems, smarter AUVs case study.</a></p>
     </div>
   </div>
 </section>
-
-<!-- TODO: add the University of Alabama muNet Lab AUV control user story here once it is
-     published, following the linked case study pattern above -->
 
 <!-- TODO: add a white paper download card here once the marine robotics white paper is
      published, following the tech-link pattern from the underwater network page -->
