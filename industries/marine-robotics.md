@@ -16,18 +16,60 @@ breadcrumb: Marine Robotics
   .g4x-section.marine-dark h5 { color:#E6EFF7; }
   .g4x-section.marine-dark a { color:#7FD3EC; }
   .g4x-section.marine-dark .docs-card { background-color:#0F2430; border:1px solid #26485C; box-shadow:none; }
-  .five-levels-row .feature-grid.col3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .five-levels-row .feature-grid.col3 .docs-card.column-card {
-    flex: 1 1 24rem;
-    max-width: 26rem;
-  }
   .stack-section .g4x-section-head,
   .simulate-section .g4x-section-head {
     max-width: 1100px;
+  }
+  .proof-strip {
+    background-color: #F8FAFC;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 1.4rem 1rem;
+  }
+  .proof-strip p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #344154;
+  }
+  .five-levels-columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .five-levels-columns .col-figure {
+    text-align: center;
+  }
+  .five-levels-columns .col-figure img {
+    max-height: 380px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .simulate-section .feature-grid.col3 .docs-card {
+    align-items: stretch;
+  }
+  .simulate-section .feature-grid.col3 .docs-card > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .simulate-section .feature-grid.col3 .docs-card > div p:last-child {
+    margin-top: auto;
+    padding-top: 0.75rem;
+    margin-bottom: 0;
+  }
+  .built-for-integration .docs-card.column-card {
+    align-items: stretch;
+  }
+  .built-for-integration .docs-card.column-card > div:last-child {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .built-for-integration .docs-card.column-card > div:last-child p:last-child {
+    margin-top: auto;
+    padding-top: 0.75rem;
+    margin-bottom: 0;
   }
 </style>
 
@@ -38,40 +80,47 @@ breadcrumb: Marine Robotics
       <h1><span class="text-gradient g-blue">Connected Autonomy</span> for Marine Robotics</h1>
       <p>Every untethered subsea mission depends on the same thing: connectivity the vehicle can trust. Subnero provides it.</p>
       <div class="g4x-hero-btns data-harvesting">
+        <a href="{{site.baseurl}}/contact" class="button g-orange-btn">Talk to our engineers</a>
       </div>
     </div>
   </div>
 </section>
 
+<section class="g4x-section proof-strip">
+  <div class="row large">
+    <p>Proven in the field, from a <a href="{{site.baseurl}}/user-stories/cellular-network/">commercial underwater cellular network in Singapore waters</a> to continuous acoustic communication at <a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html">2,300 meters in the Gulf of Mexico</a>.</p>
+  </div>
+</section>
+
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient g-orange">The Gap Between a Modem and a Mission</h2>
-    <p>Teams integrating communications into marine robots often avoid the problem, assuming autonomy can work around unreliable links, and when communication becomes unavoidable, a modem gets bought as an isolated purchase. But a dependable link underwater is more than hardware. It is a capability that adapts to changing conditions, handles multiple interfaces and data types, and grows with your mission. Instead of a typical modem, here is what your vehicle actually needs:</p>
+    <h2 class="sec-head text-gradient g-orange">More Than a Modem</h2>
+    <p>Most vehicle programs start by choosing a modem. But a dependable link underwater depends on more than the hardware at each end. Conditions change through a mission, vehicles carry more than one way to communicate, different data needs different handling, and multiple vehicles have to share a limited channel. Here is what your vehicle actually needs.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col2 operational-advantages">
       <div class="docs-card uh">
         <div>
           <h5>Robust and dynamic communications</h5>
-          <p>The acoustic channel changes with depth, weather, location and traffic. Subnero modems adapt to conditions, so the same hardware performs reliably in Singapore coastline, North Sea swells, or the depths of the Gulf.</p>
+          <p>The acoustic channel changes with depth, weather, location, and traffic. Subnero modems adapt to conditions, so the same hardware performs in Singapore's coastal waters, North Sea swells, or deep water in the Gulf of Mexico.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>Multi-interface management</h5>
-          <p>Acoustic at depth, WiFi or satellite at the surface, perhaps an optical or tethered link nearby. UnetStack switches seamlessly between them, so operators focus on the vehicle, not the link.</p>
+          <p>A vehicle rarely has just one way to communicate: acoustics at depth, radio at the surface over WiFi, cellular, or satellite, and optical links at close range for high rate transfers. UnetStack manages them as one network, so your software sends data without having to choose the path.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>Data management</h5>
-          <p>Commands, telemetry, and sensor payloads differ in size, urgency, and priority. UnetStack prioritizes critical messages, queues bulk data, and matches each type to the right link.</p>
+          <p>Commands, telemetry, and sensor payloads each have their own characteristics: how large they are, how soon they matter, how reliably they must arrive, and what they contain. UnetStack lets your application describe each message on those terms, and handles delivery to match.</p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>Contention-free communication</h5>
-          <p>When multiple vehicles and sensors share the same water, transmissions collide. Subnero networks coordinate channel access automatically, so every node gets through.</p>
+          <p>When several vehicles and nodes operate in the same area, their transmissions can collide and data is lost. Subnero networks coordinate access to the channel, so throughput stays predictable as the network grows.</p>
         </div>
       </div>
     </div>
@@ -81,10 +130,10 @@ breadcrumb: Marine Robotics
 <section class="g4x-section marine-dark stack-section">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">One Stack, From Simulation to Sea</h2>
-    <p>Our offerings travel the whole journey with you: design in simulation, validate with hardware-in-the-loop, then deploy, with the same software at every stage. In the water, that software adapts to conditions and presents acoustic, optical, and RF as one network, handing over seamlessly between links and reaching beyond line of sight over multiple hops. It delivers data intelligently, so urgent traffic arrives first and bandwidth is never wasted. And it integrates the way vehicle software should: OEM form factors that embed in the hull, edge compute beside the link, and an open architecture that extends with your own protocols, with ready-made bridges to frameworks like ROS.</p>
+    <p>Our offerings travel the whole journey with you: design in simulation, validate with hardware-in-the-loop, then deploy, with the same software at every stage. Nothing is rewritten along the way: the protocols you develop in simulation are the ones your vehicle runs at sea. And the same stack scales from a single link to a network of vehicles, buoys, and shore stations, without changing how your software talks to it.</p>
   </div>
   <figure class="section-edge-img">
-    <img alt="A marine robotics network with an AUV at depth on an acoustic link, an ROV on an optical link at close range, a USV gateway bridging to WiFi and satellite above the surface, and repeaters extending reach, all managed as one network" src="{{site.baseurl}}/images/marine-robotics-network-master.jpg" />
+    <img alt="A marine robotics network with AUVs on acoustic links, gateway buoys with hanging modems, a USV, an optical link to a seabed docking station, and radio backhaul to a shore station, all operating as one network" src="{{site.baseurl}}/images/marine-robotics-network-master.jpg" />
   </figure>
 </section>
 
@@ -102,7 +151,7 @@ breadcrumb: Marine Robotics
         <div>
           <h5>Hardware</h5>
           <p>OEM form factor modems for tight vehicle envelopes. Remote head configurations with separate transducers for free flooded platforms. Custom connector and harnessing options to match your vehicle's wiring.</p>
-          <p><a href="{{site.baseurl}}/products/#smart-modems">Explore Smart Modems</a></p>
+          <p><a href="{{site.baseurl}}/products/#smart-modems" target="_blank" rel="noopener">Explore Smart Modems</a></p>
         </div>
       </div>
       <div class="docs-card uh column-card">
@@ -111,8 +160,8 @@ breadcrumb: Marine Robotics
         </div>
         <div>
           <h5>Software</h5>
-          <p>Priority-based delivery, quality of service options, large transfer handling, and content-aware compression. Licensed agents for multi-interface management with seamless switching across acoustic, optical, and RF links. APIs and ROS bridges for straightforward integration with your vehicle software.</p>
-          <p><a href="{{site.baseurl}}/products/wnc/unetstack">Learn about UnetStack</a></p>
+          <p>UnetStack is what makes a modem a network node rather than a point to point link, with protocols and delivery behavior you configure for your mission rather than accept as fixed. APIs and ROS bridges make integration with your vehicle software straightforward.</p>
+          <p><a href="{{site.baseurl}}/products/wnc/unetstack" target="_blank" rel="noopener">Learn about UnetStack</a></p>
         </div>
       </div>
       <div class="docs-card uh column-card">
@@ -122,7 +171,7 @@ breadcrumb: Marine Robotics
         <div>
           <h5>Simulation and testing</h5>
           <p>Software-in-the-loop simulation with vehicle motion models. Hardware-in-the-loop testing on the bench. UnetCloud for team-based simulation without local setup.</p>
-          <p><a href="https://unetstack.net">Try the simulator</a></p>
+          <p><a href="{{site.baseurl}}/products/wnc/unetstack/unetsim" target="_blank" rel="noopener">Try the simulator</a></p>
         </div>
       </div>
       <div class="docs-card uh column-card">
@@ -132,7 +181,7 @@ breadcrumb: Marine Robotics
         <div>
           <h5>Training and support</h5>
           <p>Hands-on UnetStack training for your engineers, and design guidance to get communications right from the first sketch of your vehicle, from transducer placement to network planning.</p>
-          <p><a href="{{site.baseurl}}/support">Talk to our engineers</a></p>
+          <p><a href="{{site.baseurl}}/support" target="_blank" rel="noopener">Explore support options</a></p>
         </div>
       </div>
     </div>
@@ -142,7 +191,7 @@ breadcrumb: Marine Robotics
 <section class="g4x-section marine-dark bg-gradient-img simulate-section" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-02.jpg);">
   <div class="g4x-section-head relative">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Simulate First, Deploy With Confidence</h2>
-    <p>Every Subnero modem supports digital twinning at multiple levels, from network simulation on your desk, through hardware-in-the-loop testing, to a standing digital twin online. One operator now simulates every deployment before sailing: they picked a 50 meter depth from the sound speed profile, and field results matched the prediction at roughly 3.5 kilometers. The next step, already underway with our customers, is the digital twin onboard, predicting link quality in real time during the mission.*</p>
+    <p>Every Subnero modem supports digital twinning at multiple levels, from network simulation on your desk, through hardware-in-the-loop testing, to a standing digital twin online. The next step is bringing the digital twin onboard, so the vehicle predicts link quality in real time during the mission.*</p>
   </div>
   <figure class="section-edge-img" style="width: 100%; max-width: 1200px; margin: 2rem auto 0;">
     <img alt="Digital twin of a marine robotics network, mirroring a planned deployment in simulation and feeding validated parameters back to the vehicle at sea" src="{{site.baseurl}}/images/marine-robotics-digital-twin-panels.png" />
@@ -153,18 +202,21 @@ breadcrumb: Marine Robotics
         <div>
           <h5>UnetSim</h5>
           <p>Simulate the full network, vehicles, protocols, traffic, and environment, before any hardware gets wet.</p>
+          <p><a href="{{site.baseurl}}/products/wnc/unetstack/unetsim" target="_blank" rel="noopener">Explore UnetSim</a></p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>Hardware-in-the-Loop Simulation</h5>
           <p>Run your actual vehicle software against real Subnero modems and simulated channels, so what gets tested is exactly what deploys.</p>
+          <p><a href="{{site.baseurl}}/products/wnc/unetstack/hilsim" target="_blank" rel="noopener">See how it works</a></p>
         </div>
       </div>
       <div class="docs-card uh">
         <div>
           <h5>UnetCloud</h5>
           <p>The full simulation environment as a standing digital twin for planning, rehearsal, and training.</p>
+          <p><a href="{{site.baseurl}}/products/wnc/unetstack/unetcloud" target="_blank" rel="noopener">Try UnetCloud</a></p>
         </div>
       </div>
     </div>
@@ -177,7 +229,7 @@ breadcrumb: Marine Robotics
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Grow With Your Mission</h2>
-    <p>When yours demands more, Ripple adds it: a licensed software package that gives your vehicle a single interface to every communication device it carries, above and below the waterline, with per packet priorities and delivery that adapts to the mission. And the platform underneath stays open, so you can always build your own.</p>
+    <p>Your mission will ask for more over time, and the platform is built to grow with it. The capabilities below extend the standard stack when you need them. And because UnetStack is open, you can build your own agents and protocols on top of what we provide, using the same framework our engineers use.</p>
   </div>
   <div class="row large py2 relative">
     <div class="feature-grid col3 operational-advantages">
@@ -196,27 +248,28 @@ breadcrumb: Marine Robotics
       <div class="docs-card uh">
         <div>
           <h5>Content-aware delivery</h5>
-          <p>Smart codecs and per packet priorities ensure the mission gets what it needs now, even when bandwidth is tight.</p>
+          <p>Smart codecs and per packet priorities help the mission get what it needs now, even when bandwidth is tight.</p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="g4x-section-head relative" style="margin-top: 1.5rem;">
-    <p>Available as Ripple, built on <a href="{{site.baseurl}}/products/wnc/unetstack" target="_blank" rel="noopener">UnetStack</a>. <a href="{{site.baseurl}}/brochures/Ripple.pdf" target="_blank" rel="noopener">Download the Ripple brochure</a>.</p>
   </div>
 </section>
 
 <section class="g4x-section marine-dark">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Five Levels of Confidence, and How We Walk Them With You</h2>
-    <p>Whatever you build with, capability alone does not make a link dependable, practice does. From years of deployments with vehicle builders and operators, we have distilled that practice into five levels of confidence. The first three get you a link you can trust. The last two make it a link you can build missions around.</p>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Five Levels of Confidence</h2>
   </div>
-  <figure style="max-width: 760px; margin: 2rem auto 0; padding: 0 1rem;">
-    <img alt="The five level framework for moving from basic technology choices to fully adaptive, mission-critical underwater connectivity" src="{{site.baseurl}}/images/5-levels.jpg" style="width: 100%; height: auto; border-radius: 8px;" />
-  </figure>
-  <div class="g4x-section-head relative" style="margin-top: 2rem;">
-    <p>Read the full framework on the Unet Blog: <a href="https://blog.unetstack.net/acoustic-communication-and-navigation-for-subsea-robotics-part1" target="_blank" rel="noopener">Part 1, Technology, Integration, and Planning</a>, and <a href="https://blog.unetstack.net/acoustic-communication-and-navigation-for-subsea-robotics-part2" target="_blank" rel="noopener">Part 2, Adaptive Systems and Future Ready Missions</a>.</p>
-    <p>You do not have to climb these levels alone. Our engineers walk you through them: a hands-on workshop, a configuration built for your use cases, joint rollout on your platforms, and verification in the field. Most requirements resolve to expert configuration, not custom development. You bring the vehicle and the mission. We bring the network.</p>
+  <div class="row large five-levels-columns">
+    <div class="large-6 columns">
+      <figure class="col-figure no-shadow">
+        <img alt="The five level framework for moving from basic technology choices to fully adaptive, mission-critical underwater connectivity" src="{{site.baseurl}}/images/5-levels.jpg" />
+      </figure>
+    </div>
+    <div class="large-6 columns">
+      <p>However you build it, capability alone does not make a link dependable, practice does. From years of deployments with vehicle builders and operators, we have distilled that practice into five levels of confidence.</p>
+      <p>Read the full framework on the Unet Blog: <a href="https://blog.unetstack.net/acoustic-communication-and-navigation-for-subsea-robotics-part1" target="_blank" rel="noopener">Part 1, Technology, Integration, and Planning</a>, and <a href="https://blog.unetstack.net/acoustic-communication-and-navigation-for-subsea-robotics-part2" target="_blank" rel="noopener">Part 2, Adaptive Systems and Future Ready Missions</a>.</p>
+      <p>You do not have to climb these levels alone. Our engineers walk you through them: a hands-on workshop, a configuration built for your use cases, joint rollout on your platforms, and verification in the field. Most requirements resolve to expert configuration, not custom development. You bring the vehicle and the mission. We bring the network.</p>
+    </div>
   </div>
 </section>
 
@@ -231,7 +284,7 @@ breadcrumb: Marine Robotics
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven Where It Matters</h2>
       <p>With ST Engineering, Subnero deployed one of the world's first commercial underwater cellular networks in Singapore waters, with autonomous vehicles as the mobile assets: continuous coverage, seamless handover, real time tracking.</p>
       <p><a href="{{site.baseurl}}/user-stories/cellular-network/" target="_blank" rel="noopener">Read the Singapore underwater cellular network story.</a></p>
-      <p>In the Gulf of Mexico, Subnero modems on Nauticus Robotics' Aquanaut held a continuous acoustic link from the surface down to 2,300 meters.</p>
+      <p>In the Gulf of Mexico, Subnero modems on Nauticus Robotics' Aquanaut held a continuous acoustic link from the surface down to 2,300 meters, the deepest measured operation of a Subnero modem.</p>
       <p><a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">Read the deep-water testing deployment spotlight.</a></p>
     </div>
   </div>
