@@ -10,7 +10,7 @@ description: A new case study shows how the muNet Laboratory at the University o
 
 <div class="post-main" markdown="1">
 
-**Singapore, 31 July 2026**: [Subnero](https://subnero.com/){:target="_blank"} today announced the release of a new case study documenting how the muNet Laboratory at the University of Alabama integrated a Subnero smart modem into a commercial off-the-shelf autonomous underwater vehicle (AUV), turning it into a programmable, acoustically controlled platform with a human back in the loop while the vehicle stays submerged.
+**Singapore, 31 July 2026**: [Subnero](https://subnero.com/){:target="_blank"} today announced the release of a new case study documenting how the muNet Laboratory at the University of Alabama integrated a Subnero smart modem into a commercial off-the-shelf autonomous underwater vehicle (AUV), turning it into a programmable, acoustically controlled platform with a human-in-the-loop while the vehicle stays submerged.
 
 A commercial AUV is built to run preset missions reliably, through proprietary software, which makes it hard to reach once it dives. The muNet Laboratory closed that gap by installing a Subnero M25M embedded configuration modem, running UnetStack, in the payload section of an L3Harris Iver3 EcoMapper AUV, and bridging it to the vehicle's backseat autonomy computer. Because the modem is software-defined and edge compute capable, it acted as more than a transparent pipe: it interpreted commands from the surface, decided what to transmit and when, and processed data from the vehicle onboard.
 
