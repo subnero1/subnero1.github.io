@@ -6,7 +6,7 @@ excerpt: How the muNet Laboratory at the University of Alabama turned a commerci
 banner: images/case-study-banner-ua.jpg
 thumbnail: images/case-study-thumbnail-ua.jpg
 tag: Case Study
-date: 2026-06-19
+date: 2026-07-31
 ---
 
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
