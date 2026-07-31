@@ -88,7 +88,7 @@ breadcrumb: Marine Robotics
 
 <section class="g4x-section proof-strip">
   <div class="row large">
-    <p>Proven in the field, from a <a href="{{site.baseurl}}/user-stories/cellular-network/">commercial underwater cellular network in Singapore waters</a> to continuous acoustic communication at <a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html">2,300 meters in the Gulf of Mexico</a>.</p>
+    <p>Proven in the field, from a <a href="{{site.baseurl}}/user-stories/cellular-network/" target="_blank" rel="noopener">commercial underwater cellular network in Singapore waters</a> to continuous acoustic communication at <a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">2,300 meters in the Gulf of Mexico</a>.</p>
   </div>
 </section>
 
