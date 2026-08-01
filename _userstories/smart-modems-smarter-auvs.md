@@ -113,7 +113,7 @@ date: 2026-07-31
       <ul class="case-study-list">
         <li>
           <b>Subnero M25M embedded modem.</b><br />
-          A software-defined acoustic smart modem with onboard edge compute with an open architecture API over TCP/IP, running UnetStack. It also runs onboard scripts that process and manage messages in both directions rather than just relaying them.
+          A software-defined acoustic smart modem with onboard edge compute and an open architecture API over TCP/IP, running UnetStack. It also runs onboard scripts that process and manage messages in both directions rather than just relaying them.
         </li>
         <li>
           <b>Backseat computer.</b><br />
