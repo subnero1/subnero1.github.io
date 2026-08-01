@@ -5,7 +5,7 @@ sub_title: Smart Modems, Smarter AUVs – Enabling Dynamic Missions in Commercia
 excerpt: How the muNet Laboratory at the University of Alabama turned a commercial AUV into a programmable, acoustically controlled platform using a Subnero smart modem and UnetStack.
 banner: images/case-study-banner-ua.jpg
 thumbnail: images/case-study-thumbnail-ua.jpg
-tag: Case Study
+tag: Customer Success Story
 date: 2026-07-31
 ---
 
@@ -27,7 +27,7 @@ date: 2026-07-31
     <div class="large-7 columns">
       <p><b>The muNet Laboratory at the University of Alabama turned a commercial off-the-shelf AUV into a programmable, acoustically controlled platform, putting a human back in the loop with a vehicle that is already submerged.</b></p>
       <p>By integrating Subnero smart modems with L3Harris Iver3 EcoMapper AUVs, operators can observe what the AUV is doing, re-task it, and pull data on demand, all while it stays in the water. The starting point was a familiar constraint: a commercial AUV runs preset missions through proprietary software, and once it dives it is out of reach, which makes adding flexible acoustic communication and command and control (C2) hard.</p>
-      <p>Using the software-defined design of the Subnero modem and the UnetStack framework, the team built a robust mobile acoustic platform, focused initially on two things: acoustic waveform transmissions, and real-time coordination between vehicles. Just as important, the modem is not a transparent pipe: its onboard computing interprets commands from the surface, processes data from the vehicle, and decides what to transmit and when.</p>
+      <p>Using the software-defined design of the Subnero modem and the UnetStack framework, the team built a robust mobile acoustic platform, focused initially on two things: acoustic waveform transmissions, and real-time communication and control. Just as important, the modem is not a transparent pipe: its onboard computing interprets commands from the surface, processes data from the vehicle, and decides what to transmit and when.</p>
     </div>
     <div class="large-5 columns">
       <a class="pdf-download" href="{{site.baseurl}}/brochures/case-study-smart-modems-smarter-auvs.pdf" target="_blank" alt="Smart Modems, Smarter AUVs" style="width:260px;">
@@ -113,7 +113,7 @@ date: 2026-07-31
       <ul class="case-study-list">
         <li>
           <b>Subnero M25M embedded modem.</b><br />
-          A software defined, edge compute capable acoustic smart modem with an open architecture API over TCP/IP, running UnetStack. It also runs onboard scripts that process and manage messages in both directions rather than just relaying them.
+          A software-defined acoustic smart modem with onboard edge compute with an open architecture API over TCP/IP, running UnetStack. It also runs onboard scripts that process and manage messages in both directions rather than just relaying them.
         </li>
         <li>
           <b>Backseat computer.</b><br />
@@ -121,7 +121,7 @@ date: 2026-07-31
         </li>
         <li>
           <b>Custom MOOS applications.</b><br />
-          Purpose-built translators between acoustic messages and the vehicle autopilot &mdash; iModemDeploy for mission control, iModemInfo for sensor queries, and iModemComms for intelligent scheduling of transmissions.
+          Purpose-built translators between acoustic messages and the vehicle autopilot: iModemDeploy for mission control, iModemInfo for sensor queries, and iModemComms for intelligent scheduling of transmissions.
         </li>
       </ul>
     </div>
@@ -143,7 +143,7 @@ date: 2026-07-31
   <div class="row large py2">
     <div class="columns full-header">
       <h2 class="sec-head text-gradient g-orange">More Than a Pipe: Edge Intelligence on the Modem</h2>
-      <p>What sets this integration apart is that the Subnero modem did far more than carry simple messages. Because it is edge compute capable and runs user scripts, it acted as a smart node rather than a transparent pipe.</p>
+      <p>What sets this integration apart is that the Subnero modem did far more than carry simple messages. Because it has onboard edge compute and runs user scripts, it acted as a smart node rather than a transparent pipe.</p>
     </div>
     <div class="large-6 columns">
       <div class="hlight-card" style="background-color:#1C5D91;">
@@ -247,7 +247,7 @@ date: 2026-07-31
       <h3 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Conclusion: Transforming AUVs</h3>
     </div>
     <div class="large-7 columns">
-      <p>This case study shows that Subnero software-defined smart modems can turn virtually any AUV into an intelligent, connected asset. The integration with MOOS-IvP proves that Subnero modems support complex, adaptable autonomy, letting the team modify vehicle behavior while a mission runs, retrieve critical data without recovery, and build flexible mobile testbeds for acoustic research.</p>
+      <p>This case study shows that Subnero software-defined smart modems can turn AUVs with suitable payload space, power, and software interfaces into intelligent, connected assets. The integration with MOOS-IvP proves that Subnero modems support complex, adaptable autonomy, letting the team modify vehicle behavior while a mission runs, retrieve critical data without recovery, and build flexible mobile testbeds for acoustic research.</p>
       <h3 class="sec-head text-gradient g-orange">Looking Ahead</h3>
       <ul class="case-study-list">
         <li><b>Multihop networks.</b> A multihop architecture is in development to communicate across multiple AUVs using an underwater network.</li>
@@ -319,6 +319,15 @@ date: 2026-07-31
             </div>
           </blockquote>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row large py2" style="text-align:center;">
+    <div class="columns">
+      <div class="g4x-hero-btns" style="justify-content:center;">
+        <a href="{{site.baseurl}}/industries/marine-robotics" class="button g-orange-btn" target="_blank" rel="noopener">Explore Marine Robotics</a>
+        <a href="{{site.baseurl}}/contact" class="button g-orange-btn" target="_blank" rel="noopener">Talk to our engineers</a>
       </div>
     </div>
   </div>
