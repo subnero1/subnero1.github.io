@@ -20,18 +20,6 @@ breadcrumb: Marine Robotics
   .simulate-section .g4x-section-head {
     max-width: 1100px;
   }
-  .proof-strip {
-    background-color: #F8FAFC;
-    border-top: 1px solid #E2E8F0;
-    border-bottom: 1px solid #E2E8F0;
-    padding: 1.4rem 1rem;
-  }
-  .proof-strip p {
-    margin: 0;
-    text-align: center;
-    font-size: 1.05rem;
-    color: #344154;
-  }
   .five-levels-columns {
     display: flex;
     flex-wrap: wrap;
@@ -83,12 +71,6 @@ breadcrumb: Marine Robotics
         <a href="{{site.baseurl}}/contact" class="button g-orange-btn">Talk to our engineers</a>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="g4x-section proof-strip">
-  <div class="row large">
-    <p>Proven in the field, from a <a href="{{site.baseurl}}/user-stories/cellular-network/" target="_blank" rel="noopener">commercial underwater cellular network in Singapore waters</a>, to continuous acoustic communication at <a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">2,300 meters in the Gulf of Mexico</a>, to <a href="{{site.baseurl}}/user-stories/smart-modems-smarter-auvs/" target="_blank" rel="noopener">acoustic command and control of an AUV at the University of Alabama</a>.</p>
   </div>
 </section>
 
