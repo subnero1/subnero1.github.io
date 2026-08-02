@@ -2,7 +2,7 @@
 layout: pulse_post
 title: Smart Modems, Smarter AUVs - New Case Study on Acoustic Command and Control with the University of Alabama
 banner: images/case-study-banner-ua.jpg
-date:  2026-07-31
+date:  2026-08-05
 categories: case-study research
 thumbnail: images/case-study-thumbnail-ua.jpg
 description: A new case study shows how the muNet Laboratory at the University of Alabama used a Subnero smart modem and UnetStack to turn a commercial AUV into a programmable, acoustically controlled platform.
