@@ -92,3 +92,28 @@ sitemap: false
     </div>
   </div>
 </section>
+
+<section class="g4x-section" id="marine-robotics" style="background-color:#F8FAFC;">
+  <div class="g4x-section-head">
+    <h2 class="sec-head text-gradient g-orange">Marine Robotics</h2>
+    <p class="sec-subhead">Connectivity your vehicle can trust, from simulation to sea.</p>
+  </div>
+  <div class="row large">
+    <div class="large-6 columns">
+      <img alt="A marine robotics network with an AUV at depth on an acoustic link, an ROV on an optical link at close range, a USV gateway bridging to WiFi and satellite above the surface, and repeaters extending reach, all managed as one network" class="rounded-sm" src="{{site.baseurl}}/images/marine-robotics-network-master.jpg"/>
+    </div>
+    <div class="large-6 columns">
+      <div class="category-content">
+        <p>Across every untethered mission, the enabler is the same: connectivity the vehicle can trust. Subnero gives AUVs, ROVs, and USVs a communications capability, not just a modem, with software-defined links that adapt to depth, weather, and traffic, validated in simulation before every deployment.</p>
+        <h4>Applications</h4>
+        <ul>
+          <li>AUV, ROV, and USV communications</li>
+          <li>Simulation and hardware-in-the-loop validation</li>
+          <li>Adaptive links and real time link management</li>
+          <li>Multi-vehicle coordination</li>
+        </ul>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/industries/marine-robotics">Explore Marine Robotics &#8594;</a></p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -69,7 +69,6 @@ body:not(.home-page) {
 .home-page .nav-links a {
   color: #fff;
 }
-
 li.has-dropdown > a {
   cursor: pointer;
   pointer-events: none;
@@ -171,9 +170,6 @@ li.has-dropdown > a {
     transition: left 0.3s;
     box-shadow: -5px 0 10px rgba(0,0,0,0.1);
   }
-  .home-page .nav-links {
-    background-color: #333;
-  }
   .page-header.scrolled .nav-links {
     top: 50px;
     height: calc(100vh - 50px);
@@ -181,6 +177,9 @@ li.has-dropdown > a {
   }
   .nav-links.active {
     left: 0;
+  }
+  .home-page .nav-links a {
+    color: #000;
   }
   .nav-links li {
     margin: 10px 0;

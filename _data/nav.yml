@@ -31,7 +31,7 @@
     path: /solutions/underwater-network
     section_id: solutions
 - name: Industries
-  path: /industries/defense
+  path: industries/defense
   section_id: industries
   submenu:
   - name: Defense
@@ -42,6 +42,9 @@
     section_id: industries
   - name: Research
     path: /industries/research
+    section_id: industries
+  - name: Marine Robotics
+    path: /industries/marine-robotics
     section_id: industries
 - name: Pulse
   path: pulse/
