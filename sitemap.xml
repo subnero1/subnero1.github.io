@@ -13,7 +13,7 @@ layout: null
   
   <!-- Main Pages (High Priority) -->
   {% for page in site.pages %}
-    {% if page.sitemap != false and page.url != "/404.html" %}
+    {% if page.sitemap != false and page.layout != 'redirected' and page.url != "/404.html" %}
       {% if page.url == '/products/' or page.url == '/products/swis/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
@@ -37,7 +37,7 @@ layout: null
 
   <!-- Industries Pages and Solutions Detail Pages (High Priority) -->
   {% for page in site.pages %}
-    {% if page.sitemap != false %}
+    {% if page.sitemap != false and page.layout != 'redirected' %}
       {% if page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
@@ -51,7 +51,7 @@ layout: null
   
   <!-- Gen4x Pages -->
   {% for page in site.pages %}
-    {% if page.url contains '/products/wnc/gen4x/' and page.sitemap != false %}
+    {% if page.url contains '/products/wnc/gen4x/' and page.sitemap != false and page.layout != 'redirected' %}
       <url>
         <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
         <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
@@ -63,7 +63,7 @@ layout: null
   
   <!-- Product Pages (excluding gen4x already handled) -->
   {% for page in site.pages %}
-    {% if page.url contains '/products/' and page.sitemap != false and page.url != '/products/' %}
+    {% if page.url contains '/products/' and page.sitemap != false and page.layout != 'redirected' and page.url != '/products/' and page.url != '/products/swis/' %}
       {% unless page.url contains '/gen4x/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
@@ -87,7 +87,7 @@ layout: null
   
   <!-- Tools and Resources -->
   {% for page in site.pages %}
-    {% if page.sitemap != false and page.url != "/404.html" %}
+    {% if page.sitemap != false and page.layout != 'redirected' and page.url != "/404.html" %}
       {% if page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
@@ -101,7 +101,7 @@ layout: null
   
   <!-- FAQ -->
   {% for page in site.pages %}
-    {% if page.url contains '/faq/' and page.sitemap != false %}
+    {% if page.url contains '/faq/' and page.sitemap != false and page.layout != 'redirected' %}
       <url>
         <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
         <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
@@ -123,8 +123,8 @@ layout: null
   
   <!-- All Other Pages -->
   {% for page in site.pages %}
-    {% if page.sitemap != false and page.url != "/404.html" and page.url != "/" %}
-      {% unless page.url == '/products/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' or page.url contains '/gen4x/' or page.url contains '/products/' or page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' or page.url contains '/unetstack/' or page.url contains '/faq/' or page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' %}
+    {% if page.sitemap != false and page.layout != 'redirected' and page.url != "/404.html" and page.url != "/" %}
+      {% unless page.url == '/products/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' or page.url contains '/gen4x/' or page.url contains '/products/' or page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' or page.url contains '/unetstack/' or page.url contains '/faq/' or page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' or page.url contains '/tag/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
           <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>

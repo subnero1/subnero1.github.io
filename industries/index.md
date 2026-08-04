@@ -4,7 +4,6 @@ title: Underwater Communications for Defense, Energy, and Research
 banner : images/banner-contact.jpg
 excerpt: Subnero's underwater communication and networking technology across defense, offshore energy, and research.
 section_id: industries
-sitemap: false
 ---
 
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
