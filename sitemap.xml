@@ -17,7 +17,7 @@ layout: null
       {% if page.url == '/products/' or page.url == '/products/swis/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-          <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+          {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
           <changefreq>weekly</changefreq>
           <priority>0.9</priority>
         </url>
@@ -29,7 +29,7 @@ layout: null
   {% for page in site.gen4x %}
     <url>
       <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-      <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+      {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
       <changefreq>monthly</changefreq>
       <priority>0.85</priority>
     </url>
@@ -41,7 +41,7 @@ layout: null
       {% if page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-          <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+          {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -54,7 +54,7 @@ layout: null
     {% if page.url contains '/products/wnc/gen4x/' and page.sitemap != false and page.layout != 'redirected' %}
       <url>
         <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-        <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+        {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
       </url>
@@ -67,7 +67,7 @@ layout: null
       {% unless page.url contains '/gen4x/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-          <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+          {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
           <changefreq>monthly</changefreq>
           <priority>0.75</priority>
         </url>
@@ -79,7 +79,7 @@ layout: null
   {% for story in site.userstories %}
     <url>
       <loc>{{ site.url | append: story.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-      <lastmod>{{ story.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+      {% if story.last_modified %}<lastmod>{{ story.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
@@ -91,7 +91,7 @@ layout: null
       {% if page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-          <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+          {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
           <changefreq>monthly</changefreq>
           <priority>0.7</priority>
         </url>
@@ -104,7 +104,7 @@ layout: null
     {% if page.url contains '/faq/' and page.sitemap != false and page.layout != 'redirected' %}
       <url>
         <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-        <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+        {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
@@ -127,7 +127,7 @@ layout: null
       {% unless page.url == '/products/' or page.url == '/about/' or page.url == '/contact/' or page.url == '/solutions/' or page.url == '/support/' or page.url contains '/gen4x/' or page.url contains '/products/' or page.url contains '/battery-calculator/' or page.url contains '/technical-resources/' or page.url contains '/brochures/' or page.url contains '/nortek-ad2cp-reader/' or page.url contains '/unetstack/' or page.url contains '/faq/' or page.url contains '/industries/' or page.url == '/solutions/data-harvesting.html' or page.url == '/solutions/underwater-network.html' or page.url contains '/tag/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
-          <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+          {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
           <changefreq>monthly</changefreq>
           <priority>0.5</priority>
         </url>
