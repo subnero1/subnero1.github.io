@@ -18,7 +18,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
       </div>
     </div>
   </div>
-  <!-- <a class="explore-link" href="{{site.baseurl}}/products/wnc.html">&rarr;</a> -->
+  <!-- <a class="explore-link" href="{{site.baseurl}}/products/wnc/">&rarr;</a> -->
   
   <div class="hero-links">
     <div class="row large">
