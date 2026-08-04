@@ -151,7 +151,11 @@ li.has-dropdown > a {
   padding-left: 12px;
 }
 .submenu a[href$="/solutions/data-harvesting"],
-.submenu a[href$="/solutions/underwater-network"] {
+.submenu a[href$="/solutions/underwater-network"],
+.submenu a[href$="/industries/defense"],
+.submenu a[href$="/industries/energy"],
+.submenu a[href$="/industries/research"],
+.submenu a[href$="/industries/marine-robotics"] {
   padding-left: 12px;
 }
 /* Mobile Responsive */
