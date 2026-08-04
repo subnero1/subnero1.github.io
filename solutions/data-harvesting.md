@@ -3,6 +3,7 @@ layout: default
 title: Autonomous Subsea Data Operations
 banner : images/banner-data-harvesting.jpg
 excerpt: The communications layer that turns the seabed into a connected node. Recurring, vessel light subsea data from seabed to shore, through acoustic data harvesting.
+description: Autonomous subsea data harvesting from seabed to shore. A vessel-light acoustic communications layer that turns the seabed into a connected node.
 section_id: solutions
 ---
 
