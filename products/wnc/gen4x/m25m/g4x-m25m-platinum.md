@@ -1,6 +1,6 @@
 ---
 layout: default
-title: M25M Series Platinum Edition | MIL-Qualified Acoustic Smart Modem
+title: "M25M Platinum Edition: MIL-Qualified Acoustic Modem"
 description: Platinum Edition M25M series modem built to rigorous quality standards for defense, oil & gas, and subsea engineering deployments.
 breadcrumb: Platinum Edition
 ---

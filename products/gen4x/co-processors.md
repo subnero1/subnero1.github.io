@@ -1,0 +1,5 @@
+---
+layout: redirected
+sitemap: false
+redirect_to: /products/wnc/gen4x/accessories/co-processors.html
+---

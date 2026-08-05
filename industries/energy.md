@@ -3,6 +3,7 @@ layout: default
 title: Subsea Communications for Offshore Energy
 banner : images/banner-energy.jpg
 excerpt: Connect offshore energy infrastructure beneath the surface. Subnero links subsea sensors, vehicles, and structures into one network for monitoring, inspection, and data delivery to shore.
+description: Connect offshore energy infrastructure beneath the surface. Subnero links subsea sensors, vehicles, and structures for monitoring and inspection.
 section_id: industries
 breadcrumb: Energy
 ---

@@ -94,7 +94,7 @@
   {% include analytics.html %}
   {% endif %}
 
-  {% if page.layout == 'product' or page.section_id == 'products' %}
+  {% if page.layout == 'product' or page.section_id == 'products' or page.url contains '/products/wnc/gen4x/' %}
   {% include product_schema.html %}
   {% endif %}
 

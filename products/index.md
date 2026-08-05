@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Explore Smart Modems, SWIS Offerings, and UnetStack for Reliable Underwater Connectivity
+title: Underwater Acoustic Modems and Subsea Networking Products
 banner : images/hero-products.jpg
 excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking.
+description: Subnero underwater acoustic modems, SWIS systems, and the UnetStack networking platform for subsea communication.
 ---
 
 <section class="page-hero gen4x wnc-products" style="background-image: url({{site.baseurl}}/{{page.banner}});">
@@ -18,7 +19,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
       </div>
     </div>
   </div>
-  <!-- <a class="explore-link" href="{{site.baseurl}}/products/wnc.html">&rarr;</a> -->
+  <!-- <a class="explore-link" href="{{site.baseurl}}/products/wnc/">&rarr;</a> -->
   
   <div class="hero-links">
     <div class="row large">

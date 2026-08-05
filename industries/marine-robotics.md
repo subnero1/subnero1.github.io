@@ -3,6 +3,7 @@ layout: default
 title: Connected Autonomy for Marine Robotics
 banner : images/banner-marine-robotics-connected-autonomy.jpg
 excerpt: Reliable acoustic communications and navigation for AUVs, ROVs, and USVs. Subnero gives marine robots a connectivity capability they can trust, from simulation to sea.
+description: Reliable acoustic communications and navigation for AUVs, ROVs, and USVs. Connectivity marine robots can trust, from simulation through to sea.
 section_id: industries
 breadcrumb: Marine Robotics
 ---

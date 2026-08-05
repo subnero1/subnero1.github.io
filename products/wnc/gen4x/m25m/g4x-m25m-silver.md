@@ -1,6 +1,6 @@
 ---
 layout: default
-title: M25M Series Silver Edition | Mid-Range Acoustic Smart Modem
+title: "M25M Silver Edition: Mid-Range Acoustic Modem"
 description: Silver Edition M25M series modem balancing range, data rate, and robustness, with a UnetStack software-defined architecture for subsea networks and robotics.
 breadcrumb: Silver Edition
 ---
