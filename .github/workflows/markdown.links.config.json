@@ -16,7 +16,7 @@
         { "pattern" : "^https?://podcasts\\.apple\\.com/"},
         { "pattern" : "^https://subnero\\.com/solutions/swan\\.html"}
     ],
-    "aliveStatusCodes": [200, 202, 206, 301, 302, 303, 304, 403, 429, 999],
+    "aliveStatusCodes": [200, 202, 206, 301, 302, 303, 304, 403, 418, 429, 999],
     "retryOn429": true,
     "retryCount": 5,
     "fallbackRetryDelay": "30s",
