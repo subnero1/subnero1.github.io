@@ -5,7 +5,7 @@ banner : images/banner-electrical.jpg
 thumbnail: images/thumbnail-storage.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic smart modems.
-canonical: /products/wnc/gen4x/storage/
+canonical: /products/wnc/gen4x/accessories/storage.html
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>

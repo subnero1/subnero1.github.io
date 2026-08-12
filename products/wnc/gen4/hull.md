@@ -5,7 +5,7 @@ banner : images/banner-mechanical.jpg
 thumbnail: images/thumbnail-hull.png
 categories: accessories
 excerpt: Additional hull options for Subnero underwater acoustic smart modems.
-canonical: /products/wnc/gen4x/hull-options/
+canonical: /products/wnc/gen4x/accessories/hull-options.html
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
