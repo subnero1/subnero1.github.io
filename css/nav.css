@@ -147,7 +147,8 @@ li.has-dropdown > a {
 }
 .submenu a[href$="#smart-modems"],
 .submenu a[href$="#unetstack"],
-.submenu a[href$="#adcp-edition"] {
+.submenu a[href$="#adcp-edition"],
+.submenu a[href$="#camera-edition"] {
   padding-left: 12px;
 }
 .submenu a[href$="/solutions/data-harvesting"],

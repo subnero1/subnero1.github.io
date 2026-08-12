@@ -32,6 +32,7 @@ breadcrumb: Subsea Cables
       <div class="large-7 columns">
         <div class="card-tag gen4x">Gen4x</div>
         <div class="card-tag silver">Silver Edition</div>
+        <div class="card-tag gold">Gold Edition</div>
         <h1>Subsea Cables</h1>
         <p>A range of cable types and lengths are available to support diverse deployment requirements. Standard cables provide power and Ethernet connectivity, while optional versions add interfaces such as RS232, external interrupt or PPS, sensor power control directly from the modem. Contact us to discuss custom cable options tailored to your deployment needs.</p>
         <h3>Specifications</h3>
@@ -60,7 +61,8 @@ breadcrumb: Subsea Cables
             </tr>
             <tr>
               <td>Length</td>
-              <td>5 m, 15 m, 25 m, 30 m</td>
+              <td>15 m, 25 m (standard)<br />
+              Other lengths (e.g. 5 m, 10 m, 30 m) available as customization options</td>
             </tr>
           </tbody>
         </table>

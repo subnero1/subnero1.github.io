@@ -10,9 +10,9 @@ description: How Subnero's multi-receiver modems improve robustness through rece
 
 <div class="post-main" markdown="1">
 
-Underwater acoustic communication faces several physical limitations: restricted bandwidth, long propagation delays, severe multipath—especially in shallow waters—Doppler effects, and high ambient noise. Traditional modems with a single receiver rely heavily on sophisticated signal processing, but performance is ultimately constrained by the quality of the signal captured at that one location. If the receiving element happens to sit in a deep null or a locally noisy patch, recovery becomes difficult. Many underwater systems also require localization and tracking, which often rely on separate hardware such as USBL arrays or dedicated receivers, adding to overall operational complexity.
+Underwater acoustic communication faces several physical limitations: restricted bandwidth, long propagation delays, severe multipath (especially in shallow waters), Doppler effects, and high ambient noise. Traditional modems with a single receiver rely heavily on sophisticated signal processing, but performance is ultimately constrained by the quality of the signal captured at that one location. If the receiving element happens to sit in a deep null or a locally noisy patch, recovery becomes difficult. Many underwater systems also require localization and tracking, which often rely on separate hardware such as USBL arrays or dedicated receivers, adding to overall operational complexity.
 
-Subnero's multi-receiver modems address both needs at once—capturing multiple spatially separated signals for improved communication robustness while also enabling bearing estimation and positioning capabilities within the same platform. This enhances communication performance, reduces hardware requirements, simplifies integration, and streamlines operations in the field.
+Subnero's multi-receiver modems address both needs at once, capturing multiple spatially separated signals for improved communication robustness while also enabling bearing estimation and positioning capabilities within the same platform. This enhances communication performance, reduces hardware requirements, simplifies integration, and streamlines operations in the field.
 
 ### Why Multiple Receiving Channels Matter?
 
@@ -51,7 +51,7 @@ Subnero modems additionally support external GPS PPS (Pulse-Per-Second) input fo
 
 ### Beyond Communications: Passive Acoustic Sensing
 
-Multi-receiver modems can also act as capable passive acoustic monitoring systems. By fusing information from multiple receivers, users can estimate the range and bearing of acoustic sources—useful for rapid environmental assessment, situational awareness, or wildlife monitoring. Subnero’s multi-receiver modem has already been used by research groups for tracking marine mammals and other field studies.
+Multi-receiver modems can also act as capable passive acoustic monitoring systems. By fusing information from multiple receivers, users can estimate the range and bearing of acoustic sources, useful for rapid environmental assessment, situational awareness, or wildlife monitoring. Subnero’s multi-receiver modem has already been used by research groups for tracking marine mammals and other field studies.
 
 ### Learn More About Subnero’s Multi-Receiver Modems
 

@@ -22,9 +22,9 @@ We’re looking for someone who is passionate about programming in Java, Groovy,
 ### As a software engineer at Subnero, you will:
 
 - Develop Intelligent Agents: Use Java and Groovy to build and maintain UnetStack agents that handle high-level application logic and real-time decision-making.
-- Implement ML & Signal Processing: Design and deploy ML-based signal processing models—leveraging Julia for high-performance algorithmic modeling—to extract features from noisy underwater acoustic data.
+- Implement ML & Signal Processing: Design and deploy ML-based signal processing models, leveraging Julia for high-performance algorithmic modeling, to extract features from noisy underwater acoustic data.
 - Design Content-Aware Algorithms: Create smart processing layers that use Machine Learning to classify, prioritize, and compress data based on its importance and the current state of the underwater channel.
-- IoT & Sensor Integration: Integrate a wide variety of underwater sensors—such as CTDs, tide gauges, cameras, and other IoT devices—into the UnetStack ecosystem.
+- IoT & Sensor Integration: Integrate a wide variety of underwater sensors, such as CTDs, tide gauges, cameras, and other IoT devices, into the UnetStack ecosystem.
 - Collaborate on UI Design: Work closely with designers to build intuitive interfaces that visualize complex sensor data and ML model outputs.
 - Platform Support: Develop drivers and interfaces to support UnetStack on newer hardware platforms, ensuring seamless hardware-to-software data flow.
 - Field Validation: Take your algorithms out of the lab and into the water, validating ML model performance and system reliability in real-world field conditions.
@@ -33,7 +33,7 @@ We’re looking for someone who is passionate about programming in Java, Groovy,
 ### You will thrive in this role if you:
 
 - Are proficient in Java/Groovy for application logic and/or Julia for numerical computing and ML.
-- Enjoy the challenge of algorithmic thinking—figuring out how to process data intelligently using both traditional statistical methods and modern Machine Learning approaches.
+- Enjoy the challenge of algorithmic thinking, figuring out how to process data intelligently using both traditional statistical methods and modern Machine Learning approaches.
 - Are skilled at using LLMs for code generation, debugging, and refactoring, while maintaining a critical eye for security, performance, and correctness.
 - Have a strong interest in sensor integration (serial interfaces, TCP/UDP protocols, data parsing) and the data pipelines that feed ML models.
 - Are comfortable working with diverse datasets from IoT sensors or underwater cameras.

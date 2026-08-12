@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const thumbs = document.querySelectorAll('.thumbs img');
   let currentIndex = 0;
   let timer;
-  let restartTimer;
   const autoSlideDelay = 3000; // milliseconds between slides (3 seconds)
   const totalImages = thumbs.length;
 
@@ -36,21 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }, autoSlideDelay);
   }
 
-  // Set up thumbnail click handlers
+  // Set up thumbnail click handlers.
+  // A click stops auto-sliding for good; the carousel becomes manual.
   thumbs.forEach(function(thumb) {
     thumb.addEventListener('click', function() {
-      // Clear any running auto-slide interval
       clearInterval(timer);
-      // Clear any pending restart timeout
-      clearTimeout(restartTimer);
-      
       currentIndex = parseInt(this.dataset.index);
       slideToIndex(currentIndex);
-      
-      // Schedule restart of auto-slide after the delay
-      restartTimer = setTimeout(function() {
-        startAutoSlide();
-      }, autoSlideDelay);
     });
   });
 

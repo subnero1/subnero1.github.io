@@ -133,7 +133,7 @@ breadcrumb: Marine Robotics
         </div>
         <div>
           <h5>Hardware</h5>
-          <p>OEM form factor modems for tight vehicle envelopes. Remote head configurations with separate transducers for free flooded platforms. Custom connector and harnessing options to match your vehicle's wiring.</p>
+          <p>OEM form factor modems for tight vehicle envelopes. Remote transducer options for free flooded platforms. Custom connector and harnessing options to match your vehicle's wiring.</p>
           <p><a href="{{site.baseurl}}/products/#smart-modems" target="_blank" rel="noopener">Explore Smart Modems</a></p>
         </div>
       </div>

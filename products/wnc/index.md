@@ -176,12 +176,12 @@ section_id: products
     <p class="sec-subhead">Flexible hardware options tailored to different missions, users, and deployment needs.</p>
   </div>
   <div class="row large py2">
-    <div class="feature-grid col4">
+    <div class="feature-grid col3">
       <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-gold.html" title="Gold Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-gold-preview.png" alt="Subnero M25M Gold Edition Underwater Modem">
         <div>
           <h4>Gold Edition</h4>
-          <p>High-compute multi-channel for advanced deployments.</p>
+          <p>High-compute powerhouse for advanced deployments.</p>
         </div>
       </a>
       <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-silver.html" title="Silver Edition">
@@ -191,13 +191,6 @@ section_id: products
           <p>The reliable workhorse for offshore, marine & subsea deployments.</p>
         </div>
       </a>
-      <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-platinum.html" title="Platinum Edition">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-preview.png" alt="Subnero M25M Platinum Edition Underwater Modem">
-        <div>
-          <h4>Platinum Edition</h4>
-          <p>The ultimate performance for defense missions.</p>
-        </div>
-      </a>
       <a class="usecase-card" href="{{site.baseurl}}/products/wnc/gen4x/m25m/g4x-m25m-bronze.html" title="Bronze Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-preview.png" alt="Subnero M25M Bronze Edition Underwater Modem">
         <div>
@@ -205,6 +198,12 @@ section_id: products
           <p>The ideal starting point for entry-level enthusiasts and educators.</p>
         </div>
       </a>
+    </div>
+  </div>
+  <div class="row py2">
+    <div class="cta">
+      <p>Need a MIL-qualified build for demanding operational environments? This is something we can do.</p>
+      <a class="cta-button" href="{{site.baseurl}}/contact/">Contact us</a>
     </div>
   </div>
   <!-- Standalone -->
@@ -442,7 +441,7 @@ section_id: products
           <img src="{{site.baseurl}}/images/Network4.0.jpg" alt="Subnero Underwater Networks">
         </div>
         <h4>Underwater Networks</h4>
-        <p>The WNC product series integrates Subnero’s smart modems and UnetStack software to form the Subnero Underwater Network (SUN) — a scalable, flexible, and extensible platform for underwater communication and positioning.</p>
+        <p>The WNC product series integrates Subnero’s smart modems and UnetStack software to form the Subnero Underwater Network (SUN), a scalable, flexible, and extensible platform for underwater communication and positioning.</p>
         <div class="blue-economy-features">
           <div>
             <h5>

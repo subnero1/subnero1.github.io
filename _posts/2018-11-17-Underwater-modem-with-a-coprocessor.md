@@ -10,7 +10,7 @@ description: How Subnero's optional coprocessor adds Linux-based edge computing 
 
 <div class="post-main" markdown="1">
 
-In the world of underwater communications, Subnero’s acoustic modems have long been known for their robust performance. Out of the box, they already allow users to run their own logic directly on the device, extending standard communication features into a flexible platform for building novel subsea applications. Using Java-based UnetStack agents and Groovy scripts, users can implement custom behaviours, automate tasks, and develop intelligent underwater workflows—all without any additional hardware.
+In the world of underwater communications, Subnero’s acoustic modems have long been known for their robust performance. Out of the box, they already allow users to run their own logic directly on the device, extending standard communication features into a flexible platform for building novel subsea applications. Using Java-based UnetStack agents and Groovy scripts, users can implement custom behaviours, automate tasks, and develop intelligent underwater workflows, all without any additional hardware.
 
 As underwater operations become more demanding, however, many emerging applications require more processing power than what built-in scripting alone can support. This is where Subnero’s optional coprocessor becomes valuable: a dedicated embedded computer designed for users who need greater computational capability, access to broader software ecosystems, or specialised processing such as machine learning.
 

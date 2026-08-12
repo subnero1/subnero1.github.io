@@ -3673,6 +3673,9 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .section-sub-heading h2, .section-sub-heading h3, .flex-col h2, .flex-col h3{
   text-transform: none;
 }
+.section-sub-heading h2, .section-sub-heading h3 {
+  font-size: 1.3rem;
+}
 
 .section-sub-heading i{
   color:#E6782F;
@@ -3681,7 +3684,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 
 .large-text{
-  font-size:1.5em;
+  font-size:1.2rem;
 }
 
 .section-heading{
@@ -3689,6 +3692,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   text-align: center;
   margin-top: 2em;
   border-radius: 5px;
+  font-size: 2rem;
 }
 
 .feature-highlight{
@@ -4472,13 +4476,13 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   color: #007A8C;
 }
 .intro p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #000;
   margin: 12px 0 30px;
 }
 .intro ul {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin: 0;
   list-style-type: none;

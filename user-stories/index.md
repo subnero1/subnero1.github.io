@@ -2,7 +2,7 @@
 layout: default
 title:  User Stories from the Ocean
 banner : images/hero-user-stories.jpg
-excerpt: Real stories from the deep — exploring how cutting-edge acoustic communication is powering the next generation of underwater networks.
+excerpt: Real stories from the deep, exploring how cutting-edge acoustic communication is powering the next generation of underwater networks.
 ---
 
 <section class="page-hero md gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>

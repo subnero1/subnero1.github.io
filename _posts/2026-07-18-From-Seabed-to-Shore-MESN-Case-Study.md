@@ -5,7 +5,7 @@ banner: images/case-study-banner-mesn.jpg
 date:  2026-07-18
 categories: case-study research
 thumbnail: images/case-study-thumbnail-mesn.jpg
-description: A new case study shows how SWIS – ADCP Edition delivered seabed ADCP data wirelessly to researchers' desks during a four-month deployment on Singapore's Marine Environment Sensing Network.
+description: A new case study shows how SWIS - ADCP Edition delivered seabed ADCP data wirelessly to researchers' desks during a four-month deployment on Singapore's Marine Environment Sensing Network.
 ---
 
 <div class="post-main" markdown="1">
@@ -20,7 +20,7 @@ From February to June 2026, the system supported both on-demand retrieval, where
 
 > "Being able to download data from the office whenever we want makes our customers' work much easier," said _Veronica Tan, Subsea IoT Engineer at Subnero_. "They can focus on using the data instead of worrying about how to collect it."
 
-The approach scales well beyond a research buoy. SWIS – ADCP Edition is already deployed around the world, supporting offshore energy operators retrieving seabed data between vessel visits, uncrewed surface vehicles acting as mobile gateways, and long-running observatories that need low-touch data delivery.
+The approach scales well beyond a research buoy. SWIS - ADCP Edition is already deployed around the world, supporting offshore energy operators retrieving seabed data between vessel visits, uncrewed surface vehicles acting as mobile gateways, and long-running observatories that need low-touch data delivery.
 
 **About Subnero**  
 Subnero builds underwater wireless communication and networking systems: the WNC series of acoustic smart modems, the UnetStack software stack, and the SWIS family of integrated solutions, advancing the Internet of the Oceans.

@@ -16,7 +16,7 @@ description: Subnero launches the Gen4X series, compact acoustic smart modems wi
 
 __Singapore, 7 April 2025__ – Subnero, a leader in underwater wireless communication technologies, is proud to announce the launch of its [Gen4X series acoustic smart modems](https://subnero.com/brochures/Gen4X-Release.pdf){:target="_blank"}. Designed to push the boundaries of underwater connectivity, the Gen4X modems bring enhanced performance, flexibility, and integration capabilities to a wide range of subsea applications.
 
-Building on Subnero’s legacy of innovation, the Gen4X series features a compact form factor and is engineered for ease of integration into diverse platforms—from subsea IoT systems and marine robots to diver communication networks. With exciting capabilities like acoustic wakeup, hardware-in-the-loop simulation support, Gen4X is built to meet the demands of modern underwater missions.
+Building on Subnero’s legacy of innovation, the Gen4X series features a compact form factor and is engineered for ease of integration into diverse platforms, from subsea IoT systems and marine robots to diver communication networks. With exciting capabilities like acoustic wakeup, hardware-in-the-loop simulation support, Gen4X is built to meet the demands of modern underwater missions.
 
 At the core of the Gen4X series is **UnetStack**, the latest version of the powerful underwater networking software stack. This enables robust and programmable networking, greater protocol flexibility, and improved support for distributed autonomous operations.
 
@@ -39,7 +39,7 @@ _Subnero is a Singapore-based company specializing in underwater wireless commun
 
 <div class="post-sidebar" markdown="1">
 
->“With Gen4X, we’re not just offering a hardware upgrade—we’re delivering a platform designed for the future of underwater systems. Whether you’re deploying an AUV swarm, building subsea sensor networks, or supporting tactical operations, Gen4X is engineered to adapt and perform.”
+>“With Gen4X, we’re not just offering a hardware upgrade. We’re delivering a platform designed for the future of underwater systems. Whether you’re deploying an AUV swarm, building subsea sensor networks, or supporting tactical operations, Gen4X is engineered to adapt and perform.”
 >
 > &mdash; *Manu Ignatius*   
 > *CEO, Subnero*

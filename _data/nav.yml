@@ -17,6 +17,9 @@
   - name: ADCP Edition
     path: /products/swis/#adcp-edition
     section_id: swis
+  - name: Camera Edition
+    path: /products/swis/#camera-edition
+    section_id: swis
 - name: Solutions
   path: solutions/
   section_id: solutions

@@ -14,9 +14,9 @@ breadcrumb: Hull Options
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-01.png" alt="Subnero acoustic smart modem in a stainless steel hull, shown upright with its underwater connector — one of several available hull material options">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-01.png" alt="Subnero acoustic smart modem in a stainless steel hull, shown upright with its underwater connector, one of several available hull material options">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-02.png" alt="Subnero acoustic smart modem in a stainless steel hull with dual underwater connectors, illustrating an alternative hull form factor option">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-03.png" alt="Subnero acoustic smart modem in an anodized aluminum hull, shown upright with its underwater connector — an alternative to the stainless steel and titanium options">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-03.png" alt="Subnero acoustic smart modem in an anodized aluminum hull, shown upright with its underwater connector, an alternative to the stainless steel and titanium options">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-hull-gallery-04.png" alt="Multiple Subnero acoustic smart modems with aluminum hulls floating at a harbor, illustrating different hull material and depth-rating options for various deployments">
             </div>
           </div>
@@ -32,6 +32,7 @@ breadcrumb: Hull Options
       <div class="large-7 columns">
         <div class="card-tag gen4x">Gen4x</div>
         <div class="card-tag silver">Silver Edition</div>
+        <div class="card-tag gold">Gold Edition</div>
         <h1>Hull Options</h1>
         <p>All Subnero modems support multiple hull material and depth-rating options to suit a wide range of subsea applications, providing flexibility for deployments across shallow, mid, and deep-water environments.</p>
         <h3>Specifications</h3>
@@ -45,11 +46,14 @@ breadcrumb: Hull Options
           <tbody>
             <tr>
               <td>Optional Materials</td>
-              <td>Aluminum, Stainless steel, Titanium</td>
+              <td>Aluminum (all bands)<br />
+              Stainless steel, Titanium (MF band)</td>
             </tr>
             <tr>
               <td>Depth Ratings</td>
-              <td>300 m, 2000 m, 4000 m, or custom depth rating</td>
+              <td>300 m (standard)<br />
+              2000 m, 4000 m (MF band, standalone single-channel variants)<br />
+              Custom depth ratings on request</td>
             </tr>
           </tbody>
         </table>

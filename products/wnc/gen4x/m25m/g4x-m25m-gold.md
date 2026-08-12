@@ -1,7 +1,7 @@
 ---
 layout: default
-title: M25M Series Gold Edition | High-Compute Multi-Channel Acoustic Smart Modem
-description: Gold Edition M25M series modem with enhanced compute capability, Jetson Orin Nano co-processor support, and up to 4 receive channels for advanced multi-channel underwater deployments.
+title: M25M Series Gold Edition | High-Compute Acoustic Smart Modem
+description: Gold Edition M25M series modem with enhanced compute capability, Jetson Orin Nano co-processor support, and up to 4 receive channels as an optional upgrade for advanced underwater deployments.
 breadcrumb: Gold Edition
 ---
 
@@ -31,13 +31,13 @@ breadcrumb: Gold Edition
         </div>
         <h1>M25M Series</h1>
         <h2>20 - 32 kHz Band</h2>
-        <p>The Gold Edition M25M series modem is the premium tier of the Gen4X lineup, engineered for demanding deployments that require enhanced compute power and multi-channel receive capability. Built on the same reliable MF acoustic foundation as the Silver Edition, it adds significantly greater processing capability — including support for the Jetson Orin Nano co-processor — and scales up to 4 receive channels, enabling advanced array processing, spatial diversity, and high-fidelity acoustic sensing.</p>
+        <p>The Gold Edition M25M series modem is the premium tier of the Gen4X lineup, engineered for demanding deployments that require enhanced compute power and optional multi-receiver capability. Built on the same reliable MF acoustic foundation as the Silver Edition, it adds significantly greater processing capability, including support for the Jetson Orin Nano co-processor, and scales up to 4 receive channels, enabling advanced array processing, spatial diversity, localization and high-fidelity acoustic sensing.</p>
         <h3>Applications</h3>
         <ul>
-          <li>Advanced underwater acoustic research requiring multi-channel signal processing</li>
+          <li>Advanced underwater acoustic research requiring multi-receiver signal processing</li>
           <li>High-performance sensor arrays for subsea monitoring and tracking</li>
-          <li>AUV and USV integration with onboard AI inference and compute-intensive algorithms</li>
-          <li>3D localization and beamforming using multi-hydrophone arrays</li>
+          <li>AUV and USV integration with support for compute-intensive algorithms</li>
+          <li>3D localization using multi-hydrophone arrays</li>
         </ul>
         {%- include formRequestQuote.html -%}
       </div>
@@ -52,7 +52,7 @@ breadcrumb: Gold Edition
           <li>More than 4 km communication range in littoral waters.</li>
           <li>Built-in acoustic ranging with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
-          <li>Support for up to 4 receive channels for multi-channel array processing.</li>
+          <li>Support for up to 4 receive channels as an optional upgrade.</li>
           <li>Enhanced onboard compute capability for processing-intensive applications.</li>
           <li>Support for Jetson Orin Nano co-processor for AI and edge compute workloads.</li>
           <li>Support for coherent and incoherent communication schemes.</li>
@@ -72,7 +72,7 @@ breadcrumb: Gold Edition
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone and open configurations, with multi-channel standalone variants supporting up to 4 receive channels for array-based deployments.</p>
+      <p>Available in standalone, and open configurations to suit a range of deployment needs, from self-contained setups to integrated and high-performance systems. Up to 4 receive channels are available as an <a href="{{site.baseurl}}/products/wnc/gen4x/accessories/multi-receiver.html">optional upgrade</a>.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x">
@@ -91,30 +91,6 @@ breadcrumb: Gold Edition
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
       </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x-2">
-        <h2>WNC-M25MGS4X-2</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-2ch-preview.png" alt="Subnero WNC-M25MGS4X-2 Gold Edition 2-Channel Standalone Configuration Preview">
-        </div>
-        <h3>2-Channel Standalone</h3>
-        <p>Standalone modem with 2 receive channels for spatial diversity and enhanced link performance.</p>
-      </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x-4">
-        <h2>WNC-M25MGS4X-4</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-4sa-preview.png" alt="Subnero WNC-M25MGS4X-4 Gold Edition 4-Channel Star Array Standalone Configuration Preview">
-        </div>
-        <h3>4-Channel Star Array Standalone</h3>
-        <p>Standalone modem with 4-channel star array for 3D localization and advanced beamforming.</p>
-      </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mgs4x-a">
-        <h2>WNC-M25MGS4X-A</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-gold-sc-4la-preview.png" alt="Subnero WNC-M25MGS4X-A Gold Edition 4-Channel Linear Array Standalone Configuration Preview">
-        </div>
-        <h3>4-Channel Linear Array Standalone</h3>
-        <p>Standalone modem with 4-channel linear array for directional sensing and extended spatial coverage.</p>
-      </a>
     </div>
     <!-- Modal -->
     <dialog id="configModal" class="modal-dialog">
@@ -130,18 +106,6 @@ breadcrumb: Gold Edition
           <div class="main modal-content-item" data-product="wnc-m25mgo4x">
             <h2>Open Configuration (OC)</h2>
             <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
-          </div>
-          <div class="main modal-content-item" data-product="wnc-m25mgs4x-2">
-            <h2>2-Channel Standalone Configuration</h2>
-            <p>The 2-channel standalone configuration extends the standard standalone modem with an additional receive channel, enabling spatial diversity combining for improved link reliability in challenging acoustic environments. It also provides access to raw dual-channel data streams for research and custom algorithm development.</p>
-          </div>
-          <div class="main modal-content-item" data-product="wnc-m25mgs4x-4">
-            <h2>4-Channel Star Array Standalone Configuration</h2>
-            <p>The 4-channel star array standalone configuration provides four receive channels arranged in a star geometry, enabling 3D localization, beamforming, and high-fidelity spatial acoustic sensing. It is well suited for applications requiring precise direction-of-arrival estimation and multi-target tracking.</p>
-          </div>
-          <div class="main modal-content-item" data-product="wnc-m25mgs4x-a">
-            <h2>4-Channel Linear Array Standalone Configuration</h2>
-            <p>The 4-channel linear array standalone configuration provides four receive channels arranged in a linear geometry, enabling directional sensing along a single axis. It is suited for applications such as bearing estimation, linear aperture processing, and along-track acoustic imaging.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -247,7 +211,7 @@ breadcrumb: Gold Edition
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>256 GB, 1 TB</td>
+              <td>256 GB (standard), 1 TB (optional upgrade)</td>
             </tr>
             <tr>
               <td>Receive channels</td>
@@ -274,12 +238,11 @@ breadcrumb: Gold Edition
             </tr>
             <tr>
               <td>Depth rating</td>
-              <td>300m, 2000m, 4000m, 6000m</td>
+              <td>300m, 2000m<sup>&dagger;</sup>, 4000m<sup>&dagger;</sup></td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <!-- TODO: Update dimensions for Gold Edition — differ from Silver due to multi-channel housing -->
-              <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 380 mm, OC: ø 100 x 210 mm</td>
             </tr>
             <tr>
               <td>Operating temperature</td>
@@ -287,7 +250,8 @@ breadcrumb: Gold Edition
             </tr>
           </tbody>
         </table>
-        * Different cable required for RS232 connection.
+        * Different cable required for RS232 connection.<br />
+        &dagger; 2000m and 4000m depth ratings are available on standalone single-channel variants only. Both support the optional co-processor.
       </div>
     </div>
   </section>

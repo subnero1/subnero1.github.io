@@ -26,7 +26,7 @@ date: 2026-02-10
       <h2 class="sec-head text-gradient g-orange">Overview</h2>
     </div>
     <div class="large-7 columns"> 
-      <p>In the world of underwater acoustics research, scientists often face a difficult choice when selecting hardware. Most commercial acoustic systems are "black boxes" — built for specific communication tasks with rigid, closed architectures. They limit access to raw data, offer a single receive channel, and hide critical signal processing layers behind proprietary walls.</p>
+      <p>In the world of underwater acoustics research, scientists often face a difficult choice when selecting hardware. Most commercial acoustic systems are "black boxes", built for specific communication tasks with rigid, closed architectures. They limit access to raw data, offer a single receive channel, and hide critical signal processing layers behind proprietary walls.</p>
       <p>This case study explores how researchers at the Underwater Acoustic & Navigation Lab (ANL) led by <b>Dr. Roee Diamant</b> bypassed these limitations using Subnero’s software-defined smart modems to implement three distinct applications without requiring any custom hardware development.</p>
       <p>This is achieved because Subnero exposes the entire stack, from the acoustic front end to the processing interfaces to the user, rather than treating the modem as a closed communication appliance. This allows researchers to treat the modem as a high-performance edge computing platform with multiple communication interfaces.</p>
     </div>

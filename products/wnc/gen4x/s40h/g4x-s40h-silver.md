@@ -37,7 +37,7 @@ breadcrumb: Silver Edition
         </div>
         <h1>S40H Series</h1>
         <h2>25 - 50 kHz Band</h2>
-        <p>The Silver Edition S40H series modem represents a breakthrough in high-speed underwater acoustic communication. Designed for high-throughput data transfer, it enables applications that were once impractical in the subsea domain — such as wireless camera image transmission, rapid sensor data exchange, and real-time connectivity for marine robotics over short ranges. The S40H series serves as a stepping stone toward true high-speed underwater networks, bringing the performance and flexibility of modern digital communication to the ocean environment.</p>
+        <p>The Silver Edition S40H series modem represents a breakthrough in high-speed underwater acoustic communication. Designed for high-throughput data transfer, it enables applications that were once impractical in the subsea domain, such as wireless camera image transmission, rapid sensor data exchange, and real-time connectivity for marine robotics over short ranges. The S40H series serves as a stepping stone toward true high-speed underwater networks, bringing the performance and flexibility of modern digital communication to the ocean environment.</p>
         <h3>Applications</h3>
         <ul>
           <li>Wireless image transfer for inspection and monitoring systems</li>
@@ -55,7 +55,7 @@ breadcrumb: Silver Edition
         <h3>Key Features</h3>
         <ul>
           <li>High-speed data rates up to 33 kbps<sup>*</sup> in shallow tropical waters.</li>
-          <li>Communication range up to 1 km (horizontal and vertical).</li>
+          <li>More than 1 km communication range (horizontal and vertical).</li>
           <li>Built-in ranging with 0.1 m precision for accurate positioning.</li>
           <li>Doppler resilience of ±4 knots ensuring stable performance in motion.</li>
           <li>Compact and lightweight design for seamless platform integration.</li>
@@ -74,7 +74,7 @@ breadcrumb: Silver Edition
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone and open configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance systems.</p>
+      <p>Available in standalone and open configurations to suit a range of deployment needs, from self-contained setups to integrated and high-performance systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hss4x">
@@ -219,7 +219,7 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>256 GB, 1 TB</td>
+              <td>32 GB, 256 GB</td>
             </tr>
           </tbody>
         </table>
@@ -242,7 +242,7 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>SC: ø 100 x 294 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 294 mm, OC: ø 90 x 134 mm</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

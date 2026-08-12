@@ -131,7 +131,7 @@ date: 2025-11-20
       <ul class="case-study-list">
         <li>Demonstrated that cellular principles can be adapted underwater, enabling continuous communication and tracking of subsea assets.</li>
         <li>Showcased a joint innovation between Subnero and ST UIS, leveraging acoustic modem technology and network intelligence.</li>
-        <li>Paves the way for a new era of subsea operations, where AUVs, divers, and subsea sensors can remain connected at all times—supporting industries from offshore energy to defense and scientific research.</li>
+        <li>Paves the way for a new era of subsea operations, where AUVs, divers, and subsea sensors can remain connected at all times, supporting industries from offshore energy to defense and scientific research.</li>
       </ul>
       <div class="reference">
         <h5>Reference</h5>

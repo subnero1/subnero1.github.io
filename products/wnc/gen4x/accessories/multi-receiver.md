@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Additional Receiving Channels | Gen4x Accessories
-description: Add extra receiving channels to Subnero Gen4x modems for spatial diversity, 3D localization, and raw multi-channel acoustic data access.
+description: Add extra receiving channels to Subnero Gen4x modems for spatial diversity, 3D localization, and raw multi-receiver acoustic data access.
 breadcrumb: Multi-receiver
 ---
 
@@ -33,9 +33,8 @@ breadcrumb: Multi-receiver
           <div class="card-tag gold">Gold Edition</div>
         </div>
         <h1>Additional Receiving Channels</h1>
-        <p>Adding extra receiving channels enhances the modem’s capability by incorporating multiple hydrophones for improved signal processing. This upgrade enables spatial diversity combining, helping maintain reliable communication links in challenging environments while extending effective range. It also unlocks advanced functions such as localization and high-fidelity acoustic monitoring. For research users, the additional channels provide access to raw multi-channel data, making the modem a suitable platform for developing custom navigation and tracking algorithms for AUVs.</p>
-        <p>The Silver Edition supports up to 2 receive channels. The Gold Edition extends this to up to 4 channels, supporting star and linear array configurations for 3D localization and advanced beamforming.</p>
-        <p>Learn how multi-receiver modems enable robust links and novel research use cases <a href="{{site.baseurl}}/feature/2025/11/13/Improving-Underwater-Communication-with-Multi-Receiver-Modems.html">here</a>.</p>
+        <p>Adding extra receiving channels enhances the modem’s capability by incorporating multiple hydrophones for improved signal processing. This upgrade enables spatial diversity combining, helping maintain reliable communication links in challenging environments while extending effective range. It also unlocks advanced functions such as localization and high-fidelity acoustic monitoring. For research users, the additional channels provide access to raw multi-receiver data, making the modem a suitable platform for developing custom navigation and tracking algorithms for AUVs.</p>
+        <p>The Silver Edition supports up to 2 receive channels. The Gold Edition extends this to up to 4 channels, supporting star and linear array arrangements for 3D localization. Learn how multi-receiver modems enable robust links and novel research use cases <a href="{{site.baseurl}}/feature/2025/11/13/Improving-Underwater-Communication-with-Multi-Receiver-Modems.html">here</a>.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>
@@ -48,18 +47,18 @@ breadcrumb: Multi-receiver
           <tbody>
             <tr>
               <td>Receive channels</td>
-              <td>1, 2</td>
-              <td>1, 2, 4</td>
-            </tr>
-            <tr>
-              <td>Array configurations</td>
-              <td>—</td>
-              <td>Star, Linear (4-channel)</td>
+              <td>1, 2 (2-channel in LF and MF bands)</td>
+              <td>1, 2, 4 (Star, Linear hydrophone arrangements)</td>
             </tr>
             <tr>
               <td>Supported configurations</td>
               <td>SC, OC</td>
               <td>SC, OC</td>
+            </tr>
+            <tr>
+              <td>Depth rating</td>
+              <td>300 m</td>
+              <td>300 m</td>
             </tr>
             <tr>
               <td>Waveform streaming</td>
@@ -83,7 +82,7 @@ breadcrumb: Multi-receiver
         <h4>Enhanced communication performance</h4>
         <p>Uses spatial diversity combining to maintain strong and reliable links in challenging acoustic environments.</p>
         <h4>Research-ready signal access for underwater communication and localization research</h4>
-        <p>Provides access to raw, multi-channel acoustic data streams, offering an ideal platform for researchers developing custom communication (SIMO), navigation, tracking, and signal-processing algorithms for AUVs.</p>
+        <p>Provides access to raw, multi-receiver acoustic data streams, offering an ideal platform for researchers developing custom communication (SIMO), navigation, tracking, and signal-processing algorithms for AUVs.</p>
         <!-- TODO: Add a link to Roee's user story once ready -->
         <h4>Flexible device roles for advanced underwater IoT networks</h4>
         <p>Supports use as a high-performance communication modem, a positioning aid, or a versatile acoustic recorder for rapid environmental assessment.</p>

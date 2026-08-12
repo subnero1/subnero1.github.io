@@ -1,7 +1,7 @@
 ---
 layout: default
-title: S40H Series Gold Edition | High-Compute Multi-Channel Acoustic Smart Modem
-description: Gold Edition S40H series modem with enhanced compute capability, Jetson Orin Nano co-processor support, and multi-channel star array receive for advanced high-speed underwater deployments.
+title: S40H Series Gold Edition | High-Compute Acoustic Smart Modem
+description: Gold Edition S40H series modem with enhanced compute capability, Jetson Orin Nano co-processor support, and optional multi-receiver support for advanced high-speed underwater deployments.
 breadcrumb: Gold Edition
 ---
 
@@ -31,11 +31,11 @@ breadcrumb: Gold Edition
         </div>
         <h1>S40H Series</h1>
         <h2>25 - 50 kHz Band</h2>
-        <p>The Gold Edition S40H series modem brings enhanced compute capability and multi-channel receive support to the high-speed HF acoustic platform. Building on the proven Silver Edition, it adds significantly greater processing power — including support for the Jetson Orin Nano co-processor — and a star array multi-channel configuration, enabling advanced spatial processing, 3D localization, and compute-intensive edge applications over short-range high-throughput acoustic links.</p>
+        <p>The Gold Edition S40H series modem brings enhanced compute capability and optional multi-receiver support to the high-speed HF acoustic platform. Building on the proven Silver Edition, it adds significantly greater processing power, including support for the Jetson Orin Nano co-processor, and scales up to 4 receive channels, enabling advanced spatial processing, 3D localization, and compute-intensive edge applications over short-range high-throughput acoustic links.</p>
         <h3>Applications</h3>
         <ul>
           <li>High-speed data transfer combined with onboard AI inference for subsea robotics</li>
-          <li>Multi-channel acoustic sensing and 3D localization over short ranges</li>
+          <li>Multi-receiver acoustic sensing and 3D localization over short ranges</li>
           <li>Near real-time image transfer with edge processing for inspection systems</li>
           <li>Research testbeds requiring multi-hydrophone HF signal access</li>
         </ul>
@@ -49,10 +49,10 @@ breadcrumb: Gold Edition
         <h3>Key Features</h3>
         <ul>
           <li>High-speed data rates up to 33 kbps<sup>*</sup> in shallow tropical waters.</li>
-          <li>Communication range up to 1 km (horizontal and vertical).</li>
+          <li>More than 1 km communication range (horizontal and vertical).</li>
           <li>Built-in ranging with 0.1 m precision for accurate positioning.</li>
           <li>Doppler resilience of ±4 knots ensuring stable performance in motion.</li>
-          <li>Support for star array multi-channel receive configuration.</li>
+          <li>Support for up to 4 receive channels as an optional upgrade.</li>
           <li>Enhanced onboard compute capability for processing-intensive applications.</li>
           <li>Support for Jetson Orin Nano co-processor for AI and edge compute workloads.</li>
           <li>Compact and lightweight design for seamless platform integration.</li>
@@ -71,7 +71,7 @@ breadcrumb: Gold Edition
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone and open configurations, with a multi-channel standalone star array variant for advanced spatial processing deployments.</p>
+      <p>Available in standalone, and open configurations to suit a range of deployment needs, from self-contained setups to integrated and high-performance systems. Up to 4 receive channels are available as an <a href="{{site.baseurl}}/products/wnc/gen4x/accessories/multi-receiver.html">optional upgrade</a>.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hgs4x">
@@ -90,22 +90,6 @@ breadcrumb: Gold Edition
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
       </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hgo4x-2">
-        <h2>WNC-S40HGO4X-2</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/S40H-gold-oc-2ch-preview.png" alt="Subnero WNC-S40HGO4X-2 Gold Edition 2-Channel Open Configuration Preview">
-        </div>
-        <h3>2-Channel Open</h3>
-        <p>Open configuration with 2 receive channels for spatial diversity and enhanced link performance.</p>
-      </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hgo4x-4">
-        <h2>WNC-S40HGO4X-4</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/S40H-gold-oc-4sa-preview.png" alt="Subnero WNC-S40HGO4X-4 Gold Edition 4-Channel Star Array Open Configuration Preview">
-        </div>
-        <h3>4-Channel Star Array Open</h3>
-        <p>Open configuration with 4-channel star array for 3D localization and advanced spatial acoustic sensing.</p>
-      </a>
     </div>
     <!-- Modal -->
     <dialog id="configModal" class="modal-dialog">
@@ -121,14 +105,6 @@ breadcrumb: Gold Edition
           <div class="main modal-content-item" data-product="wnc-s40hgo4x">
             <h2>Open Configuration (OC)</h2>
             <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms suited for AUV- or USV-based missions.</p>
-          </div>
-          <div class="main modal-content-item" data-product="wnc-s40hgo4x-2">
-            <h2>2-Channel Open Configuration</h2>
-            <p>The 2-channel open configuration extends the standard open modem with an additional receive channel, enabling spatial diversity combining for improved link reliability in challenging acoustic environments. It also provides access to raw dual-channel data streams for research and custom algorithm development.</p>
-          </div>
-          <div class="main modal-content-item" data-product="wnc-s40hgo4x-4">
-            <h2>4-Channel Star Array Open Configuration</h2>
-            <p>The 4-channel star array open configuration provides four receive channels arranged in a star geometry, enabling 3D localization, beamforming, and high-fidelity spatial acoustic sensing. Ideal for applications requiring precise direction-of-arrival estimation and multi-target tracking in short-range high-speed acoustic deployments.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -234,11 +210,11 @@ breadcrumb: Gold Edition
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>256 GB, 1 TB</td>
+              <td>256 GB (standard), 1 TB (optional upgrade)</td>
             </tr>
             <tr>
               <td>Receive channels</td>
-              <td>1, 2, 4 (star array, configurable at the time of purchase)</td>
+              <td>1, 2, 4 (configurable at the time of purchase)</td>
             </tr>
             <tr>
               <td>Co-processor</td>
@@ -257,16 +233,15 @@ breadcrumb: Gold Edition
           <tbody>
             <tr>
               <td>Hull material</td>
-              <td>Aluminum, Stainless steel, Titanium</td>
+              <td>Aluminum</td>
             </tr>
             <tr>
               <td>Depth rating</td>
-              <td>300m, 2000m, 4000m, 6000m</td>
+              <td>300m</td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <!-- TODO: Update dimensions for Gold Edition — differ from Silver due to multi-channel housing -->
-              <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 371 mm, OC: ø 100 x 210 mm</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

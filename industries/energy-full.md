@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subsea Communications for Offshore Energy — Extended Brief
+title: "Subsea Communications for Offshore Energy: Extended Brief"
 banner : images/banner-energy.jpg
 excerpt: Connect offshore energy infrastructure beneath the surface. Subnero links subsea sensors, vehicles, and structures into one network for monitoring, inspection, and data delivery to shore.
 section_id: industries

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subsea Domain Awareness for Defense — Extended Brief
+title: "Subsea Domain Awareness for Defense: Extended Brief"
 banner : images/banner-defense-subsea-domain-awareness.jpg
 excerpt: Extend maritime domain awareness into the subsea domain. Subnero connects AUVs, sensors, and divers into one underwater network for MCM, monitoring, and command and control.
 section_id: industries

@@ -35,7 +35,7 @@ breadcrumb: Silver Edition
           <div class="card-tag lf">LF Band</div>
         </div>
         <h1>L12L Series</h1>
-        <p>Designed for reliable long-range communication in shallow waters, Subnero’s Silver Edition L12L series modem addresses one of the toughest challenges in underwater acoustics — maintaining robust links over extended distances in complex environments.</p>
+        <p>Designed for reliable long-range communication in shallow waters, Subnero’s Silver Edition L12L series modem addresses one of the toughest challenges in underwater acoustics: maintaining robust links over extended distances in complex environments.</p>
         <p>Built on decades of research and innovation, the L12L series enables dependable data transfer beyond 10 km, unlocking new possibilities for remote monitoring, tracking, telemetry, and control of subsea assets. Engineered for endurance and stability, it supports mission-critical operations across defense, research, and commercial deployments, where long-range connectivity is essential.</p>
         <h3>Applications</h3>
         <ul>
@@ -75,7 +75,7 @@ breadcrumb: Silver Edition
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, and open configurations to suit a range of deployment needs—from self-contained setups to integrated systems.</p>
+      <p>Available in standalone, and open configurations to suit a range of deployment needs, from self-contained setups to integrated systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-l12lss4x">
@@ -220,7 +220,7 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>256 GB, 1 TB</td>
+              <td>32 GB, 256 GB</td>
             </tr>
             <tr>
               <td>Receive channels</td>
@@ -239,15 +239,15 @@ breadcrumb: Silver Edition
           <tbody>
             <tr>
               <td>Hull material</td>
-              <td>Aluminum, Stainless steel</td>
+              <td>Aluminum</td>
             </tr>
             <tr>
               <td>Depth rating</td>
-              <td>300m, 2000m</td>
+              <td>300m</td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>SC: ø 100 x 313 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 313 mm, OC: ø 90 x 134 mm</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

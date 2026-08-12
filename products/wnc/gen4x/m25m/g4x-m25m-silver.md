@@ -15,7 +15,7 @@ breadcrumb: Silver Edition
           <div class="main-slider">
             <div class="slider-track">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-01.png" alt="Subnero M25M Series Silver Edition medium-frequency (MF) acoustic smart modem mounted upright on its base, showing the underwater connector and antenna">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="Subnero M25M Series Silver Edition MF acoustic smart modem mounted upright with dual underwater connectors and cables for multi-channel integration">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="Subnero M25M Series Silver Edition MF acoustic smart modem mounted upright with dual underwater connectors and cables for multi-receiver integration">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-03.png" alt="Disassembled Subnero M25M Series Silver Edition modem showing its internal electronics stack, processing board, and transducer housing components">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-04.png" alt="Subnero M25M Series Silver Edition acoustic smart modem being deployed by hand from a dockside during a field trial">
             </div>
@@ -76,7 +76,7 @@ breadcrumb: Silver Edition
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, open, and 2-channel standalone configurations to suit a range of deployment needs—from self-contained setups to integrated and multi-hydrophone systems.</p>
+      <p>Available in standalone, and open configurations to suit a range of deployment needs, from self-contained setups to integrated and high-performance systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x">
@@ -95,14 +95,6 @@ breadcrumb: Silver Edition
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
       </a>
-      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x-2">
-        <h2>WNC-M25MSS4X-2</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-2ch-preview.png" alt="Subnero WNC-M25MSS4X-2 2-Channel Standalone Configuration Preview">
-        </div>
-        <h3>2-Channel Standalone</h3>
-        <p>Standalone modem with 2 receive channels for spatial diversity and enhanced link performance.</p>
-      </a>
     </div>
     <!-- Modal -->
     <dialog id="configModal" class="modal-dialog">
@@ -118,10 +110,6 @@ breadcrumb: Silver Edition
           <div class="main modal-content-item" data-product="wnc-m25mso4x">
             <h2>Open Configuration (OC)</h2>
             <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
-          </div>
-          <div class="main modal-content-item" data-product="wnc-m25mss4x-2">
-            <h2>2-Channel Standalone Configuration</h2>
-            <p>The 2-channel standalone configuration extends the standard standalone modem with an additional receive channel, enabling spatial diversity combining for improved link reliability in challenging acoustic environments. It also provides access to raw dual-channel data streams for research and custom algorithm development.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -231,7 +219,7 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>256 GB, 1 TB</td>
+              <td>32 GB, 256 GB</td>
             </tr>
             <tr>
               <td>Receive channels</td>
@@ -254,11 +242,11 @@ breadcrumb: Silver Edition
             </tr>
             <tr>
               <td>Depth rating</td>
-              <td>300m, 2000m, 4000m, 6000m</td>
+              <td>300m, 2000m<sup>&dagger;</sup>, 4000m<sup>&dagger;</sup></td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 303 mm, OC: ø 90 x 134 mm</td>
             </tr>
             <tr>
               <td>Operating temperature</td>
@@ -266,7 +254,8 @@ breadcrumb: Silver Edition
             </tr>
           </tbody>
         </table>
-        * Different cable required for RS232 connection.
+        * Different cable required for RS232 connection.<br />
+        &dagger; 2000m and 4000m depth ratings are available on standalone single-channel variants only.
       </div>
     </div>
   </section>

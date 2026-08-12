@@ -96,7 +96,7 @@ breadcrumb: UnetSim
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-blue">Simulating Network Behavior Using UnetSim</h3>
-        <p>UnetSim lets you run both discrete-event and real-time simulations to model multiple subsea nodes—static or mobile—so you can design, develop, and evaluate your network protocols before moving to hardware testing.</p>
+        <p>UnetSim lets you run both discrete-event and real-time simulations to model multiple subsea nodes, static or mobile, so you can design, develop, and evaluate your network protocols before moving to hardware testing.</p>
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ breadcrumb: UnetSim
         <div>
           <h6 class="title-tag">Unet Handbook</h6>
           <h5>Simulating underwater networks</h5>
-          <p>Describes how to simulate underwater networks, including discrete-event or real-time simulations, configurable modem and channel models, and scalable networks with many nodes — using UnetSim.</p>
+          <p>Describes how to simulate underwater networks, including discrete-event or real-time simulations, configurable modem and channel models, and scalable networks with many nodes, using UnetSim.</p>
         </div>
       </a>
       <a href="https://blog.unetstack.net/motion-models" class="docs-card uh" target="_blank">
@@ -168,7 +168,7 @@ breadcrumb: UnetSim
         <div>
           <h6 class="title-tag">Blog Article</h6>
           <h5>Simulating motion in Unet Simulator</h5>
-          <p>Explains how to simulate node mobility in UnetSim — using built-in dynamics or custom motion models — to test underwater network behavior under realistic motion conditions.</p>
+          <p>Explains how to simulate node mobility in UnetSim, using built-in dynamics or custom motion models, to test underwater network behavior under realistic motion conditions.</p>
         </div>
       </a>
     </div>

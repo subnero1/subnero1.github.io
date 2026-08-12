@@ -27,7 +27,7 @@ breadcrumb: HILSIM
     <div class="large-6 columns"> 
       <h3 class="text-gradient g-acqua text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
       <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator in the UnetStack ecosystem that works seamlessly with UnetStack and interfaces with industry-standard models such as Bellhop, Kraken, and many others.</p>
-      <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
+      <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices, including Subnero modems and UnetCube, without leaving the lab.</p>
     </div>
     <div class="large-6 columns">
       <img alt="Hardware-in-the-Loop Simulation Setup" src="{{site.baseurl}}/images/flat-hilsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
@@ -128,7 +128,7 @@ breadcrumb: HILSIM
           </div>
         </div>
         <h3 class="step-title">Run</h3>
-        <p class="step-desc">Use hardware normally — VAO applies the ocean conditions.</p>
+        <p class="step-desc">Use hardware normally. VAO applies the ocean conditions.</p>
       </div>
       <div class="step">
         <div class="step-circle">

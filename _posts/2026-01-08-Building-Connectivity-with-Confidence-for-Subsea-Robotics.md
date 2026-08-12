@@ -10,7 +10,7 @@ description: A two-part Unet Blog series guides AUV operators through five level
 
 <div class="post-main" markdown="1">
 
-For many subsea robotics developers, acoustic communication has often been viewed as a fragile necessity—something that is "nice to have" but rarely trusted to "just work." We believe it is time to close the gap between skepticism and reliability.
+For many subsea robotics developers, acoustic communication has often been viewed as a fragile necessity, something that is "nice to have" but rarely trusted to "just work." We believe it is time to close the gap between skepticism and reliability.
 
 In a new two-part series on the Unet Blog, we break down exactly how to move from uncertain links to robust, mission-critical connectivity. Based on real-world deployments, this series offers a practical roadmap for AUV operators and engineers. It guides you through five levels of confidence, ensuring your vehicle’s acoustic link is dependable enough to provide reliable connectivity.
 
