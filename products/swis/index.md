@@ -13,6 +13,7 @@ excerpt: A modular underwater operations platform that integrates communication,
       <p>A modular product series for underwater sensing, autonomous data collection, and reliable subsea connectivity.</p>
       <div class="g4x-hero-btns">
         <a href="#adcp-edition" class="button g-orange-btn">Explore ADCP Edition</a>
+        <a href="#camera-edition" class="button g-orange-btn">Explore Camera Edition</a>
       </div>
     </div>
   </div>
@@ -79,7 +80,7 @@ excerpt: A modular underwater operations platform that integrates communication,
     </div>   
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>The SWIS – ADCP Edition delivers a reliable and efficient way to wirelessly retrieve data from ADCPs, ensuring data continuity and confidence throughout long-term ocean deployments. With its user-friendly web interface and powerful Content-Aware Processing (CAP) engine, it simplifies multi-site management while lowering maintenance costs and deployment complexity.</p>
+        <p>The SWIS - ADCP Edition delivers a reliable and efficient way to wirelessly retrieve data from ADCPs, ensuring data continuity and confidence throughout long-term ocean deployments. With its user-friendly web interface and powerful Content-Aware Processing (CAP) engine, it simplifies multi-site management while lowering maintenance costs and deployment complexity.</p>
         <h4>Features</h4>
         <ul>
           <li>Wireless Data Transfer</li>
@@ -89,5 +90,29 @@ excerpt: A modular underwater operations platform that integrates communication,
         <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/products/swis/swis-adcp">Learn more about SWIS - ADCP Edition &#8594;</a></p>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="camera-edition" class="g4x-section">
+  <div class="g4x-section-head">
+    <h2 class="sec-head text-gradient g-orange">Camera Edition</h2>
+  </div>
+
+  <div class="row" style="margin-top:0;">
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>The SWIS - Camera Edition brings wireless image transfer to underwater cameras over high-speed acoustic links. Powered by the Gen4X Gold Edition's onboard compute, machine learning models run directly on the modem to process, select, and compress imagery at the edge, delivering near real-time visual insight from the seabed.</p>
+        <h4>Features</h4>
+        <ul>
+          <li>Wireless Image Transfer</li>
+          <li>ML Processing at the Edge</li>
+          <li>Seamless User Experience</li>
+        </ul>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/products/swis/swis-camera">Learn more about SWIS - Camera Edition &#8594;</a></p>
+      </div>
+    </div>
+    <div class="large-6 columns ">
+      <img alt="Subnero SWIS Camera Edition underwater camera deployment" src="{{site.baseurl}}/images/swis-camera-deploy.png" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>   
   </div>
 </section>
