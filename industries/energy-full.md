@@ -183,5 +183,5 @@ sitemap: false
 </section>
 
 <section class="call-to-action category-container mb2">
-  {%- include formCTA.html labelText="Connecting offshore assets or planning a subsea monitoring programme? Tell us about your field and we will help you scope it." -%}
+  {%- include formCTA.html labelText="Connecting offshore assets or planning a subsea monitoring program? Tell us about your field and we will help you scope it." -%}
 </section>

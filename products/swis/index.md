@@ -65,7 +65,7 @@ excerpt: A modular underwater operations platform that integrates communication,
   <div class="g4x-section-head">
     <h5 class="g4x-tag">Product Series</h5>
     <h2 class="sec-head text-gradient g-orange">Subnero Wireless Integrated Suite</h2>
-    <p class="sec-subhead">Subnero Wireless Integrated Suite (SWIS) product series for subsea IoT brings together acoustic communication, sensor integration, and edge processing to optimise subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity for applications ranging from survey operations to long-term ocean monitoring.</p>
+    <p class="sec-subhead">Subnero Wireless Integrated Suite (SWIS) product series for subsea IoT brings together acoustic communication, sensor integration, and edge processing to optimize subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity for applications ranging from survey operations to long-term ocean monitoring.</p>
   </div>
 </section>
 

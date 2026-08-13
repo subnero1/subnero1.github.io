@@ -16,7 +16,7 @@ breadcrumb: Bronze Edition
           <div class="card-tag bronze">Bronze Edition</div>
           <div class="card-tag mf">MF Band</div>
         <h1>S1000-N</h1>
-        <h2>20 - 30 KHz</h2>
+        <h2>20 - 30 kHz</h2>
         <p>The Bronze Edition modem (S1000-N) offers an affordable and compact platform for enthusiasts and educators exploring underwater communication and networking. Powered by UnetStack, it bridges the gap between simulation and real-world deployment, enabling entry-level users to design, test, and operate underwater networks with practical, meaningful results.</p>
         {%- include formContactUs.html -%}
       </div>
@@ -81,11 +81,11 @@ breadcrumb: Bronze Edition
             </tr>
             <tr>
               <td>Frequency band</td>
-              <td>20 - 30 KHz</td>
+              <td>20 - 30 kHz</td>
             </tr>
             <tr>
               <td>Storage</td>
-              <td>128 GB on included µSD (Expandable)</td>
+              <td>128 GB (expandable)</td>
             </tr>
           </tbody>
         </table>
@@ -207,7 +207,7 @@ breadcrumb: Bronze Edition
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

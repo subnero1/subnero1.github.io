@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Additional Receiving Channels | Gen4x Accessories
-description: Add extra receiving channels to Subnero Gen4x modems for spatial diversity, 3D localization, and raw multi-receiver acoustic data access.
+title: Additional Receiving Channels | Gen4X Accessories
+description: Add extra receiving channels to Subnero Gen4X modems for spatial diversity, 3D localization, and raw multi-receiver acoustic data access.
 breadcrumb: Multi-receiver
 ---
 
@@ -83,7 +83,7 @@ breadcrumb: Multi-receiver
         <p>Uses spatial diversity combining to maintain strong and reliable links in challenging acoustic environments.</p>
         <h4>Research-ready signal access for underwater communication and localization research</h4>
         <p>Provides access to raw, multi-receiver acoustic data streams, offering an ideal platform for researchers developing custom communication (SIMO), navigation, tracking, and signal-processing algorithms for AUVs.</p>
-        <!-- TODO: Add a link to Roee's user story once ready -->
+        <p>See how the Underwater Acoustic and Navigation Lab (ANL) put this to work in our case study: <a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">Transforming Underwater Research with Flexible, Software-Defined Modems</a>, also available as a <a href="{{site.baseurl}}/brochures/case-study-software-defined-modems.pdf" target="_blank" rel="noopener noreferrer">PDF download</a>.</p>
         <h4>Flexible device roles for advanced underwater IoT networks</h4>
         <p>Supports use as a high-performance communication modem, a positioning aid, or a versatile acoustic recorder for rapid environmental assessment.</p>
         <h4>3D positioning and tracking</h4>
@@ -114,7 +114,7 @@ breadcrumb: Multi-receiver
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Hull Options | Gen4x Accessories
-description: Aluminum, stainless steel, and titanium hull options for Subnero Gen4x modems, rated to 300 m, 2000 m, 4000 m, or custom depths.
+title: Hull Options | Gen4X Accessories
+description: Aluminum, stainless steel, and titanium hull options for Subnero Gen4X modems, rated to 300 m, 2000 m, 4000 m, or custom depths.
 breadcrumb: Hull Options
 ---
 
@@ -30,7 +30,7 @@ breadcrumb: Hull Options
         <!-- ./slider -->
       </div>
       <div class="large-7 columns">
-        <div class="card-tag gen4x">Gen4x</div>
+        <div class="card-tag gen4x">Gen4X</div>
         <div class="card-tag silver">Silver Edition</div>
         <div class="card-tag gold">Gold Edition</div>
         <h1>Hull Options</h1>
@@ -81,7 +81,7 @@ breadcrumb: Hull Options
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

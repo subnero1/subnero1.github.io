@@ -64,13 +64,27 @@ layout: null
   {% for page in site.pages %}
     {% if page.url contains '/products/' and page.sitemap != false and page.layout != 'redirected' and page.url != '/products/' and page.url != '/products/swis/' %}
       {% unless page.url contains '/gen4x/' %}
+        {% unless page.url contains '/products/wnc/gen4/' %}
         <url>
           <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
           {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
           <changefreq>monthly</changefreq>
           <priority>0.75</priority>
         </url>
+        {% endunless %}
       {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Legacy Gen4 Product Pages (Low Priority) -->
+  {% for page in site.pages %}
+    {% if page.url contains '/products/wnc/gen4/' and page.sitemap != false and page.layout != 'redirected' %}
+      <url>
+        <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
+        {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+      </url>
     {% endif %}
   {% endfor %}
   

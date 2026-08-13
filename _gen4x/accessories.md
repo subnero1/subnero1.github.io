@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Components, Accessories and Optional Upgrades
-description: Accessories and optional upgrades for Gen4x acoustic smart modems, including extra receiving channels, co-processors, remote transducers, storage, hull options, and cables.
+description: Accessories and optional upgrades for Gen4X acoustic smart modems, including extra receiving channels, co-processors, remote transducers, storage, hull options, and cables.
 category: accessories
 breadcrumb: Accessories
 order: 4

@@ -59,7 +59,7 @@ We don't just build devices; we create integrated systems where the hardware, so
 
 We are a small, highly technical, and collaborative team building hardware that ships to customers on five continents. Our values show up in daily life:
 
-- Rigor in the way we design, analyse, and test what we build.
+- Rigor in the way we design, analyze, and test what we build.
 - Curiosity in how we explore new forms, materials, and interactions.
 - Responsibility in owning a product from the first sketch to qualified hardware.
 - Transparency in how we share ideas and give feedback across teams.

@@ -56,9 +56,8 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
 <div class='two spacing'></div>
 
 <div class='wrap-collapsible'>
-<h2 style="text-transform: none;" id="m_techspec">TECHNICAL SPECIFICATIONS</h2>
 <input id ='tech-specs' class='toggle' type='checkbox'>
-<label class='lbl-toggle' for='tech-specs'></label>
+<label class='lbl-toggle' for='tech-specs'><h2 style="text-transform: none;" id="m_techspec">TECHNICAL SPECIFICATIONS</h2></label>
 <div class='collapsible-content' markdown="1">
 
 ### Modem
@@ -86,9 +85,8 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
 </div>
 
 <div class='wrap-collapsible'>
-  <h2>Brochure</h2>
   <input id ='compatibility' class='toggle' type='checkbox'>
-  <label class='lbl-toggle' for='compatibility'></label>
+  <label class='lbl-toggle' for='compatibility'><h2>Brochure</h2></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
       <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg" alt="Subnero Multi-Receiver Configuration Modems brochure"></a>
@@ -102,9 +100,8 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
 </div>
 
 <div class='wrap-collapsible'>
-  <h2>Useful Links</h2>
   <input id ='useful-links' class='toggle' type='checkbox'>
-  <label class='lbl-toggle' for='useful-links'></label>
+  <label class='lbl-toggle' for='useful-links'><h2>Useful Links</h2></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
       <a href="{{site.baseurl}}/product-launch/feature/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-receiver Modems</a>

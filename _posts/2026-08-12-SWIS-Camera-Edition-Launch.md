@@ -47,9 +47,7 @@ _Subnero is a Singapore-based company specializing in underwater wireless commun
 > &mdash; *Manu Ignatius*   
 > *CEO, Subnero*
 
-<div class="post-sidebar" markdown="1">
-  <!-- Add sidebar content here -->
-  <div class="static-content">
-  {% include postSidebar.html %}
-  </div>
+<div class="static-content">
+{% include postSidebar.html %}
+</div>
 </div>

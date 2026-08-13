@@ -30,7 +30,7 @@ breadcrumb: Silver Edition
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
-          <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag gen4x">Gen4X</div>
           <div class="card-tag silver">Silver Edition</div>
           <div class="card-tag lf">LF Band</div>
         </div>
@@ -56,7 +56,7 @@ breadcrumb: Silver Edition
           <li>Communication range exceeding 10 km in littoral waters<sup>*</sup>.</li>
           <li>Up to 8 kbps data rate at shorter ranges.</li>
           <li>Supports NATO JANUS standard.</li>
-          <li>Ultra-low power deep sleep mode (< 1 mW) for extended deployments.</li>
+          <li>Ultra-low power deep sleep mode (< 5 mW) for extended deployments.</li>
           <li>Acoustic ranging functionality.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
           <li>Supports arbitrary waveform transmission and recording.</li>
@@ -261,7 +261,7 @@ breadcrumb: Silver Edition
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

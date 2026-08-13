@@ -10,6 +10,8 @@ tab-id: panel-four
 order: 3
 ---
 
+{% include legacy-notice.html %}
+
 <h1 class='panel-heading'>Optional Accessories and Upgrades</h1>
 <!-- <h2 class='panel-sub-heading'>Enhanced performance</h2> -->
 <div class='grey-container'>

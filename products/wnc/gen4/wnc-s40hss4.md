@@ -53,9 +53,8 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 
 <div class='two spacing'></div>
 <div class='wrap-collapsible'>
-<h2 style="text-transform: none;" id="s_techspec">TECHNICAL SPECIFICATIONS</h2>
 <input id ='tech-specs' class='toggle' type='checkbox'>
-<label class='lbl-toggle' for='tech-specs'></label>
+<label class='lbl-toggle' for='tech-specs'><h2 style="text-transform: none;" id="s_techspec">TECHNICAL SPECIFICATIONS</h2></label>
 <div class='collapsible-content' markdown="1">
 
 ### Communication
@@ -98,9 +97,8 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 </div>
 
 <div class='wrap-collapsible'>
-  <h2>Brochures</h2>
   <input id ='compatibility' class='toggle' type='checkbox'>
-  <label class='lbl-toggle' for='compatibility'></label>
+  <label class='lbl-toggle' for='compatibility'><h2>Brochures</h2></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
       <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg" alt="Subnero S40H Underwater Modems brochure"></a>
@@ -114,9 +112,8 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 </div>
 
 <div class='wrap-collapsible'>
-  <h2>Useful Links</h2>
   <input id ='useful-links' class='toggle' type='checkbox'>
-  <label class='lbl-toggle' for='useful-links'></label>
+  <label class='lbl-toggle' for='useful-links'><h2>Useful Links</h2></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
       <a href="{{site.baseurl}}/products/wnc/" target="_blank">WNC Product Series</a>

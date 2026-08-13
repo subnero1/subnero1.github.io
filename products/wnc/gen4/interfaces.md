@@ -7,6 +7,8 @@ categories: accessories
 excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
 ---
 
+{% include legacy-notice.html %}
+
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -57,18 +59,16 @@ excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
       </div>
       <hr>
       <div class='wrap-collapsible'>
-        <h2>Product Information</h2>
         <input id ='product' class='toggle' type='checkbox'>
-        <label class='lbl-toggle' for='product'></label>
+        <label class='lbl-toggle' for='product'><h2>Product Information</h2></label>
         <div class='collapsible-content'>
           <p>Support for legacy systems using RS232.</p>
         </div>
       </div>
       <hr>
       <div class='wrap-collapsible'>
-        <h2>Compatibility</h2>
         <input id ='compatibility' class='toggle' type='checkbox'>
-        <label class='lbl-toggle' for='compatibility'></label>
+        <label class='lbl-toggle' for='compatibility'><h2>Compatibility</h2></label>
         <div class='collapsible-content'>
           <div class="brochure-container">
             <a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration Modem</a>

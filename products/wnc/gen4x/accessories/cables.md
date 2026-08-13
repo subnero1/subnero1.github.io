@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Subsea Cables | Gen4x Accessories
-description: Subsea cable options for Subnero Gen4x modems, with power, Ethernet, RS232, and sensor interfaces in lengths from 5 m to 30 m.
+title: Subsea Cables | Gen4X Accessories
+description: Subsea cable options for Subnero Gen4X modems, with power, Ethernet, RS232, and sensor interfaces in lengths from 5 m to 30 m.
 breadcrumb: Subsea Cables
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: Subsea Cables
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-01.png" alt="Coiled green subsea cable with a wet-mate underwater connector for Subnero Gen4x acoustic smart modems">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-01.png" alt="Coiled green subsea cable with a wet-mate underwater connector for Subnero Gen4X acoustic smart modems">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-02.png" alt="Coiled green subsea cable with a multi-pin underwater connector, used for power, Ethernet, and sensor integration with Subnero modems">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-03.png" alt="Subnero subsea cable accessory packaged with a rugged transport case for field deployments">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-04.png" alt="Subnero deployment kit including subsea cables, transport case, and two M25M Series acoustic smart modems set up at a waterside location">
@@ -30,11 +30,11 @@ breadcrumb: Subsea Cables
         <!-- ./slider -->
       </div>
       <div class="large-7 columns">
-        <div class="card-tag gen4x">Gen4x</div>
+        <div class="card-tag gen4x">Gen4X</div>
         <div class="card-tag silver">Silver Edition</div>
         <div class="card-tag gold">Gold Edition</div>
         <h1>Subsea Cables</h1>
-        <p>A range of cable types and lengths are available to support diverse deployment requirements. Standard cables provide power and Ethernet connectivity, while optional versions add interfaces such as RS232, external interrupt or PPS, sensor power control directly from the modem. Contact us to discuss custom cable options tailored to your deployment needs.</p>
+        <p>A range of cable types and lengths are available to support diverse deployment requirements. Standard cables provide power and Ethernet connectivity, while optional versions add interfaces such as RS232, external interrupt or PPS input, and sensor power control directly from the modem. Contact us to discuss custom cable options tailored to your deployment needs.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>
@@ -81,7 +81,7 @@ breadcrumb: Subsea Cables
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-cables-feature.png" alt="Coiled green subsea cable with wet-mate underwater connector available for Subnero Gen4x acoustic smart modems" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-cables-feature.png" alt="Coiled green subsea cable with wet-mate underwater connector available for Subnero Gen4X acoustic smart modems" />
       </div>
     </div>
   </section>
@@ -90,7 +90,7 @@ breadcrumb: Subsea Cables
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

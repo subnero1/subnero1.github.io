@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Remote Transducer | Gen4x Accessories
-description: A remote transducer option for Subnero Gen4x standalone modems, separating the transducer from the electronics housing for flexible mounting on vehicles and platforms.
+title: Remote Transducer | Gen4X Accessories
+description: A remote transducer option for Subnero Gen4X standalone modems, separating the transducer from the electronics housing for flexible mounting on vehicles and platforms.
 breadcrumb: Remote Transducer
 ---
 
@@ -10,10 +10,10 @@ breadcrumb: Remote Transducer
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-remote-transducer-gallery-01.png" alt="Subnero Gen4x remote transducer option showing the transducer connected to the modem electronics housing via a flexible cable" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-remote-transducer-gallery-01.png" alt="Subnero Gen4X remote transducer option showing the transducer connected to the modem electronics housing via a flexible cable" />
       </div>
       <div class="large-7 columns">
-        <div class="card-tag gen4x">Gen4x</div>
+        <div class="card-tag gen4x">Gen4X</div>
         <div class="card-tag silver">Silver Edition</div>
         <div class="card-tag gold">Gold Edition</div>
         <h1>Remote Transducer</h1>
@@ -61,7 +61,7 @@ breadcrumb: Remote Transducer
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-remote-transducer-feature.png" alt="Subnero Gen4x remote transducer and cable assembly for flexible mounting on subsea platforms" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-remote-transducer-feature.png" alt="Subnero Gen4X remote transducer and cable assembly for flexible mounting on subsea platforms" />
       </div>
     </div>
   </section>
@@ -70,7 +70,7 @@ breadcrumb: Remote Transducer
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Storage | Gen4x Accessories
-description: Onboard storage options for Subnero Gen4x modems, with up to 1 TB on the Gold Edition, for passive acoustic monitoring and long-term data logging.
+title: Storage | Gen4X Accessories
+description: Onboard storage options for Subnero Gen4X modems, with up to 1 TB on the Gold Edition, for passive acoustic monitoring and long-term data logging.
 breadcrumb: Storage
 ---
 
@@ -10,10 +10,10 @@ breadcrumb: Storage
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-gallery-01.png" alt="Onboard storage media for Subnero Gen4x acoustic smart modems" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-gallery-01.png" alt="Onboard storage media for Subnero Gen4X acoustic smart modems" />
       </div>
       <div class="large-7 columns">
-        <div class="card-tag gen4x">Gen4x</div>
+        <div class="card-tag gen4x">Gen4X</div>
         <div class="card-tag silver">Silver Edition</div>
         <div class="card-tag gold">Gold Edition</div>
         <h1>Storage</h1>
@@ -56,7 +56,7 @@ breadcrumb: Storage
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-feature.png" alt="Onboard storage media illustrating expandable storage options for Subnero Gen4x acoustic smart modems" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-feature.png" alt="Onboard storage media illustrating expandable storage options for Subnero Gen4X acoustic smart modems" />
       </div>
     </div>
   </section>
@@ -65,7 +65,7 @@ breadcrumb: Storage
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

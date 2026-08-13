@@ -8,6 +8,8 @@ excerpt: Co-processor for Subnero underwater acoustic smart modems.
 canonical: /products/wnc/gen4x/accessories/co-processors.html
 ---
 
+{% include legacy-notice.html %}
+
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -59,9 +61,8 @@ canonical: /products/wnc/gen4x/accessories/co-processors.html
       </div>
       <hr>
       <div class='wrap-collapsible'>
-        <h2> Product Information</h2>
         <input id ='product' class='toggle' type='checkbox'>
-        <label class='lbl-toggle' for='product'></label>
+        <label class='lbl-toggle' for='product'><h2> Product Information</h2></label>
         <div class='collapsible-content'>
           <p> While Subnero modems provide flexibility to extend various aspects of the device by the user, there are at times when a customer may want to deploy their applications and algorithms to run with close proximity to the modem hardware. The co-processor option provides a powerful secondary Single Board Computer (SBC) with a Linux distribution connected directly to the modem. This SBC is directly accessible by the user over an IP address in the same subnet as the modem. Once logged into the co-processor, the customer can access the modem over the IP network, using a set of standard Unet APIs that are pre-installed in the co-processor.</p>
           <p><a href="https://subnero.com/product-launch/feature/2018/11/17/Underwater-modem-with-a-coprocessor.html">Learn More.</a></p>
@@ -69,9 +70,8 @@ canonical: /products/wnc/gen4x/accessories/co-processors.html
       </div>
       <hr>
       <div class='wrap-collapsible'>
-        <h2>Compatibility</h2>
         <input id ='compatibility' class='toggle' type='checkbox'>
-        <label class='lbl-toggle' for='compatibility'></label>
+        <label class='lbl-toggle' for='compatibility'><h2>Compatibility</h2></label>
         <div class='collapsible-content'>
           <div class="brochure-container">
             <a href="{{site.baseurl}}/products/wnc/gen4/wnc-m25mss4">Silver Edition Standalone Configuration Modem</a>

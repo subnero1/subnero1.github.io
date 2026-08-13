@@ -25,7 +25,7 @@ breadcrumb: Gold Edition
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
-          <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag gen4x">Gen4X</div>
           <div class="card-tag gold">Gold Edition</div>
           <div class="card-tag mf">MF Band</div>
         </div>

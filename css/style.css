@@ -3135,6 +3135,13 @@ hr {
     flex-wrap: wrap;
     gap: 12px;
 }
+
+.media.product {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+}
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -3223,36 +3230,44 @@ input[type='checkbox']{
 }
 
 .wrap-collapsible h2{
-  width: 50%;
+  width: auto;
+  margin: 0;
 }
 
-.lbl-toggle {
-  flex:2;
+.wrap-collapsible .lbl-toggle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
   font-size: 2.5rem;
-  text-align: end;
+  padding: 0.4rem 0;
+  margin: 0;
 }
 
 .lbl-toggle:hover {
   color: #bbb;
 }
 
-.toggle:checked + .lbl-toggle {
-  margin-right: 0;
+.wrap-collapsible .lbl-toggle::after {
+  content: '';
+  width: 0.45em;
+  height: 0.45em;
+  flex: 0 0 auto;
+  margin-right: 8px;
+  border-right: 3px solid #888;
+  border-bottom: 3px solid #888;
+  transform: rotate(45deg) translate(-15%, -15%);
+  transition: transform 0.2s ease;
 }
 
-:not(.toggle:checked) + .lbl-toggle {
-  margin-right: 0;
+.wrap-collapsible .lbl-toggle:hover::after {
+  border-color: #bbb;
 }
 
-.toggle:checked + .lbl-toggle::before {
-  content:'-';
-  display: inline-block;
-}
-
-:not(.toggle:checked) + .lbl-toggle::before {
-  content:'+';
-  display: inline-block;
-  margin-right: 0;
+.toggle:checked + .lbl-toggle::after {
+  transform: rotate(225deg) translate(-15%, -15%);
 }
 
 .collapsible-content {

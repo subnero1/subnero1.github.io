@@ -77,7 +77,7 @@ breadcrumb: UnetStack
       <ul class="feature-list ra">
         <li><i class="icon-check"></i> <span class="text-lg">Supports standalone underwater networks & hybrid systems (Acoustic, Optical, RF, Wired).</span></li>
         <li><i class="icon-check"></i> <span class="text-lg">Includes localization, device & sensor management, and edge analytics.</span></li>
-        <li><i class="icon-check"></i> <span class="text-lg">Unified programmable framework for intelligent communication behaviours.</span></li>
+        <li><i class="icon-check"></i> <span class="text-lg">Unified programmable framework for intelligent communication behaviors.</span></li>
       </ul>
     </div>
     <div class="large-6 columns">

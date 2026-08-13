@@ -17,8 +17,11 @@
           <meta itemprop="position" content="{{ position }}" />
         </li>
       {% else %}
+        {% assign crumb_name = crumb | replace: '-', ' ' | capitalize %}
+        {% if crumb == 'gen4x' %}{% assign crumb_name = 'Gen4X' %}{% endif %}
+        {% if crumb == 'wnc' %}{% assign crumb_name = 'WNC' %}{% endif %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="{{ current_path }}/" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | capitalize }}</span></a>
+          <a href="{{ current_path }}/" itemprop="item"><span itemprop="name">{{ crumb_name }}</span></a>
           <meta itemprop="position" content="{{ position }}" />
         </li>
       {% endif %}

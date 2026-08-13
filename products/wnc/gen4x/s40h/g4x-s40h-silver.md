@@ -31,7 +31,7 @@ breadcrumb: Silver Edition
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
-          <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag gen4x">Gen4X</div>
           <div class="card-tag silver">Silver Edition</div>
           <div class="card-tag hf">HF Band</div>
         </div>
@@ -256,7 +256,7 @@ breadcrumb: Silver Edition
   </section>
   <div class="quick-links">
     <div class="category-row">
-      <h3>Quick LInks</h3>
+      <h3>Quick Links</h3>
       {% include quick_links.html %}
     </div>
   </div>

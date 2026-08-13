@@ -4,7 +4,7 @@ title: Subnero WNC Series&#58; Smart Underwater Acoustic Modems
 banner : images/hero-wnc.jpg
 thumbnail: images/boxart-modem.png
 description: Explore the WNC series of software-defined smart modems. Offering long-range (10km+) and high-speed (33kbps) underwater connectivity for AUV, USV, and defense applications.
-excerpt: Subnero Wireless Networked Communications series of products comprising of software defined underwater acoustic smart modems
+excerpt: Subnero Wireless Networked Communications series of products comprising software-defined underwater acoustic smart modems
 categories: wnc
 section_id: products
 ---
@@ -252,7 +252,7 @@ section_id: products
   <div class="row">
     <div class="feature-grid single-col">
       <a class="usecase-card asr" href="{{site.baseurl}}/products/wnc/gen4x/accessories/" title="Optional Accessories & Upgrades">
-        <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Subnero Gen4x Modem Accessories and Upgrades">
+        <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Subnero Gen4X Modem Accessories and Upgrades">
         <div>
           <h4 class="text-md">Components, Accessories & Optional Upgrades</h4>
           <p>Enhance your Subnero modem’s capabilities with a range of accessories designed for seamless integration. From options such as additional receiving channels, co-processors, and expanded storage to hull configurations and specialized cables, these add-ons help tailor each system to your specific deployment needs.</p>
@@ -324,7 +324,7 @@ section_id: products
           <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Subnero Underwater Technology for Defense Applications">
         </div>
         <h4>Defense</h4>
-        <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defence operations.</p>
+        <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defense operations.</p>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
@@ -338,7 +338,7 @@ section_id: products
           <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Subnero Underwater Technology for Scientific Research">
         </div>
         <h4>Scientific Research</h4>
-        <p>WNC provides a flexible research platform with a customizable network stack, multi-language support, full simulation tools, and arbitrary waveform capabilities ideal for underwater communication and localisation R&D.</p>
+        <p>WNC provides a flexible research platform with a customizable network stack, multi-language support, full simulation tools, and arbitrary waveform capabilities ideal for underwater communication and localization R&D.</p>
       </div>
     </div>
   </div>
@@ -411,7 +411,7 @@ section_id: products
           <img src="{{site.baseurl}}/images/divers.jpg" alt="Subnero Modems for Divers">
         </div>
         <h4>Diver Communication and Localization</h4>
-        <p>Subnero’s WNC product series enables reliable communication, and positioning capabilities for commercial, scientific, and defence diving operations, ensuring safer and more coordinated underwater missions.</p>
+        <p>Subnero’s WNC product series enables reliable communication, and positioning capabilities for commercial, scientific, and defense diving operations, ensuring safer and more coordinated underwater missions.</p>
         <div class="blue-economy-features">
           <div>
             <h5>

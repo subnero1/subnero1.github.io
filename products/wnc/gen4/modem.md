@@ -9,6 +9,9 @@ excerpt: Subnero's software-defined underwater acoustic smart modems for underwa
 description: Subnero Gen4 underwater acoustic smart modems, software-defined for subsea communication and sensor integration.
 ---
 
+{% include legacy-notice.html %}
+<style>.tab-panel .legacy-notice{display:none}</style>
+
 <div>
     {% include tabbed-columns.html content=site.data.product-tabs type="products" %}
 </div>

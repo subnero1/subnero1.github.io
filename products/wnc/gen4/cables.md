@@ -8,6 +8,8 @@ excerpt: Cables for Subnero underwater acoustic smart modems.
 canonical: /products/wnc/gen4x/accessories/cables.html
 ---
 
+{% include legacy-notice.html %}
+
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -69,18 +71,16 @@ canonical: /products/wnc/gen4x/accessories/cables.html
       </div>
       <hr>
       <div class='wrap-collapsible'>
-        <h2>Product Information</h2>
         <input id ='product' class='toggle' type='checkbox'>
-        <label class='lbl-toggle' for='product'></label>
+        <label class='lbl-toggle' for='product'><h2>Product Information</h2></label>
         <div class='collapsible-content'>
           <p>Available with a variety of connectivity options (e.g. Ethernet, RS232), cable types, lengths, Subnero underwater cables provide versatility to your underwater deployments.</p>
         </div>
       </div>
       <hr>
       <div class='wrap-collapsible'>
-        <h2>Compatibility</h2>
         <input id ='compatibility' class='toggle' type='checkbox'>
-        <label class='lbl-toggle' for='compatibility'></label>
+        <label class='lbl-toggle' for='compatibility'><h2>Compatibility</h2></label>
         <div class='collapsible-content'>
           <table style="width:100%">
           <tr>
