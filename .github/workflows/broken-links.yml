@@ -20,8 +20,26 @@ jobs:
             ]
           }' \
           .github/workflows/markdown.links.config.json > "$GITHUB_WORKSPACE/.github/workflows/mlc.config.generated.json"
+    # First attempt. Allowed to fail: external hosts intermittently time out
+    # (Status: 0 / ETIMEDOUT), which markdown-link-check never retries because
+    # its retryOn429/retryCount settings only cover HTTP 429 responses.
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       id: checker
+      continue-on-error: true
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/mlc.config.generated.json'
+    - name: Cool off before retry
+      if: steps.checker.outcome == 'failure'
+      run: |
+        echo "First pass reported dead links; retrying once in 60s to rule out transient network failures."
+        sleep 60
+    # Second attempt. Not allowed to fail: if a link is still dead after the
+    # cool-off, treat it as genuine link rot and fail the job.
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      id: checker-retry
+      if: steps.checker.outcome == 'failure'
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
