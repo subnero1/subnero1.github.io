@@ -17,14 +17,12 @@ breadcrumb: Co-processor
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-01.png" alt="Subnero Gen4X co-processor module (Jetson Orin Nano) in top-down view, showing its heatsink-covered processor">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-02.png" alt="Subnero Gen4X co-processor module shown at an angle, highlighting the connector headers used to interface with the modem's main board">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-03.png" alt="Subnero Gen4X co-processor module shown from a top-down angle, displaying its compact circuit board layout and connector headers">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-gallery-04.png" alt="Subnero Gen4X co-processor module rotated to show its heatsink and corner mounting holes for integration inside the modem housing">
             </div>
           </div>
           <div class="thumbs">
             <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-01.png" alt="Subnero Gen4X co-processor module thumbnail – top view with heatsink">
             <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-02.png" alt="Subnero Gen4X co-processor module thumbnail – angled view of connectors">
             <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-03.png" alt="Subnero Gen4X co-processor module thumbnail – top-angled circuit board view">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-coprocessor-thumb-04.png" alt="Subnero Gen4X co-processor module thumbnail – rotated view with mounting holes">
           </div>
         </div>
         <!-- ./slider -->
