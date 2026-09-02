@@ -15,10 +15,14 @@ breadcrumb: Gold Edition
           <div class="main-slider">
             <div class="slider-track">
               <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-gold-gallery-01.png" alt="Subnero M25M Series Gold Edition medium-frequency (MF) acoustic smart modem">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-gold-gallery-02.png" alt="Subnero M25M Series Gold Edition medium-frequency (MF) acoustic smart modem">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-gold-gallery-03.png" alt="Subnero M25M Series Gold Edition medium-frequency (MF) acoustic smart modem">
             </div>
           </div>
           <div class="thumbs">
             <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-gold-thumb-01.png" alt="Subnero M25M Series Gold Edition MF modem thumbnail">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-gold-thumb-02.png" alt="Subnero M25M Series Gold Edition MF modem thumbnail">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-gold-thumb-03.png" alt="Subnero M25M Series Gold Edition MF modem thumbnail">
           </div>
         </div>
         <!-- ./slider -->
